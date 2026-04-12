@@ -1,0 +1,533 @@
+{
+  "meta": {
+    "slug": "england",
+    "generated": "2026-04-12",
+    "version": 1
+  },
+  "team": {
+    "name_zh": "英格兰",
+    "name_en": "England",
+    "flag_emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "federation": "FA",
+    "fifa_rank": 4,
+    "colors": {
+      "primary": "#FFFFFF",
+      "secondary": "#CF081F",
+      "accent": "#00205B"
+    }
+  },
+  "country": {
+    "name_zh": "英格兰",
+    "name_en": "England",
+    "capital": "London",
+    "population_zh": "5700万",
+    "population_en": "57 million",
+    "area": "130,279 km²",
+    "language_zh": "英语",
+    "language_en": "English",
+    "continent_zh": "欧洲",
+    "continent_en": "Europe",
+    "currency_zh": "英镑",
+    "currency_en": "British Pound Sterling",
+    "anthem_zh": "天佑国王",
+    "anthem_en": "God Save the King",
+    "desc_zh": "英格兰是大不列颠及北爱尔兰联合王国最大的组成部分，坐落于不列颠岛南部。伦敦是其首都，也是欧洲最重要的金融与文化中心之一。英格兰拥有深厚的历史底蕴，莎士比亚、牛顿与达尔文均诞生于此，工业革命也在这片土地上率先开始。",
+    "desc_en": "England is the largest constituent country of the United Kingdom, situated in the southern part of the island of Great Britain. Its capital, London, is one of Europe's foremost financial and cultural hubs. England boasts a rich heritage as the birthplace of Shakespeare, Newton, and Darwin, and the cradle of the Industrial Revolution.",
+    "football_desc_zh": "英格兰是现代足球的发源地。1863年，英格兰足球协会在伦敦成立，制定了统一的竞技规则，世界上第一个足球联赛也在英格兰诞生。\"三狮军团\"是英格兰国家队的昵称，球衣以白色为主，球徽上的三头雄狮象征着骄傲与荣耀。",
+    "football_desc_en": "England is the birthplace of modern association football. The Football Association, founded in London in 1863, established unified rules for the game, and the world's first football league was born on English soil. Known as the Three Lions, England's national team wears white and bears the iconic three-lion crest as a symbol of pride and heritage."
+  },
+  "world_cup": {
+    "titles": 1,
+    "appearances": 17,
+    "best_result_zh": "冠军",
+    "best_result_en": "Champions",
+    "title_years": [1966],
+    "history": [
+      {
+        "year": 1950,
+        "host_zh": "巴西",
+        "host_en": "Brazil",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "0-1负于美国，创历史最大冷门之一",
+        "note_en": "Lost 0-1 to the USA in one of football's biggest upsets",
+        "row_class": "group"
+      },
+      {
+        "year": 1954,
+        "host_zh": "瑞士",
+        "host_en": "Switzerland",
+        "result_zh": "八强",
+        "result_en": "Quarter-final",
+        "note_zh": "2-4负于乌拉圭",
+        "note_en": "Lost 2-4 to Uruguay",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1958,
+        "host_zh": "瑞典",
+        "host_en": "Sweden",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "附加赛负于苏联",
+        "note_en": "Eliminated in playoff against the Soviet Union",
+        "row_class": "group"
+      },
+      {
+        "year": 1962,
+        "host_zh": "智利",
+        "host_en": "Chile",
+        "result_zh": "八强",
+        "result_en": "Quarter-final",
+        "note_zh": "1-3负于巴西",
+        "note_en": "Lost 1-3 to Brazil",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1966,
+        "host_zh": "英格兰",
+        "host_en": "England",
+        "result_zh": "冠军",
+        "result_en": "Champions",
+        "note_zh": "主场4-2胜西德，唯一一次捧起大力神杯",
+        "note_en": "Beat West Germany 4-2 at Wembley, their only World Cup triumph",
+        "row_class": "champion"
+      },
+      {
+        "year": 1970,
+        "host_zh": "墨西哥",
+        "host_en": "Mexico",
+        "result_zh": "八强",
+        "result_en": "Quarter-final",
+        "note_zh": "2-3负于西德，戈登·班克斯神扑贝利传世",
+        "note_en": "Lost 2-3 to West Germany; Gordon Banks's save from Pelé became legendary",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1974,
+        "host_zh": "西德",
+        "host_en": "West Germany",
+        "result_zh": "未晋级",
+        "result_en": "Did not qualify",
+        "note_zh": "欧洲区预选赛落败",
+        "note_en": "Failed to qualify through European play-offs",
+        "row_class": "did-not-qualify"
+      },
+      {
+        "year": 1978,
+        "host_zh": "阿根廷",
+        "host_en": "Argentina",
+        "result_zh": "未晋级",
+        "result_en": "Did not qualify",
+        "note_zh": "欧洲区预选赛落败",
+        "note_en": "Failed to qualify through European play-offs",
+        "row_class": "did-not-qualify"
+      },
+      {
+        "year": 1982,
+        "host_zh": "西班牙",
+        "host_en": "Spain",
+        "result_zh": "第二轮小组赛",
+        "result_en": "Second group stage",
+        "note_zh": "全程不败仍遭淘汰，未能进入半决赛",
+        "note_en": "Went unbeaten but failed to advance past the second group stage",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 1986,
+        "host_zh": "墨西哥",
+        "host_en": "Mexico",
+        "result_zh": "八强",
+        "result_en": "Quarter-final",
+        "note_zh": "0-2负于阿根廷，马拉多纳「上帝之手」名震天下",
+        "note_en": "Lost 0-2 to Argentina; Maradona's 'Hand of God' goal became infamous",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1990,
+        "host_zh": "意大利",
+        "host_en": "Italy",
+        "result_zh": "第四名",
+        "result_en": "4th place",
+        "note_zh": "半决赛点球负于西德，季军战不敌意大利",
+        "note_en": "Lost to West Germany on penalties in the semi-final, then lost 3rd place match to Italy",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 1994,
+        "host_zh": "美国",
+        "host_en": "USA",
+        "result_zh": "未晋级",
+        "result_en": "Did not qualify",
+        "note_zh": "欧洲区预选赛落败",
+        "note_en": "Failed to qualify from European group",
+        "row_class": "did-not-qualify"
+      },
+      {
+        "year": 1998,
+        "host_zh": "法国",
+        "host_en": "France",
+        "result_zh": "十六强",
+        "result_en": "Round of 16",
+        "note_zh": "点球负于阿根廷，贝克汉姆被红牌罚下",
+        "note_en": "Lost to Argentina on penalties; Beckham sent off controversially",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2002,
+        "host_zh": "韩国/日本",
+        "host_en": "South Korea/Japan",
+        "result_zh": "八强",
+        "result_en": "Quarter-final",
+        "note_zh": "1-2负于巴西，鲁尼初露峥嵘",
+        "note_en": "Lost 1-2 to Brazil; a teenage Rooney announced himself to the world",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 2006,
+        "host_zh": "德国",
+        "host_en": "Germany",
+        "result_zh": "八强",
+        "result_en": "Quarter-final",
+        "note_zh": "点球负于葡萄牙，鲁尼被红牌罚下",
+        "note_en": "Lost to Portugal on penalties; Rooney red-carded in a heated contest",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 2010,
+        "host_zh": "南非",
+        "host_en": "South Africa",
+        "result_zh": "十六强",
+        "result_en": "Round of 16",
+        "note_zh": "1-4惨败德国，兰帕德进球被无效判决",
+        "note_en": "Lost 1-4 to Germany; Lampard's goal wrongly disallowed by officials",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2014,
+        "host_zh": "巴西",
+        "host_en": "Brazil",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "输给意大利和乌拉圭，提前出局",
+        "note_en": "Lost to Italy and Uruguay, eliminated in the group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2018,
+        "host_zh": "俄罗斯",
+        "host_en": "Russia",
+        "result_zh": "第四名",
+        "result_en": "4th place",
+        "note_zh": "半决赛加时负于克罗地亚，凯恩摘得金靴",
+        "note_en": "Lost to Croatia in extra time in the semi-final; Kane won the Golden Boot",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 2022,
+        "host_zh": "卡塔尔",
+        "host_en": "Qatar",
+        "result_zh": "八强",
+        "result_en": "Quarter-final",
+        "note_zh": "1-2负于法国，凯恩罚丢关键点球",
+        "note_en": "Lost 1-2 to France; Kane missed a crucial penalty",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 2026,
+        "host_zh": "美国/加拿大/墨西哥",
+        "host_en": "USA/Canada/Mexico",
+        "result_zh": "已晋级",
+        "result_en": "Qualified",
+        "note_zh": "分入L组，与克罗地亚、加纳、巴拿马同组",
+        "note_en": "Drawn into Group L alongside Croatia, Ghana, and Panama",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name_zh": "托马斯·图赫尔",
+      "name_en": "Thomas Tuchel",
+      "nationality_zh": "德国",
+      "nationality_en": "German"
+    },
+    "players": [
+      {
+        "name_zh": "乔丹·皮克福德",
+        "name_en": "Jordan Pickford",
+        "position": "GK",
+        "club": "Everton",
+        "caps": 70
+      },
+      {
+        "name_zh": "迪安·亨德森",
+        "name_en": "Dean Henderson",
+        "position": "GK",
+        "club": "Crystal Palace",
+        "caps": 6
+      },
+      {
+        "name_zh": "詹姆斯·特拉福德",
+        "name_en": "James Trafford",
+        "position": "GK",
+        "club": "Manchester City",
+        "caps": 5
+      },
+      {
+        "name_zh": "约翰·斯通斯",
+        "name_en": "John Stones",
+        "position": "DEF",
+        "club": "Manchester City",
+        "caps": 78
+      },
+      {
+        "name_zh": "哈里·马奎尔",
+        "name_en": "Harry Maguire",
+        "position": "DEF",
+        "club": "Manchester United",
+        "caps": 67
+      },
+      {
+        "name_zh": "马克·盖希",
+        "name_en": "Marc Guéhi",
+        "position": "DEF",
+        "club": "Manchester City",
+        "caps": 28
+      },
+      {
+        "name_zh": "埃兹里·孔萨",
+        "name_en": "Ezri Konsa",
+        "position": "DEF",
+        "club": "Aston Villa",
+        "caps": 22
+      },
+      {
+        "name_zh": "蒂诺·利夫拉门托",
+        "name_en": "Tino Livramento",
+        "position": "DEF",
+        "club": "Newcastle United",
+        "caps": 12
+      },
+      {
+        "name_zh": "刘易斯·霍尔",
+        "name_en": "Lewis Hall",
+        "position": "DEF",
+        "club": "Newcastle United",
+        "caps": 8
+      },
+      {
+        "name_zh": "丹·伯恩",
+        "name_en": "Dan Burn",
+        "position": "DEF",
+        "club": "Newcastle United",
+        "caps": 11
+      },
+      {
+        "name_zh": "菲卡约·托莫里",
+        "name_en": "Fikayo Tomori",
+        "position": "DEF",
+        "club": "AC Milan",
+        "caps": 9
+      },
+      {
+        "name_zh": "德克兰·赖斯",
+        "name_en": "Declan Rice",
+        "position": "MID",
+        "club": "Arsenal",
+        "caps": 66
+      },
+      {
+        "name_zh": "裘德·贝林厄姆",
+        "name_en": "Jude Bellingham",
+        "position": "MID",
+        "club": "Real Madrid",
+        "caps": 55
+      },
+      {
+        "name_zh": "科比·迈诺",
+        "name_en": "Kobbie Mainoo",
+        "position": "MID",
+        "club": "Manchester United",
+        "caps": 16
+      },
+      {
+        "name_zh": "亚当·沃顿",
+        "name_en": "Adam Wharton",
+        "position": "MID",
+        "club": "Crystal Palace",
+        "caps": 10
+      },
+      {
+        "name_zh": "摩根·罗杰斯",
+        "name_en": "Morgan Rogers",
+        "position": "MID",
+        "club": "Aston Villa",
+        "caps": 8
+      },
+      {
+        "name_zh": "哈里·凯恩",
+        "name_en": "Harry Kane",
+        "position": "FWD",
+        "club": "Bayern Munich",
+        "caps": 114
+      },
+      {
+        "name_zh": "布卡约·萨卡",
+        "name_en": "Bukayo Saka",
+        "position": "FWD",
+        "club": "Arsenal",
+        "caps": 59
+      },
+      {
+        "name_zh": "菲尔·福登",
+        "name_en": "Phil Foden",
+        "position": "FWD",
+        "club": "Manchester City",
+        "caps": 58
+      },
+      {
+        "name_zh": "科尔·帕尔默",
+        "name_en": "Cole Palmer",
+        "position": "FWD",
+        "club": "Chelsea",
+        "caps": 21
+      },
+      {
+        "name_zh": "马库斯·拉什福德",
+        "name_en": "Marcus Rashford",
+        "position": "FWD",
+        "club": "Barcelona",
+        "caps": 62
+      },
+      {
+        "name_zh": "埃贝雷奇·埃泽",
+        "name_en": "Eberechi Eze",
+        "position": "FWD",
+        "club": "Arsenal",
+        "caps": 17
+      },
+      {
+        "name_zh": "贾罗德·鲍文",
+        "name_en": "Jarrod Bowen",
+        "position": "FWD",
+        "club": "West Ham United",
+        "caps": 32
+      }
+    ]
+  },
+  "legends": [
+    {
+      "number": 1,
+      "name_zh": "博比·摩尔",
+      "name_en": "Bobby Moore",
+      "years": "1962–1973",
+      "position_zh": "后卫",
+      "position_en": "Defender",
+      "bio_zh": "博比·摩尔是英格兰历史上最伟大的队长，1966年率队在主场夺得世界杯冠军。贝利称赞他是自己对阵过的最伟大的后卫，他以冷静、优雅的防守风格成为时代传奇。摩尔共为英格兰出场108次，其中90次担任队长，是国家队捧杯时手握大力神杯的男人。",
+      "bio_en": "Bobby Moore is England's greatest ever captain, lifting the World Cup on home soil in 1966. Pelé called him the finest defender he ever faced. Elegant and composed, Moore captained England a record 90 times across 108 appearances, and remains the enduring symbol of the Three Lions' finest hour.",
+      "stat_value": "108",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 2,
+      "name_zh": "博比·查尔顿",
+      "name_en": "Bobby Charlton",
+      "years": "1958–1970",
+      "position_zh": "中场",
+      "position_en": "Midfielder",
+      "bio_zh": "博比·查尔顿是英格兰足球史上最具标志性的球员之一，慕尼黑空难中的幸存者，1966年世界杯冠军功勋。他以强劲的射门和优雅的场上风范赢得全球球迷的尊重，职业生涯为英格兰打进49球，长期保持国家队进球纪录直至鲁尼超越。",
+      "bio_en": "Bobby Charlton is one of England's most iconic footballers — a Munich air disaster survivor and a 1966 World Cup champion. Known for his thunderous shot and graceful presence, he scored 49 international goals, holding England's scoring record for decades until Wayne Rooney surpassed it.",
+      "stat_value": "49",
+      "stat_zh": "国家队进球",
+      "stat_en": "international goals"
+    },
+    {
+      "number": 3,
+      "name_zh": "戈登·班克斯",
+      "name_en": "Gordon Banks",
+      "years": "1963–1972",
+      "position_zh": "门将",
+      "position_en": "Goalkeeper",
+      "bio_zh": "戈登·班克斯被誉为史上最伟大的门将之一，他在1970年世界杯对阵巴西时飞身将贝利的头球扑出，被称为「世纪扑救」。班克斯是1966年夺冠阵容中的主力守门员，共为英格兰出场73次，以稳健、出神入化的扑救技术征服了整个时代。",
+      "bio_en": "Gordon Banks is considered one of the greatest goalkeepers in history. His save from Pelé's header at the 1970 World Cup — known simply as 'The Save of the Century' — is the most celebrated stop in football history. The 1966 champion kept goal for England 73 times with remarkable authority.",
+      "stat_value": "73",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 4,
+      "name_zh": "加里·莱因克尔",
+      "name_en": "Gary Lineker",
+      "years": "1984–1992",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "加里·莱因克尔是英格兰最出色的射手之一，在80次出场中打入48球。他于1986年世界杯摘得金靴奖，凭借出色的跑位和无私的精神成为球迷偶像。莱因克尔职业生涯从未收到过一张黄牌，以绅士形象著称，退役后成为广受喜爱的足球评论员。",
+      "bio_en": "Gary Lineker is one of England's deadliest strikers, scoring 48 goals in 80 appearances. He claimed the Golden Boot at the 1986 World Cup and became a fan favourite for his intelligent movement and unselfishness. Remarkably, he was never booked in his entire career, and later became one of football's best-loved pundits.",
+      "stat_value": "48",
+      "stat_zh": "国家队进球",
+      "stat_en": "international goals"
+    },
+    {
+      "number": 5,
+      "name_zh": "韦恩·鲁尼",
+      "name_en": "Wayne Rooney",
+      "years": "2003–2018",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "韦恩·鲁尼是英格兰历史上进球最多的球员（53球），也是出场最多的球员之一（120次）。他以17岁之龄在欧洲杯横空出世，凭借旺盛的斗志、出色的技术和强大的得分能力统治英格兰锋线长达15年，直至哈里·凯恩超越他的进球纪录。",
+      "bio_en": "Wayne Rooney is England's all-time record scorer with 53 goals across 120 caps. He burst onto the international scene at just 17 at Euro 2004, and his relentless energy, skill, and eye for goal defined England's attack for 15 years — until Harry Kane eventually overtook his record.",
+      "stat_value": "53",
+      "stat_zh": "国家队进球",
+      "stat_en": "international goals"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "德国",
+      "opponent_en": "Germany",
+      "desc_zh": "英德宿敌是足球史上最具传奇色彩的对抗之一。从1966年世界杯决赛英格兰4-2力克西德，到1990年和1996年的点球悲剧，再到2010年世界杯的4-1惨败，两队的每一次交锋都牵动着亿万球迷的心。英格兰媒体尤其热衷于渲染这段宿怨，每逢赛前必翻旧账。",
+      "desc_en": "The England–Germany rivalry is one of football's most storied contests. From England's famous 4-2 World Cup final win in 1966 to heartbreaking penalty defeats in 1990 and 1996, and Germany's crushing 4-1 win in 2010, every meeting carries the weight of history. The English press ensures the rivalry's mythology is never forgotten."
+    },
+    {
+      "opponent_zh": "阿根廷",
+      "opponent_en": "Argentina",
+      "desc_zh": "英阿宿怨因1986年马拉多纳的「上帝之手」而永载史册。那届世界杯八强战，马拉多纳先用手打进禁区头球，随后独自突破五人打进「世纪进球」，英格兰0-2落败。这场宿怨还交织着1982年马岛战争的政治恩怨，成为国际足球史上最特殊的双边对立。",
+      "desc_en": "The England–Argentina rivalry was forged in controversy at the 1986 World Cup, when Maradona scored both the infamous 'Hand of God' goal and the 'Goal of the Century' in a 2-0 Argentina win. The rivalry is also coloured by the political tensions of the 1982 Falklands War, making it one of football's most charged intercontinental contests."
+    },
+    {
+      "opponent_zh": "苏格兰",
+      "opponent_en": "Scotland",
+      "desc_zh": "英格兰与苏格兰的对阵是世界上历史最悠久的国际足球赛事，首次对决可追溯至1872年。这场不列颠内部的「老仇家」对决充满了民族情感与历史积怨，苏格兰球迷称英格兰为「宿敌（Auld Enemy）」。两队合计已进行超过116场交锋，是跨越两个世纪的足球情缘。",
+      "desc_en": "The England–Scotland fixture is the oldest international rivalry in football history, first played in 1872. This intra-British contest is steeped in national pride and centuries of cultural antagonism — Scottish fans famously refer to England as the 'Auld Enemy'. The two sides have met over 116 times, a rivalry spanning more than 150 years."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "⚽",
+      "text_zh": "英格兰是现代足球的发源地，英格兰足球协会成立于1863年，是世界上历史最悠久的足球协会",
+      "text_en": "England is the birthplace of modern football — the Football Association, founded in 1863, is the oldest in the world"
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "英格兰唯一一次夺冠是在1966年本土世界杯，由博比·摩尔上台领奖，此后60年仍苦候第二星",
+      "text_en": "England's only World Cup title came on home soil in 1966; Bobby Moore lifted the trophy at Wembley and the nation has been waiting for a second ever since"
+    },
+    {
+      "icon": "🎯",
+      "text_zh": "哈里·凯恩是英格兰史上最高效的射手，超越鲁尼的53球成为历史第一射手，更于2018年世界杯获得金靴奖",
+      "text_en": "Harry Kane is England's all-time top scorer, surpassing Rooney's record of 53 goals and winning the Golden Boot at the 2018 World Cup"
+    },
+    {
+      "icon": "🦁",
+      "text_zh": "三狮徽章起源于12世纪的理查一世（狮心王），如今已成为英格兰足球最具辨识度的符号",
+      "text_en": "The Three Lions crest dates back to the 12th century and King Richard I (the Lionheart), and remains football's most recognisable royal emblem"
+    },
+    {
+      "icon": "🤝",
+      "text_zh": "英格兰主场温布利球场可容纳9万名观众，是欧洲最大的国家级球场之一，也是世界杯决赛和欧锦赛决赛的历史举办地",
+      "text_en": "Wembley Stadium holds 90,000 fans and is one of Europe's largest national stadiums, having hosted the World Cup final (1966) and multiple European Championship finals"
+    }
+  ]
+}
