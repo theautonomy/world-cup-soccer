@@ -10,6 +10,7 @@
     "flag_emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "federation": "FA",
     "fifa_rank": 4,
+    "group": "L",
     "colors": {
       "primary": "#FFFFFF",
       "secondary": "#CF081F",
@@ -413,6 +414,13 @@
         "position": "FWD",
         "club": "West Ham United",
         "caps": 32
+      },
+      {
+        "name_zh": "安东尼·戈登",
+        "name_en": "Anthony Gordon",
+        "position": "FWD",
+        "club": "Newcastle United",
+        "caps": 18
       }
     ]
   },
