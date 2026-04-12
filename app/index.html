@@ -15,17 +15,19 @@
     <div id="root"></div>
     <script>
       // GitHub Pages SPA redirect — restore path from query string
-      // https://github.com/rafgraph/spa-github-pages
+      // Pairs with public/404.html which encodes path as ?p=/...&q=...
       (function(l) {
         if (l.search[1] === 'p') {
           var decoded = l.search.slice(1).split('&').map(function(s) {
             return s.replace(/~and~/g, '&');
           });
+          // decoded[0] = "p=/teams/england" → slice(2) skips "p="
+          // decoded[1] = "q=originalSearch"  → slice(2) skips "q="
           window.history.replaceState(
             null, null,
-            l.pathname.slice(0, -1) +
-            (decoded[0] ? '/' + decoded[0].slice(1) : '') +
-            (decoded[1] ? '?' + decoded[1].slice(1) : '') +
+            l.pathname +
+            (decoded[0] ? decoded[0].slice(2) : '') +
+            (decoded[1] ? '?' + decoded[1].slice(2) : '') +
             l.hash
           );
         }
