@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# output/teams/ is intentionally tracked — generated pages are committed and deployed via GitHub Pages
+# To exclude a specific team page, add it explicitly below:
+# output/teams/draft-*.html

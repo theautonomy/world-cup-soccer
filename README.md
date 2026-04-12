@@ -1,0 +1,128 @@
+# ⚽ 2026世界杯 — AI-powered team profiles for all 48 nations
+
+> One command. Deep research. Stunning HTML. Simplified Chinese + English.  
+> Built on [Claude Code](https://claude.ai/code).
+
+---
+
+## What it does
+
+Type a team name. The agent researches the country, digs into World Cup history, finds the 2026 squad and coach, surfaces the all-time legends, and generates a beautiful self-contained HTML page — in both **Simplified Chinese and English**, switchable with a single click.
+
+![Language toggle: 中文 / EN](https://img.shields.io/badge/language-中文%20%2F%20EN-blue)
+![Teams: 48](https://img.shields.io/badge/teams-48-green)
+![Built with Claude Code](https://img.shields.io/badge/built%20with-Claude%20Code-orange)
+
+---
+
+## Quick start
+
+### Prerequisites
+
+- [Claude Code](https://claude.ai/code) installed and running
+- This repo cloned or opened as your working directory
+
+### Run it
+
+```
+/world-cup team Brazil
+```
+
+```
+/world-cup team 法国
+```
+
+```
+/world-cup team South Korea
+```
+
+The agent accepts team names in English or Chinese. Output lands in `output/teams/brazil.html`.
+
+---
+
+## The HTML page
+
+Each generated page is a **single self-contained `.html` file** — no server, no dependencies beyond a Google Fonts import. Double-click it to open in any browser.
+
+### Sections
+
+| Section | Content |
+|---------|---------|
+| **Hero** | Animated flag, team name, FIFA ranking |
+| **Stats bar** | Titles · Appearances · Best result · FIFA rank |
+| **Country profile** | Capital, population, area, language, currency, anthem + geography & football culture description |
+| **World Cup history** | Every tournament appearance with result, color-coded by achievement |
+| **2026 squad** | Player cards: name, club, position, caps |
+| **Legends** | Top 5 all-time players with career bio and key stats |
+| **Classic rivalries** | 2–3 notable opponents with historical context |
+| **Did you know?** | 3–5 surprising facts |
+
+### Language toggle
+
+A fixed **中文 / EN** pill button sits in the top-right corner on every page. Click it to switch languages instantly. The preference is saved in `localStorage` — the page remembers your choice next time.
+
+### Design
+
+- Dark background with radial glows in the team's actual kit colors
+- CSS color variables (`--color-primary`, `--color-secondary`, `--color-accent`) set per team
+- Fonts: `Noto Sans SC` for Chinese, `Inter` for English — switches automatically with the toggle
+- Fully responsive — works on desktop and mobile
+
+---
+
+## All available commands
+
+```
+/world-cup team {name}              Generate a team profile page
+```
+
+Coming soon:
+```
+/world-cup match {team1} vs {team2} Head-to-head preview
+/world-cup player {name}            Player spotlight page  
+/world-cup group {A–L}              Group stage page
+```
+
+---
+
+## Output
+
+Generated files are saved to `output/teams/`:
+
+```
+output/teams/
+  brazil.html
+  france.html
+  south-korea.html
+  united-states.html
+  ...
+```
+
+Filename = lowercase English team name, spaces replaced with hyphens.
+
+---
+
+## Project structure
+
+```
+world-cup-soccer/
+  .claude/skills/world-cup/SKILL.md   Skill router
+  modes/team.md                        Research + generation instructions
+  templates/team-template.html         Bilingual HTML template
+  output/teams/                        Generated pages (gitignored)
+  CLAUDE.md                            Developer reference
+  README.md                            This file
+```
+
+---
+
+## 2026 World Cup
+
+- **48 teams** — expanded from 32 for the first time
+- **3 host nations** — USA 🇺🇸, Canada 🇨🇦, Mexico 🇲🇽
+- **Dates** — June 11 – July 19, 2026
+- **Format** — 16 groups of 3, then knockout from Round of 32
+
+---
+
+*Powered by Claude Code · All content AI-generated from web research*

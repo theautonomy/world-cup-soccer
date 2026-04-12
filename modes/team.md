@@ -74,74 +74,130 @@
 
 ## Placeholder 对照表
 
+每个动态文本内容都有中文（ZH）和英文（EN）两个版本。页面通过 CSS + JS 切换显示。
+
 | Placeholder | 内容 |
 |-------------|------|
 | `{{TEAM_NAME_ZH}}` | 球队中文名（如：巴西）|
 | `{{TEAM_NAME_EN}}` | 球队英文名（如：Brazil）|
+| `{{TEAM_FLAG_EMOJI}}` | 国旗 emoji（如：🇧🇷）|
 | `{{COUNTRY_ZH}}` | 国家中文名 |
+| `{{COUNTRY_EN}}` | 国家英文名 |
 | `{{FIFA_RANK}}` | 当前FIFA排名数字 |
 | `{{TITLES}}` | 世界杯冠军次数 |
 | `{{APPEARANCES}}` | 世界杯总参赛次数 |
-| `{{BEST_RESULT}}` | 最佳成绩（如：冠军、亚军、第三名）|
+| `{{BEST_RESULT}}` | 最佳成绩中文（如：冠军）|
+| `{{BEST_RESULT_EN}}` | 最佳成绩英文（如：Champions）|
 | `{{FEDERATION}}` | 联合会缩写（如：CBF）|
 | `{{COACH_NAME}}` | 主教练中文姓名 |
-| `{{COACH_NATIONALITY}}` | 主教练国籍 |
+| `{{COACH_NAME_EN}}` | 主教练英文姓名 |
+| `{{COACH_NATIONALITY_ZH}}` | 主教练国籍（中文）|
+| `{{COACH_NATIONALITY_EN}}` | 主教练国籍（英文）|
 | `{{COLOR_PRIMARY}}` | 主色 hex |
 | `{{COLOR_SECONDARY}}` | 辅色 hex |
 | `{{COLOR_ACCENT}}` | 强调色 hex |
-| `{{COUNTRY_CAPITAL}}` | 首都（中文）|
-| `{{COUNTRY_POPULATION}}` | 人口（如：2.15亿）|
-| `{{COUNTRY_AREA}}` | 国土面积（如：851.6万平方公里）|
-| `{{COUNTRY_LANGUAGE}}` | 官方语言（中文）|
-| `{{COUNTRY_CONTINENT}}` | 所在大洲（中文）|
-| `{{COUNTRY_CURRENCY}}` | 货币名称（中文）|
-| `{{COUNTRY_ANTHEM}}` | 国歌名称（中文）|
-| `{{COUNTRY_DESC}}` | 2-3句国家简介，突出地理与文化特色 |
-| `{{COUNTRY_FOOTBALL_DESC}}` | 2-3句足球文化描述，足球在该国的地位与影响 |
-| `{{WC_HISTORY_ROWS}}` | 世界杯历届成绩HTML行 |
+| `{{COUNTRY_CAPITAL}}` | 首都（通用，中英相同或英文）|
+| `{{COUNTRY_POPULATION}}` | 人口（如：215 million / 2.15亿）|
+| `{{COUNTRY_AREA}}` | 国土面积（如：8.51M km²）|
+| `{{COUNTRY_LANGUAGE_ZH}}` | 官方语言（中文）|
+| `{{COUNTRY_LANGUAGE_EN}}` | 官方语言（英文）|
+| `{{COUNTRY_CONTINENT_ZH}}` | 所在大洲（中文，如：南美洲）|
+| `{{COUNTRY_CONTINENT_EN}}` | 所在大洲（英文，如：South America）|
+| `{{COUNTRY_CURRENCY_ZH}}` | 货币（中文，如：巴西雷亚尔）|
+| `{{COUNTRY_CURRENCY_EN}}` | 货币（英文，如：Brazilian Real）|
+| `{{COUNTRY_ANTHEM_ZH}}` | 国歌名称（中文译名）|
+| `{{COUNTRY_ANTHEM_EN}}` | 国歌名称（英文）|
+| `{{COUNTRY_DESC}}` | 国家简介（中文，2-3句）|
+| `{{COUNTRY_DESC_EN}}` | 国家简介（英文，2-3句）|
+| `{{COUNTRY_FOOTBALL_DESC}}` | 足球文化（中文，2-3句）|
+| `{{COUNTRY_FOOTBALL_DESC_EN}}` | 足球文化（英文，2-3句）|
+| `{{WC_HISTORY_ROWS}}` | 世界杯历届成绩HTML行（含双语备注）|
 | `{{SQUAD_CARDS}}` | 2026阵容球员卡片HTML |
-| `{{LEGEND_CARDS}}` | 历史传奇球员卡片HTML |
-| `{{RIVALRY_CARDS}}` | 经典对手卡片HTML |
-| `{{FUN_FACTS}}` | 趣味数据列表HTML |
-| `{{TITLES_YEARS}}` | 夺冠年份（如：1958、1962、1970、1994、2002）|
-| `{{LAST_UPDATED}}` | 生成日期 |
+| `{{LEGEND_CARDS}}` | 历史传奇球员卡片HTML（含双语简介）|
+| `{{RIVALRY_CARDS}}` | 经典对手卡片HTML（含双语描述）|
+| `{{FUN_FACTS}}` | 趣味数据列表HTML（含双语内容）|
+| `{{TITLES_YEARS}}` | 夺冠年份 HTML spans |
+| `{{LAST_UPDATED}}` | 生成日期（YYYY-MM-DD）|
 
 ## 阵容卡片 HTML 格式
 
+位置缩写通用（中英相同）：GK（门将）, DEF（后卫）, MID（中场）, FWD（前锋）
+
 ```html
 <div class="player-card">
-  <div class="player-pos">{位置缩写}</div>
-  <div class="player-name">{中文姓名}</div>
-  <div class="player-name-en">{英文姓名}</div>
+  <div class="player-pos">{GK|DEF|MID|FWD}</div>
+  <div class="player-name zh">{中文姓名}</div>
+  <div class="player-name en">{英文姓名}</div>
+  <div class="player-name-en">{英文姓名拼写}</div>
   <div class="player-club">{效力俱乐部}</div>
-  <div class="player-caps">{出场数} 场</div>
+  <div class="player-caps zh">{出场数} 场</div>
+  <div class="player-caps en">{出场数} caps</div>
 </div>
 ```
-
-位置缩写：门将=GK，后卫=DEF，中场=MID，前锋=FWD
 
 ## 传奇球员卡片 HTML 格式
 
 ```html
 <div class="legend-card">
-  <div class="legend-number">{球衣号码或序号}</div>
-  <div class="legend-name">{中文姓名}</div>
-  <div class="legend-name-en">{英文姓名}</div>
+  <div class="legend-number">{序号}</div>
+  <div class="legend-name zh">{中文姓名}</div>
+  <div class="legend-name en">{英文姓名}</div>
+  <div class="legend-name-sub zh">{英文姓名}</div>
+  <div class="legend-name-sub en">{中文姓名}</div>
   <div class="legend-years">{效力年代，如 1958–1970}</div>
-  <div class="legend-position">{司职位置}</div>
-  <div class="legend-bio">{2-3句简介，突出世界杯成就}</div>
-  <div class="legend-stat"><span>{关键数据}</span> {说明}</div>
+  <div class="legend-position zh">{司职位置中文}</div>
+  <div class="legend-position en">{司职位置英文}</div>
+  <div class="legend-bio zh">{2-3句中文简介，突出世界杯成就}</div>
+  <div class="legend-bio en">{2-3句英文简介，突出世界杯成就}</div>
+  <div class="legend-stat">
+    <span>{关键数据}</span>
+    <span class="zh">{中文说明}</span>
+    <span class="en">{英文说明}</span>
+  </div>
+</div>
+```
+
+## 经典对手卡片 HTML 格式
+
+```html
+<div class="rivalry-card">
+  <div class="rivalry-teams">
+    <span class="zh">{{TEAM_NAME_ZH}}</span>
+    <span class="en">{{TEAM_NAME_EN}}</span>
+    <span class="rivalry-vs">vs</span>
+    {对手中英文名}
+  </div>
+  <div class="rivalry-desc zh">{中文描述，2-3句}</div>
+  <div class="rivalry-desc en">{英文描述，2-3句}</div>
+</div>
+```
+
+## 趣味数据 HTML 格式
+
+```html
+<div class="fact-item">
+  <div class="fact-icon">{emoji}</div>
+  <div class="fact-text zh">{中文趣味数据}</div>
+  <div class="fact-text en">{英文趣味数据}</div>
 </div>
 ```
 
 ## 世界杯历届成绩 HTML 格式
 
+备注列需同时包含中英文：
+
 ```html
-<tr class="{champion|runner-up|semifinal|quarterfinalf|group|highlight}">
+<tr class="{champion|runner-up|semifinal|quarterfinal|group|highlight}">
   <td>{年份}</td>
   <td>{举办国}</td>
-  <td>{成绩}</td>
-  <td>{备注，如：首夺冠军}</td>
+  <td><span class="result-badge result-{champion|runner-up|semifinal|other}">
+    <span class="zh">{成绩中文}</span>
+    <span class="en">{成绩英文}</span>
+  </span></td>
+  <td>
+    <span class="zh">{备注中文，如：首夺冠军}</span>
+    <span class="en">{备注英文，如：First title}</span>
+  </td>
 </tr>
 ```
 

@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>巴西 / Brazil — 2026 FIFA World Cup</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-primary: #009C3B;
+      --color-secondary: #FFDF00;
+      --color-accent: #002776;
+      --color-bg: #0a0a0f;
+      --color-surface: #13131a;
+      --color-surface2: #1c1c26;
+      --color-text: #f0f0f5;
+      --color-text-muted: #8888aa;
+      --radius: 16px;
+      --radius-sm: 8px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* ── LANGUAGE SWITCH ─────────────────────────────────────── */
+    [data-lang="zh"] .en { display: none; }
+    [data-lang="en"] .zh { display: none; }
+
+    [data-lang="zh"] { font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+    [data-lang="en"] { font-family: 'Inter', -apple-system, sans-serif; }
+
+    .lang-toggle {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+      display: flex;
+      background: color-mix(in srgb, var(--color-surface) 95%, transparent);
+      border: 1px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
+      border-radius: 100px;
+      padding: 4px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+    }
+
+    .lang-btn {
+      padding: 6px 16px;
+      border-radius: 100px;
+      border: none;
+      background: transparent;
+      color: var(--color-text-muted);
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      letter-spacing: 0.03em;
+    }
+
+    .lang-btn.active {
+      background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+      color: #fff;
+    }
+
+    .lang-btn:hover:not(.active) { color: var(--color-text); }
+
+    /* ── HERO ───────────────────────────────────────────────── */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 80px 24px 60px;
+      overflow: hidden;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 50% 0%, color-mix(in srgb, var(--color-primary) 60%, transparent), transparent 70%),
+        radial-gradient(ellipse 60% 40% at 100% 100%, color-mix(in srgb, var(--color-secondary) 40%, transparent), transparent 60%),
+        radial-gradient(ellipse 40% 30% at 0% 80%, color-mix(in srgb, var(--color-accent) 30%, transparent), transparent 50%),
+        var(--color-bg);
+      z-index: 0;
+    }
+
+    .hero-bg::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+
+    .hero > * { position: relative; z-index: 1; }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: color-mix(in srgb, var(--color-primary) 20%, transparent);
+      border: 1px solid color-mix(in srgb, var(--color-primary) 50%, transparent);
+      color: var(--color-text);
+      padding: 6px 16px;
+      border-radius: 100px;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      margin-bottom: 32px;
+    }
+
+    .hero-flag {
+      font-size: 120px;
+      line-height: 1;
+      margin-bottom: 24px;
+      filter: drop-shadow(0 8px 32px rgba(0,0,0,0.5));
+      animation: float 4s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+
+    .hero-team-name {
+      font-size: clamp(56px, 12vw, 120px);
+      font-weight: 900;
+      line-height: 1;
+      letter-spacing: -0.02em;
+      background: linear-gradient(135deg, var(--color-text) 0%, color-mix(in srgb, var(--color-secondary) 80%, var(--color-text)) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 8px;
+    }
+
+    .hero-team-name-sub {
+      font-size: clamp(16px, 3vw, 22px);
+      font-weight: 300;
+      color: var(--color-text-muted);
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      margin-bottom: 32px;
+    }
+
+    .hero-rank {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: color-mix(in srgb, var(--color-accent) 15%, transparent);
+      border: 1px solid color-mix(in srgb, var(--color-accent) 40%, transparent);
+      padding: 10px 24px;
+      border-radius: 100px;
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    .hero-rank strong {
+      color: var(--color-secondary);
+      font-size: 20px;
+      font-weight: 900;
+    }
+
+    /* ── STATS BAR ───────────────────────────────────────────── */
+    .stats-bar {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: color-mix(in srgb, var(--color-primary) 20%, transparent);
+      border-top: 1px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
+      border-bottom: 1px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
+    }
+
+    .stat-item {
+      background: var(--color-surface);
+      padding: 32px 24px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      transition: background 0.2s;
+    }
+
+    .stat-item::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+    }
+
+    .stat-item:hover { background: var(--color-surface2); }
+
+    .stat-number {
+      font-size: clamp(36px, 6vw, 56px);
+      font-weight: 900;
+      line-height: 1;
+      background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 8px;
+    }
+
+    .stat-label {
+      font-size: 13px;
+      color: var(--color-text-muted);
+      letter-spacing: 0.05em;
+      font-weight: 500;
+    }
+
+    /* ── SECTIONS ────────────────────────────────────────────── */
+    .section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 80px 24px;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 48px;
+    }
+
+    .section-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      flex-shrink: 0;
+    }
+
+    .section-title {
+      font-size: clamp(24px, 4vw, 36px);
+      font-weight: 900;
+      letter-spacing: -0.02em;
+    }
+
+    .section-subtitle {
+      font-size: 14px;
+      color: var(--color-text-muted);
+      margin-top: 4px;
+    }
+
+    /* ── COUNTRY INFO ────────────────────────────────────────── */
+    .country-layout {
+      display: grid;
+      grid-template-columns: 340px 1fr;
+      gap: 32px;
+      align-items: start;
+    }
+
+    .country-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .country-stat-item {
+      background: var(--color-surface);
+      border: 1px solid color-mix(in srgb, var(--color-primary) 15%, transparent);
+      border-radius: var(--radius-sm);
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      transition: border-color 0.2s;
+    }
+
+    .country-stat-item:hover {
+      border-color: color-mix(in srgb, var(--color-primary) 40%, transparent);
+    }
+
+    .country-stat-icon { font-size: 22px; flex-shrink: 0; line-height: 1; }
+
+    .country-stat-label {
+      font-size: 11px;
+      color: var(--color-text-muted);
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      margin-bottom: 3px;
+      text-transform: uppercase;
+    }
+
+    .country-stat-value {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--color-text);
+      line-height: 1.3;
+    }
+
+    .country-desc-block { display: flex; flex-direction: column; gap: 24px; }
+
+    .country-desc-section {
+      background: var(--color-surface);
+      border: 1px solid color-mix(in srgb, var(--color-primary) 15%, transparent);
+      border-radius: var(--radius);
+      padding: 24px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .country-desc-section::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 4px; height: 100%;
+      background: linear-gradient(180deg, var(--color-primary), var(--color-secondary));
+      border-radius: 4px 0 0 4px;
+    }
+
+    .country-desc-title {
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      padding-left: 4px;
+    }
+
+    .country-desc-text {
+      font-size: 14px;
+      line-height: 1.8;
+      color: color-mix(in srgb, var(--color-text) 80%, transparent);
+      padding-left: 4px;
+    }
+
+    /* ── WORLD CUP HISTORY ───────────────────────────────────── */
+    .wc-table-wrap {
+      overflow-x: auto;
+      border-radius: var(--radius);
+      border: 1px solid color-mix(in srgb, var(--color-primary) 20%, transparent);
+    }
+
+    .wc-table { width: 100%; border-collapse: collapse; font-size: 15px; }
+
+    .wc-table thead tr {
+      background: color-mix(in srgb, var(--color-primary) 20%, var(--color-surface));
+    }
+
+    .wc-table th {
+      padding: 16px 20px;
+      text-align: left;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: var(--color-text-muted);
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .wc-table td {
+      padding: 14px 20px;
+      border-bottom: 1px solid color-mix(in srgb, var(--color-text) 6%, transparent);
+    }
+
+    .wc-table tbody tr { background: var(--color-surface); transition: background 0.15s; }
+    .wc-table tbody tr:hover { background: var(--color-surface2); }
+    .wc-table tr.champion td { background: color-mix(in srgb, #FFD700 8%, var(--color-surface)); }
+    .wc-table tr.champion td:first-child { border-left: 3px solid #FFD700; }
+    .wc-table tr.runner-up td:first-child { border-left: 3px solid #C0C0C0; }
+    .wc-table tr.semifinal td:first-child { border-left: 3px solid #CD7F32; }
+    .wc-table tr.highlight td:first-child { border-left: 3px solid var(--color-primary); }
+
+    .result-badge {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 100px;
+      font-size: 12px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .result-champion { background: color-mix(in srgb, #FFD700 20%, transparent); color: #FFD700; border: 1px solid color-mix(in srgb, #FFD700 40%, transparent); }
+    .result-runner-up { background: color-mix(in srgb, #C0C0C0 20%, transparent); color: #C0C0C0; border: 1px solid color-mix(in srgb, #C0C0C0 40%, transparent); }
+    .result-semifinal { background: color-mix(in srgb, #CD7F32 20%, transparent); color: #CD7F32; border: 1px solid color-mix(in srgb, #CD7F32 40%, transparent); }
+    .result-other { background: color-mix(in srgb, var(--color-text-muted) 15%, transparent); color: var(--color-text-muted); border: 1px solid color-mix(in srgb, var(--color-text-muted) 30%, transparent); }
+
+    /* ── SQUAD ───────────────────────────────────────────────── */
+    .squad-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 16px;
+    }
+
+    .player-card {
+      background: var(--color-surface);
+      border: 1px solid color-mix(in srgb, var(--color-primary) 15%, transparent);
+      border-radius: var(--radius);
+      padding: 20px 16px;
+      text-align: center;
+      transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .player-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+      transform: scaleX(0);
+      transition: transform 0.2s;
+    }
+
+    .player-card:hover {
+      transform: translateY(-4px);
+      border-color: color-mix(in srgb, var(--color-primary) 50%, transparent);
+      box-shadow: 0 12px 40px color-mix(in srgb, var(--color-primary) 20%, transparent);
+    }
+
+    .player-card:hover::before { transform: scaleX(1); }
+
+    .player-pos {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 100px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      margin-bottom: 12px;
+      background: color-mix(in srgb, var(--color-primary) 20%, transparent);
+      color: color-mix(in srgb, var(--color-primary) 90%, var(--color-text));
+      border: 1px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
+    }
+
+    .player-name { font-size: 18px; font-weight: 700; margin-bottom: 2px; }
+    .player-name-en { font-size: 11px; color: var(--color-text-muted); margin-bottom: 10px; letter-spacing: 0.03em; }
+    .player-club { font-size: 13px; color: var(--color-text-muted); margin-bottom: 6px; }
+    .player-caps { font-size: 12px; font-weight: 600; color: var(--color-secondary); }
+
+    /* ── LEGENDS ─────────────────────────────────────────────── */
+    .legends-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    .legend-card {
+      background: var(--color-surface);
+      border: 1px solid color-mix(in srgb, var(--color-secondary) 20%, transparent);
+      border-radius: var(--radius);
+      padding: 28px 24px;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .legend-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 48px color-mix(in srgb, var(--color-secondary) 15%, transparent);
+    }
+
+    .legend-card::after {
+      content: '';
+      position: absolute;
+      bottom: -40px; right: -40px;
+      width: 120px; height: 120px;
+      border-radius: 50%;
+      background: radial-gradient(circle, color-mix(in srgb, var(--color-secondary) 15%, transparent), transparent 70%);
+      pointer-events: none;
+    }
+
+    .legend-number {
+      font-size: 64px;
+      font-weight: 900;
+      line-height: 1;
+      color: color-mix(in srgb, var(--color-secondary) 15%, transparent);
+      position: absolute;
+      top: 16px; right: 20px;
+      letter-spacing: -0.04em;
+    }
+
+    .legend-name { font-size: 24px; font-weight: 900; margin-bottom: 2px; }
+    .legend-name-sub { font-size: 12px; color: var(--color-text-muted); letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 12px; }
+
+    .legend-years {
+      display: inline-block;
+      font-size: 12px;
+      color: var(--color-secondary);
+      background: color-mix(in srgb, var(--color-secondary) 12%, transparent);
+      border: 1px solid color-mix(in srgb, var(--color-secondary) 30%, transparent);
+      padding: 3px 10px;
+      border-radius: 100px;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    .legend-position { font-size: 13px; color: var(--color-text-muted); margin-bottom: 14px; }
+    .legend-bio { font-size: 14px; line-height: 1.7; color: color-mix(in srgb, var(--color-text) 80%, transparent); margin-bottom: 16px; }
+
+    .legend-stat {
+      font-size: 13px;
+      color: var(--color-text-muted);
+      padding-top: 16px;
+      border-top: 1px solid color-mix(in srgb, var(--color-text) 8%, transparent);
+    }
+
+    .legend-stat span { font-size: 20px; font-weight: 900; color: var(--color-secondary); margin-right: 6px; }
+
+    /* ── RIVALRIES ───────────────────────────────────────────── */
+    .rivalry-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 20px;
+    }
+
+    .rivalry-card {
+      background: var(--color-surface);
+      border: 1px solid color-mix(in srgb, var(--color-primary) 20%, transparent);
+      border-radius: var(--radius);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .rivalry-card:hover {
+      border-color: color-mix(in srgb, var(--color-primary) 50%, transparent);
+      box-shadow: 0 8px 32px color-mix(in srgb, var(--color-primary) 12%, transparent);
+    }
+
+    .rivalry-teams { display: flex; align-items: center; gap: 12px; font-size: 20px; font-weight: 900; }
+    .rivalry-vs { font-size: 13px; font-weight: 400; color: var(--color-text-muted); flex-shrink: 0; }
+    .rivalry-desc { font-size: 14px; line-height: 1.7; color: color-mix(in srgb, var(--color-text) 80%, transparent); }
+
+    /* ── FUN FACTS ───────────────────────────────────────────── */
+    .facts-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 16px;
+    }
+
+    .fact-item {
+      background: var(--color-surface);
+      border: 1px solid color-mix(in srgb, var(--color-accent) 15%, transparent);
+      border-radius: var(--radius);
+      padding: 24px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      transition: border-color 0.2s;
+    }
+
+    .fact-item:hover { border-color: color-mix(in srgb, var(--color-accent) 40%, transparent); }
+    .fact-icon { font-size: 28px; flex-shrink: 0; line-height: 1; margin-top: 2px; }
+    .fact-text { font-size: 14px; line-height: 1.7; color: color-mix(in srgb, var(--color-text) 85%, transparent); }
+
+    /* ── DIVIDER ─────────────────────────────────────────────── */
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--color-primary) 30%, transparent), transparent);
+      margin: 0 24px;
+    }
+
+    /* ── FOOTER ──────────────────────────────────────────────── */
+    .footer { text-align: center; padding: 48px 24px; color: var(--color-text-muted); font-size: 13px; }
+    .footer strong { color: var(--color-text); font-weight: 700; }
+
+    .footer-titles { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+
+    .title-year {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: color-mix(in srgb, #FFD700 12%, transparent);
+      border: 1px solid color-mix(in srgb, #FFD700 30%, transparent);
+      color: #FFD700;
+      padding: 4px 12px;
+      border-radius: 100px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    /* ── RESPONSIVE ──────────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .country-layout { grid-template-columns: 1fr; }
+      .country-stats { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    @media (max-width: 768px) {
+      .stats-bar { grid-template-columns: repeat(2, 1fr); }
+      .squad-grid { grid-template-columns: repeat(2, 1fr); }
+      .hero-flag { font-size: 80px; }
+    }
+
+    @media (max-width: 600px) {
+      .country-stats { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 480px) {
+      .squad-grid { grid-template-columns: repeat(2, 1fr); }
+      .legends-grid { grid-template-columns: 1fr; }
+      .rivalry-grid { grid-template-columns: 1fr; }
+      .facts-grid { grid-template-columns: 1fr; }
+      .lang-toggle { top: 12px; right: 12px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- LANGUAGE TOGGLE -->
+  <div class="lang-toggle">
+    <button class="lang-btn active" id="btn-zh" onclick="setLang('zh')">中文</button>
+    <button class="lang-btn" id="btn-en" onclick="setLang('en')">EN</button>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-badge">
+      ⚽
+      <span class="zh">2026 FIFA 世界杯 · CBF</span>
+      <span class="en">2026 FIFA World Cup · CBF</span>
+    </div>
+    <div class="hero-flag">🇧🇷</div>
+    <h1 class="hero-team-name zh">巴西</h1>
+    <h1 class="hero-team-name en">Brazil</h1>
+    <p class="hero-team-name-sub zh">Brazil · 巴西</p>
+    <p class="hero-team-name-sub en">巴西 · Brazil</p>
+    <div class="hero-rank">
+      <span class="zh">FIFA排名</span><span class="en">FIFA Rank</span>
+      <strong>#6</strong>
+      · 巴西
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <div class="stats-bar">
+    <div class="stat-item">
+      <div class="stat-number">5</div>
+      <div class="stat-label">
+        <span class="zh">🏆 世界杯冠军</span>
+        <span class="en">🏆 World Cup Titles</span>
+      </div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">22</div>
+      <div class="stat-label">
+        <span class="zh">📅 参赛届次</span>
+        <span class="en">📅 Appearances</span>
+      </div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">
+        <span class="zh">冠军</span>
+        <span class="en">Champions</span>
+      </div>
+      <div class="stat-label">
+        <span class="zh">🥇 最佳成绩</span>
+        <span class="en">🥇 Best Result</span>
+      </div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">#6</div>
+      <div class="stat-label">
+        <span class="zh">📊 FIFA排名</span>
+        <span class="en">📊 FIFA Ranking</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- COUNTRY INFO -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-icon">🌍</div>
+      <div>
+        <h2 class="section-title">
+          <span class="zh">国家简介</span>
+          <span class="en">Country Profile</span>
+        </h2>
+        <p class="section-subtitle">
+          <span class="zh">巴西 · 南美洲</span>
+          <span class="en">Brazil · South America</span>
+        </p>
+      </div>
+    </div>
+    <div class="country-layout">
+      <div class="country-stats">
+        <div class="country-stat-item">
+          <div class="country-stat-icon">🏛️</div>
+          <div>
+            <div class="country-stat-label"><span class="zh">首都</span><span class="en">Capital</span></div>
+            <div class="country-stat-value">Brasília</div>
+          </div>
+        </div>
+        <div class="country-stat-item">
+          <div class="country-stat-icon">👥</div>
+          <div>
+            <div class="country-stat-label"><span class="zh">人口</span><span class="en">Population</span></div>
+            <div class="country-stat-value">2.16亿 / 216M</div>
+          </div>
+        </div>
+        <div class="country-stat-item">
+          <div class="country-stat-icon">📐</div>
+          <div>
+            <div class="country-stat-label"><span class="zh">国土面积</span><span class="en">Area</span></div>
+            <div class="country-stat-value">8.51M km²</div>
+          </div>
+        </div>
+        <div class="country-stat-item">
+          <div class="country-stat-icon">🗣️</div>
+          <div>
+            <div class="country-stat-label"><span class="zh">官方语言</span><span class="en">Language</span></div>
+            <div class="country-stat-value">
+              <span class="zh">葡萄牙语</span>
+              <span class="en">Portuguese</span>
+            </div>
+          </div>
+        </div>
+        <div class="country-stat-item">
+          <div class="country-stat-icon">💰</div>
+          <div>
+            <div class="country-stat-label"><span class="zh">货币</span><span class="en">Currency</span></div>
+            <div class="country-stat-value">
+              <span class="zh">巴西雷亚尔</span>
+              <span class="en">Brazilian Real</span>
+            </div>
+          </div>
+        </div>
+        <div class="country-stat-item">
+          <div class="country-stat-icon">🎵</div>
+          <div>
+            <div class="country-stat-label"><span class="zh">国歌</span><span class="en">Anthem</span></div>
+            <div class="country-stat-value">
+              <span class="zh">巴西国歌</span>
+              <span class="en">Hino Nacional Brasileiro</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="country-desc-block">
+        <div class="country-desc-section">
+          <h3 class="country-desc-title">
+            <span class="zh">🗺️ 地理与文化</span>
+            <span class="en">🗺️ Geography &amp; Culture</span>
+          </h3>
+          <p class="country-desc-text zh">巴西是南美洲最大的国家，国土面积居世界第五，拥有亚马逊雨林与广袤的热带草原。作为葡萄牙语国家中人口最多的国家，巴西文化融合了欧洲、非洲与原住民文明的精髓，孕育出桑巴、狂欢节等举世闻名的文化符号。</p>
+          <p class="country-desc-text en">Brazil is the largest country in South America and the fifth largest in the world, home to the Amazon rainforest and vast cerrado savannahs. The most populous Portuguese-speaking nation, Brazil's vibrant culture blends European, African, and indigenous heritage, giving rise to iconic traditions like samba and Carnival.</p>
+        </div>
+        <div class="country-desc-section">
+          <h3 class="country-desc-title">
+            <span class="zh">⚽ 足球文化</span>
+            <span class="en">⚽ Football Culture</span>
+          </h3>
+          <p class="country-desc-text zh">足球在巴西不仅仅是运动，更是一种民族信仰。巴西街头的"弄堂球"（futsal）文化培育出无数天才球员，"桑巴足球"以其独特的个人技巧、创意与欢乐著称于世。巴西拥有全球最多的世界杯冠军，是唯一参加过每一届世界杯的国家。</p>
+          <p class="country-desc-text en">Football in Brazil is more than a sport — it's a national religion. The street football (futsal) culture has produced countless gifted players, and "samba football" is celebrated worldwide for its unique flair, creativity, and joy. Brazil holds the most World Cup titles of any nation and is the only country to have participated in every single World Cup.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- WORLD CUP HISTORY -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-icon">🏆</div>
+      <div>
+        <h2 class="section-title">
+          <span class="zh">世界杯历届战绩</span>
+          <span class="en">World Cup History</span>
+        </h2>
+        <p class="section-subtitle">
+          <span class="zh">共参赛 22 届</span>
+          <span class="en">22 tournaments</span>
+        </p>
+      </div>
+    </div>
+    <div class="wc-table-wrap">
+      <table class="wc-table">
+        <thead>
+          <tr>
+            <th><span class="zh">年份</span><span class="en">Year</span></th>
+            <th><span class="zh">举办地</span><span class="en">Host</span></th>
+            <th><span class="zh">成绩</span><span class="en">Result</span></th>
+            <th><span class="zh">备注</span><span class="en">Notes</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="">
+            <td>1930</td>
+            <td>乌拉圭 / Uruguay</td>
+            <td><span class="result-badge result-other"><span class="zh">小组赛</span><span class="en">Group Stage</span></span></td>
+            <td><span class="zh">首届世界杯</span><span class="en">Inaugural tournament</span></td>
+          </tr>
+          <tr class="">
+            <td>1934</td>
+            <td>意大利 / Italy</td>
+            <td><span class="result-badge result-other"><span class="zh">十六强</span><span class="en">Round of 16</span></span></td>
+            <td><span class="zh">首轮即出局</span><span class="en">First round exit</span></td>
+          </tr>
+          <tr class="semifinal">
+            <td>1938</td>
+            <td>法国 / France</td>
+            <td><span class="result-badge result-semifinal"><span class="zh">季军</span><span class="en">3rd Place</span></span></td>
+            <td><span class="zh">首次奖牌</span><span class="en">First medal</span></td>
+          </tr>
+          <tr class="runner-up">
+            <td>1950</td>
+            <td>巴西 / Brazil</td>
+            <td><span class="result-badge result-runner-up"><span class="zh">亚军</span><span class="en">Runners-up</span></span></td>
+            <td><span class="zh">马拉卡纳惨案，主场遗憾告负</span><span class="en">Maracanazo — devastating home defeat</span></td>
+          </tr>
+          <tr class="">
+            <td>1954</td>
+            <td>瑞士 / Switzerland</td>
+            <td><span class="result-badge result-other"><span class="zh">八强</span><span class="en">Quarter-finals</span></span></td>
+            <td><span class="zh">被匈牙利淘汰</span><span class="en">Eliminated by Hungary</span></td>
+          </tr>
+          <tr class="champion">
+            <td>1958</td>
+            <td>瑞典 / Sweden</td>
+            <td><span class="result-badge result-champion"><span class="zh">🏆 冠军</span><span class="en">🏆 Champions</span></span></td>
+            <td><span class="zh">17岁贝利横空出世，首夺冠军</span><span class="en">17-year-old Pelé stars — first title</span></td>
+          </tr>
+          <tr class="champion">
+            <td>1962</td>
+            <td>智利 / Chile</td>
+            <td><span class="result-badge result-champion"><span class="zh">🏆 冠军</span><span class="en">🏆 Champions</span></span></td>
+            <td><span class="zh">加林查神奇表现，成功卫冕</span><span class="en">Garrincha inspired — back-to-back titles</span></td>
+          </tr>
+          <tr class="">
+            <td>1966</td>
+            <td>英格兰 / England</td>
+            <td><span class="result-badge result-other"><span class="zh">小组赛</span><span class="en">Group Stage</span></span></td>
+            <td><span class="zh">卫冕冠军耻辱出局</span><span class="en">Defending champions eliminated in groups</span></td>
+          </tr>
+          <tr class="champion">
+            <td>1970</td>
+            <td>墨西哥 / Mexico</td>
+            <td><span class="result-badge result-champion"><span class="zh">🏆 冠军</span><span class="en">🏆 Champions</span></span></td>
+            <td><span class="zh">史上最强阵容，贝利第三次夺冠</span><span class="en">Greatest team ever assembled — Pelé's third title</span></td>
+          </tr>
+          <tr class="">
+            <td>1974</td>
+            <td>西德 / West Germany</td>
+            <td><span class="result-badge result-other"><span class="zh">第四名</span><span class="en">4th Place</span></span></td>
+            <td><span class="zh">克鲁伊夫荷兰队淘汰</span><span class="en">Eliminated by Cruyff's Netherlands</span></td>
+          </tr>
+          <tr class="semifinal">
+            <td>1978</td>
+            <td>阿根廷 / Argentina</td>
+            <td><span class="result-badge result-semifinal"><span class="zh">季军</span><span class="en">3rd Place</span></span></td>
+            <td><span class="zh">齐科、法尔考领衔</span><span class="en">Zico and Falcão led the side</span></td>
+          </tr>
+          <tr class="">
+            <td>1982</td>
+            <td>西班牙 / Spain</td>
+            <td><span class="result-badge result-other"><span class="zh">第二轮</span><span class="en">Second Round</span></span></td>
+            <td><span class="zh">精彩但遗憾，被意大利淘汰</span><span class="en">Beautiful football, eliminated by Italy</span></td>
+          </tr>
+          <tr class="">
+            <td>1986</td>
+            <td>墨西哥 / Mexico</td>
+            <td><span class="result-badge result-other"><span class="zh">八强</span><span class="en">Quarter-finals</span></span></td>
+            <td><span class="zh">点球不敌法国</span><span class="en">Defeated by France on penalties</span></td>
+          </tr>
+          <tr class="">
+            <td>1990</td>
+            <td>意大利 / Italy</td>
+            <td><span class="result-badge result-other"><span class="zh">十六强</span><span class="en">Round of 16</span></span></td>
+            <td><span class="zh">阿根廷卡尼吉亚绝杀</span><span class="en">Caniggia goal knocked them out</span></td>
+          </tr>
+          <tr class="champion">
+            <td>1994</td>
+            <td>美国 / United States</td>
+            <td><span class="result-badge result-champion"><span class="zh">🏆 冠军</span><span class="en">🏆 Champions</span></span></td>
+            <td><span class="zh">24年磨剑，罗马里奥领衔夺冠</span><span class="en">24-year wait ends — Romário leads the charge</span></td>
+          </tr>
+          <tr class="runner-up">
+            <td>1998</td>
+            <td>法国 / France</td>
+            <td><span class="result-badge result-runner-up"><span class="zh">亚军</span><span class="en">Runners-up</span></span></td>
+            <td><span class="zh">决赛前罗纳尔多神秘抽搐事件</span><span class="en">Ronaldo's mysterious illness before the final</span></td>
+          </tr>
+          <tr class="champion">
+            <td>2002</td>
+            <td>韩日 / Korea-Japan</td>
+            <td><span class="result-badge result-champion"><span class="zh">🏆 冠军</span><span class="en">🏆 Champions</span></span></td>
+            <td><span class="zh">R10、罗纳尔多联手，五星巴西</span><span class="en">Ronaldo, R10 &amp; R9 — fifth star achieved</span></td>
+          </tr>
+          <tr class="">
+            <td>2006</td>
+            <td>德国 / Germany</td>
+            <td><span class="result-badge result-other"><span class="zh">八强</span><span class="en">Quarter-finals</span></span></td>
+            <td><span class="zh">法国齐达内淘汰</span><span class="en">Eliminated by Zidane's France</span></td>
+          </tr>
+          <tr class="">
+            <td>2010</td>
+            <td>南非 / South Africa</td>
+            <td><span class="result-badge result-other"><span class="zh">八强</span><span class="en">Quarter-finals</span></span></td>
+            <td><span class="zh">荷兰逆转</span><span class="en">Netherlands comeback victory</span></td>
+          </tr>
+          <tr class="highlight">
+            <td>2014</td>
+            <td>巴西 / Brazil</td>
+            <td><span class="result-badge result-other"><span class="zh">第四名</span><span class="en">4th Place</span></span></td>
+            <td><span class="zh">米内罗惨案 1:7 德国，主场噩梦</span><span class="en">Mineirazo — 1-7 humiliation vs Germany at home</span></td>
+          </tr>
+          <tr class="">
+            <td>2018</td>
+            <td>俄罗斯 / Russia</td>
+            <td><span class="result-badge result-other"><span class="zh">八强</span><span class="en">Quarter-finals</span></span></td>
+            <td><span class="zh">比利时2:1逆转</span><span class="en">Belgium 2-1 upset</span></td>
+          </tr>
+          <tr class="">
+            <td>2022</td>
+            <td>卡塔尔 / Qatar</td>
+            <td><span class="result-badge result-other"><span class="zh">八强</span><span class="en">Quarter-finals</span></span></td>
+            <td><span class="zh">点球不敌克罗地亚</span><span class="en">Lost on penalties to Croatia</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 2026 SQUAD -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-icon">👕</div>
+      <div>
+        <h2 class="section-title">
+          <span class="zh">2026年世界杯阵容</span>
+          <span class="en">2026 World Cup Squad</span>
+        </h2>
+        <p class="section-subtitle">
+          <span class="zh">主教练：安切洛蒂（意大利）</span>
+          <span class="en">Manager: Carlo Ancelotti (Italian)</span>
+        </p>
+      </div>
+    </div>
+    <div class="squad-grid">
+      <div class="player-card">
+        <div class="player-pos">GK</div>
+        <div class="player-name zh">阿利松</div>
+        <div class="player-name en">Alisson</div>
+        <div class="player-name-en">Alisson Becker</div>
+        <div class="player-club">Liverpool</div>
+        <div class="player-caps zh">84 场</div>
+        <div class="player-caps en">84 caps</div>
+      </div>
+      <div class="player-card">
+        <div class="player-pos">GK</div>
+        <div class="player-name zh">本托</div>
+        <div class="player-name en">Bento</div>
+        <div class="player-name-en">Bento</div>
+        <div class="player-club">Al-Nassr</div>
+        <div class="player-caps zh">28 场</div>
+        <div class="player-caps en">28 caps</div>
+      </div>
+      <div class="player-card">
+        <div class="player-pos">GK</div>
+        <div class="player-name zh">埃德森</div>
+        <div class="player-name en">Ederson</div>
+        <div class="player-name-en">Ederson</div>
+        <div class="player-club">Fenerbahçe</div>
+        <div class="player-caps zh">38 场</div>
+        <div class="player-caps en">38 caps</div>
+      </div>
+      <div class="player-card">
+        <div class="player-pos">DEF</div>
+        <div class="player-name zh">马尔基尼奥斯</div>
+        <div class="player-name en">Marquinhos</div>
+        <div class="player-name-en">Marquinhos</div>
+        <div class="player-club">Paris Saint-Germain</div>
+        <div class="player-caps zh">95 场</div>
+        <div class="player-caps en">95 caps</div>
+      </div>
+      <div class="player-card">
+        <div class="player-pos">DEF</div>
+        <div class="player-name zh">加布里埃尔</div>
+        <div class="player-name en">Gabriel Magalhães</div>
+        <div class="player-name-en">Gabriel Magalhães</div>
+        <div class="player-club">Arsenal</div>
+        <div class="player-caps zh">32 场</div>
+        <div class="player-caps en">32 caps</div>
+      </div>
+      <div class="player-card">
+        <div class="player-pos">DEF</div>
+        <div class="player-name zh">布雷默</div>
+        <div class="player-name en">Bremer</div>
+        <div class="player-name-en">Bremer</div>
+        <div class="player-club">Juventus</div>
+        <div class="player-caps zh">24 场</div>
+        <div class="player-caps en">24 caps</div>
+      </div>
+      <div class="player-card">
+        <div class="player-pos">DEF</div>
+        <div class="player-name zh">达尼洛</div>
+        <div class="player-name en">Danilo</div>
+        <div class="player-name-en">Danilo</div>
+        <div class="player-club">Flamengo</div>
+        <div class="player-caps zh">56 场</div>
+        <div class="player-caps en">56 caps</div>
+      </div>
+      <div class="player-card">
+        <div class="player-pos">DEF</div>
+        <div class="player-name zh">韦斯利</div>
+        <div class="player-name en">Wesley</div>
+        <div class="player-name-en">Wesley</div>
+        <div class="player-club">Roma</div>
+        <div class="player-caps zh">12 场</div>
+        <div class="player-caps en">12 caps</div>
+      </div>
+      <div class="player-card">
+        <div class="player-pos">MID</div>
+        <div class="player-name zh">卡塞米罗</div>
+        <div class="player-name en">Casemiro</div>
+        <div class="player-name-en">Casemiro</div>
+        <div class="player-club">Manchester United</div>
+        <div class="player-caps zh">79 场</div>
+        <div class="player-caps en">79 caps</div>
+      </div>
+      <div class="player-card">
+        <div class="player-pos">MID</div>
+        <div class="player-name zh">安德烈·桑托斯</div>
+        <div class="player-name en">Andrey Santos</div>
+        <div class="player-name-en">Andrey Santos</div>
+        <div class="player-club">Chelsea</div>
+        <div class="player-caps zh">18 场</div>
+        <div class="player-caps en">18 caps</div>
+      </div>
+      <div class="player-card">
+        <div class="player-pos">MID</div>
+        <div class="player-name zh">加布里埃尔·萨拉</div>
+        <div class="player-name en">Gabriel Sara</div>
+        <div class="player-name-en">Gabriel Sara</div>
+        <div class="player-club">Galatasaray</div>
+        <div class="player-caps zh">15 场</div>
+        <div class="player-caps en">15 caps</div>
+      </div>
+      <div class="player-card">
+        <div class="player-pos">FWD</div>
+        <div class="player-name zh">维尼修斯</div>
+        <div class="player-name en">Vinícius Jr</div>
+        <div class="player-name-en">Vinícius Jr.</div>
+        <div class="player-club">Real Madrid</div>
+        <div class="player-caps zh">65 场</div>
+        <div class="player-caps en">65 caps</div>
+      </div>
+      <div class="player-card">
+        <div class="player-pos">FWD</div>
+        <div class="player-name zh">拉菲尼亚</div>
+        <div class="player-name en">Raphinha</div>
+        <div class="player-name-en">Raphinha</div>
+        <div class="player-club">FC Barcelona</div>
+        <div class="player-caps zh">58 场</div>
+        <div class="player-caps en">58 caps</div>
+      </div>
+      <div class="player-card">
+        <div class="player-pos">FWD</div>
+        <div class="player-name zh">恩德里克</div>
+        <div class="player-name en">Endrick</div>
+        <div class="player-name-en">Endrick</div>
+        <div class="player-club">Lyon</div>
+        <div class="player-caps zh">22 场</div>
+        <div class="player-caps en">22 caps</div>
+      </div>
+      <div class="player-card">
+        <div class="player-pos">FWD</div>
+        <div class="player-name zh">马蒂内利</div>
+        <div class="player-name en">Gabriel Martinelli</div>
+        <div class="player-name-en">Gabriel Martinelli</div>
+        <div class="player-club">Arsenal</div>
+        <div class="player-caps zh">34 场</div>
+        <div class="player-caps en">34 caps</div>
+      </div>
+      <div class="player-card">
+        <div class="player-pos">FWD</div>
+        <div class="player-name zh">马修斯·库尼亚</div>
+        <div class="player-name en">Matheus Cunha</div>
+        <div class="player-name-en">Matheus Cunha</div>
+        <div class="player-club">Manchester United</div>
+        <div class="player-caps zh">28 场</div>
+        <div class="player-caps en">28 caps</div>
+      </div>
+      <div class="player-card">
+        <div class="player-pos">FWD</div>
+        <div class="player-name zh">伊戈尔·蒂亚戈</div>
+        <div class="player-name en">Igor Thiago</div>
+        <div class="player-name-en">Igor Thiago</div>
+        <div class="player-club">Brentford</div>
+        <div class="player-caps zh">10 场</div>
+        <div class="player-caps en">10 caps</div>
+      </div>
+      <div class="player-card">
+        <div class="player-pos">FWD</div>
+        <div class="player-name zh">若昂·佩德罗</div>
+        <div class="player-name en">João Pedro</div>
+        <div class="player-name-en">João Pedro</div>
+        <div class="player-club">Chelsea</div>
+        <div class="player-caps zh">20 场</div>
+        <div class="player-caps en">20 caps</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- LEGENDS -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-icon">⭐</div>
+      <div>
+        <h2 class="section-title">
+          <span class="zh">传奇巨星</span>
+          <span class="en">Legends</span>
+        </h2>
+        <p class="section-subtitle">
+          <span class="zh">那些永远铭刻在历史上的名字</span>
+          <span class="en">Names forever written in history</span>
+        </p>
+      </div>
+    </div>
+    <div class="legends-grid">
+      <div class="legend-card">
+        <div class="legend-number">1</div>
+        <div class="legend-name zh">贝利</div>
+        <div class="legend-name en">Pelé</div>
+        <div class="legend-name-sub zh">Edson Arantes do Nascimento</div>
+        <div class="legend-name-sub en">贝利 · Edson Arantes do Nascimento</div>
+        <div class="legend-years">1957–1971</div>
+        <div class="legend-position zh">前锋</div>
+        <div class="legend-position en">Forward</div>
+        <div class="legend-bio zh">足球史上公认最伟大的球员。17岁便在1958年世界杯决赛上演帽子戏法，以独一无二的技巧、速度与进球嗅觉三夺世界杯冠军，共为巴西出战91场打进77球。</div>
+        <div class="legend-bio en">Widely regarded as the greatest footballer ever. At just 17, he scored a hat-trick in the 1958 World Cup final. With unique skill, pace, and goalscoring instinct, he won three World Cups and scored 77 goals in 91 appearances for Brazil.</div>
+        <div class="legend-stat">
+          <span>3</span>
+          <span class="zh">次世界杯冠军（1958、1962、1970）</span>
+          <span class="en">World Cup titles (1958, 1962, 1970)</span>
+        </div>
+      </div>
+      <div class="legend-card">
+        <div class="legend-number">2</div>
+        <div class="legend-name zh">加林查</div>
+        <div class="legend-name en">Garrincha</div>
+        <div class="legend-name-sub zh">Mané Garrincha</div>
+        <div class="legend-name-sub en">加林查 · Manuel dos Santos</div>
+        <div class="legend-years">1955–1966</div>
+        <div class="legend-position zh">右边锋</div>
+        <div class="legend-position en">Right Winger</div>
+        <div class="legend-bio zh">被誉为"快乐足球"的化身，其扭腰过人的"加林查步"令无数后卫望尘莫及。天生双腿弯曲却成为史上最出色的边锋之一，1962年世界杯几乎凭一己之力率巴西夺冠。</div>
+        <div class="legend-bio en">The embodiment of joyful football, his mesmerising dribbling style left defenders helpless. Born with misaligned legs, he became one of history's greatest wingers and almost single-handedly carried Brazil to the 1962 World Cup title.</div>
+        <div class="legend-stat">
+          <span>2</span>
+          <span class="zh">次世界杯冠军，从未在世界杯输过比赛</span>
+          <span class="en">World Cup titles — never lost a World Cup match</span>
+        </div>
+      </div>
+      <div class="legend-card">
+        <div class="legend-number">3</div>
+        <div class="legend-name zh">罗纳尔多</div>
+        <div class="legend-name en">Ronaldo</div>
+        <div class="legend-name-sub zh">R9 · 现象</div>
+        <div class="legend-name-sub en">R9 · "O Fenômeno"</div>
+        <div class="legend-years">1994–2011</div>
+        <div class="legend-position zh">前锋</div>
+        <div class="legend-position en">Forward</div>
+        <div class="legend-bio zh">人称"现象"，三届世界杯最佳射手，以15粒进球成为世界杯历史射手王（直至2006年）。1998年决赛前夕的神秘抽搐与2002年赛场上的完美复仇，共同构成了足球史上最戏剧性的传奇。</div>
+        <div class="legend-bio en">"O Fenômeno" — top scorer at three World Cups, with 15 goals he held the all-time World Cup scoring record until 2006. His mysterious seizure before the 1998 final and stunning comeback to win in 2002 created one of football's most dramatic stories.</div>
+        <div class="legend-stat">
+          <span>15</span>
+          <span class="zh">世界杯进球（当时历史纪录）</span>
+          <span class="en">World Cup goals (all-time record at the time)</span>
+        </div>
+      </div>
+      <div class="legend-card">
+        <div class="legend-number">4</div>
+        <div class="legend-name zh">罗纳尔迪尼奥</div>
+        <div class="legend-name en">Ronaldinho</div>
+        <div class="legend-name-sub zh">R10 · 快乐王子</div>
+        <div class="legend-name-sub en">R10 · "O Bruxo" (The Wizard)</div>
+        <div class="legend-years">1999–2013</div>
+        <div class="legend-position zh">前腰 / 左边锋</div>
+        <div class="legend-position en">Attacking Mid / Left Wing</div>
+        <div class="legend-bio zh">2002年世界杯冠军成员，2005年获FIFA年度最佳球员。带着招牌式微笑上场，天马行空的过人与任意球令全世界折服。他的足球哲学——让踢球变成一种纯粹的快乐——影响了整整一代球员。</div>
+        <div class="legend-bio en">2002 World Cup winner and 2005 FIFA World Player of the Year. Playing with a trademark smile, his outrageous dribbling and free-kicks captivated the world. His philosophy — make football pure joy — inspired an entire generation of players.</div>
+        <div class="legend-stat">
+          <span>97</span>
+          <span class="zh">国家队出场，1次世界杯冠军</span>
+          <span class="en">caps for Brazil, 1 World Cup title</span>
+        </div>
+      </div>
+      <div class="legend-card">
+        <div class="legend-number">5</div>
+        <div class="legend-name zh">济科</div>
+        <div class="legend-name en">Zico</div>
+        <div class="legend-name-sub zh">白色贝利</div>
+        <div class="legend-name-sub en">"The White Pelé"</div>
+        <div class="legend-years">1976–1986</div>
+        <div class="legend-position zh">攻击中场</div>
+        <div class="legend-position en">Attacking Midfielder</div>
+        <div class="legend-bio zh">被誉为"白色贝利"，三届世界杯赛场（1978、1982、1986）的灵魂人物。1982年那届功亏一篑的巴西队被视为史上最伟大的未夺冠球队，济科是当仁不让的核心。他的任意球技术至今无人能出其右。</div>
+        <div class="legend-bio en">Known as "The White Pelé," he was the creative heart of Brazil's sides at three World Cups (1978, 1982, 1986). The 1982 Brazil team — considered the greatest to never win the trophy — was built around Zico. His free-kick technique remains peerless.</div>
+        <div class="legend-stat">
+          <span>48</span>
+          <span class="zh">进球，72次国家队出场</span>
+          <span class="en">goals in 72 international appearances</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- RIVALRIES -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-icon">⚔️</div>
+      <div>
+        <h2 class="section-title">
+          <span class="zh">经典宿敌</span>
+          <span class="en">Classic Rivalries</span>
+        </h2>
+        <p class="section-subtitle">
+          <span class="zh">足球场上最激烈的对决</span>
+          <span class="en">The most intense battles on the pitch</span>
+        </p>
+      </div>
+    </div>
+    <div class="rivalry-grid">
+      <div class="rivalry-card">
+        <div class="rivalry-teams">
+          <span class="zh">巴西</span>
+          <span class="en">Brazil</span>
+          <span class="rivalry-vs">vs</span>
+          <span class="zh">阿根廷</span>
+          <span class="en">Argentina</span>
+        </div>
+        <div class="rivalry-desc zh">南美经典宿敌，被誉为"美洲超级德比"。两国之间的对决不仅是足球竞争，更是文化与民族自尊的碰撞。双方在南美解放者杯、世界杯和美洲杯的历次交锋，每一场都牵动着数以亿计球迷的心跳。</div>
+        <div class="rivalry-desc en">South America's greatest derby, dubbed the "Superclásico de las Américas." Their clashes transcend football — they are battles of culture and national pride. Every meeting at Copa América, World Cup qualifiers, or the World Cup itself grips billions of fans worldwide.</div>
+      </div>
+      <div class="rivalry-card">
+        <div class="rivalry-teams">
+          <span class="zh">巴西</span>
+          <span class="en">Brazil</span>
+          <span class="rivalry-vs">vs</span>
+          <span class="zh">德国</span>
+          <span class="en">Germany</span>
+        </div>
+        <div class="rivalry-desc zh">2014年世界杯半决赛，德国在巴西主场以7:1大胜，这场被称为"米内罗惨案"的比赛令巴西全国陷入震惊与悲痛，成为世界杯历史上最难以置信的比赛之一。两队在世界杯上曾多次狭路相逢，各有胜负。</div>
+        <div class="rivalry-desc en">The 2014 semi-final "Mineirazo" — Germany's 7-1 demolition of Brazil on home soil — left the nation in shock and grief, becoming one of the most shocking results in World Cup history. The two sides have met multiple times at the tournament, with memorable contests on both sides.</div>
+      </div>
+      <div class="rivalry-card">
+        <div class="rivalry-teams">
+          <span class="zh">巴西</span>
+          <span class="en">Brazil</span>
+          <span class="rivalry-vs">vs</span>
+          <span class="zh">荷兰</span>
+          <span class="en">Netherlands</span>
+        </div>
+        <div class="rivalry-desc zh">两支同样崇尚进攻美学的球队之间的对决，往往贡献世界杯最精彩的比赛。1974年西德世界杯克鲁伊夫领衔的荷兰淘汰巴西，2010年南非世界杯荷兰再度在八强将其淘汰，每次碰面都充满戏剧性。</div>
+        <div class="rivalry-desc en">Two sides who share a love of attacking football but have clashed memorably at the World Cup. Cruyff's Netherlands eliminated Brazil in 1974, and the Dutch did it again in 2010. Their meetings are always filled with quality, drama, and goals.</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- FUN FACTS -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-icon">💡</div>
+      <div>
+        <h2 class="section-title">
+          <span class="zh">你知道吗？</span>
+          <span class="en">Did You Know?</span>
+        </h2>
+        <p class="section-subtitle">
+          <span class="zh">关于巴西的趣味数据</span>
+          <span class="en">Fascinating facts about Brazil</span>
+        </p>
+      </div>
+    </div>
+    <div class="facts-grid">
+      <div class="fact-item">
+        <div class="fact-icon">🌍</div>
+        <div>
+          <div class="fact-text zh">巴西是世界上唯一参加过每一届FIFA世界杯（共22届，1930–2026）的国家，是当之无愧的"世界杯常青树"。</div>
+          <div class="fact-text en">Brazil is the only country to have qualified for every single FIFA World Cup — all 22 editions from 1930 to 2026. No other nation comes close to this record.</div>
+        </div>
+      </div>
+      <div class="fact-item">
+        <div class="fact-icon">🏆</div>
+        <div>
+          <div class="fact-text zh">巴西以5次世界杯冠军雄居榜首，比排名第二的德国（4次）还多一次。他们在1958、1962、1970年完成"三连霸"时代，至今无人复制。</div>
+          <div class="fact-text en">Brazil's five World Cup titles are the most of any nation — one more than second-placed Germany (4). Their near-dynasty spanning 1958, 1962, and 1970 has never been replicated by any other nation.</div>
+        </div>
+      </div>
+      <div class="fact-item">
+        <div class="fact-icon">😱</div>
+        <div>
+          <div class="fact-text zh">2014年主场世界杯半决赛，巴西以1:7惨败德国，其中45分钟内连丢5球，这被称为"米内罗惨案"（Mineirazo），是世界杯史上最震惊的比赛之一。</div>
+          <div class="fact-text en">In the 2014 semi-final on home soil, Brazil were thrashed 7-1 by Germany, conceding 5 goals in just 18 minutes. The "Mineirazo" remains one of the most shocking results in World Cup history.</div>
+        </div>
+      </div>
+      <div class="fact-item">
+        <div class="fact-icon">👶</div>
+        <div>
+          <div class="fact-text zh">贝利是世界杯历史上年龄最小的冠军之一。他在1958年世界杯首球时年仅17岁零249天，决赛帽子戏法令全世界惊叹，至今仍是最年轻的世界杯决赛进球者。</div>
+          <div class="fact-text en">Pelé is one of the youngest World Cup winners ever. Just 17 years and 249 days old at his first World Cup in 1958, his hat-trick in the final astonished the world. He remains the youngest player to score in a World Cup final.</div>
+        </div>
+      </div>
+      <div class="fact-item">
+        <div class="fact-icon">⚽</div>
+        <div>
+          <div class="fact-text zh">巴西在世界杯历史上共打进237球，是所有参赛国中进球最多的球队，并且拥有76场胜利的世界杯历史最多胜场纪录。</div>
+          <div class="fact-text en">Brazil have scored 237 goals at World Cups — the most of any nation — and hold the all-time record for World Cup wins with 76 victories. Their goal difference of +129 is also the best in history.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>
+      <strong>巴西 / Brazil</strong>
+      <span class="zh"> · 2026 FIFA 世界杯 · 美国·加拿大·墨西哥</span>
+      <span class="en"> · 2026 FIFA World Cup · USA · Canada · Mexico</span>
+    </p>
+    <div class="footer-titles">
+      <span class="title-year">🏆 1958</span>
+      <span class="title-year">🏆 1962</span>
+      <span class="title-year">🏆 1970</span>
+      <span class="title-year">🏆 1994</span>
+      <span class="title-year">🏆 2002</span>
+    </div>
+    <p style="margin-top: 20px; font-size: 12px;">
+      <span class="zh">数据更新于 2026-04-12 · 由 AI 生成</span>
+      <span class="en">Last updated 2026-04-12 · AI generated</span>
+    </p>
+  </footer>
+
+  <script>
+    function setLang(lang) {
+      document.documentElement.setAttribute('data-lang', lang);
+      document.documentElement.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
+      document.getElementById('btn-zh').classList.toggle('active', lang === 'zh');
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+      localStorage.setItem('wc-lang', lang);
+    }
+
+    // Restore last used language
+    const saved = localStorage.getItem('wc-lang');
+    if (saved) setLang(saved);
+  </script>
+
+</body>
+</html>
