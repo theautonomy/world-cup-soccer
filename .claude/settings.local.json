@@ -5,7 +5,10 @@
       "WebFetch(domain:www.goal.com)",
       "WebFetch(domain:en.wikipedia.org)",
       "WebFetch(domain:sports.yahoo.com)",
-      "WebFetch(domain:www.fourfourtwo.com)"
+      "WebFetch(domain:www.fourfourtwo.com)",
+      "WebFetch(domain:bleacherreport.com)",
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)"
     ]
   }
 }
