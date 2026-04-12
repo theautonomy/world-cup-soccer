@@ -4,9 +4,9 @@
 
 | Step | Feature | Description | Status |
 |------|---------|-------------|--------|
-| 1 | `/world-cup audit` | Validate all JSON files — catch missing fields, invalid JSON, thin data | 🔜 Next |
-| 2 | Generate all 48 teams | Run `/world-cup team {name}` for every nation, audit each one | 🔜 Planned |
-| 2b | `/world-cup refine {team}` | Search for latest info (squad updates, coach changes, recent form) and update JSON | 🔜 Planned |
+| 1 | `/world-cup audit` | Validate all JSON files — catch missing fields, invalid JSON, thin data | ✅ Done |
+| 2 | Generate all 48 teams | Run `/world-cup team {name}` for every nation, audit each one | 🔜 Next |
+| 2b | `/world-cup refine {team}` | Search for latest info (squad updates, coach changes, recent form) and update JSON | ✅ Done |
 | 3 | Group stage draw | Add group (A–L) to each team JSON + show on team card and team page | 🔜 Planned |
 | 4 | `/world-cup group {A–L}` | Full group page: all 4 teams, schedule, predictions | 🔜 Planned |
 | 5 | `/world-cup match {t1} vs {t2}` | Head-to-head stats, historical meetings, prediction | 🔜 Planned |
