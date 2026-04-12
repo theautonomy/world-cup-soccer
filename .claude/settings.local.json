@@ -8,7 +8,9 @@
       "WebFetch(domain:www.fourfourtwo.com)",
       "WebFetch(domain:bleacherreport.com)",
       "Bash(git add:*)",
-      "Bash(git commit -m ':*)"
+      "Bash(git commit -m ':*)",
+      "WebFetch(domain:www.englandfootball.com)",
+      "Bash(node:*)"
     ]
   }
 }

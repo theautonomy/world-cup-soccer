@@ -1,0 +1,131 @@
+.page {
+  min-height: 100vh;
+  background: var(--color-bg);
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 24px 64px;
+  background: radial-gradient(ellipse 80% 50% at 50% 0%, rgba(0, 180, 100, 0.25), transparent 70%);
+}
+
+.title {
+  font-size: clamp(36px, 8vw, 80px);
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  color: var(--color-text);
+  line-height: 1.05;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.year {
+  font-size: clamp(64px, 14vw, 140px);
+  background: linear-gradient(135deg, #fff 0%, #4ade80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+  display: block;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: var(--color-muted);
+  margin-bottom: 24px;
+}
+
+.badge {
+  display: inline-block;
+  background: rgba(0, 180, 100, 0.12);
+  border: 1px solid rgba(0, 180, 100, 0.3);
+  color: #4ade80;
+  padding: 8px 24px;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.loading,
+.empty {
+  text-align: center;
+  padding: 80px 24px;
+  color: var(--color-muted);
+}
+
+.emptyTitle {
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.emptyHint {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.code {
+  display: inline-block;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #4ade80;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+.grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px 64px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 14px;
+}
+
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  padding: 24px 16px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+  display: block;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(74, 222, 128, 0.4);
+  box-shadow: 0 12px 40px rgba(74, 222, 128, 0.12);
+}
+
+.flag {
+  font-size: 48px;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+.teamName {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.rank {
+  font-size: 11px;
+  color: var(--color-muted);
+}
+
+.footer {
+  text-align: center;
+  padding: 32px 24px;
+  color: var(--color-muted);
+  font-size: 13px;
+  border-top: 1px solid var(--color-border);
+}

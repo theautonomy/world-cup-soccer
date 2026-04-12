@@ -4,8 +4,8 @@ on:
   push:
     branches: [master]
     paths:
-      - 'output/**'
-      - 'templates/**'
+      - 'data/teams/**'
+      - 'app/**'
       - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
 
@@ -19,7 +19,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -29,79 +29,55 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build index page
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: app/package-lock.json
+
+      - name: Copy team JSON files into app public directory
         run: |
-          mkdir -p output
+          mkdir -p app/public/data/teams
+          if ls data/teams/*.json 1>/dev/null 2>&1; then
+            cp data/teams/*.json app/public/data/teams/
+            echo "Copied $(ls data/teams/*.json | wc -l) JSON files"
+          else
+            echo "No JSON files found in data/teams/ — building with empty team list"
+          fi
+
+      - name: Build team index JSON
+        run: |
           node -e "
           const fs = require('fs');
-          const path = require('path');
-
-          const teamsDir = 'output/teams';
-          let teams = [];
-
-          if (fs.existsSync(teamsDir)) {
-            teams = fs.readdirSync(teamsDir)
-              .filter(f => f.endsWith('.html'))
-              .map(f => {
-                const slug = f.replace('.html', '');
-                const name = slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
-                const content = fs.readFileSync(path.join(teamsDir, f), 'utf-8');
-                const flagMatch = content.match(/class=\"hero-flag\">(.*?)<\/div>/);
-                const flag = flagMatch ? flagMatch[1].trim() : '⚽';
-                const rankMatch = content.match(/FIFA_RANK.*?#(\d+)/);
-                return { slug, name, flag };
-              });
-          }
-
-          const cards = teams.map(t => \`
-            <a href=\"teams/\${t.slug}.html\" class=\"team-card\">
-              <div class=\"team-flag\">\${t.flag}</div>
-              <div class=\"team-name\">\${t.name}</div>
-            </a>
-          \`).join('');
-
-          const html = \`<!DOCTYPE html>
-          <html lang=\"zh-CN\">
-          <head>
-            <meta charset=\"UTF-8\">
-            <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
-            <title>2026 FIFA World Cup — All Teams</title>
-            <link href=\"https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700;900&family=Inter:wght@400;700;900&display=swap\" rel=\"stylesheet\">
-            <style>
-              * { margin: 0; padding: 0; box-sizing: border-box; }
-              body { background: #0a0a0f; color: #f0f0f5; font-family: 'Inter', sans-serif; min-height: 100vh; }
-              .hero { text-align: center; padding: 80px 24px 60px; background: radial-gradient(ellipse 80% 50% at 50% 0%, rgba(0,180,100,0.3), transparent 70%); }
-              .hero-title { font-size: clamp(36px, 8vw, 80px); font-weight: 900; letter-spacing: -0.02em; background: linear-gradient(135deg, #fff, #4ade80); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; margin-bottom: 12px; }
-              .hero-sub { font-size: 16px; color: #8888aa; margin-bottom: 8px; }
-              .hero-count { display: inline-block; background: rgba(0,180,100,0.15); border: 1px solid rgba(0,180,100,0.3); color: #4ade80; padding: 6px 20px; border-radius: 100px; font-size: 14px; font-weight: 600; margin-top: 16px; }
-              .grid { max-width: 1200px; margin: 0 auto; padding: 48px 24px; display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 16px; }
-              .team-card { background: #13131a; border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 24px 16px; text-align: center; text-decoration: none; color: #f0f0f5; transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s; display: block; }
-              .team-card:hover { transform: translateY(-4px); border-color: rgba(74,222,128,0.4); box-shadow: 0 12px 40px rgba(74,222,128,0.15); }
-              .team-flag { font-size: 48px; margin-bottom: 12px; line-height: 1; }
-              .team-name { font-size: 14px; font-weight: 600; }
-              .empty { text-align: center; padding: 80px 24px; color: #8888aa; }
-              .empty p { font-size: 18px; margin-bottom: 12px; }
-              .empty code { background: #13131a; padding: 4px 12px; border-radius: 6px; font-size: 14px; color: #4ade80; }
-              footer { text-align: center; padding: 40px 24px; color: #8888aa; font-size: 13px; border-top: 1px solid rgba(255,255,255,0.06); }
-            </style>
-          </head>
-          <body>
-            <div class=\"hero\">
-              <h1 class=\"hero-title\">2026 FIFA World Cup</h1>
-              <p class=\"hero-sub\">美国 · 加拿大 · 墨西哥 &nbsp;|&nbsp; June 11 – July 19, 2026</p>
-              <div class=\"hero-count\">\${teams.length} / 48 teams</div>
-            </div>
-            \${teams.length > 0
-              ? \`<div class=\"grid\">\${cards}</div>\`
-              : \`<div class=\"empty\"><p>No team pages generated yet.</p><p>Run <code>/world-cup team Brazil</code> in Claude Code to get started.</p></div>\`
-            }
-            <footer>2026 FIFA World Cup · AI-generated profiles · Built with Claude Code</footer>
-          </body>
-          </html>\`;
-
-          fs.writeFileSync('output/index.html', html.replace(/^ {10}/gm, ''));
-          console.log('Index page built with ' + teams.length + ' teams.');
+          const dir = 'app/public/data/teams';
+          if (!fs.existsSync(dir)) { fs.mkdirSync(dir, { recursive: true }); }
+          const files = fs.existsSync(dir)
+            ? fs.readdirSync(dir).filter(f => f.endsWith('.json') && f !== 'index.json')
+            : [];
+          const index = files.map(f => {
+            try {
+              const d = JSON.parse(fs.readFileSync(dir + '/' + f, 'utf-8'));
+              return {
+                slug: d.meta.slug,
+                name_zh: d.team.name_zh,
+                name_en: d.team.name_en,
+                flag_emoji: d.team.flag_emoji,
+                fifa_rank: d.team.fifa_rank,
+              };
+            } catch(e) { return null; }
+          }).filter(Boolean);
+          fs.writeFileSync(dir + '/index.json', JSON.stringify(index, null, 2));
+          console.log('index.json written with ' + index.length + ' teams.');
           "
+
+      - name: Install app dependencies
+        working-directory: app
+        run: npm ci
+
+      - name: Build React app
+        working-directory: app
+        run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -109,7 +85,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: output/
+          path: app/dist/
 
       - name: Deploy to GitHub Pages
         id: deployment

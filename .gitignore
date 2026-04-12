@@ -1,10 +1,14 @@
 # Dependencies
 node_modules/
+app/node_modules/
+
+# React build output (deployed via CI, not committed)
+app/dist/
 
 # OS
 .DS_Store
 Thumbs.db
 
-# output/teams/ is intentionally tracked — generated pages are committed and deployed via GitHub Pages
-# To exclude a specific team page, add it explicitly below:
-# output/teams/draft-*.html
+# output/teams/ (legacy HTML) — still tracked for reference
+# data/teams/*.json is intentionally tracked — JSON is the source of truth committed to repo
+
