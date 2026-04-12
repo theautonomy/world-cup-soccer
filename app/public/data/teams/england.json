@@ -2,7 +2,7 @@
   "meta": {
     "slug": "england",
     "generated": "2026-04-12",
-    "version": 1
+    "version": 2
   },
   "team": {
     "name_zh": "英格兰",
@@ -10,6 +10,7 @@
     "flag_emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "federation": "FA",
     "fifa_rank": 4,
+    "group": "L",
     "colors": {
       "primary": "#FFFFFF",
       "secondary": "#CF081F",
@@ -239,8 +240,8 @@
         "host_en": "USA/Canada/Mexico",
         "result_zh": "已晋级",
         "result_en": "Qualified",
-        "note_zh": "分入L组，与克罗地亚、加纳、巴拿马同组",
-        "note_en": "Drawn into Group L alongside Croatia, Ghana, and Panama",
+        "note_zh": "分入L组，与克罗地亚、加纳、巴拿马同组；首战6月17日在德克萨斯州阿灵顿对阵克罗地亚",
+        "note_en": "Drawn into Group L alongside Croatia, Ghana, and Panama; opener vs Croatia on June 17 in Arlington, Texas",
         "row_class": "group"
       }
     ]
@@ -397,7 +398,7 @@
         "name_zh": "马库斯·拉什福德",
         "name_en": "Marcus Rashford",
         "position": "FWD",
-        "club": "Barcelona",
+        "club": "Barcelona (loan)",
         "caps": 62
       },
       {
@@ -413,6 +414,13 @@
         "position": "FWD",
         "club": "West Ham United",
         "caps": 32
+      },
+      {
+        "name_zh": "安东尼·戈登",
+        "name_en": "Anthony Gordon",
+        "position": "FWD",
+        "club": "Newcastle United",
+        "caps": 18
       }
     ]
   },
@@ -528,6 +536,11 @@
       "icon": "🤝",
       "text_zh": "英格兰主场温布利球场可容纳9万名观众，是欧洲最大的国家级球场之一，也是世界杯决赛和欧锦赛决赛的历史举办地",
       "text_en": "Wembley Stadium holds 90,000 fans and is one of Europe's largest national stadiums, having hosted the World Cup final (1966) and multiple European Championship finals"
+    },
+    {
+      "icon": "🇩🇪",
+      "text_zh": "主帅托马斯·图赫尔是第一位执教英格兰队的德国人，其合同已于2026年2月延至2028年欧洲杯，这一选择令球迷颇感意外，却赢得了广泛认可",
+      "text_en": "Head coach Thomas Tuchel is the first German to manage England; his contract was extended in February 2026 through UEFA Euro 2028 — a surprising appointment that has earned widespread respect"
     }
   ]
 }

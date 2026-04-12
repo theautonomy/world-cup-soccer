@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "slug": "ghana",
+    "generated": "2026-04-12",
+    "version": 1
+  },
+  "team": {
+    "name_zh": "加纳",
+    "name_en": "Ghana",
+    "flag_emoji": "🇬🇭",
+    "federation": "GFA",
+    "fifa_rank": 74,
+    "group": "L",
+    "colors": {
+      "primary": "#006B3F",
+      "secondary": "#FCD116",
+      "accent": "#CE1126"
+    }
+  },
+  "country": {
+    "name_zh": "加纳",
+    "name_en": "Ghana",
+    "capital": "Accra",
+    "population_zh": "3400万",
+    "population_en": "34 million",
+    "area": "238,533 km²",
+    "language_zh": "英语",
+    "language_en": "English",
+    "continent_zh": "非洲",
+    "continent_en": "Africa",
+    "currency_zh": "加纳塞地",
+    "currency_en": "Ghanaian Cedi",
+    "anthem_zh": "上帝保佑我们的故土加纳",
+    "anthem_en": "God Bless Our Homeland Ghana",
+    "desc_zh": "加纳位于西非，是非洲大陆最稳定的民主国家之一，首都阿克拉是西非最具活力的城市之一。加纳盛产可可、黄金和石油，是非洲重要经济体，也是联合国前秘书长科菲·安南的故乡，更是非洲独立运动的先锋旗手。",
+    "desc_en": "Ghana is a West African nation and one of the continent's most stable democracies, with its capital Accra among West Africa's most vibrant cities. Rich in cocoa, gold, and oil, Ghana is a key African economy and the birthplace of Kofi Annan — former UN Secretary-General. It was also a pioneering force in Africa's independence movement.",
+    "football_desc_zh": "加纳足球孕育了非洲大陆最浓厚的足球文化之一，国家队绰号\"黑星\"（Black Stars），象征非洲统一的理想。加纳是非洲杯四冠王，从埃辛到阿桑蒂·吉扬，从阿贝迪·贝利到库杜斯，黑星队始终是非洲最具竞争力的代表，球迷的激情也令世界为之倾倒。",
+    "football_desc_en": "Ghana's football tradition is among the richest on the African continent. The national team — the Black Stars — symbolises Pan-African unity and pride. Four-time Africa Cup of Nations champions, Ghana has produced world-class talent across generations — from Essien to Asamoah Gyan, from Abedi Pelé to Kudus — always among Africa's most competitive sides."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 5,
+    "best_result_zh": "八强",
+    "best_result_en": "Quarter-final",
+    "title_years": [],
+    "history": [
+      {
+        "year": 2006,
+        "host_zh": "德国",
+        "host_en": "Germany",
+        "result_zh": "十六强",
+        "result_en": "Round of 16",
+        "note_zh": "首届世界杯表现亮眼，小组赛2胜出线，十六强0-3不敌卫冕冠军巴西",
+        "note_en": "Impressive debut — advanced from their group with two wins; eliminated in the Round of 16 by eventual champions Brazil, 0-3",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2010,
+        "host_zh": "南非",
+        "host_en": "South Africa",
+        "result_zh": "八强",
+        "result_en": "Quarter-final",
+        "note_zh": "十六强2-1逆转美国，八强赛苏亚雷斯手球救险、吉扬点球敲横梁，加纳含泪点球落败，与世界杯四强擦肩而过",
+        "note_en": "Beat USA 2-1 in the Round of 16; in the quarter-final Suárez's handball denied a goal, Asamoah Gyan hit the crossbar from the spot, and Ghana lost on penalties — agonisingly close to a historic semi-final",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 2014,
+        "host_zh": "巴西",
+        "host_en": "Brazil",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "与德国、葡萄牙、美国同组，2-2逼平德国但小组未能出线",
+        "note_en": "Tough group with Germany, Portugal, and USA; held Germany to a dramatic 2-2 draw but failed to advance",
+        "row_class": "group"
+      },
+      {
+        "year": 2022,
+        "host_zh": "卡塔尔",
+        "host_en": "Qatar",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "与葡萄牙、韩国、乌拉圭同组，3-2胜韩国，但负于葡萄牙和乌拉圭，小组第三出局",
+        "note_en": "Beat South Korea 3-2 but lost to Portugal and Uruguay to finish third in the group and exit at the group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2026,
+        "host_zh": "美国/加拿大/墨西哥",
+        "host_en": "USA/Canada/Mexico",
+        "result_zh": "已晋级",
+        "result_en": "Qualified",
+        "note_zh": "以非洲I组头名晋级，分入L组与英格兰、克罗地亚、巴拿马同组；首战6月17日在多伦多对阵巴拿马",
+        "note_en": "Qualified by topping CAF Group I; drawn into Group L with England, Croatia, and Panama; opener vs Panama on June 17 in Toronto",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name_zh": "奥托·阿多",
+      "name_en": "Otto Addo",
+      "nationality_zh": "加纳/德国",
+      "nationality_en": "Ghanaian/German"
+    },
+    "players": [
+      {
+        "name_zh": "劳伦斯·阿提-齐吉",
+        "name_en": "Lawrence Ati-Zigi",
+        "position": "GK",
+        "club": "St. Gallen",
+        "caps": 42
+      },
+      {
+        "name_zh": "易卜拉欣·丹拉德",
+        "name_en": "Ibrahim Danlad",
+        "position": "GK",
+        "club": "Asante Kotoko",
+        "caps": 8
+      },
+      {
+        "name_zh": "亚历山大·迪久",
+        "name_en": "Alexander Djiku",
+        "position": "DEF",
+        "club": "Fenerbahçe",
+        "caps": 52
+      },
+      {
+        "name_zh": "吉迪恩·门萨",
+        "name_en": "Gideon Mensah",
+        "position": "DEF",
+        "club": "Red Bull Salzburg",
+        "caps": 38
+      },
+      {
+        "name_zh": "丹尼尔·阿马蒂",
+        "name_en": "Daniel Amartey",
+        "position": "DEF",
+        "club": "Beşiktaş",
+        "caps": 56
+      },
+      {
+        "name_zh": "安德鲁·阿亚",
+        "name_en": "Andrew Ayew",
+        "position": "DEF",
+        "club": "Le Havre",
+        "caps": 18
+      },
+      {
+        "name_zh": "托马斯·帕泰",
+        "name_en": "Thomas Partey",
+        "position": "MID",
+        "club": "Arsenal",
+        "caps": 58
+      },
+      {
+        "name_zh": "萨利斯·阿卜杜勒·萨梅德",
+        "name_en": "Salis Abdul Samed",
+        "position": "MID",
+        "club": "RC Lens",
+        "caps": 26
+      },
+      {
+        "name_zh": "穆罕默德·库杜斯",
+        "name_en": "Mohammed Kudus",
+        "position": "MID",
+        "club": "Tottenham Hotspur",
+        "caps": 48
+      },
+      {
+        "name_zh": "约旦·阿亚",
+        "name_en": "Jordan Ayew",
+        "position": "FWD",
+        "club": "Crystal Palace",
+        "caps": 112
+      },
+      {
+        "name_zh": "伊纳基·威廉姆斯",
+        "name_en": "Iñaki Williams",
+        "position": "FWD",
+        "club": "Athletic Club",
+        "caps": 26
+      },
+      {
+        "name_zh": "安托万·塞门约",
+        "name_en": "Antoine Semenyo",
+        "position": "FWD",
+        "club": "AFC Bournemouth",
+        "caps": 22
+      },
+      {
+        "name_zh": "费利克斯·阿费纳-吉扬",
+        "name_en": "Felix Afena-Gyan",
+        "position": "FWD",
+        "club": "Frosinone",
+        "caps": 18
+      },
+      {
+        "name_zh": "乔纳森·柯德亚",
+        "name_en": "Jonathan Kodjia",
+        "position": "FWD",
+        "club": "Al-Gharafa",
+        "caps": 34
+      }
+    ]
+  },
+  "legends": [
+    {
+      "number": 1,
+      "name_zh": "阿萨莫阿·吉扬",
+      "name_en": "Asamoah Gyan",
+      "years": "2003–2019",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "阿萨莫阿·吉扬是非洲世界杯历史上进球最多的球员（6球），也是加纳历史上进球最多的球员（51球）。他在2010年世界杯八强赛对阵乌拉圭时，在加时赛最后一刻罚点球击中横梁，那一刻成为世界杯历史上最令人心痛的瞬间之一，令加纳与历史性的四强之路擦肩而过。",
+      "bio_en": "Asamoah Gyan is Africa's all-time top scorer at World Cups (6 goals) and Ghana's all-time leading scorer (51 goals). At the 2010 World Cup quarter-final against Uruguay, he struck the crossbar from the penalty spot in the last minute of extra time — one of football's most heart-wrenching moments — as Ghana agonisingly missed a historic semi-final.",
+      "stat_value": "51",
+      "stat_zh": "国家队进球",
+      "stat_en": "international goals"
+    },
+    {
+      "number": 2,
+      "name_zh": "迈克尔·埃辛",
+      "name_en": "Michael Essien",
+      "years": "2002–2016",
+      "position_zh": "中场",
+      "position_en": "Midfielder",
+      "bio_zh": "迈克尔·埃辛绰号\"比索\"（The Bison），是加纳历史上最知名的球员之一，以出色的体能、强悍的对抗和精准的射门著称。他在切尔西效力期间赢得多项英超和欧冠荣誉，在2006年和2010年两届世界杯上担当黑星队的绝对核心，是非洲足球史上最伟大的中场之一。",
+      "bio_en": "Michael Essien, nicknamed 'The Bison', is one of Ghana's most celebrated footballers. Known for his incredible athleticism, combative style, and thunderous shots, he won multiple Premier League and Champions League honours at Chelsea. He was the heartbeat of Ghana at both the 2006 and 2010 World Cups — one of Africa's greatest midfielders.",
+      "stat_value": "58",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 3,
+      "name_zh": "阿贝迪·阿亚（阿贝迪·贝利）",
+      "name_en": "Abedi Ayew (Abedi Pelé)",
+      "years": "1982–1998",
+      "position_zh": "中场/前锋",
+      "position_en": "Midfielder/Forward",
+      "bio_zh": "阿贝迪·贝利是非洲足球史上最伟大的球员之一，三度荣获非洲最佳球员奖。他在马赛效力期间赢得1993年欧冠，率领非洲球队首次登顶欧洲之巅。作为约旦·阿亚和安德烈·阿亚的父亲，他缔造了加纳足球史上最传奇的足球家族。",
+      "bio_en": "Abedi Ayew, nicknamed 'Abedi Pelé', is one of Africa's greatest ever footballers — a three-time African Footballer of the Year. He won the 1993 Champions League with Marseille, the first African club to claim European glory. As the father of Jordan and André Ayew, he founded one of football's most remarkable family dynasties.",
+      "stat_value": "73",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 4,
+      "name_zh": "安德烈·阿亚",
+      "name_en": "André Ayew",
+      "years": "2008–2024",
+      "position_zh": "前锋/攻击中场",
+      "position_en": "Forward/Attacking Midfielder",
+      "bio_zh": "安德烈·阿亚是加纳历史上出场次数最多的球员（120次），出身足球世家，父亲正是传奇人物阿贝迪·贝利。他效力过马赛、斯旺西、西汉姆联等欧洲俱乐部，在多届世界杯和非洲杯上担任加纳队长，以领袖气质和丰富经验为黑星队输送力量。",
+      "bio_en": "André Ayew is Ghana's most capped player (120 appearances) and son of legend Abedi Pelé. He played across Europe for Marseille, Swansea, West Ham, and others, captaining Ghana at multiple World Cups and AFCONs. His leadership and experience made him the backbone of the Black Stars for an entire generation.",
+      "stat_value": "120",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 5,
+      "name_zh": "斯蒂芬·阿皮亚",
+      "name_en": "Stephen Appiah",
+      "years": "1996–2010",
+      "position_zh": "中场",
+      "position_en": "Midfielder",
+      "bio_zh": "斯蒂芬·阿皮亚是带领加纳首次踏上世界杯舞台的队长，在2006年德国世界杯上以沉稳的组织和领导力赢得全球赞誉。他在芬巴切、尤文图斯和博洛尼亚的欧洲职业生涯证明加纳球员完全有能力征战顶级联赛，是\"黄金一代\"最重要的精神领袖。",
+      "bio_en": "Stephen Appiah captained Ghana at their first-ever World Cup in 2006, earning global admiration for his composure and leadership in Germany. His club career at Fenerbahçe, Juventus, and Bologna showed that Ghanaian players could thrive in Europe's top leagues — and he remains the defining figure of the golden generation that put Ghana on the world football map.",
+      "stat_value": "67",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "尼日利亚",
+      "opponent_en": "Nigeria",
+      "desc_zh": "加纳与尼日利亚的对阵被称为\"珍珠粥德比\"（Jollof Derby），是非洲大陆最受关注的足球宿怨。两国同为西非强国，足球实力旗鼓相当，每次交锋都牵动数亿非洲球迷的心。这场宿怨的胜负不仅决定球场成绩，更象征着西非足球话语权的归属。",
+      "desc_en": "The Ghana–Nigeria rivalry, dubbed the Jollof Derby, is the most watched footballing contest on the African continent. Two neighbouring West African giants of comparable quality, their meetings stir passion in hundreds of millions of fans across the region — a contest for West African footballing supremacy that goes well beyond the pitch."
+    },
+    {
+      "opponent_zh": "科特迪瓦",
+      "opponent_en": "Ivory Coast",
+      "desc_zh": "加纳与科特迪瓦之间的对阵是西非的经典对决，双方在非洲杯中多次决战，也在世界杯资格赛中频繁交手。这场被称为\"几内亚湾德比\"的较量，两国球迷都视为西非最顶级的对决，胜负不仅是荣誉，更是话语权之争。",
+      "desc_en": "Ghana and Ivory Coast share a fierce West African derby — the Gulf of Guinea Derby — having met at multiple AFCON tournaments and World Cup qualifiers. Both nations have had golden generations and moments of continental glory, and their head-to-heads are always among the most eagerly anticipated fixtures in African football."
+    },
+    {
+      "opponent_zh": "乌拉圭",
+      "opponent_en": "Uruguay",
+      "desc_zh": "加纳与乌拉圭之间的宿怨源于2010年世界杯八强那场令人扼腕的一幕：苏亚雷斯的手球救险、吉扬击中横梁的点球、随后点球大战的落败，令加纳与四强之路永遗憾。这段历史成为世界杯最具争议的时刻之一，两国之间的恩怨至今未息。",
+      "desc_en": "The Ghana–Uruguay rivalry was born from the bitterness of the 2010 World Cup quarter-final: Suárez's handball on the line, Gyan's penalty hitting the crossbar, then a shootout defeat. Ghana were denied a historic semi-final place in one of the World Cup's most controversial moments — a wound that has never fully healed for the Black Stars."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🌍",
+      "text_zh": "2010年世界杯在非洲大陆举行，加纳是最后一支非洲球队，八强赛中差点创造历史，苏亚雷斯的手球事件成为足球史上最具争议的瞬间之一",
+      "text_en": "Ghana were the last African team standing at the 2010 World Cup on home soil, agonisingly close to a historic semi-final before Luis Suárez's infamous handball denied them in one of the game's most controversial moments"
+    },
+    {
+      "icon": "👨‍👦",
+      "text_zh": "加纳足球阿亚家族是世界足坛最传奇的足球世家：父亲阿贝迪·贝利（三届非洲最佳），长子安德烈（120帽队长），次子约旦（现役国脚），三代共担黑星队的荣光",
+      "text_en": "The Ayew family is one of football's greatest dynasties: father Abedi Pelé (three-time African Footballer of the Year), son André (record 120 caps), and son Jordan (current captain) — three generations spanning five decades of Ghanaian football glory"
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "加纳是非洲杯四冠王（1963、1965、1978、1982），五度打入决赛，是非洲大陆荣誉最多的国家队之一",
+      "text_en": "Ghana are four-time Africa Cup of Nations champions (1963, 1965, 1978, 1982) and five-time finalists — one of Africa's most decorated national football teams in the tournament's history"
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "加纳在2009年FIFA U-20世界杯夺冠，成为历史上首支赢得该项赛事的非洲球队，那届青年队奠定了此后\"黄金一代\"的根基",
+      "text_en": "Ghana won the 2009 FIFA U-20 World Cup, becoming the first African nation to claim the title — laying the foundation for a golden generation that would carry the senior team to new heights"
+    },
+    {
+      "icon": "🌟",
+      "text_zh": "穆罕默德·库杜斯是目前加纳最耀眼的新星，效力于托特纳姆热刺，以灵动的盘带和犀利的进攻被视为\"后埃辛时代\"最出色的加纳天才",
+      "text_en": "Mohammed Kudus is Ghana's brightest new star — the Tottenham Hotspur forward's dazzling dribbling and lethal instincts make him the most exciting Ghanaian talent since Michael Essien"
+    },
+    {
+      "icon": "⭐",
+      "text_zh": "加纳国旗中央的黑色五角星象征非洲的解放，国家队也因此得名\"黑星\"，是非洲民族独立精神在足球场上的延伸与象征",
+      "text_en": "The black star at the centre of Ghana's flag symbolises African liberation — the national team's name, the Black Stars, carries that same spirit of Pan-African pride and independence onto the world stage"
+    }
+  ]
+}

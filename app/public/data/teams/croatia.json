@@ -1,0 +1,360 @@
+{
+  "meta": {
+    "slug": "croatia",
+    "generated": "2026-04-12",
+    "version": 1
+  },
+  "team": {
+    "name_zh": "克罗地亚",
+    "name_en": "Croatia",
+    "flag_emoji": "🇭🇷",
+    "federation": "HNS",
+    "fifa_rank": 11,
+    "group": "L",
+    "colors": {
+      "primary": "#CC0000",
+      "secondary": "#FFFFFF",
+      "accent": "#0033A0"
+    }
+  },
+  "country": {
+    "name_zh": "克罗地亚",
+    "name_en": "Croatia",
+    "capital": "Zagreb",
+    "population_zh": "380万",
+    "population_en": "3.8 million",
+    "area": "56,594 km²",
+    "language_zh": "克罗地亚语",
+    "language_en": "Croatian",
+    "continent_zh": "欧洲",
+    "continent_en": "Europe",
+    "currency_zh": "欧元",
+    "currency_en": "Euro",
+    "anthem_zh": "我们美丽的家园",
+    "anthem_en": "Lijepa naša domovino",
+    "desc_zh": "克罗地亚是位于东南欧巴尔干半岛西北部的国家，濒临亚得里亚海，以壮丽的海岸线、普利特维采湖群国家公园和古城杜布罗夫尼克著称。这个仅有380万人口的小国凭借深厚的文化底蕴和足球传统在国际舞台上享有远超其体量的影响力。",
+    "desc_en": "Croatia is a country in southeastern Europe on the Adriatic coast, famed for its stunning coastline, Plitvice Lakes National Park, and the ancient walled city of Dubrovnik. A nation of just 3.8 million people, Croatia punches far above its weight on the world stage thanks to a rich cultural heritage and exceptional footballing tradition.",
+    "football_desc_zh": "克罗地亚足球以标志性的红白格纹球衣闻名于世，绰号\"火焰\"（Vatreni）。自1991年独立后，这支小国球队迅速崛起，以1998年世界杯季军惊艳亮相，随后又在2018年强势杀入决赛，成为人口最少的世界杯亚军队伍之一。",
+    "football_desc_en": "Croatia's football team is recognised worldwide by their iconic red-and-white chequered kit, earning the nickname Vatreni (The Blazers). Since independence in 1991, this small nation has risen rapidly — finishing third at their first World Cup in 1998 and storming to the final in 2018, becoming one of the smallest nations ever to reach that stage."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 7,
+    "best_result_zh": "亚军",
+    "best_result_en": "Runner-up",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1998,
+        "host_zh": "法国",
+        "host_en": "France",
+        "result_zh": "第三名",
+        "result_en": "3rd place",
+        "note_zh": "首届世界杯即杀入四强，达沃·苏克摘得金靴奖（6球），季军战2-1胜荷兰",
+        "note_en": "Remarkable debut — reached the semi-finals; Davor Šuker won the Golden Boot with 6 goals; beat Netherlands 2-1 for bronze",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 2002,
+        "host_zh": "韩国/日本",
+        "host_en": "South Korea/Japan",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "与意大利、厄瓜多尔、墨西哥同组，未能出线",
+        "note_en": "Drawn into a tough group with Italy, Ecuador, and Mexico; eliminated at group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2006,
+        "host_zh": "德国",
+        "host_en": "Germany",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "与巴西、澳大利亚、日本同组，一胜一平一负出局",
+        "note_en": "Group stage exit alongside Brazil, Australia, and Japan — one win, one draw, one loss",
+        "row_class": "group"
+      },
+      {
+        "year": 2014,
+        "host_zh": "巴西",
+        "host_en": "Brazil",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "揭幕战对阵东道主巴西，以1-3落败，小组赛提前出局",
+        "note_en": "Opened the tournament against hosts Brazil, losing 1-3 in a controversial match; eliminated in the group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2018,
+        "host_zh": "俄罗斯",
+        "host_en": "Russia",
+        "result_zh": "亚军",
+        "result_en": "Runner-up",
+        "note_zh": "淘汰赛三度加时仍顽强过关，决赛惜败法国2-4，创历史最佳成绩；莫德里奇荣膺金球奖",
+        "note_en": "Survived three extra-time knockout matches; lost the final to France 2-4 in a historic best-ever finish; Modrić won the Golden Ball",
+        "row_class": "final"
+      },
+      {
+        "year": 2022,
+        "host_zh": "卡塔尔",
+        "host_en": "Qatar",
+        "result_zh": "第三名",
+        "result_en": "3rd place",
+        "note_zh": "再度杀入四强，点球战险胜巴西，半决赛负于阿根廷，季军战2-1胜摩洛哥",
+        "note_en": "Semi-final run again — beat Brazil on penalties, lost to Argentina in the semi-final, then beat Morocco 2-1 for bronze",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 2026,
+        "host_zh": "美国/加拿大/墨西哥",
+        "host_en": "USA/Canada/Mexico",
+        "result_zh": "已晋级",
+        "result_en": "Qualified",
+        "note_zh": "分入L组，与英格兰、加纳、巴拿马同组；首战6月17日在德克萨斯州阿灵顿对阵英格兰",
+        "note_en": "Drawn into Group L with England, Ghana, and Panama; opener vs England on June 17 in Arlington, Texas",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name_zh": "兹拉特科·达利奇",
+      "name_en": "Zlatko Dalić",
+      "nationality_zh": "克罗地亚",
+      "nationality_en": "Croatian"
+    },
+    "players": [
+      {
+        "name_zh": "多米尼克·利瓦科维奇",
+        "name_en": "Dominik Livaković",
+        "position": "GK",
+        "club": "Fenerbahçe",
+        "caps": 62
+      },
+      {
+        "name_zh": "伊维察·伊武西奇",
+        "name_en": "Ivica Ivušić",
+        "position": "GK",
+        "club": "Osijek",
+        "caps": 18
+      },
+      {
+        "name_zh": "约什科·格瓦迪奥尔",
+        "name_en": "Joško Gvardiol",
+        "position": "DEF",
+        "club": "Manchester City",
+        "caps": 52
+      },
+      {
+        "name_zh": "约西普·斯塔洛",
+        "name_en": "Josip Šutalo",
+        "position": "DEF",
+        "club": "Ajax",
+        "caps": 22
+      },
+      {
+        "name_zh": "多马戈伊·维达",
+        "name_en": "Domagoj Vida",
+        "position": "DEF",
+        "club": "AEK Athens",
+        "caps": 103
+      },
+      {
+        "name_zh": "博纳·索萨",
+        "name_en": "Borna Sosa",
+        "position": "DEF",
+        "club": "Ajax",
+        "caps": 34
+      },
+      {
+        "name_zh": "马丁·埃尔利奇",
+        "name_en": "Martin Erlić",
+        "position": "DEF",
+        "club": "RB Leipzig",
+        "caps": 28
+      },
+      {
+        "name_zh": "卢卡·莫德里奇",
+        "name_en": "Luka Modrić",
+        "position": "MID",
+        "club": "AC Milan",
+        "caps": 196
+      },
+      {
+        "name_zh": "马特奥·科瓦契奇",
+        "name_en": "Mateo Kovačić",
+        "position": "MID",
+        "club": "Manchester City",
+        "caps": 112
+      },
+      {
+        "name_zh": "马塞洛·布罗佐维奇",
+        "name_en": "Marcelo Brozović",
+        "position": "MID",
+        "club": "Al-Nassr",
+        "caps": 88
+      },
+      {
+        "name_zh": "洛夫罗·马耶尔",
+        "name_en": "Lovro Majer",
+        "position": "MID",
+        "club": "Wolfsburg",
+        "caps": 38
+      },
+      {
+        "name_zh": "卢卡·苏奇奇",
+        "name_en": "Luka Sučić",
+        "position": "MID",
+        "club": "Red Bull Salzburg",
+        "caps": 24
+      },
+      {
+        "name_zh": "安德烈·克拉马里奇",
+        "name_en": "Andrej Kramarić",
+        "position": "FWD",
+        "club": "Hoffenheim",
+        "caps": 88
+      },
+      {
+        "name_zh": "伊万·佩里西奇",
+        "name_en": "Ivan Perišić",
+        "position": "FWD",
+        "club": "Hajduk Split",
+        "caps": 120
+      },
+      {
+        "name_zh": "马尔科·利瓦亚",
+        "name_en": "Marko Livaja",
+        "position": "FWD",
+        "club": "Hajduk Split",
+        "caps": 36
+      },
+      {
+        "name_zh": "布鲁诺·佩特科维奇",
+        "name_en": "Bruno Petković",
+        "position": "FWD",
+        "club": "Dinamo Zagreb",
+        "caps": 42
+      }
+    ]
+  },
+  "legends": [
+    {
+      "number": 1,
+      "name_zh": "卢卡·莫德里奇",
+      "name_en": "Luka Modrić",
+      "years": "2006–present",
+      "position_zh": "中场",
+      "position_en": "Midfielder",
+      "bio_zh": "卢卡·莫德里奇是克罗地亚历史上出场最多的球员，也是公认的二十一世纪最佳中场之一。他在2018年带领克罗地亚杀入世界杯决赛，同年荣获金球奖，打破了梅西和C罗长达十年的垄断。童年时在战乱中长大的他，逆境造就了这位不屈的球场领袖。",
+      "bio_en": "Luka Modrić is Croatia's most capped player and one of the finest midfielders of the 21st century. He led Croatia to the 2018 World Cup final and won the Ballon d'Or that year — ending Messi and Ronaldo's decade-long dominance. Raised amid war in the 1990s, his resilience off the pitch is as remarkable as his brilliance on it.",
+      "stat_value": "196",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 2,
+      "name_zh": "达沃·苏克",
+      "name_en": "Davor Šuker",
+      "years": "1990–2002",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "达沃·苏克是克罗地亚史上最伟大的前锋，1998年世界杯摘得金靴奖，以6粒进球帮助球队夺得季军。他在职业生涯为国家队打入45球，至今仍是历史射手王。苏克以精准的射门技巧和出色的跑位闻名，被誉为巴尔干足球史上最具天赋的射手之一。",
+      "bio_en": "Davor Šuker is Croatia's greatest ever striker, claiming the Golden Boot at the 1998 World Cup with 6 goals as Croatia finished third. His tally of 45 international goals remains the all-time national record. Renowned for his finishing precision and intelligent movement, he is considered one of the most gifted strikers the Balkans has produced.",
+      "stat_value": "45",
+      "stat_zh": "国家队进球",
+      "stat_en": "international goals"
+    },
+    {
+      "number": 3,
+      "name_zh": "兹沃尼米尔·博班",
+      "name_en": "Zvonimir Boban",
+      "years": "1990–2002",
+      "position_zh": "中场",
+      "position_en": "Midfielder",
+      "bio_zh": "兹沃尼米尔·博班是克罗地亚足球独立时代的奠基者之一，以强悍的防守和精妙的传球组织著称。他在AC米兰效力期间赢得多项欧冠荣誉，并作为中场核心引领克罗地亚在1998年世界杯大放异彩。退役后曾担任FIFA和欧足联官员。",
+      "bio_en": "Zvonimir Boban was one of the architects of Croatia's footballing identity after independence, known for his combative style and precise passing. He won multiple Champions League titles at AC Milan and was the midfield heartbeat of Croatia's remarkable 1998 World Cup run. After retiring, he served in leadership roles at FIFA and UEFA.",
+      "stat_value": "51",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 4,
+      "name_zh": "伊万·拉基蒂奇",
+      "name_en": "Ivan Rakitić",
+      "years": "2007–2021",
+      "position_zh": "中场",
+      "position_en": "Midfielder",
+      "bio_zh": "伊万·拉基蒂奇是连接克罗地亚1998年辉煌与现代崛起的中场大师。他在巴塞罗那度过职业生涯巅峰，赢得四次西甲冠军和欧冠奖杯。在2018年世界杯上，他打进决赛进球，并在多场点球战中大显神威，是克罗地亚最重要的功勋之一。",
+      "bio_en": "Ivan Rakitić was the midfield engine bridging Croatia's 1998 generation and the modern era. At Barcelona he won four La Liga titles and the Champions League. At the 2018 World Cup he scored in the final and proved decisive in multiple penalty shootouts — an indispensable figure in Croatia's greatest tournament run.",
+      "stat_value": "106",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 5,
+      "name_zh": "马里奥·曼祖基奇",
+      "name_en": "Mario Mandžukić",
+      "years": "2007–2019",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "马里奥·曼祖基奇是克罗地亚历史上最全面的中锋之一，以拼搏精神、空中优势和关键大赛进球著称。他在2018年世界杯决赛打进加时赛制胜进球令克罗地亚一度领先法国，同时也是世界杯历史上唯一一位在同一场决赛中打进自入球和进球的球员。",
+      "bio_en": "Mario Mandžukić was one of Croatia's most complete centre-forwards — known for his work rate, aerial power, and big-game goals. In the 2018 World Cup final he netted the extra-time goal that briefly put Croatia ahead of France. He holds the unique record of scoring both an own goal and a goal in the same World Cup final.",
+      "stat_value": "33",
+      "stat_zh": "国家队进球",
+      "stat_en": "international goals"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "塞尔维亚",
+      "opponent_en": "Serbia",
+      "desc_zh": "克罗地亚与塞尔维亚的对阵是巴尔干半岛最具政治色彩的足球宿怨，植根于南斯拉夫解体与1990年代战争的历史。每次交锋都超越体育范畴，承载着两国深重的历史情感。两队多次在欧洲杯和世界杯资格赛中狭路相逢，场面总是剑拔弩张。",
+      "desc_en": "The Croatia–Serbia rivalry is the Balkans' most politically charged football fixture, rooted in the dissolution of Yugoslavia and the wars of the 1990s. Every meeting goes beyond sport, carrying the weight of deep national history. The two sides have clashed repeatedly in European and World Cup qualifiers, always with enormous intensity."
+    },
+    {
+      "opponent_zh": "英格兰",
+      "opponent_en": "England",
+      "desc_zh": "克罗地亚与英格兰有两场令人难忘的较量。2018年世界杯半决赛，克罗地亚在加时赛中以2-1逆转英格兰，打碎了三狮军团时隔52年再度决赛的梦想，曼祖基奇的加时绝杀成为历史经典。2026年小组赛两队将再度相遇，增添了更多期待。",
+      "desc_en": "Croatia and England share two memorable encounters. At the 2018 World Cup semi-final, Croatia overturned a 1-0 deficit in extra time to win 2-1, ending England's dreams of a first final in 52 years. With the two sides drawn together again in Group L in 2026, their rivalry is set for a new chapter."
+    },
+    {
+      "opponent_zh": "意大利",
+      "opponent_en": "Italy",
+      "desc_zh": "克罗地亚与意大利的对阵兼具地缘政治因素与运动竞技，两国隔亚得里亚海相望，有着复杂的历史渊源。最令人印象深刻的是2024年欧洲杯小组赛补时绝平那一幕，克罗地亚顽强追平意大利，给全球球迷留下深刻记忆。",
+      "desc_en": "Croatia and Italy share a rivalry shaped by geography and history as near-neighbours across the Adriatic. Most memorably at Euro 2024, a last-minute equaliser by Croatia stunned Italy in a dramatic group-stage finish — a moment that epitomises the intensity of this contest."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🏆",
+      "text_zh": "克罗地亚是历史上人口最少的世界杯决赛球队之一，全国仅380万人，却在2018年杀入决赛，并于1998年和2022年两度夺得季军",
+      "text_en": "Croatia are one of the smallest nations ever to reach a World Cup final — with just 3.8 million people, they reached the 2018 final and claimed third place in both 1998 and 2022"
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "克罗地亚球衣的标志性红白方格图案源自克罗地亚历史纹章，已有数百年历史，是全球最具辨识度的球衣之一",
+      "text_en": "Croatia's iconic red-and-white chequered kit is drawn from the historic Croatian coat of arms, dating back centuries — it's one of the most recognisable strips in world football"
+    },
+    {
+      "icon": "🥇",
+      "text_zh": "卢卡·莫德里奇在2018年荣获金球奖和世界杯金球奖，终结了梅西和C罗长达十年的垄断，成为足球史上的里程碑时刻",
+      "text_en": "Luka Modrić won the 2018 Ballon d'Or and World Cup Golden Ball, ending Messi and Ronaldo's 10-year monopoly — a landmark moment in football history"
+    },
+    {
+      "icon": "🥅",
+      "text_zh": "克罗地亚是世界杯历史上点球大战胜率最高的球队之一，在2022年卡塔尔世界杯中连续两场点球战奇迹闯关，成就了赛会最具戏剧性的进军之旅",
+      "text_en": "Croatia have one of the best penalty shootout records in World Cup history, surviving two shootouts in a row at Qatar 2022 in one of the tournament's most dramatic knockout runs"
+    },
+    {
+      "icon": "🌍",
+      "text_zh": "克罗地亚于1991年独立，1994年加入FIFA，仅四年后便在首届世界杯赛上摘得季军，是FIFA排名历史上上升速度最快的国家之一",
+      "text_en": "Croatia declared independence in 1991 and joined FIFA in 1994 — just four years later they finished third at their debut World Cup, one of the fastest rises in FIFA ranking history"
+    },
+    {
+      "icon": "🔥",
+      "text_zh": "2026年世界杯是\"传奇\"莫德里奇的职业谢幕之旅，而新星格瓦迪奥尔正接过火炬，老中青三代同堂竞技，完美诠释克罗地亚足球的传承精神",
+      "text_en": "The 2026 World Cup is widely expected to be Modrić's farewell to football's biggest stage, while young star Gvardiol steps up as the next leader — a perfect symbol of Croatian football's generational continuity"
+    }
+  ]
+}

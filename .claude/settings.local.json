@@ -10,7 +10,8 @@
       "Bash(git add:*)",
       "Bash(git commit -m ':*)",
       "WebFetch(domain:www.englandfootball.com)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "WebFetch(domain:www.foxsports.com)"
     ]
   }
 }

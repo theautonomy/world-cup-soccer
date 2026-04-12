@@ -1,0 +1,291 @@
+{
+  "meta": {
+    "slug": "panama",
+    "generated": "2026-04-12",
+    "version": 1
+  },
+  "team": {
+    "name_zh": "巴拿马",
+    "name_en": "Panama",
+    "flag_emoji": "🇵🇦",
+    "federation": "FEPAFUT",
+    "fifa_rank": 33,
+    "group": "L",
+    "colors": {
+      "primary": "#DA121A",
+      "secondary": "#FFFFFF",
+      "accent": "#002B7F"
+    }
+  },
+  "country": {
+    "name_zh": "巴拿马",
+    "name_en": "Panama",
+    "capital": "Panama City",
+    "population_zh": "440万",
+    "population_en": "4.4 million",
+    "area": "75,417 km²",
+    "language_zh": "西班牙语",
+    "language_en": "Spanish",
+    "continent_zh": "北美洲",
+    "continent_en": "North America",
+    "currency_zh": "巴波亚 / 美元",
+    "currency_en": "Balboa / US Dollar",
+    "anthem_zh": "巴拿马颂歌",
+    "anthem_en": "Himno Istmeño",
+    "desc_zh": "巴拿马是连接北美洲与南美洲的细长陆桥国家，以举世闻名的巴拿马运河著称。这条人工水道连通太平洋与大西洋，每年通过约14,000艘船只，是全球贸易最重要的动脉之一。巴拿马城是中美洲最现代化的城市之一，摩天大楼与列入世界遗产的历史老城区并肩而立。",
+    "desc_en": "Panama is a narrow land bridge connecting North and South America, most famous for the Panama Canal — an engineering marvel linking the Pacific and Atlantic Oceans. Around 14,000 vessels pass through annually, making it one of the world's busiest trade arteries. Panama City is one of Central America's most modern cities, blending skyscrapers with a UNESCO-listed historic quarter.",
+    "football_desc_zh": "巴拿马足球起步虽晚，却以惊人速度崛起于国际赛场。绰号\"运河人\"（Los Canaleros）的国家队长期在中北美洲徘徊，直至2018年首次晋级世界杯，实现了举国上下的百年梦想。首届世界杯三战全负，却成为激励下一代球员的宝贵经历；2026年再度踏上世界杯舞台，续写传奇。",
+    "football_desc_en": "Panama's football story is one of rapid emergence. Nicknamed Los Canaleros, the national team long battled for relevance in CONCACAF before making their historic 2018 World Cup debut. Though they lost all three group matches, the experience galvanised a generation — and in 2026, they return to the world stage for a second time, determined to go further."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 2,
+    "best_result_zh": "小组赛出局",
+    "best_result_en": "Group stage",
+    "title_years": [],
+    "history": [
+      {
+        "year": 2018,
+        "host_zh": "俄罗斯",
+        "host_en": "Russia",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "历史性首秀：0-3负于比利时，1-6不敌英格兰（菲利佩·巴洛伊打进巴拿马世界杯史上第一球），1-2落败突尼斯",
+        "note_en": "Historic debut — lost 0-3 to Belgium, 1-6 to England (Felipe Baloy scored Panama's first-ever World Cup goal), and 1-2 to Tunisia",
+        "row_class": "group"
+      },
+      {
+        "year": 2026,
+        "host_zh": "美国/加拿大/墨西哥",
+        "host_en": "USA/Canada/Mexico",
+        "result_zh": "已晋级",
+        "result_en": "Qualified",
+        "note_zh": "分入L组，与英格兰、克罗地亚、加纳同组；首战6月17日在多伦多对阵加纳",
+        "note_en": "Drawn into Group L with England, Croatia, and Ghana; opener vs Ghana on June 17 in Toronto",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name_zh": "托马斯·克里斯滕森",
+      "name_en": "Thomas Christiansen",
+      "nationality_zh": "西班牙/丹麦",
+      "nationality_en": "Spanish/Danish"
+    },
+    "players": [
+      {
+        "name_zh": "何塞·卡尔德隆",
+        "name_en": "José Calderón",
+        "position": "GK",
+        "club": "San José Earthquakes",
+        "caps": 42
+      },
+      {
+        "name_zh": "路易斯·梅希亚",
+        "name_en": "Luis Mejía",
+        "position": "GK",
+        "club": "Olimpia",
+        "caps": 22
+      },
+      {
+        "name_zh": "阿米尔·穆里略",
+        "name_en": "Amir Murillo",
+        "position": "DEF",
+        "club": "Olympique de Marseille",
+        "caps": 64
+      },
+      {
+        "name_zh": "菲德尔·埃斯科瓦尔",
+        "name_en": "Fidel Escobar",
+        "position": "DEF",
+        "club": "New York Red Bulls",
+        "caps": 58
+      },
+      {
+        "name_zh": "埃里克·戴维斯",
+        "name_en": "Eric Davis",
+        "position": "DEF",
+        "club": "Emelec",
+        "caps": 82
+      },
+      {
+        "name_zh": "哈罗德·卡明斯",
+        "name_en": "Harold Cummings",
+        "position": "DEF",
+        "club": "San José Earthquakes",
+        "caps": 75
+      },
+      {
+        "name_zh": "阿尼瓦尔·戈多伊",
+        "name_en": "Aníbal Godoy",
+        "position": "MID",
+        "club": "Nashville SC",
+        "caps": 159
+      },
+      {
+        "name_zh": "阿达尔贝托·卡拉斯基利亚",
+        "name_en": "Adalberto Carrasquilla",
+        "position": "MID",
+        "club": "Houston Dynamo",
+        "caps": 62
+      },
+      {
+        "name_zh": "埃德加·巴尔塞纳斯",
+        "name_en": "Edgar Bárcenas",
+        "position": "MID",
+        "club": "Olimpia",
+        "caps": 68
+      },
+      {
+        "name_zh": "何塞·法哈多",
+        "name_en": "José Fajardo",
+        "position": "MID",
+        "club": "FC Dallas",
+        "caps": 48
+      },
+      {
+        "name_zh": "伊斯马埃尔·迪亚斯",
+        "name_en": "Ismael Díaz",
+        "position": "FWD",
+        "club": "Chicago Fire",
+        "caps": 44
+      },
+      {
+        "name_zh": "爱德华多·格雷罗",
+        "name_en": "Eduardo Guerrero",
+        "position": "FWD",
+        "club": "Monterrey",
+        "caps": 56
+      },
+      {
+        "name_zh": "塞西利奥·沃特曼",
+        "name_en": "Cecilio Waterman",
+        "position": "FWD",
+        "club": "Pumas UNAM",
+        "caps": 38
+      },
+      {
+        "name_zh": "加布里埃尔·托雷斯",
+        "name_en": "Gabriel Torres",
+        "position": "FWD",
+        "club": "CD Olimpia",
+        "caps": 88
+      }
+    ]
+  },
+  "legends": [
+    {
+      "number": 1,
+      "name_zh": "阿尼瓦尔·戈多伊",
+      "name_en": "Aníbal Godoy",
+      "years": "2006–present",
+      "position_zh": "中场",
+      "position_en": "Midfielder",
+      "bio_zh": "阿尼瓦尔·戈多伊是巴拿马历史上出场次数最多的球员，也是队长与精神领袖。他在纳什维尔SC效力多年，以稳健的防守中场风格著称。戈多伊见证了巴拿马从默默无闻到两度跻身世界杯的整段历程，是现役阵容中最重要的老将之一。",
+      "bio_en": "Aníbal Godoy is Panama's most capped player and undisputed captain. A disciplined defensive midfielder, he has spent years at Nashville SC and witnessed every step of Panama's rise from obscurity to two World Cup appearances. He embodies the spirit of a generation that transformed Panamanian football.",
+      "stat_value": "159",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 2,
+      "name_zh": "路易斯·特哈达",
+      "name_en": "Luis Tejada",
+      "years": "2000–2020",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "路易斯·特哈达是巴拿马历史上进球最多的球员，以43粒国家队进球独领风骚。这位来自科隆的前锋以强壮的身体和高效的射门著称，多年来是巴拿马锋线的绝对核心，职业生涯辗转中北美洲多个联赛，是推动巴拿马首次晋级世界杯的功勋人物之一。",
+      "bio_en": "Luis Tejada is Panama's all-time top scorer with 43 international goals. A powerful forward from Colón, he was the focal point of Panama's attack for two decades, plying his trade across multiple leagues in Central and North America. His goals were instrumental in driving Panama toward their 2018 World Cup dream.",
+      "stat_value": "43",
+      "stat_zh": "国家队进球",
+      "stat_en": "international goals"
+    },
+    {
+      "number": 3,
+      "name_zh": "海梅·佩内多",
+      "name_en": "Jaime Penedo",
+      "years": "2004–2019",
+      "position_zh": "门将",
+      "position_en": "Goalkeeper",
+      "bio_zh": "海梅·佩内多是巴拿马历史上最具代表性的门将，其最高光时刻是2017年CONCACAF资格赛主场对阵美国的点球大战——他扑出关键点球，帮助巴拿马2-1击败美国，直接将球队送入2018年世界杯，令全国陷入疯狂。",
+      "bio_en": "Jaime Penedo is the most celebrated goalkeeper in Panamanian football history. His defining moment came in the 2018 World Cup qualifier against the United States — he saved a crucial penalty to help Panama win 2-1, securing their first-ever World Cup qualification and triggering nationwide celebrations.",
+      "stat_value": "109",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 4,
+      "name_zh": "布拉斯·佩雷斯",
+      "name_en": "Blas Pérez",
+      "years": "2004–2018",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "布拉斯·佩雷斯是巴拿马足球腾飞时代的标志性前锋，职业生涯辗转墨西哥、美国和中美洲各大联赛，以顽强拼搏的作风和强大的进球能力赢得球迷爱戴。他曾带领巴拿马多次进入CONCACAF黄金杯决赛，是推动球队历史性进步的核心功勋之一。",
+      "bio_en": "Blas Pérez was a defining figure during Panama's rise, a tireless forward who played across Mexico, the US, and Central America. Known for his work rate and eye for goal, he drove Panama to multiple CONCACAF Gold Cup finals and was one of the most important contributors to the team's historic progress.",
+      "stat_value": "42",
+      "stat_zh": "国家队进球",
+      "stat_en": "international goals"
+    },
+    {
+      "number": 5,
+      "name_zh": "菲利佩·巴洛伊",
+      "name_en": "Felipe Baloy",
+      "years": "2006–2018",
+      "position_zh": "后卫",
+      "position_en": "Defender",
+      "bio_zh": "菲利佩·巴洛伊因一粒进球而永载巴拿马足球史册。2018年世界杯对阵英格兰，这位38岁的老将在第78分钟打进巴拿马世界杯历史首球，令全国球迷感动落泪，成为巴拿马足球史上最珍贵的历史时刻。",
+      "bio_en": "Felipe Baloy is immortalised in Panamanian football history for one goal — scored in the 78th minute against England at the 2018 World Cup. At 38, the veteran defender netted Panama's first-ever World Cup goal, a moment that moved a nation to tears and will never be forgotten.",
+      "stat_value": "128",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "哥斯达黎加",
+      "opponent_en": "Costa Rica",
+      "desc_zh": "巴拿马与哥斯达黎加是中北美洲最激烈的竞争对手之一，两国在CONCACAF资格赛和黄金杯中多次正面交锋。这场中美洲内部的较量不仅关乎胜负，更是地区足球主导权的争夺，每逢两队相遇，气氛总是异常紧张。",
+      "desc_en": "Panama and Costa Rica are fierce CONCACAF rivals, meeting repeatedly in World Cup qualifying and the Gold Cup. This Central American contest goes beyond results — it is a battle for regional footballing supremacy, and matches between the two sides are always fiercely contested."
+    },
+    {
+      "opponent_zh": "美国",
+      "opponent_en": "United States",
+      "desc_zh": "巴拿马与美国之间的最著名时刻发生在2017年CONCACAF世界杯资格赛，巴拿马凭借佩内多的神扑点球2-1击败美国，提前锁定2018年世界杯资格。这场胜利具有历史性意义，成为两国关系中最标志性的足球记忆。",
+      "desc_en": "The USA–Panama rivalry peaked in 2017 when Panama beat the US 2-1 in a World Cup qualifier, with goalkeeper Jaime Penedo saving a crucial penalty. The victory secured Panama's 2018 World Cup place and stands as the most significant result in Panamanian football history."
+    },
+    {
+      "opponent_zh": "墨西哥",
+      "opponent_en": "Mexico",
+      "desc_zh": "墨西哥是CONCACAF传统霸主，而巴拿马近年来已成为其不可忽视的强劲对手。两队在黄金杯和资格赛中多次正面碰撞，随着巴拿马整体实力的持续提升，这一对阵日益成为中北美区的顶级焦点赛事。",
+      "desc_en": "Mexico are CONCACAF giants, but Panama have increasingly become a credible rival. The two sides meet regularly in Gold Cup and qualifying competition, and as Panama's level has risen, their encounters have grown into genuinely compelling contests for regional dominance."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "⚽",
+      "text_zh": "巴拿马世界杯历史上的第一粒进球由38岁老将菲利佩·巴洛伊于2018年打进，成为世界杯历史上最年长的首次进球球员之一",
+      "text_en": "Panama's first-ever World Cup goal was scored by 38-year-old defender Felipe Baloy in 2018, making him one of the oldest players in history to score on their World Cup debut"
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "巴拿马曾三度进入CONCACAF黄金杯决赛（2005、2013、2023），但至今尚未捧起冠军奖杯，是中北美洲最具竞争力的\"万年亚军\"之一",
+      "text_en": "Panama have reached the CONCACAF Gold Cup final three times (2005, 2013, 2023) without winning — one of the region's most consistent overachievers who are yet to claim the title"
+    },
+    {
+      "icon": "🌊",
+      "text_zh": "国家队绰号\"运河人\"（Los Canaleros），灵感来自举世闻名的巴拿马运河，象征着连通两大洋的桥梁精神和巴拿马民族的坚韧与开放",
+      "text_en": "Panama's national team is nicknamed Los Canaleros (The Canal Workers), a tribute to the Panama Canal — the engineering wonder connecting two oceans that defined the nation's identity and spirit"
+    },
+    {
+      "icon": "📺",
+      "text_zh": "2017年巴拿马主场2-1击败美国晋级世界杯的一刻，国家播音员激动落泪的解说视频在全球疯狂传播，成为CONCACAF区最令人动容的历史时刻之一",
+      "text_en": "When Panama qualified for the 2018 World Cup by beating the USA 2-1, the tearful commentary from the national broadcaster went viral worldwide — one of the most emotional moments in CONCACAF history"
+    },
+    {
+      "icon": "🌍",
+      "text_zh": "主教练托马斯·克里斯滕森是西班牙/丹麦双国籍球员出身，曾效力巴塞罗那，执教风格注重控球与战术纪律，带领巴拿马以CONCACAF资格赛头名身份强势晋级2026年世界杯",
+      "text_en": "Coach Thomas Christiansen is a former Barcelona player with dual Spanish/Danish nationality, whose possession-based and tactically disciplined approach powered Panama to top their CONCACAF qualifying group ahead of the 2026 World Cup"
+    }
+  ]
+}

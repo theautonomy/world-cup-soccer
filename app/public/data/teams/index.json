@@ -1,9 +1,30 @@
 [
   {
+    "slug": "croatia",
+    "name_zh": "克罗地亚",
+    "name_en": "Croatia",
+    "flag_emoji": "🇭🇷",
+    "fifa_rank": 11
+  },
+  {
     "slug": "england",
     "name_zh": "英格兰",
     "name_en": "England",
     "flag_emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "fifa_rank": 4
+  },
+  {
+    "slug": "ghana",
+    "name_zh": "加纳",
+    "name_en": "Ghana",
+    "flag_emoji": "🇬🇭",
+    "fifa_rank": 74
+  },
+  {
+    "slug": "panama",
+    "name_zh": "巴拿马",
+    "name_en": "Panama",
+    "flag_emoji": "🇵🇦",
+    "fifa_rank": 33
   }
 ]

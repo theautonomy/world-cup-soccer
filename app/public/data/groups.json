@@ -1,0 +1,17 @@
+{
+  "_note": "2026 FIFA World Cup group draw — December 5, 2025, Washington D.C. 12 groups × 4 teams.",
+  "groups": {
+    "A": ["mexico", "south-korea", "south-africa", "czechia"],
+    "B": ["canada", "switzerland", "qatar", "bosnia-herzegovina"],
+    "C": ["brazil", "morocco", "scotland", "haiti"],
+    "D": ["usa", "paraguay", "australia", "turkiye"],
+    "E": ["germany", "ecuador", "ivory-coast", "curacao"],
+    "F": ["netherlands", "japan", "tunisia", "sweden"],
+    "G": ["belgium", "iran", "egypt", "new-zealand"],
+    "H": ["spain", "uruguay", "saudi-arabia", "cape-verde"],
+    "I": ["france", "senegal", "norway", "iraq"],
+    "J": ["argentina", "austria", "algeria", "jordan"],
+    "K": ["portugal", "colombia", "uzbekistan", "dr-congo"],
+    "L": ["england", "croatia", "panama", "ghana"]
+  }
+}
