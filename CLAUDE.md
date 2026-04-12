@@ -22,6 +22,7 @@ world-cup-soccer/
       context/AppContext.jsx           — lang + theme state (localStorage-backed)
       styles/global.css                — CSS variables, theme, typography
     public/data/teams/                 — JSON copied here by CI before build
+  dev.mjs                              — local dev script (sync JSON + run app)
   templates/team-template.html        — legacy HTML template (kept for reference)
   output/teams/                        — legacy HTML output (gitignored)
   .github/workflows/deploy-pages.yml  — CI: copy JSON → app/public → npm build → deploy
@@ -48,7 +49,8 @@ Current modes:
    - `--new` flag → force full regeneration
 2. **Research** — WebSearch for country info, WC history, 2026 squad, legends, rivalries, fun facts
 3. **Write** — save to `data/teams/{slug}.json`
-4. **Deploy** — push to `master` triggers GitHub Actions: copies JSON → builds React → deploys to GitHub Pages
+4. **Test locally** — `node dev.mjs` syncs JSON and starts the dev server
+5. **Deploy** — push to `master` triggers GitHub Actions: copies JSON → builds React → deploys to GitHub Pages
 
 ## JSON Schema
 
@@ -91,6 +93,20 @@ Every text element uses the `<T>` component:
 `data/teams/{slug}.json` where slug = lowercase English team name, spaces → hyphens.
 
 Examples: `brazil.json`, `south-korea.json`, `united-states.json`
+
+## Local Development
+
+```bash
+node dev.mjs        # sync JSON + start Vite dev server  → http://localhost:5173/world-cup-soccer/
+node dev.mjs prod   # sync JSON + production build + preview → http://localhost:4173/world-cup-soccer/
+```
+
+`dev.mjs` does three things:
+1. Copies `data/teams/*.json` → `app/public/data/teams/`
+2. Generates `app/public/data/teams/index.json` from all present team files
+3. Starts the React dev server (or builds + starts preview for `prod`)
+
+Re-run after generating any new team JSON to pick it up.
 
 ## Adding New Modes
 

@@ -23,8 +23,9 @@ Type a team name. The agent researches the country, digs into World Cup history,
 
 - [Claude Code](https://claude.ai/code) installed and running
 - This repo cloned or opened as your working directory
+- Node.js 18+
 
-### Run it
+### Generate a team
 
 ```
 /world-cup team Brazil
@@ -38,7 +39,19 @@ Type a team name. The agent researches the country, digs into World Cup history,
 /world-cup team South Korea
 ```
 
-The agent accepts team names in English or Chinese. Output lands in `output/teams/brazil.html`.
+The agent accepts team names in English or Chinese. Data is saved to `data/teams/{slug}.json`.
+
+### Preview locally
+
+```bash
+node dev.mjs
+```
+
+Opens at **http://localhost:5173/world-cup-soccer/**. Re-run after generating new teams to pick them up.
+
+### Deploy
+
+Push to `master` — GitHub Actions copies the JSON, builds the React app, and deploys to GitHub Pages automatically.
 
 ---
 
@@ -75,32 +88,33 @@ A fixed **中文 / EN** pill button sits in the top-right corner on every page. 
 ## All available commands
 
 ```
-/world-cup team {name}              Generate a team profile page
+/world-cup team {name}              Research + generate team JSON
 ```
 
 Coming soon:
 ```
 /world-cup match {team1} vs {team2} Head-to-head preview
-/world-cup player {name}            Player spotlight page  
+/world-cup player {name}            Player spotlight page
 /world-cup group {A–L}              Group stage page
 ```
 
 ---
 
-## Output
-
-Generated files are saved to `output/teams/`:
+## How it works
 
 ```
-output/teams/
-  brazil.html
-  france.html
-  south-korea.html
-  united-states.html
-  ...
+/world-cup team Brazil
+      ↓
+  research (web search)
+      ↓
+  data/teams/brazil.json      ← committed to repo
+      ↓
+  node dev.mjs                ← local preview
+      ↓
+  git push → GitHub Actions   ← builds React + deploys
+      ↓
+  GitHub Pages                ← live site
 ```
-
-Filename = lowercase English team name, spaces replaced with hyphens.
 
 ---
 
@@ -109,9 +123,14 @@ Filename = lowercase English team name, spaces replaced with hyphens.
 ```
 world-cup-soccer/
   .claude/skills/world-cup/SKILL.md   Skill router
-  modes/team.md                        Research + generation instructions
-  templates/team-template.html         Bilingual HTML template
-  output/teams/                        Generated pages (gitignored)
+  modes/team.md                        Research + JSON schema instructions
+  data/teams/                          Generated JSON (source of truth)
+  app/                                 React + Vite app
+    src/components/                    Bilingual UI components
+    src/pages/                         Home + TeamPage
+    src/context/AppContext.jsx         Lang + theme state
+  dev.mjs                              Local dev script
+  .github/workflows/deploy-pages.yml  CI/CD pipeline
   CLAUDE.md                            Developer reference
   README.md                            This file
 ```

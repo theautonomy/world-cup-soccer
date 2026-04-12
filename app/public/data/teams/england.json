@@ -450,7 +450,7 @@
       "years": "1963–1972",
       "position_zh": "门将",
       "position_en": "Goalkeeper",
-      "bio_zh": "戈登·班克斯被誉为史上最伟大的门将之一，他在1970年世界杯对阵巴西时飞身将贝利的头球扑出，被称为"世纪扑救"。班克斯是1966年夺冠阵容中的主力守门员，共为英格兰出场73次，以稳健、出神入化的扑救技术征服了整个时代。",
+      "bio_zh": "戈登·班克斯被誉为史上最伟大的门将之一，他在1970年世界杯对阵巴西时飞身将贝利的头球扑出，被称为「世纪扑救」。班克斯是1966年夺冠阵容中的主力守门员，共为英格兰出场73次，以稳健、出神入化的扑救技术征服了整个时代。",
       "bio_en": "Gordon Banks is considered one of the greatest goalkeepers in history. His save from Pelé's header at the 1970 World Cup — known simply as 'The Save of the Century' — is the most celebrated stop in football history. The 1966 champion kept goal for England 73 times with remarkable authority.",
       "stat_value": "73",
       "stat_zh": "国家队出场",
@@ -493,13 +493,13 @@
     {
       "opponent_zh": "阿根廷",
       "opponent_en": "Argentina",
-      "desc_zh": "英阿宿怨因1986年马拉多纳的"上帝之手"而永载史册。那届世界杯八强战，马拉多纳先用手打进禁区头球，随后独自突破五人打进"世纪进球"，英格兰0-2落败。这场宿怨还交织着1982年马岛战争的政治恩怨，成为国际足球史上最特殊的双边对立。",
+      "desc_zh": "英阿宿怨因1986年马拉多纳的「上帝之手」而永载史册。那届世界杯八强战，马拉多纳先用手打进禁区头球，随后独自突破五人打进「世纪进球」，英格兰0-2落败。这场宿怨还交织着1982年马岛战争的政治恩怨，成为国际足球史上最特殊的双边对立。",
       "desc_en": "The England–Argentina rivalry was forged in controversy at the 1986 World Cup, when Maradona scored both the infamous 'Hand of God' goal and the 'Goal of the Century' in a 2-0 Argentina win. The rivalry is also coloured by the political tensions of the 1982 Falklands War, making it one of football's most charged intercontinental contests."
     },
     {
       "opponent_zh": "苏格兰",
       "opponent_en": "Scotland",
-      "desc_zh": "英格兰与苏格兰的对阵是世界上历史最悠久的国际足球赛事，首次对决可追溯至1872年。这场不列颠内部的"老仇家"对决充满了民族情感与历史积怨，苏格兰球迷称英格兰为"宿敌（Auld Enemy）"。两队合计已进行超过116场交锋，是跨越两个世纪的足球情缘。",
+      "desc_zh": "英格兰与苏格兰的对阵是世界上历史最悠久的国际足球赛事，首次对决可追溯至1872年。这场不列颠内部的「老仇家」对决充满了民族情感与历史积怨，苏格兰球迷称英格兰为「宿敌（Auld Enemy）」。两队合计已进行超过116场交锋，是跨越两个世纪的足球情缘。",
       "desc_en": "The England–Scotland fixture is the oldest international rivalry in football history, first played in 1872. This intra-British contest is steeped in national pride and centuries of cultural antagonism — Scottish fans famously refer to England as the 'Auld Enemy'. The two sides have met over 116 times, a rivalry spanning more than 150 years."
     }
   ],

@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "slug": "england",
+    "name_zh": "英格兰",
+    "name_en": "England",
+    "flag_emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "fifa_rank": 4
+  }
+]
