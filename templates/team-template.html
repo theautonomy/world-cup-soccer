@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{TEAM_NAME_ZH}} — 2026 FIFA 世界杯</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --color-primary: {{COLOR_PRIMARY}};
+      --color-secondary: {{COLOR_SECONDARY}};
+      --color-accent: {{COLOR_ACCENT}};
+      --color-bg: #0a0a0f;
+      --color-surface: #13131a;
+      --color-surface2: #1c1c26;
+      --color-text: #f0f0f5;
+      --color-text-muted: #8888aa;
+      --radius: 16px;
+      --radius-sm: 8px;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+      background: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* ── HERO ───────────────────────────────────────────────── */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 80px 24px 60px;
+      overflow: hidden;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 50% 0%, color-mix(in srgb, var(--color-primary) 60%, transparent), transparent 70%),
+        radial-gradient(ellipse 60% 40% at 100% 100%, color-mix(in srgb, var(--color-secondary) 40%, transparent), transparent 60%),
+        radial-gradient(ellipse 40% 30% at 0% 80%, color-mix(in srgb, var(--color-accent) 30%, transparent), transparent 50%),
+        var(--color-bg);
+      z-index: 0;
+    }
+
+    .hero-bg::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.02'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+
+    .hero > * { position: relative; z-index: 1; }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: color-mix(in srgb, var(--color-primary) 20%, transparent);
+      border: 1px solid color-mix(in srgb, var(--color-primary) 50%, transparent);
+      color: var(--color-text);
+      padding: 6px 16px;
+      border-radius: 100px;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      margin-bottom: 32px;
+    }
+
+    .hero-flag {
+      font-size: 120px;
+      line-height: 1;
+      margin-bottom: 24px;
+      filter: drop-shadow(0 8px 32px rgba(0,0,0,0.5));
+      animation: float 4s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+
+    .hero-team-name {
+      font-size: clamp(56px, 12vw, 120px);
+      font-weight: 900;
+      line-height: 1;
+      letter-spacing: -0.02em;
+      background: linear-gradient(135deg, var(--color-text) 0%, color-mix(in srgb, var(--color-secondary) 80%, var(--color-text)) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 8px;
+    }
+
+    .hero-team-name-en {
+      font-size: clamp(16px, 3vw, 22px);
+      font-weight: 300;
+      color: var(--color-text-muted);
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      margin-bottom: 32px;
+    }
+
+    .hero-rank {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: color-mix(in srgb, var(--color-accent) 15%, transparent);
+      border: 1px solid color-mix(in srgb, var(--color-accent) 40%, transparent);
+      padding: 10px 24px;
+      border-radius: 100px;
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    .hero-rank strong {
+      color: var(--color-accent);
+      font-size: 20px;
+      font-weight: 900;
+    }
+
+    /* ── STATS BAR ───────────────────────────────────────────── */
+    .stats-bar {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: color-mix(in srgb, var(--color-primary) 20%, transparent);
+      border-top: 1px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
+      border-bottom: 1px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
+    }
+
+    .stat-item {
+      background: var(--color-surface);
+      padding: 32px 24px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      transition: background 0.2s;
+    }
+
+    .stat-item::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+    }
+
+    .stat-item:hover { background: var(--color-surface2); }
+
+    .stat-number {
+      font-size: clamp(36px, 6vw, 56px);
+      font-weight: 900;
+      line-height: 1;
+      background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 8px;
+    }
+
+    .stat-label {
+      font-size: 13px;
+      color: var(--color-text-muted);
+      letter-spacing: 0.05em;
+      font-weight: 500;
+    }
+
+    /* ── SECTIONS ────────────────────────────────────────────── */
+    .section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 80px 24px;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 48px;
+    }
+
+    .section-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      flex-shrink: 0;
+    }
+
+    .section-title {
+      font-size: clamp(24px, 4vw, 36px);
+      font-weight: 900;
+      letter-spacing: -0.02em;
+    }
+
+    .section-subtitle {
+      font-size: 14px;
+      color: var(--color-text-muted);
+      margin-top: 4px;
+    }
+
+    /* ── WORLD CUP HISTORY ───────────────────────────────────── */
+    .wc-table-wrap {
+      overflow-x: auto;
+      border-radius: var(--radius);
+      border: 1px solid color-mix(in srgb, var(--color-primary) 20%, transparent);
+    }
+
+    .wc-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 15px;
+    }
+
+    .wc-table thead tr {
+      background: color-mix(in srgb, var(--color-primary) 20%, var(--color-surface));
+    }
+
+    .wc-table th {
+      padding: 16px 20px;
+      text-align: left;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: var(--color-text-muted);
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .wc-table td {
+      padding: 14px 20px;
+      border-bottom: 1px solid color-mix(in srgb, var(--color-text) 6%, transparent);
+    }
+
+    .wc-table tbody tr { background: var(--color-surface); transition: background 0.15s; }
+    .wc-table tbody tr:hover { background: var(--color-surface2); }
+
+    .wc-table tr.champion td { background: color-mix(in srgb, #FFD700 8%, var(--color-surface)); }
+    .wc-table tr.champion td:first-child { border-left: 3px solid #FFD700; }
+    .wc-table tr.runner-up td:first-child { border-left: 3px solid #C0C0C0; }
+    .wc-table tr.semifinal td:first-child { border-left: 3px solid #CD7F32; }
+    .wc-table tr.highlight td:first-child { border-left: 3px solid var(--color-primary); }
+
+    .result-badge {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 100px;
+      font-size: 12px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .result-champion { background: color-mix(in srgb, #FFD700 20%, transparent); color: #FFD700; border: 1px solid color-mix(in srgb, #FFD700 40%, transparent); }
+    .result-runner-up { background: color-mix(in srgb, #C0C0C0 20%, transparent); color: #C0C0C0; border: 1px solid color-mix(in srgb, #C0C0C0 40%, transparent); }
+    .result-semifinal { background: color-mix(in srgb, #CD7F32 20%, transparent); color: #CD7F32; border: 1px solid color-mix(in srgb, #CD7F32 40%, transparent); }
+    .result-other { background: color-mix(in srgb, var(--color-text-muted) 15%, transparent); color: var(--color-text-muted); border: 1px solid color-mix(in srgb, var(--color-text-muted) 30%, transparent); }
+
+    /* ── SQUAD ───────────────────────────────────────────────── */
+    .squad-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 16px;
+    }
+
+    .player-card {
+      background: var(--color-surface);
+      border: 1px solid color-mix(in srgb, var(--color-primary) 15%, transparent);
+      border-radius: var(--radius);
+      padding: 20px 16px;
+      text-align: center;
+      transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+      cursor: default;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .player-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+      transform: scaleX(0);
+      transition: transform 0.2s;
+    }
+
+    .player-card:hover {
+      transform: translateY(-4px);
+      border-color: color-mix(in srgb, var(--color-primary) 50%, transparent);
+      box-shadow: 0 12px 40px color-mix(in srgb, var(--color-primary) 20%, transparent);
+    }
+
+    .player-card:hover::before { transform: scaleX(1); }
+
+    .player-pos {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 100px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      margin-bottom: 12px;
+      background: color-mix(in srgb, var(--color-primary) 20%, transparent);
+      color: color-mix(in srgb, var(--color-primary) 90%, var(--color-text));
+      border: 1px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
+    }
+
+    .player-name {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .player-name-en {
+      font-size: 11px;
+      color: var(--color-text-muted);
+      margin-bottom: 10px;
+      letter-spacing: 0.03em;
+    }
+
+    .player-club {
+      font-size: 13px;
+      color: var(--color-text-muted);
+      margin-bottom: 6px;
+    }
+
+    .player-caps {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--color-secondary);
+    }
+
+    /* ── LEGENDS ─────────────────────────────────────────────── */
+    .legends-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    .legend-card {
+      background: var(--color-surface);
+      border: 1px solid color-mix(in srgb, var(--color-secondary) 20%, transparent);
+      border-radius: var(--radius);
+      padding: 28px 24px;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .legend-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 48px color-mix(in srgb, var(--color-secondary) 15%, transparent);
+    }
+
+    .legend-card::after {
+      content: '';
+      position: absolute;
+      bottom: -40px; right: -40px;
+      width: 120px; height: 120px;
+      border-radius: 50%;
+      background: radial-gradient(circle, color-mix(in srgb, var(--color-secondary) 15%, transparent), transparent 70%);
+      pointer-events: none;
+    }
+
+    .legend-number {
+      font-size: 64px;
+      font-weight: 900;
+      line-height: 1;
+      color: color-mix(in srgb, var(--color-secondary) 15%, transparent);
+      position: absolute;
+      top: 16px; right: 20px;
+      letter-spacing: -0.04em;
+    }
+
+    .legend-name {
+      font-size: 24px;
+      font-weight: 900;
+      margin-bottom: 2px;
+    }
+
+    .legend-name-en {
+      font-size: 12px;
+      color: var(--color-text-muted);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .legend-years {
+      display: inline-block;
+      font-size: 12px;
+      color: var(--color-secondary);
+      background: color-mix(in srgb, var(--color-secondary) 12%, transparent);
+      border: 1px solid color-mix(in srgb, var(--color-secondary) 30%, transparent);
+      padding: 3px 10px;
+      border-radius: 100px;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    .legend-position {
+      font-size: 13px;
+      color: var(--color-text-muted);
+      margin-bottom: 14px;
+    }
+
+    .legend-bio {
+      font-size: 14px;
+      line-height: 1.7;
+      color: color-mix(in srgb, var(--color-text) 80%, transparent);
+      margin-bottom: 16px;
+    }
+
+    .legend-stat {
+      font-size: 13px;
+      color: var(--color-text-muted);
+      padding-top: 16px;
+      border-top: 1px solid color-mix(in srgb, var(--color-text) 8%, transparent);
+    }
+
+    .legend-stat span {
+      font-size: 20px;
+      font-weight: 900;
+      color: var(--color-secondary);
+      margin-right: 6px;
+    }
+
+    /* ── RIVALRIES ───────────────────────────────────────────── */
+    .rivalry-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 20px;
+    }
+
+    .rivalry-card {
+      background: var(--color-surface);
+      border: 1px solid color-mix(in srgb, var(--color-primary) 20%, transparent);
+      border-radius: var(--radius);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .rivalry-card:hover {
+      border-color: color-mix(in srgb, var(--color-primary) 50%, transparent);
+      box-shadow: 0 8px 32px color-mix(in srgb, var(--color-primary) 12%, transparent);
+    }
+
+    .rivalry-teams {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 20px;
+      font-weight: 900;
+    }
+
+    .rivalry-vs {
+      font-size: 13px;
+      font-weight: 400;
+      color: var(--color-text-muted);
+      flex-shrink: 0;
+    }
+
+    .rivalry-desc {
+      font-size: 14px;
+      line-height: 1.7;
+      color: color-mix(in srgb, var(--color-text) 80%, transparent);
+    }
+
+    /* ── FUN FACTS ───────────────────────────────────────────── */
+    .facts-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 16px;
+    }
+
+    .fact-item {
+      background: var(--color-surface);
+      border: 1px solid color-mix(in srgb, var(--color-accent) 15%, transparent);
+      border-radius: var(--radius);
+      padding: 24px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      transition: border-color 0.2s;
+    }
+
+    .fact-item:hover {
+      border-color: color-mix(in srgb, var(--color-accent) 40%, transparent);
+    }
+
+    .fact-icon {
+      font-size: 28px;
+      flex-shrink: 0;
+      line-height: 1;
+      margin-top: 2px;
+    }
+
+    .fact-text {
+      font-size: 14px;
+      line-height: 1.7;
+      color: color-mix(in srgb, var(--color-text) 85%, transparent);
+    }
+
+    /* ── COUNTRY INFO ────────────────────────────────────────── */
+    .country-layout {
+      display: grid;
+      grid-template-columns: 340px 1fr;
+      gap: 32px;
+      align-items: start;
+    }
+
+    .country-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .country-stat-item {
+      background: var(--color-surface);
+      border: 1px solid color-mix(in srgb, var(--color-primary) 15%, transparent);
+      border-radius: var(--radius-sm);
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      transition: border-color 0.2s;
+    }
+
+    .country-stat-item:hover {
+      border-color: color-mix(in srgb, var(--color-primary) 40%, transparent);
+    }
+
+    .country-stat-icon {
+      font-size: 22px;
+      flex-shrink: 0;
+      line-height: 1;
+    }
+
+    .country-stat-label {
+      font-size: 11px;
+      color: var(--color-text-muted);
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      margin-bottom: 3px;
+      text-transform: uppercase;
+    }
+
+    .country-stat-value {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--color-text);
+      line-height: 1.3;
+    }
+
+    .country-desc-block {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .country-desc-section {
+      background: var(--color-surface);
+      border: 1px solid color-mix(in srgb, var(--color-primary) 15%, transparent);
+      border-radius: var(--radius);
+      padding: 24px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .country-desc-section::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 4px; height: 100%;
+      background: linear-gradient(180deg, var(--color-primary), var(--color-secondary));
+      border-radius: 4px 0 0 4px;
+    }
+
+    .country-desc-title {
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      padding-left: 4px;
+    }
+
+    .country-desc-text {
+      font-size: 14px;
+      line-height: 1.8;
+      color: color-mix(in srgb, var(--color-text) 80%, transparent);
+      padding-left: 4px;
+    }
+
+    @media (max-width: 900px) {
+      .country-layout { grid-template-columns: 1fr; }
+      .country-stats { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    @media (max-width: 600px) {
+      .country-stats { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    /* ── DIVIDER ─────────────────────────────────────────────── */
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--color-primary) 30%, transparent), transparent);
+      margin: 0 24px;
+    }
+
+    /* ── FOOTER ──────────────────────────────────────────────── */
+    .footer {
+      text-align: center;
+      padding: 48px 24px;
+      color: var(--color-text-muted);
+      font-size: 13px;
+    }
+
+    .footer strong {
+      color: var(--color-text);
+      font-weight: 700;
+    }
+
+    .footer-titles {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+
+    .title-year {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: color-mix(in srgb, #FFD700 12%, transparent);
+      border: 1px solid color-mix(in srgb, #FFD700 30%, transparent);
+      color: #FFD700;
+      padding: 4px 12px;
+      border-radius: 100px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    /* ── RESPONSIVE ──────────────────────────────────────────── */
+    @media (max-width: 768px) {
+      .stats-bar { grid-template-columns: repeat(2, 1fr); }
+      .squad-grid { grid-template-columns: repeat(2, 1fr); }
+      .hero-flag { font-size: 80px; }
+    }
+
+    @media (max-width: 480px) {
+      .stats-bar { grid-template-columns: repeat(2, 1fr); }
+      .squad-grid { grid-template-columns: repeat(2, 1fr); }
+      .legends-grid { grid-template-columns: 1fr; }
+      .rivalry-grid { grid-template-columns: 1fr; }
+      .facts-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-badge">⚽ 2026 FIFA 世界杯 · {{FEDERATION}}</div>
+    <div class="hero-flag">{{TEAM_FLAG_EMOJI}}</div>
+    <h1 class="hero-team-name">{{TEAM_NAME_ZH}}</h1>
+    <p class="hero-team-name-en">{{TEAM_NAME_EN}}</p>
+    <div class="hero-rank">FIFA排名 <strong>#{{FIFA_RANK}}</strong> · {{COUNTRY_ZH}}</div>
+  </section>
+
+  <!-- STATS BAR -->
+  <div class="stats-bar">
+    <div class="stat-item">
+      <div class="stat-number">{{TITLES}}</div>
+      <div class="stat-label">🏆 世界杯冠军</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">{{APPEARANCES}}</div>
+      <div class="stat-label">📅 参赛届次</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">{{BEST_RESULT}}</div>
+      <div class="stat-label">🥇 最佳成绩</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-number">#{{FIFA_RANK}}</div>
+      <div class="stat-label">📊 FIFA排名</div>
+    </div>
+  </div>
+
+  <!-- COUNTRY INFO -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-icon">🌍</div>
+      <div>
+        <h2 class="section-title">国家简介</h2>
+        <p class="section-subtitle">{{COUNTRY_ZH}} · {{COUNTRY_CONTINENT}}</p>
+      </div>
+    </div>
+    <div class="country-layout">
+      <div class="country-stats">
+        <div class="country-stat-item">
+          <div class="country-stat-icon">🏛️</div>
+          <div>
+            <div class="country-stat-label">首都</div>
+            <div class="country-stat-value">{{COUNTRY_CAPITAL}}</div>
+          </div>
+        </div>
+        <div class="country-stat-item">
+          <div class="country-stat-icon">👥</div>
+          <div>
+            <div class="country-stat-label">人口</div>
+            <div class="country-stat-value">{{COUNTRY_POPULATION}}</div>
+          </div>
+        </div>
+        <div class="country-stat-item">
+          <div class="country-stat-icon">📐</div>
+          <div>
+            <div class="country-stat-label">国土面积</div>
+            <div class="country-stat-value">{{COUNTRY_AREA}}</div>
+          </div>
+        </div>
+        <div class="country-stat-item">
+          <div class="country-stat-icon">🗣️</div>
+          <div>
+            <div class="country-stat-label">官方语言</div>
+            <div class="country-stat-value">{{COUNTRY_LANGUAGE}}</div>
+          </div>
+        </div>
+        <div class="country-stat-item">
+          <div class="country-stat-icon">💰</div>
+          <div>
+            <div class="country-stat-label">货币</div>
+            <div class="country-stat-value">{{COUNTRY_CURRENCY}}</div>
+          </div>
+        </div>
+        <div class="country-stat-item">
+          <div class="country-stat-icon">🎵</div>
+          <div>
+            <div class="country-stat-label">国歌</div>
+            <div class="country-stat-value">{{COUNTRY_ANTHEM}}</div>
+          </div>
+        </div>
+      </div>
+      <div class="country-desc-block">
+        <div class="country-desc-section">
+          <h3 class="country-desc-title">🗺️ 地理与文化</h3>
+          <p class="country-desc-text">{{COUNTRY_DESC}}</p>
+        </div>
+        <div class="country-desc-section">
+          <h3 class="country-desc-title">⚽ 足球文化</h3>
+          <p class="country-desc-text">{{COUNTRY_FOOTBALL_DESC}}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- WORLD CUP HISTORY -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-icon">🏆</div>
+      <div>
+        <h2 class="section-title">世界杯历届战绩</h2>
+        <p class="section-subtitle">共参赛 {{APPEARANCES}} 届</p>
+      </div>
+    </div>
+    <div class="wc-table-wrap">
+      <table class="wc-table">
+        <thead>
+          <tr>
+            <th>年份</th>
+            <th>举办地</th>
+            <th>成绩</th>
+            <th>备注</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{WC_HISTORY_ROWS}}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 2026 SQUAD -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-icon">👕</div>
+      <div>
+        <h2 class="section-title">2026年世界杯阵容</h2>
+        <p class="section-subtitle">主教练：{{COACH_NAME}}（{{COACH_NATIONALITY}}）</p>
+      </div>
+    </div>
+    <div class="squad-grid">
+      {{SQUAD_CARDS}}
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- LEGENDS -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-icon">⭐</div>
+      <div>
+        <h2 class="section-title">传奇巨星</h2>
+        <p class="section-subtitle">那些永远铭刻在历史上的名字</p>
+      </div>
+    </div>
+    <div class="legends-grid">
+      {{LEGEND_CARDS}}
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- RIVALRIES -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-icon">⚔️</div>
+      <div>
+        <h2 class="section-title">经典宿敌</h2>
+        <p class="section-subtitle">足球场上最激烈的对决</p>
+      </div>
+    </div>
+    <div class="rivalry-grid">
+      {{RIVALRY_CARDS}}
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- FUN FACTS -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-icon">💡</div>
+      <div>
+        <h2 class="section-title">你知道吗？</h2>
+        <p class="section-subtitle">关于{{TEAM_NAME_ZH}}的趣味数据</p>
+      </div>
+    </div>
+    <div class="facts-grid">
+      {{FUN_FACTS}}
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p><strong>{{TEAM_NAME_ZH}}</strong> · 2026 FIFA 世界杯 · 美国·加拿大·墨西哥</p>
+    <div class="footer-titles">
+      {{TITLES_YEARS}}
+    </div>
+    <p style="margin-top: 20px; font-size: 12px;">数据更新于 {{LAST_UPDATED}} · 由 AI 生成</p>
+  </footer>
+
+</body>
+</html>
