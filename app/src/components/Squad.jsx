@@ -66,7 +66,7 @@ export default function Squad({ squad }) {
                       <span className={styles.club}>{p.club}</span>
                       {p.caps != null && (
                         <span className={styles.caps}>
-                          {p.caps} <T zh="帽" en="caps" />
+                          {p.caps} <T zh="出场次数" en="caps" />
                         </span>
                       )}
                     </div>
