@@ -1,17 +1,17 @@
 {
-  "_note": "2026 FIFA World Cup group draw — December 5, 2024, Miami. 12 groups × 4 teams. Hosts: USA (A), Mexico (B), Canada (C).",
+  "_note": "2026 FIFA World Cup group draw — December 5, 2025, Washington D.C. 12 groups × 4 teams.",
   "groups": {
-    "A": ["usa", "panama", "albania", "ukraine"],
-    "B": ["mexico", "jamaica", "honduras", "venezuela"],
-    "C": ["canada", "ecuador", "chile", "iran"],
-    "D": ["argentina", "chile", "peru", "australia"],
-    "E": ["spain", "serbia", "morocco", "japan"],
-    "F": ["germany", "portugal", "colombia", "uruguay"],
-    "G": ["france", "belgium", "south-korea", "saudi-arabia"],
-    "H": ["brazil", "croatia", "nigeria", "costa-rica"],
-    "I": ["england", "senegal", "egypt", "cameroon"],
-    "J": ["netherlands", "austria", "turkey", "new-zealand"],
-    "K": ["denmark", "switzerland", "ghana", "cuba"],
-    "L": ["poland", "czech-republic", "qatar", "indonesia"]
+    "A": ["mexico", "south-korea", "south-africa", "czechia"],
+    "B": ["canada", "switzerland", "qatar", "bosnia-herzegovina"],
+    "C": ["brazil", "morocco", "scotland", "haiti"],
+    "D": ["usa", "paraguay", "australia", "turkiye"],
+    "E": ["germany", "ecuador", "ivory-coast", "curacao"],
+    "F": ["netherlands", "japan", "tunisia", "sweden"],
+    "G": ["belgium", "iran", "egypt", "new-zealand"],
+    "H": ["spain", "uruguay", "saudi-arabia", "cape-verde"],
+    "I": ["france", "senegal", "norway", "iraq"],
+    "J": ["argentina", "austria", "algeria", "jordan"],
+    "K": ["portugal", "colombia", "uzbekistan", "dr-congo"],
+    "L": ["england", "croatia", "panama", "ghana"]
   }
 }
