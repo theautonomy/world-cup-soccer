@@ -55,17 +55,23 @@
       width: 40px;
       height: 40px;
       border-radius: 100px;
-      border: 1px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
-      background: color-mix(in srgb, var(--color-surface) 95%, transparent);
-      font-size: 16px;
+      border: 1px solid rgba(255,255,255,0.2);
+      background: rgba(30,30,40,0.85);
+      font-size: 18px;
       cursor: pointer;
       display: flex;
       align-items: center;
       justify-content: center;
       backdrop-filter: blur(12px);
-      box-shadow: 0 4px 24px rgba(0,0,0,0.4);
-      transition: border-color 0.2s, transform 0.2s;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.5);
+      transition: border-color 0.2s, transform 0.2s, background 0.2s;
       line-height: 1;
+    }
+
+    [data-theme="light"] .theme-btn {
+      background: rgba(255,255,255,0.9);
+      border-color: rgba(0,0,0,0.15);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.12);
     }
 
     .theme-btn:hover {
@@ -82,12 +88,18 @@
 
     .lang-toggle {
       display: flex;
-      background: color-mix(in srgb, var(--color-surface) 95%, transparent);
-      border: 1px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
+      background: rgba(30,30,40,0.85);
+      border: 1px solid rgba(255,255,255,0.2);
       border-radius: 100px;
       padding: 4px;
       backdrop-filter: blur(12px);
-      box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.5);
+    }
+
+    [data-theme="light"] .lang-toggle {
+      background: rgba(255,255,255,0.9);
+      border-color: rgba(0,0,0,0.15);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.12);
     }
 
     .lang-btn {
@@ -672,11 +684,11 @@
     <div class="hero-flag">🇧🇷</div>
     <h1 class="hero-team-name zh">巴西</h1>
     <h1 class="hero-team-name en">Brazil</h1>
-    <p class="hero-team-name-sub zh">Brazil · 巴西联邦共和国</p>
-    <p class="hero-team-name-sub en">巴西 · Federative Republic of Brazil</p>
+    <p class="hero-team-name-sub zh">Brazil · 巴西</p>
+    <p class="hero-team-name-sub en">巴西 · Brazil</p>
     <div class="hero-rank">
       <span class="zh">FIFA排名</span><span class="en">FIFA Rank</span>
-      <strong>#5</strong>
+      <strong>#6</strong>
       · 巴西
     </div>
   </section>
@@ -700,7 +712,7 @@
     <div class="stat-item">
       <div class="stat-number">
         <span class="zh">冠军</span>
-        <span class="en">Champs</span>
+        <span class="en">Champions</span>
       </div>
       <div class="stat-label">
         <span class="zh">🥇 最佳成绩</span>
@@ -708,7 +720,7 @@
       </div>
     </div>
     <div class="stat-item">
-      <div class="stat-number">#5</div>
+      <div class="stat-number">#6</div>
       <div class="stat-label">
         <span class="zh">📊 FIFA排名</span>
         <span class="en">📊 FIFA Ranking</span>
@@ -744,7 +756,10 @@
           <div class="country-stat-icon">👥</div>
           <div>
             <div class="country-stat-label"><span class="zh">人口</span><span class="en">Population</span></div>
-            <div class="country-stat-value">2.15亿 / 215M</div>
+            <div class="country-stat-value">
+              <span class="zh">约 2.17 亿</span>
+              <span class="en">~217 million</span>
+            </div>
           </div>
         </div>
         <div class="country-stat-item">
@@ -769,7 +784,7 @@
           <div>
             <div class="country-stat-label"><span class="zh">货币</span><span class="en">Currency</span></div>
             <div class="country-stat-value">
-              <span class="zh">巴西雷亚尔 (BRL)</span>
+              <span class="zh">巴西雷亚尔</span>
               <span class="en">Brazilian Real (BRL)</span>
             </div>
           </div>
@@ -779,7 +794,7 @@
           <div>
             <div class="country-stat-label"><span class="zh">国歌</span><span class="en">Anthem</span></div>
             <div class="country-stat-value">
-              <span class="zh">巴西国歌</span>
+              <span class="zh">《巴西国歌》</span>
               <span class="en">Hino Nacional Brasileiro</span>
             </div>
           </div>
@@ -791,16 +806,16 @@
             <span class="zh">🗺️ 地理与文化</span>
             <span class="en">🗺️ Geography &amp; Culture</span>
           </h3>
-          <p class="country-desc-text zh">巴西是南美洲最大的国家，国土面积占整个南美洲的近一半，拥有世界最大的热带雨林——亚马逊雨林，以及充满活力的桑巴文化、狂欢节与多元民族融合。从亚马逊丛林到伊瓜苏瀑布，从圣保罗的都市繁华到里约的科科瓦多山，巴西的地理与文化同样令世界惊叹。</p>
-          <p class="country-desc-text en">Brazil is the largest country in South America, covering nearly half the continent, home to the mighty Amazon rainforest and a vibrant culture of samba, carnival, and remarkable ethnic diversity. From the Amazon jungle to Iguaçu Falls, from São Paulo's urban energy to Rio's iconic Christ the Redeemer, Brazil captivates the world with its geography and culture alike.</p>
+          <p class="country-desc-text zh">巴西联邦共和国是南美洲最大的国家，国土面积居世界第五，人口约2.17亿。亚马逊雨林覆盖其北部广大地区，孕育了地球上最丰富的生物多样性。巴西以狂欢节、桑巴舞、热带海滩和多元文化闻名于世，是一个充满活力与激情的南美大国。</p>
+          <p class="country-desc-text en">Brazil, officially the Federative Republic of Brazil, is the largest country in South America and the fifth largest in the world by area, with a population of approximately 217 million. The Amazon rainforest dominates its northern regions, harboring the planet's most extraordinary biodiversity. Known for its carnival, samba, stunning coastlines, and vibrant multicultural identity, Brazil is one of the world's most colorful and energetic nations.</p>
         </div>
         <div class="country-desc-section">
           <h3 class="country-desc-title">
             <span class="zh">⚽ 足球文化</span>
             <span class="en">⚽ Football Culture</span>
           </h3>
-          <p class="country-desc-text zh">足球在巴西不仅是运动，更是民族灵魂。街头的"futsal"赋予了一代又一代球员无与伦比的技巧，"桑巴足球"以其灵动、华丽和即兴创造著称于世。巴西拥有五次世界杯冠军，是历史上唯一参加过每一届世界杯决赛圈的国家，"黄衫军"永远是全球球迷心中的图腾与狂欢。</p>
-          <p class="country-desc-text en">Football in Brazil is more than a sport — it's the soul of a nation. Street futsal has shaped generations of players with unrivalled technical skill, while "Samba Football" is celebrated worldwide for its flair, creativity, and joy. With five World Cup titles and the only nation to have qualified for every single tournament, the Seleção in their iconic yellow shirts remain a global symbol of the beautiful game.</p>
+          <p class="country-desc-text zh">足球在巴西不仅是运动，更是民族信仰。巴西是世界上唯一一支参加了每一届世界杯的球队，共夺得五次冠军。"美丽足球"（Jogo Bonito）代表着巴西独特的踢球哲学——技术华丽、节奏流畅、充满创造力。里约热内卢的马拉卡纳球场是世界足球的精神圣地，1950年世界杯的"马拉卡纳惨案"至今仍是全国最深的集体伤痛。</p>
+          <p class="country-desc-text en">Football in Brazil is more than a sport — it is a national religion. Brazil is the only team to have participated in every single FIFA World Cup, claiming the title five times. "Jogo Bonito" (The Beautiful Game) captures Brazil's footballing philosophy: dazzling skill, fluid rhythm, and boundless creativity. The Maracanã in Rio de Janeiro is football's spiritual home, and the 1950 "Maracanazo" defeat to Uruguay remains the nation's deepest footballing wound.</p>
         </div>
       </div>
     </div>
@@ -818,8 +833,8 @@
           <span class="en">World Cup History</span>
         </h2>
         <p class="section-subtitle">
-          <span class="zh">共参赛 22 届 · 唯一全勤球队</span>
-          <span class="en">22 tournaments · Only nation to qualify for every edition</span>
+          <span class="zh">共参赛 22 届</span>
+          <span class="en">22 tournaments</span>
         </p>
       </div>
     </div>
@@ -834,137 +849,137 @@
           </tr>
         </thead>
         <tbody>
-          <tr class="">
+          <tr class="group">
             <td>1930</td>
             <td>乌拉圭 / Uruguay</td>
-            <td><span class="result-badge result-semifinal"><span class="zh">半决赛</span><span class="en">Semifinal</span></span></td>
-            <td><span class="zh">首届世界杯，负于南斯拉夫出局</span><span class="en">Debut World Cup; eliminated in group stage</span></td>
+            <td><span class="result-badge result-other"><span class="zh">小组赛</span><span class="en">Group Stage</span></span></td>
+            <td><span class="zh">首届世界杯出局</span><span class="en">Eliminated in group stage at inaugural tournament</span></td>
           </tr>
-          <tr class="">
+          <tr class="group">
             <td>1934</td>
             <td>意大利 / Italy</td>
-            <td><span class="result-badge result-other"><span class="zh">首轮出局</span><span class="en">Round of 16</span></span></td>
-            <td><span class="zh">负于西班牙1-3，首轮即止</span><span class="en">Lost 1-3 to Spain, first round exit</span></td>
+            <td><span class="result-badge result-other"><span class="zh">首轮</span><span class="en">1st Round</span></span></td>
+            <td><span class="zh">首轮即遭淘汰</span><span class="en">Eliminated in the first round</span></td>
           </tr>
           <tr class="semifinal">
             <td>1938</td>
             <td>法国 / France</td>
             <td><span class="result-badge result-semifinal"><span class="zh">季军</span><span class="en">3rd Place</span></span></td>
-            <td><span class="zh">半决赛负于意大利，获第三名</span><span class="en">Lost to Italy in semis; won 3rd place playoff</span></td>
+            <td><span class="zh">莱昂尼达斯大放异彩</span><span class="en">Leônidas dazzled — finished 3rd</span></td>
           </tr>
           <tr class="runner-up">
             <td>1950</td>
             <td>巴西 / Brazil</td>
             <td><span class="result-badge result-runner-up"><span class="zh">亚军</span><span class="en">Runner-up</span></span></td>
-            <td><span class="zh">"马拉卡纳惨案"——主场负于乌拉圭</span><span class="en">"Maracanazo" — lost decisive match to Uruguay at home</span></td>
+            <td><span class="zh">马拉卡纳惨案：0-2负于乌拉圭</span><span class="en">Maracanazo: lost 0-2 to Uruguay in front of 200,000 fans</span></td>
           </tr>
-          <tr class="">
+          <tr class="quarterfinal">
             <td>1954</td>
             <td>瑞士 / Switzerland</td>
             <td><span class="result-badge result-other"><span class="zh">八强</span><span class="en">Quarterfinals</span></span></td>
-            <td><span class="zh">负于匈牙利4-2出局</span><span class="en">Lost 2-4 to Hungary</span></td>
+            <td><span class="zh">八强止步</span><span class="en">Eliminated in quarterfinals</span></td>
           </tr>
           <tr class="champion">
             <td>1958</td>
             <td>瑞典 / Sweden</td>
             <td><span class="result-badge result-champion"><span class="zh">🏆 冠军</span><span class="en">🏆 Champions</span></span></td>
-            <td><span class="zh">贝利首次夺冠，5-2胜瑞典</span><span class="en">Pelé's first title; 5-2 final win over Sweden</span></td>
+            <td><span class="zh">贝利首次夺冠，17岁横空出世</span><span class="en">Pelé, aged 17, shines as Brazil wins first World Cup</span></td>
           </tr>
           <tr class="champion">
             <td>1962</td>
             <td>智利 / Chile</td>
             <td><span class="result-badge result-champion"><span class="zh">🏆 冠军</span><span class="en">🏆 Champions</span></span></td>
-            <td><span class="zh">3-1胜捷克斯洛伐克，卫冕成功</span><span class="en">3-1 over Czechoslovakia; back-to-back titles</span></td>
+            <td><span class="zh">加林查领衔，蝉联冠军</span><span class="en">Garrincha inspired, back-to-back champions</span></td>
           </tr>
-          <tr class="">
+          <tr class="group">
             <td>1966</td>
             <td>英格兰 / England</td>
-            <td><span class="result-badge result-other"><span class="zh">小组出局</span><span class="en">Group Stage</span></span></td>
-            <td><span class="zh">贝利遭恶意犯规，卫冕冠军耻辱出局</span><span class="en">Pelé brutally fouled; defending champions crash out</span></td>
+            <td><span class="result-badge result-other"><span class="zh">小组赛</span><span class="en">Group Stage</span></span></td>
+            <td><span class="zh">贝利遭受粗暴犯规，爆冷出局</span><span class="en">Pelé brutally fouled, shocking group stage exit</span></td>
           </tr>
           <tr class="champion">
             <td>1970</td>
             <td>墨西哥 / Mexico</td>
             <td><span class="result-badge result-champion"><span class="zh">🏆 冠军</span><span class="en">🏆 Champions</span></span></td>
-            <td><span class="zh">史上最佳阵容，4-1胜意大利，永久保留雷米金杯</span><span class="en">4-1 over Italy; arguably the greatest team ever, kept the Jules Rimet Trophy</span></td>
+            <td><span class="zh">史上最强阵容，贝利登峰造极</span><span class="en">Greatest team ever assembled; Pelé at his peak</span></td>
           </tr>
-          <tr class="">
+          <tr class="semifinal">
             <td>1974</td>
             <td>西德 / West Germany</td>
-            <td><span class="result-badge result-other"><span class="zh">第四名</span><span class="en">4th Place</span></span></td>
-            <td><span class="zh">第二轮负于荷兰出局，获第四名</span><span class="en">Lost to Netherlands in second round; finished 4th</span></td>
+            <td><span class="result-badge result-semifinal"><span class="zh">第四名</span><span class="en">4th Place</span></span></td>
+            <td><span class="zh">在新体系下遭遇荷兰克制</span><span class="en">Beaten by the Dutch in the new era</span></td>
           </tr>
           <tr class="semifinal">
             <td>1978</td>
             <td>阿根廷 / Argentina</td>
             <td><span class="result-badge result-semifinal"><span class="zh">季军</span><span class="en">3rd Place</span></span></td>
-            <td><span class="zh">第二轮负于阿根廷，获第三名</span><span class="en">Lost to Argentina in second round; 3rd place finish</span></td>
+            <td><span class="zh">第二轮出局，获季军</span><span class="en">Finished third behind Argentina and Netherlands</span></td>
           </tr>
-          <tr class="">
+          <tr class="quarterfinal">
             <td>1982</td>
             <td>西班牙 / Spain</td>
             <td><span class="result-badge result-other"><span class="zh">第二轮</span><span class="en">2nd Round</span></span></td>
-            <td><span class="zh">保罗·罗西帽子戏法击败华丽的巴西队</span><span class="en">Paolo Rossi's hat-trick ended Brazil's beautiful but trophy-less campaign</span></td>
+            <td><span class="zh">济科领衔，惜败意大利，令人扼腕</span><span class="en">Zico-led squad's heartbreaking loss to Italy</span></td>
           </tr>
-          <tr class="">
+          <tr class="quarterfinal">
             <td>1986</td>
             <td>墨西哥 / Mexico</td>
             <td><span class="result-badge result-other"><span class="zh">八强</span><span class="en">Quarterfinals</span></span></td>
-            <td><span class="zh">点球负于法国出局</span><span class="en">Lost to France on penalties</span></td>
+            <td><span class="zh">点球负于法国</span><span class="en">Lost on penalties to France</span></td>
           </tr>
-          <tr class="">
+          <tr class="group">
             <td>1990</td>
             <td>意大利 / Italy</td>
             <td><span class="result-badge result-other"><span class="zh">十六强</span><span class="en">Round of 16</span></span></td>
-            <td><span class="zh">0-1负于阿根廷，卡尼贾进球</span><span class="en">0-1 loss to Argentina; Caniggia goal eliminated Brazil</span></td>
+            <td><span class="zh">点球负于阿根廷</span><span class="en">Knocked out by Argentina in the round of 16</span></td>
           </tr>
           <tr class="champion">
             <td>1994</td>
             <td>美国 / USA</td>
             <td><span class="result-badge result-champion"><span class="zh">🏆 冠军</span><span class="en">🏆 Champions</span></span></td>
-            <td><span class="zh">点球3-2胜意大利，第四次夺冠</span><span class="en">Beat Italy on penalties; 4th title, 24-year wait ended</span></td>
+            <td><span class="zh">24年等待终结，罗纳尔多首届世界杯</span><span class="en">24-year drought ends; a young Ronaldo on the roster</span></td>
           </tr>
           <tr class="runner-up">
             <td>1998</td>
             <td>法国 / France</td>
             <td><span class="result-badge result-runner-up"><span class="zh">亚军</span><span class="en">Runner-up</span></span></td>
-            <td><span class="zh">罗纳尔多神秘发作，0-3负于东道主法国</span><span class="en">Ronaldo's mysterious illness; 0-3 final loss to host France</span></td>
+            <td><span class="zh">决赛神秘因素，0-3负于法国</span><span class="en">Ronaldo's mystery illness; lost 0-3 to France in final</span></td>
           </tr>
           <tr class="champion">
             <td>2002</td>
-            <td>韩/日 / Korea-Japan</td>
+            <td>韩/日 / Korea &amp; Japan</td>
             <td><span class="result-badge result-champion"><span class="zh">🏆 冠军</span><span class="en">🏆 Champions</span></span></td>
-            <td><span class="zh">罗纳尔多双响，2-0胜德国，第五次夺冠</span><span class="en">Ronaldo brace; 2-0 over Germany for record 5th title</span></td>
+            <td><span class="zh">R9·罗纳尔多·罗纳尔迪尼奥三叉戟称霸</span><span class="en">Ronaldo R9 top scorer; fifth and most recent title</span></td>
           </tr>
-          <tr class="">
+          <tr class="quarterfinal">
             <td>2006</td>
             <td>德国 / Germany</td>
             <td><span class="result-badge result-other"><span class="zh">八强</span><span class="en">Quarterfinals</span></span></td>
-            <td><span class="zh">0-1负于法国，小罗发挥失常</span><span class="en">0-1 to France; Ronaldinho below his best</span></td>
+            <td><span class="zh">八强点球负于法国</span><span class="en">Quarterfinal exit against France</span></td>
           </tr>
-          <tr class="">
+          <tr class="quarterfinal">
             <td>2010</td>
             <td>南非 / South Africa</td>
             <td><span class="result-badge result-other"><span class="zh">八强</span><span class="en">Quarterfinals</span></span></td>
-            <td><span class="zh">1-2负于荷兰，费利佩·梅洛乌龙球</span><span class="en">1-2 to Netherlands; Felipe Melo's own goal proved costly</span></td>
+            <td><span class="zh">八强被荷兰2-1淘汰</span><span class="en">Quarterfinal loss to Netherlands 1-2</span></td>
           </tr>
-          <tr class="">
+          <tr class="semifinal">
             <td>2014</td>
             <td>巴西 / Brazil</td>
-            <td><span class="result-badge result-other"><span class="zh">第四名</span><span class="en">4th Place</span></span></td>
-            <td><span class="zh">"米内罗惨案"：半决赛1-7负德国，主场之耻</span><span class="en">"Mineirazo": 1-7 semifinal humiliation vs Germany at home</span></td>
+            <td><span class="result-badge result-semifinal"><span class="zh">第四名</span><span class="en">4th Place</span></span></td>
+            <td><span class="zh">米内罗惨案：半决赛1-7负于德国</span><span class="en">Mineirazo: historic 1-7 semifinal defeat to Germany</span></td>
           </tr>
-          <tr class="">
+          <tr class="quarterfinal">
             <td>2018</td>
             <td>俄罗斯 / Russia</td>
             <td><span class="result-badge result-other"><span class="zh">八强</span><span class="en">Quarterfinals</span></span></td>
-            <td><span class="zh">1-2负于比利时，内马尔争议跌倒引发热议</span><span class="en">1-2 to Belgium; Neymar's theatrics drew widespread criticism</span></td>
+            <td><span class="zh">八强负于比利时</span><span class="en">Quarterfinal exit against Belgium</span></td>
           </tr>
-          <tr class="">
+          <tr class="quarterfinal">
             <td>2022</td>
             <td>卡塔尔 / Qatar</td>
             <td><span class="result-badge result-other"><span class="zh">八强</span><span class="en">Quarterfinals</span></span></td>
-            <td><span class="zh">点球1-1(2-4)负于克罗地亚，内马尔含泪离场</span><span class="en">1-1 (2-4 pens) loss to Croatia; Neymar's last World Cup</span></td>
+            <td><span class="zh">点球负于克罗地亚</span><span class="en">Lost on penalties to Croatia in quarterfinals</span></td>
           </tr>
         </tbody>
       </table>
@@ -983,8 +998,8 @@
           <span class="en">2026 World Cup Squad</span>
         </h2>
         <p class="section-subtitle">
-          <span class="zh">主教练：多里瓦尔·儒尼奥尔（巴西）</span>
-          <span class="en">Manager: Dorival Júnior (Brazilian)</span>
+          <span class="zh">主教练：安切洛蒂（意大利）</span>
+          <span class="en">Manager: Carlo Ancelotti (Italian)</span>
         </p>
       </div>
     </div>
@@ -995,35 +1010,35 @@
         <div class="player-name en">Alisson</div>
         <div class="player-name-en">Alisson Becker</div>
         <div class="player-club">Liverpool FC</div>
-        <div class="player-caps zh">83 场</div>
-        <div class="player-caps en">83 caps</div>
+        <div class="player-caps zh">103 场</div>
+        <div class="player-caps en">103 caps</div>
       </div>
       <div class="player-card">
         <div class="player-pos">GK</div>
-        <div class="player-name zh">埃德森</div>
+        <div class="player-name zh">埃德尔森</div>
         <div class="player-name en">Ederson</div>
         <div class="player-name-en">Ederson Moraes</div>
-        <div class="player-club">Man. City</div>
-        <div class="player-caps zh">36 场</div>
-        <div class="player-caps en">36 caps</div>
+        <div class="player-club">Manchester City</div>
+        <div class="player-caps zh">47 场</div>
+        <div class="player-caps en">47 caps</div>
       </div>
       <div class="player-card">
         <div class="player-pos">GK</div>
         <div class="player-name zh">本托</div>
         <div class="player-name en">Bento</div>
         <div class="player-name-en">Bento Krepski</div>
-        <div class="player-club">Al-Qadsiah</div>
-        <div class="player-caps zh">22 场</div>
-        <div class="player-caps en">22 caps</div>
+        <div class="player-club">Al-Nassr</div>
+        <div class="player-caps zh">18 场</div>
+        <div class="player-caps en">18 caps</div>
       </div>
       <div class="player-card">
         <div class="player-pos">DEF</div>
-        <div class="player-name zh">马奎尼奥斯</div>
+        <div class="player-name zh">马尔基尼奥斯</div>
         <div class="player-name en">Marquinhos</div>
         <div class="player-name-en">Marquinhos (C)</div>
         <div class="player-club">Paris Saint-Germain</div>
-        <div class="player-caps zh">91 场</div>
-        <div class="player-caps en">91 caps</div>
+        <div class="player-caps zh">88 场</div>
+        <div class="player-caps en">88 caps</div>
       </div>
       <div class="player-card">
         <div class="player-pos">DEF</div>
@@ -1031,107 +1046,125 @@
         <div class="player-name en">Militão</div>
         <div class="player-name-en">Éder Militão</div>
         <div class="player-club">Real Madrid</div>
-        <div class="player-caps zh">52 场</div>
-        <div class="player-caps en">52 caps</div>
+        <div class="player-caps zh">46 场</div>
+        <div class="player-caps en">46 caps</div>
+      </div>
+      <div class="player-card">
+        <div class="player-pos">DEF</div>
+        <div class="player-name zh">加布里埃尔</div>
+        <div class="player-name en">Gabriel</div>
+        <div class="player-name-en">Gabriel Magalhães</div>
+        <div class="player-club">Arsenal FC</div>
+        <div class="player-caps zh">34 场</div>
+        <div class="player-caps en">34 caps</div>
       </div>
       <div class="player-card">
         <div class="player-pos">DEF</div>
         <div class="player-name zh">达尼洛</div>
         <div class="player-name en">Danilo</div>
         <div class="player-name-en">Danilo Luiz</div>
-        <div class="player-club">Fluminense</div>
-        <div class="player-caps zh">74 场</div>
-        <div class="player-caps en">74 caps</div>
+        <div class="player-club">Flamengo</div>
+        <div class="player-caps zh">54 场</div>
+        <div class="player-caps en">54 caps</div>
       </div>
       <div class="player-card">
         <div class="player-pos">DEF</div>
         <div class="player-name zh">阿拉纳</div>
-        <div class="player-name en">G. Arana</div>
+        <div class="player-name en">Guilherme Arana</div>
         <div class="player-name-en">Guilherme Arana</div>
         <div class="player-club">Atlético Mineiro</div>
-        <div class="player-caps zh">29 场</div>
-        <div class="player-caps en">29 caps</div>
+        <div class="player-caps zh">22 场</div>
+        <div class="player-caps en">22 caps</div>
       </div>
       <div class="player-card">
         <div class="player-pos">MID</div>
         <div class="player-name zh">卡塞米罗</div>
         <div class="player-name en">Casemiro</div>
-        <div class="player-name-en">Carlos Casemiro</div>
-        <div class="player-club">Man. United</div>
-        <div class="player-caps zh">79 场</div>
-        <div class="player-caps en">79 caps</div>
+        <div class="player-name-en">Casemiro</div>
+        <div class="player-club">Manchester United</div>
+        <div class="player-caps zh">74 场</div>
+        <div class="player-caps en">74 caps</div>
       </div>
       <div class="player-card">
         <div class="player-pos">MID</div>
-        <div class="player-name zh">布鲁诺·吉马良斯</div>
-        <div class="player-name en">B. Guimarães</div>
+        <div class="player-name zh">布鲁诺·基马良斯</div>
+        <div class="player-name en">Bruno Guimarães</div>
         <div class="player-name-en">Bruno Guimarães</div>
-        <div class="player-club">Newcastle Utd</div>
-        <div class="player-caps zh">41 场</div>
-        <div class="player-caps en">41 caps</div>
+        <div class="player-club">Newcastle United</div>
+        <div class="player-caps zh">42 场</div>
+        <div class="player-caps en">42 caps</div>
       </div>
       <div class="player-card">
         <div class="player-pos">MID</div>
-        <div class="player-name zh">帕克塔</div>
+        <div class="player-name zh">帕奎塔</div>
         <div class="player-name en">Paquetá</div>
         <div class="player-name-en">Lucas Paquetá</div>
-        <div class="player-club">West Ham Utd</div>
-        <div class="player-caps zh">63 场</div>
-        <div class="player-caps en">63 caps</div>
+        <div class="player-club">West Ham United</div>
+        <div class="player-caps zh">60 场</div>
+        <div class="player-caps en">60 caps</div>
       </div>
       <div class="player-card">
         <div class="player-pos">MID</div>
-        <div class="player-name zh">格尔森</div>
+        <div class="player-name zh">热尔松</div>
         <div class="player-name en">Gerson</div>
         <div class="player-name-en">Gerson Santos</div>
         <div class="player-club">Flamengo</div>
-        <div class="player-caps zh">28 场</div>
-        <div class="player-caps en">28 caps</div>
+        <div class="player-caps zh">24 场</div>
+        <div class="player-caps en">24 caps</div>
       </div>
       <div class="player-card">
         <div class="player-pos">FWD</div>
         <div class="player-name zh">维尼修斯</div>
-        <div class="player-name en">Vinícius Jr.</div>
-        <div class="player-name-en">Vinícius Júnior</div>
+        <div class="player-name en">Vinicius Jr.</div>
+        <div class="player-name-en">Vinicius Júnior</div>
         <div class="player-club">Real Madrid</div>
-        <div class="player-caps zh">61 场</div>
-        <div class="player-caps en">61 caps</div>
-      </div>
-      <div class="player-card">
-        <div class="player-pos">FWD</div>
-        <div class="player-name zh">罗德里戈</div>
-        <div class="player-name en">Rodrygo</div>
-        <div class="player-name-en">Rodrygo Goes</div>
-        <div class="player-club">Real Madrid</div>
-        <div class="player-caps zh">43 场</div>
-        <div class="player-caps en">43 caps</div>
+        <div class="player-caps zh">72 场</div>
+        <div class="player-caps en">72 caps</div>
       </div>
       <div class="player-card">
         <div class="player-pos">FWD</div>
         <div class="player-name zh">拉菲尼亚</div>
         <div class="player-name en">Raphinha</div>
-        <div class="player-name-en">Raphael Dias Belloli</div>
+        <div class="player-name-en">Raphinha Dias</div>
         <div class="player-club">FC Barcelona</div>
-        <div class="player-caps zh">51 场</div>
-        <div class="player-caps en">51 caps</div>
+        <div class="player-caps zh">58 场</div>
+        <div class="player-caps en">58 caps</div>
       </div>
       <div class="player-card">
         <div class="player-pos">FWD</div>
         <div class="player-name zh">恩德里克</div>
         <div class="player-name en">Endrick</div>
         <div class="player-name-en">Endrick Felipe</div>
-        <div class="player-club">Real Madrid</div>
-        <div class="player-caps zh">18 场</div>
-        <div class="player-caps en">18 caps</div>
+        <div class="player-club">Olympique Lyonnais</div>
+        <div class="player-caps zh">20 场</div>
+        <div class="player-caps en">20 caps</div>
       </div>
       <div class="player-card">
         <div class="player-pos">FWD</div>
-        <div class="player-name zh">马丁内利</div>
+        <div class="player-name zh">马蒂厄斯·库尼亚</div>
+        <div class="player-name en">Matheus Cunha</div>
+        <div class="player-name-en">Matheus Cunha</div>
+        <div class="player-club">Wolverhampton</div>
+        <div class="player-caps zh">24 场</div>
+        <div class="player-caps en">24 caps</div>
+      </div>
+      <div class="player-card">
+        <div class="player-pos">FWD</div>
+        <div class="player-name zh">埃斯特瓦奥</div>
+        <div class="player-name en">Estêvão</div>
+        <div class="player-name-en">Estêvão Willian</div>
+        <div class="player-club">Chelsea FC</div>
+        <div class="player-caps zh">12 场</div>
+        <div class="player-caps en">12 caps</div>
+      </div>
+      <div class="player-card">
+        <div class="player-pos">FWD</div>
+        <div class="player-name zh">加布里埃尔·马丁内利</div>
         <div class="player-name en">Martinelli</div>
         <div class="player-name-en">Gabriel Martinelli</div>
         <div class="player-club">Arsenal FC</div>
-        <div class="player-caps zh">26 场</div>
-        <div class="player-caps en">26 caps</div>
+        <div class="player-caps zh">32 场</div>
+        <div class="player-caps en">32 caps</div>
       </div>
     </div>
   </section>
@@ -1154,97 +1187,91 @@
       </div>
     </div>
     <div class="legends-grid">
-
       <div class="legend-card">
         <div class="legend-number">01</div>
         <div class="legend-name zh">贝利</div>
         <div class="legend-name en">Pelé</div>
-        <div class="legend-name-sub zh">Edson Arantes do Nascimento</div>
-        <div class="legend-name-sub en">球王 · The King</div>
+        <div class="legend-name-sub zh">PELÉ · Edson Arantes do Nascimento</div>
+        <div class="legend-name-sub en">贝利 · 球王</div>
         <div class="legend-years">1957–1971</div>
         <div class="legend-position zh">前锋</div>
         <div class="legend-position en">Forward</div>
-        <div class="legend-bio zh">足球史上最伟大的球员，17岁首夺世界杯冠军，是唯一三次举起大力神杯的球员。他以无与伦比的得分能力、优雅球风与领袖气质，成为跨越时代的足球符号。</div>
-        <div class="legend-bio en">The greatest footballer in history. Won his first World Cup at just 17, and remains the only player to win three. His unrivalled scoring ability, elegant style, and magnetic charisma made him a timeless symbol of the sport.</div>
+        <div class="legend-bio zh">史上最伟大的足球运动员，三次带领巴西夺得世界杯冠军（1958、1962、1970）。1958年世界杯，年仅17岁便在决赛上演帽子戏法，惊艳世界。一生共为巴西出战77场，攻入77球，职业生涯进球逾1000球，是巴西永恒的"球王"。</div>
+        <div class="legend-bio en">The greatest footballer of all time, Pelé won three World Cups with Brazil (1958, 1962, 1970). At just 17 in 1958, he scored a hat-trick in the final to announce himself to the world. With 77 goals in 77 international appearances and over 1,000 career goals, he remains Brazil's eternal "King of Football."</div>
         <div class="legend-stat">
-          <span>3×</span>
-          <span class="zh">世界杯冠军（1958、1962、1970）</span>
-          <span class="en">World Cup titles (1958, 1962, 1970)</span>
+          <span>77</span>
+          <span class="zh">国家队进球</span>
+          <span class="en">international goals</span>
         </div>
       </div>
-
       <div class="legend-card">
         <div class="legend-number">02</div>
         <div class="legend-name zh">罗纳尔多</div>
         <div class="legend-name en">Ronaldo R9</div>
-        <div class="legend-name-sub zh">O Fenômeno · 外星人</div>
-        <div class="legend-name-sub en">O Fenômeno · The Phenomenon</div>
-        <div class="legend-years">1994–2006</div>
+        <div class="legend-name-sub zh">RONALDO · 外星人</div>
+        <div class="legend-name-sub en">罗纳尔多 · O Fenômeno</div>
+        <div class="legend-years">1994–2011</div>
         <div class="legend-position zh">前锋</div>
         <div class="legend-position en">Forward</div>
-        <div class="legend-bio zh">"外星人"罗纳尔多集速度、力量与精准射术于一身，2002年世界杯以8球蝉联金靴，决赛双响击败德国，完成了从1998年谜一般倒下到2002年王者归来的传奇逆袭。</div>
-        <div class="legend-bio en">O Fenômeno combined explosive pace, power, and deadly finishing. After his mysterious illness in the 1998 final, he returned in 2002 to claim 8 goals and the Golden Boot, netting twice in the final victory over Germany — one of sport's greatest comebacks.</div>
+        <div class="legend-bio zh">"外星人"罗纳尔多是世界杯历史上最具统治力的前锋之一，1994年夺冠和2002年捧杯均有他的身影。2002年韩日世界杯以8球成为最佳射手，独自扛起巴西战车攻破德国（2-0）。</div>
+        <div class="legend-bio en">"O Fenômeno" was one of the most devastating strikers in World Cup history, winning in 1994 and 2002. At the 2002 Korea/Japan tournament, he scored 8 goals — including both in the 2-0 final win over Germany — to win the Golden Boot and his second world title.</div>
         <div class="legend-stat">
           <span>15</span>
-          <span class="zh">世界杯进球（史上第一）</span>
-          <span class="en">World Cup goals (all-time record at retirement)</span>
+          <span class="zh">世界杯进球（历史第三）</span>
+          <span class="en">World Cup goals (3rd all-time)</span>
         </div>
       </div>
-
       <div class="legend-card">
         <div class="legend-number">03</div>
         <div class="legend-name zh">罗纳尔迪尼奥</div>
         <div class="legend-name en">Ronaldinho</div>
-        <div class="legend-name-sub zh">桑巴魔术师</div>
-        <div class="legend-name-sub en">The Samba Magician</div>
+        <div class="legend-name-sub zh">RONALDINHO · 快乐足球</div>
+        <div class="legend-name-sub en">罗纳尔迪尼奥 · The Magician</div>
         <div class="legend-years">1999–2013</div>
-        <div class="legend-position zh">攻击中场 / 前锋</div>
-        <div class="legend-position en">Attacking Mid / Forward</div>
-        <div class="legend-bio zh">足球史上技术最华丽的球员之一，2002年世界杯随巴西夺冠，其任意球击中英格兰门将西曼成为经典镜头。2005年荣获世界足球先生，在巴塞罗那的岁月令全世界为之疯狂。</div>
-        <div class="legend-bio en">One of football's most technically gifted players ever. Won the 2002 World Cup with Brazil; his free-kick lob over England keeper Seaman is iconic. Ballon d'Or 2005, his years at Barcelona were among the most magical the game has ever seen.</div>
+        <div class="legend-position zh">前腰 / 中场</div>
+        <div class="legend-position en">Attacking Midfield</div>
+        <div class="legend-bio zh">被誉为"魔法师"的罗纳尔迪尼奥以无与伦比的技术和感染力的笑容征服了全世界。2002年世界杯冠军成员，职业生涯两度赢得世界足球先生，在巴塞罗那书写传奇篇章，让美丽足球精神发扬光大。</div>
+        <div class="legend-bio en">Hailed as "The Magician," Ronaldinho captivated the world with his unmatched skill and infectious smile. A key part of the 2002 World Cup-winning squad, he won two FIFA World Player of the Year awards and defined a generation of "Jogo Bonito" at FC Barcelona.</div>
         <div class="legend-stat">
-          <span>2002</span>
-          <span class="zh">世界杯冠军 · 2005年世界足球先生</span>
-          <span class="en">World Cup winner · 2005 Ballon d'Or</span>
+          <span>97</span>
+          <span class="zh">国家队出场数</span>
+          <span class="en">international appearances</span>
         </div>
       </div>
-
       <div class="legend-card">
         <div class="legend-number">04</div>
-        <div class="legend-name zh">济科</div>
-        <div class="legend-name en">Zico</div>
-        <div class="legend-name-sub zh">白贝利 · O Galinho</div>
-        <div class="legend-name-sub en">The White Pelé</div>
-        <div class="legend-years">1976–1986</div>
-        <div class="legend-position zh">进攻中场</div>
-        <div class="legend-position en">Attacking Midfielder</div>
-        <div class="legend-bio zh">被誉为"白贝利"的济科是1982年世界杯上最耀眼的球员，领衔那支华丽却无缘冠军的巴西队。他精准的任意球与组织能力让他成为那个时代最具统治力的中场球员之一。</div>
-        <div class="legend-bio en">Known as "The White Pelé," Zico was the centrepiece of the dazzling but unlucky 1982 Brazil side. His precise free-kicks and vision made him one of the most dominant midfielders of his era, even if the ultimate prize eluded him.</div>
+        <div class="legend-name zh">加林查</div>
+        <div class="legend-name en">Garrincha</div>
+        <div class="legend-name-sub zh">GARRINCHA · 小鸟</div>
+        <div class="legend-name-sub en">加林查 · Little Bird</div>
+        <div class="legend-years">1955–1966</div>
+        <div class="legend-position zh">右边锋</div>
+        <div class="legend-position en">Right Winger</div>
+        <div class="legend-bio zh">被称为"小鸟"的加林查尽管先天脊柱弯曲、双腿畸形，却以惊人的过人技术和速度成为50-60年代最难防守的边锋。1958年和1962年两度助巴西登顶世界之巅，1962年获世界杯最佳球员。</div>
+        <div class="legend-bio en">The "Little Bird" overcame a curved spine and misaligned legs to become the most unplayable winger of the 1950s-60s. A two-time World Cup winner (1958, 1962), Garrincha was named Best Player at the 1962 World Cup, where his mazy dribbling was unstoppable.</div>
         <div class="legend-stat">
-          <span>3×</span>
-          <span class="zh">世界杯参赛（1978、1982、1986）</span>
-          <span class="en">World Cup appearances (1978, 1982, 1986)</span>
+          <span>12</span>
+          <span class="zh">世界杯进球</span>
+          <span class="en">World Cup goals</span>
         </div>
       </div>
-
       <div class="legend-card">
         <div class="legend-number">05</div>
-        <div class="legend-name zh">卡卡</div>
-        <div class="legend-name en">Kaká</div>
-        <div class="legend-name-sub zh">Ricardo Izecson dos Santos Leite</div>
-        <div class="legend-name-sub en">The Last Classic No.10</div>
-        <div class="legend-years">2002–2016</div>
-        <div class="legend-position zh">进攻中场</div>
-        <div class="legend-position en">Attacking Midfielder</div>
-        <div class="legend-bio zh">2002年世界杯冠军成员，2007年荣获金球奖，是21世纪初最具统治力的中场球员之一。他在AC米兰的表演将技艺与速度融为一体，被誉为最后一位纯正传统10号。</div>
-        <div class="legend-bio en">A 2002 World Cup winner and 2007 Ballon d'Or recipient, Kaká combined elegance, pace, and vision during his peak years at AC Milan. Often called the last true classic No.10, he inspired a generation of Brazilian midfielders.</div>
+        <div class="legend-name zh">济科</div>
+        <div class="legend-name en">Zico</div>
+        <div class="legend-name-sub zh">ZICO · 白色贝利</div>
+        <div class="legend-name-sub en">济科 · The White Pelé</div>
+        <div class="legend-years">1976–1989</div>
+        <div class="legend-position zh">攻击中场</div>
+        <div class="legend-position en">Attacking Midfield</div>
+        <div class="legend-bio zh">被誉为"白色贝利"的济科是80年代世界顶尖的进攻中场，三届世界杯出场（1978、1982、1986）。1982年巴西队以精彩的踢球风格征服全球球迷，尽管止步第二轮，却被公认为史上最美丽却未夺冠的球队。</div>
+        <div class="legend-bio en">Nicknamed the "White Pelé," Zico was the world's best attacking midfielder of the 1980s, competing in three World Cups. The 1982 Brazil side he led played the most beautiful football never to win the title — their second-round exit to Italy remains one of football's greatest "what ifs."</div>
         <div class="legend-stat">
-          <span>2007</span>
-          <span class="zh">金球奖得主 · 2002年世界杯冠军</span>
-          <span class="en">Ballon d'Or · 2002 World Cup champion</span>
+          <span>48</span>
+          <span class="zh">国家队进球</span>
+          <span class="en">international goals</span>
         </div>
       </div>
-
     </div>
   </section>
 
@@ -1266,7 +1293,6 @@
       </div>
     </div>
     <div class="rivalry-grid">
-
       <div class="rivalry-card">
         <div class="rivalry-teams">
           <span class="zh">巴西</span>
@@ -1275,22 +1301,9 @@
           <span class="zh">阿根廷 🇦🇷</span>
           <span class="en">Argentina 🇦🇷</span>
         </div>
-        <div class="rivalry-desc zh">南美洲最伟大的宿敌对决，被称为"美洲超级国家德比"（Superclásico de las Américas）。两队在百年对抗中积累了无数经典战役，代表了截然不同的足球哲学：巴西的艺术与创造力对阵阿根廷的激情与意志力。每次交锋都是整个南美大陆屏息以待的时刻。</div>
-        <div class="rivalry-desc en">The greatest rivalry in South American football — the "Superclásico de las Américas." A century of intense battles has produced countless classic encounters, pitting Brazil's artistic flair against Argentina's fierce passion and willpower. Every fixture stops an entire continent.</div>
+        <div class="rivalry-desc zh">南美超级德比——"美洲超级德比"（Superclássico das Américas）是世界足球史上最激烈的双边对抗之一。两国之间的竞争超越了足球本身，涵盖历史、文化与民族自尊。两队在世界杯赛场上多次相遇，交锋从来火花四溅。近年来，随着梅西与维尼修斯等超级球星的对决，这一宿敌格局更加精彩。</div>
+        <div class="rivalry-desc en">The "Superclássico das Américas" is one of football's fiercest bilateral rivalries, transcending sport into history, culture, and national pride. Brazil and Argentina have met repeatedly on the World Cup stage, with every clash carrying immense weight. With modern icons like Messi and Vinicius Jr. squaring off, this rivalry has never burned hotter.</div>
       </div>
-
-      <div class="rivalry-card">
-        <div class="rivalry-teams">
-          <span class="zh">巴西</span>
-          <span class="en">Brazil</span>
-          <span class="rivalry-vs">vs</span>
-          <span class="zh">德国 🇩🇪</span>
-          <span class="en">Germany 🇩🇪</span>
-        </div>
-        <div class="rivalry-desc zh">2014年世界杯半决赛，巴西在主场被德国7-1羞辱，创下"米内罗惨案"（Mineirazo），成为足球史上最令人震惊的比赛之一。这场耻辱永久改变了巴西足球的历史叙事，也让两队的对决充满了宿命色彩。</div>
-        <div class="rivalry-desc en">The 2014 World Cup semifinal will never be forgotten — Germany humiliated Brazil 7-1 on home soil in the "Mineirazo," one of the most shocking results in football history. The defeat reshaped Brazilian football's narrative and made every future encounter laden with meaning.</div>
-      </div>
-
       <div class="rivalry-card">
         <div class="rivalry-teams">
           <span class="zh">巴西</span>
@@ -1299,10 +1312,20 @@
           <span class="zh">乌拉圭 🇺🇾</span>
           <span class="en">Uruguay 🇺🇾</span>
         </div>
-        <div class="rivalry-desc zh">1950年世界杯决赛圈最后一场比赛，在里约热内卢的马拉卡纳大球场，乌拉圭以2-1击败巴西，"马拉卡纳惨案"（Maracanazo）诞生。这场失利成为巴西足球史上最痛苦的集体记忆，也开启了两队之间长达七十余年的紧张对抗。</div>
-        <div class="rivalry-desc en">The "Maracanazo" of 1950 — Uruguay's 2-1 victory over Brazil in the decisive final-round match at the Maracanã — remains the most painful moment in Brazilian football history. The shock defeat gave birth to a fierce, decades-long rivalry between these neighbouring nations.</div>
+        <div class="rivalry-desc zh">1950年世界杯决赛，20万球迷聚集马拉卡纳，坐等巴西捧杯——但乌拉圭以2-0上演世纪大逆转，留下了"马拉卡纳惨案"（Maracanazo）这一永恒的历史伤痛。这场失利对巴西人的心理冲击之深，相当于一次国家级的集体创伤。</div>
+        <div class="rivalry-desc en">In the 1950 World Cup final round, 200,000 fans packed the Maracanã expecting Brazil to be crowned — but Uruguay stunned the hosts 2-0 in what became the "Maracanazo." This defeat left a psychological scar so deep it is considered a national trauma, making every Brazil-Uruguay encounter charged with historical weight.</div>
       </div>
-
+      <div class="rivalry-card">
+        <div class="rivalry-teams">
+          <span class="zh">巴西</span>
+          <span class="en">Brazil</span>
+          <span class="rivalry-vs">vs</span>
+          <span class="zh">德国 🇩🇪</span>
+          <span class="en">Germany 🇩🇪</span>
+        </div>
+        <div class="rivalry-desc zh">2014年世界杯半决赛，巴西在主场以1-7惨败于德国，创造了"米内罗惨案"（Mineirazo）——这不仅是巴西足球历史上最惨痛的失利，也是世界杯历史上最震撼的结果之一。赛场上数万观众留下的泪水和沉默，定格为足球史上最难忘的画面之一。</div>
+        <div class="rivalry-desc en">The 2014 World Cup semifinal at the Estádio Mineirão produced the "Mineirazo" — Brazil's catastrophic 1-7 collapse on home soil against Germany. Tens of thousands of Brazilians wept openly in the stands. This historic humiliation redefined the Brazil-Germany rivalry and remains one of the most shocking results in World Cup history.</div>
+      </div>
     </div>
   </section>
 
@@ -1324,37 +1347,41 @@
       </div>
     </div>
     <div class="facts-grid">
-
       <div class="fact-item">
-        <div class="fact-icon">🌐</div>
-        <div class="fact-text zh">巴西是唯一参加过每一届FIFA世界杯决赛圈的球队，从1930年第一届至今，从未缺席，共计22届全勤。</div>
-        <div class="fact-text en">Brazil is the only nation to have qualified for every single FIFA World Cup since the tournament began in 1930 — a perfect 22-from-22 attendance record.</div>
+        <div class="fact-icon">🌍</div>
+        <div>
+          <div class="fact-text zh">巴西是世界上唯一一支参加了每一届FIFA世界杯的球队，从1930年首届世界杯至今，从未缺席，出场22次。</div>
+          <div class="fact-text en">Brazil is the only nation to have participated in every single FIFA World Cup — appearing in all 22 tournaments since 1930 without ever failing to qualify.</div>
+        </div>
       </div>
-
       <div class="fact-item">
         <div class="fact-icon">🏆</div>
-        <div class="fact-text zh">凭借1970年第三次夺冠，巴西永久保留了原版雷米金杯（Jules Rimet Trophy）。这座奖杯后来不幸在1983年被盗，至今下落不明。</div>
-        <div class="fact-text en">By winning their third title in 1970, Brazil permanently kept the original Jules Rimet Trophy. Tragically, the cup was stolen in 1983 and has never been recovered.</div>
+        <div>
+          <div class="fact-text zh">巴西以5次世界杯冠军稳居历史第一，并在欧洲（1958）、南美洲（1950/1962）、北美洲（1970/1994）和亚洲（2002）四大洲夺冠，是唯一在四个大洲称王的球队。</div>
+          <div class="fact-text en">Brazil's 5 World Cup titles are the most in history. They are also the only team to have won the tournament on four different continents: Europe (1958), South America (1950/1962), North America (1970/1994), and Asia (2002).</div>
+        </div>
       </div>
-
       <div class="fact-item">
-        <div class="fact-icon">👑</div>
-        <div class="fact-text zh">贝利是唯一三次捧起世界杯的球员（1958、1962、1970），这一纪录至今无人打破，被认为永远不可能被超越。</div>
-        <div class="fact-text en">Pelé remains the only player ever to win three World Cups (1958, 1962, 1970) — a record widely regarded as unbreakable.</div>
+        <div class="fact-icon">⚽</div>
+        <div>
+          <div class="fact-text zh">1970年巴西队至今被许多球迷和专家公认为世界杯历史上最伟大的球队，那支球队拥有贝利、加林查、里维利诺、托斯唐等超级巨星，全程6战全胜，共打入19球。</div>
+          <div class="fact-text en">The 1970 Brazil team is widely regarded as the greatest World Cup squad ever assembled. Featuring Pelé, Jairzinho, Rivelino, and Tostão, they won all 6 matches and scored 19 goals on their way to lifting the Jules Rimet Trophy permanently.</div>
+        </div>
       </div>
-
       <div class="fact-item">
-        <div class="fact-icon">😱</div>
-        <div class="fact-text zh">2014年世界杯半决赛，巴西主场以1-7惨败给德国，这是"美丽足球"历史上最惨烈的失利，赛后无数巴西球迷当街痛哭。</div>
-        <div class="fact-text en">The 2014 semifinal 1-7 defeat to Germany on home soil — the "Mineirazo" — left millions of Brazilian fans weeping in the streets and shocked the entire footballing world.</div>
+        <div class="fact-icon">😢</div>
+        <div>
+          <div class="fact-text zh">2014年世界杯半决赛，巴西在本土以1-7惨败于德国，这场"米内罗惨案"创下了多项耻辱纪录，包括巴西队史世界杯最大比分失利，半场便已0-5落后。</div>
+          <div class="fact-text en">In the 2014 World Cup semifinal on home soil, Brazil were demolished 1-7 by Germany — the "Mineirazo." Germany scored five goals in 18 minutes in the first half. It remains Brazil's worst ever World Cup defeat and one of the most shocking results in football history.</div>
+        </div>
       </div>
-
       <div class="fact-item">
-        <div class="fact-icon">⚡</div>
-        <div class="fact-text zh">维尼修斯·儒尼奥尔是2024年最接近金球奖的球员之一，尽管最终未能获奖，但他已成为现役最具统治力的左路进攻球员。</div>
-        <div class="fact-text en">Vinícius Júnior was among the frontrunners for the 2024 Ballon d'Or. Despite narrowly missing out, he is widely considered the most dominant attacking left winger in world football today.</div>
+        <div class="fact-icon">👟</div>
+        <div>
+          <div class="fact-text zh">马拉卡纳球场于1950年世界杯为见证巴西夺冠而建，当年决赛观众人数估计超过20万，至今仍是世界杯史上最高的单场观众纪录。</div>
+          <div class="fact-text en">The Maracanã was built for the 1950 World Cup, where an estimated 200,000+ fans witnessed the "Maracanazo" — still the largest crowd in World Cup history. The stadium became a symbol of both Brazilian football's glory and its greatest heartbreak.</div>
+        </div>
       </div>
-
     </div>
   </section>
 
