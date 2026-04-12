@@ -123,7 +123,7 @@ world-cup-soccer/
 - **48 teams** — expanded from 32 for the first time
 - **3 host nations** — USA 🇺🇸, Canada 🇨🇦, Mexico 🇲🇽
 - **Dates** — June 11 – July 19, 2026
-- **Format** — 16 groups of 3, then knockout from Round of 32
+- **Format** — 12 groups of 4, then knockout from Round of 32
 
 ---
 
