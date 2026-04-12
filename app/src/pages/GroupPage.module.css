@@ -1,0 +1,355 @@
+.page {
+  min-height: 100vh;
+  background: var(--color-bg);
+}
+
+.backBtn {
+  display: inline-block;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  z-index: 100;
+  color: var(--color-muted);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 14px;
+  background: rgba(30, 30, 40, 0.6);
+  border: 1px solid var(--color-border);
+  border-radius: 100px;
+  backdrop-filter: blur(8px);
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.backBtn:hover {
+  color: var(--color-text);
+  border-color: var(--color-muted);
+}
+
+:global([data-theme="light"]) .backBtn {
+  background: rgba(255, 255, 255, 0.8);
+  color: #555;
+}
+
+/* ── Hero ── */
+.hero {
+  text-align: center;
+  padding: 100px 24px 60px;
+  background: radial-gradient(ellipse 70% 50% at 50% 0%, rgba(74, 222, 128, 0.2), transparent 70%);
+}
+
+.groupLabel {
+  font-size: clamp(48px, 12vw, 100px);
+  font-weight: 900;
+  background: linear-gradient(135deg, #fff 0%, #4ade80 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+  margin-bottom: 24px;
+  letter-spacing: -0.03em;
+}
+
+.flags {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.flagEmoji {
+  font-size: clamp(36px, 8vw, 64px);
+  filter: drop-shadow(0 4px 16px rgba(0,0,0,0.3));
+}
+
+.subtitle {
+  font-size: 14px;
+  color: var(--color-muted);
+}
+
+/* ── Sections ── */
+.section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px 56px;
+}
+
+.sectionTitle {
+  font-size: clamp(18px, 3vw, 24px);
+  font-weight: 900;
+  color: var(--color-text);
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #4ade80;
+  display: inline-block;
+}
+
+/* ── Team cards ── */
+.teamGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.teamCard {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: border-color 0.2s, transform 0.15s;
+}
+
+.teamCard:hover {
+  border-color: rgba(74, 222, 128, 0.4);
+  transform: translateX(4px);
+}
+
+.seedNum {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(74, 222, 128, 0.12);
+  border: 1px solid rgba(74, 222, 128, 0.3);
+  color: #4ade80;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.teamFlag {
+  font-size: 36px;
+  flex-shrink: 0;
+}
+
+.teamInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.teamName {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.teamMeta {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.metaTag {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--color-muted);
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  padding: 2px 8px;
+  border-radius: 100px;
+}
+
+.teamStats {
+  display: flex;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.statItem {
+  text-align: center;
+}
+
+.statVal {
+  display: block;
+  font-size: 20px;
+  font-weight: 900;
+  color: #4ade80;
+  line-height: 1;
+}
+
+.statLabel {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--color-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.arrow {
+  color: var(--color-muted);
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+/* ── Prediction ── */
+.predNote {
+  font-size: 13px;
+  color: var(--color-muted);
+  margin-bottom: 16px;
+  font-style: italic;
+}
+
+.predGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+@media (max-width: 480px) {
+  .predGrid { grid-template-columns: 1fr; }
+}
+
+.predCard {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  padding: 28px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.predCard:first-child {
+  border-color: rgba(255, 215, 0, 0.3);
+}
+
+.predCard:last-child {
+  border-color: rgba(192, 192, 192, 0.3);
+}
+
+.predCard:hover {
+  transform: translateY(-3px);
+}
+
+.predRank {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.predFlag {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.predName {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.predFifa {
+  font-size: 12px;
+  color: var(--color-muted);
+}
+
+/* ── Group nav ── */
+.groupNav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.groupBtn {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  color: var(--color-muted);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.groupBtn:hover {
+  border-color: rgba(74, 222, 128, 0.4);
+  color: var(--color-text);
+}
+
+.groupBtnActive {
+  background: rgba(74, 222, 128, 0.12);
+  border-color: rgba(74, 222, 128, 0.5);
+  color: #4ade80;
+}
+
+/* ── Loading / error ── */
+.loadingPage,
+.errorPage {
+  min-height: 100vh;
+  background: var(--color-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner {
+  font-size: 64px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.errorBox {
+  text-align: center;
+  padding: 48px;
+}
+
+.errorIcon {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.errorBox h1 {
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--color-text);
+  margin-bottom: 8px;
+}
+
+.errorBox p {
+  color: var(--color-muted);
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+.code {
+  display: inline-block;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  padding: 6px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #4ade80;
+  font-family: monospace;
+}
+
+.backLink {
+  color: #4ade80;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* ── Footer ── */
+.footer {
+  text-align: center;
+  padding: 32px 24px;
+  color: var(--color-muted);
+  font-size: 13px;
+  border-top: 1px solid var(--color-border);
+}

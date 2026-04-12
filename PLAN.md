@@ -8,7 +8,7 @@
 | 2 | Generate all 48 teams | Run `/world-cup team {name}` for every nation, audit each one | 🔜 Next |
 | 2b | `/world-cup refine {team}` | Search for latest info (squad updates, coach changes, recent form) and update JSON | ✅ Done |
 | 3 | Group stage draw | Add group (A–L) to each team JSON + show on team card and team page | ✅ Done |
-| 4 | `/world-cup group {A–L}` | Full group page: all 4 teams, schedule, predictions | 🔜 Planned |
+| 4 | `/world-cup group {A–L}` | Full group page: all 4 teams, schedule, predictions | ✅ Done |
 | 5 | `/world-cup match {t1} vs {t2}` | Head-to-head stats, historical meetings, prediction | 🔜 Planned |
 | 5b | `/world-cup refine match {t1} vs {t2}` | Refresh with latest news, injuries, form ahead of the fixture | 🔜 Planned |
 | 6 | `/world-cup player {name}` | Player spotlight page, linked from team pages | 🔜 Planned |

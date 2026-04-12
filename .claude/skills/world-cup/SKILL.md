@@ -21,7 +21,7 @@ Determine the mode from `{{mode}}`:
 | `audit {name}` | `audit` — run `node audit.mjs {slug}` on one team |
 | `match {team1} vs {team2}` | `match` |
 | `player {name}` | `player` |
-| `group {letter}` | `group` |
+| `group {letter}` | `group` — summary of group + predicted qualifiers |
 
 ---
 

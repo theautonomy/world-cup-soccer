@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import T from '../components/T.jsx'
 import Controls from '../components/Controls.jsx'
 import { useApp } from '../context/AppContext.jsx'
@@ -11,7 +11,12 @@ export default function Home() {
   const [teams, setTeams] = useState([])
   const [groupMap, setGroupMap] = useState({})  // slug → group letter
   const [loading, setLoading] = useState(true)
-  const [activeGroup, setActiveGroup] = useState('ALL')
+  const [searchParams, setSearchParams] = useSearchParams()
+  const activeGroup = searchParams.get('group') || 'ALL'
+  function setActiveGroup(g) {
+    if (g === 'ALL') setSearchParams({})
+    else setSearchParams({ group: g })
+  }
   const { lang } = useApp()
 
   useEffect(() => {
@@ -73,6 +78,11 @@ export default function Home() {
               <T zh={`${g}组`} en={`Group ${g}`} />
             </button>
           ))}
+          {activeGroup !== 'ALL' && (
+            <Link to={`/groups/${activeGroup.toLowerCase()}`} className={styles.groupPageLink}>
+              <T zh={`查看第${activeGroup}组详情 →`} en={`View Group ${activeGroup} page →`} />
+            </Link>
+          )}
         </div>
       )}
 
