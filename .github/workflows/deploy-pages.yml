@@ -36,14 +36,18 @@ jobs:
           cache: 'npm'
           cache-dependency-path: app/package-lock.json
 
-      - name: Copy team JSON files into app public directory
+      - name: Copy data files into app public directory
         run: |
           mkdir -p app/public/data/teams
           if ls data/teams/*.json 1>/dev/null 2>&1; then
             cp data/teams/*.json app/public/data/teams/
-            echo "Copied $(ls data/teams/*.json | wc -l) JSON files"
+            echo "Copied $(ls data/teams/*.json | wc -l) team JSON files"
           else
             echo "No JSON files found in data/teams/ — building with empty team list"
+          fi
+          if [ -f data/groups.json ]; then
+            cp data/groups.json app/public/data/groups.json
+            echo "Copied groups.json"
           fi
 
       - name: Build team index JSON

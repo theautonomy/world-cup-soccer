@@ -13,8 +13,10 @@ import { execSync, spawn } from 'child_process'
 import { fileURLToPath } from 'url'
 
 const __dir = path.dirname(fileURLToPath(import.meta.url))
-const SRC  = path.join(__dir, 'data/teams')
-const DEST = path.join(__dir, 'app/public/data/teams')
+const SRC        = path.join(__dir, 'data/teams')
+const DEST       = path.join(__dir, 'app/public/data/teams')
+const GROUPS_SRC = path.join(__dir, 'data/groups.json')
+const GROUPS_DST = path.join(__dir, 'app/public/data/groups.json')
 const APP  = path.join(__dir, 'app')
 
 const mode = process.argv[2] === 'prod' ? 'prod' : 'dev'
@@ -50,6 +52,12 @@ const index = destFiles.flatMap(f => {
 })
 fs.writeFileSync(path.join(DEST, 'index.json'), JSON.stringify(index, null, 2))
 console.log(`✓  index.json built (${index.length} team${index.length !== 1 ? 's' : ''})`)
+
+// Copy groups.json
+if (fs.existsSync(GROUPS_SRC)) {
+  fs.copyFileSync(GROUPS_SRC, GROUPS_DST)
+  console.log('✓  groups.json copied → app/public/data/')
+}
 
 // ── Step 2: Install deps if needed ──────────────────────────────────────────
 

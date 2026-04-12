@@ -54,6 +54,7 @@
 ### 2. 足球联合会
 - 联合会缩写（CBF、DFB 等）
 - 当前 FIFA 排名
+- 2026 世界杯分组（A–L），参考 `data/groups.json` 或搜索 "FIFA World Cup 2026 draw groups"
 
 ### 3. 世界杯历史
 - 总参赛次数、冠军次数及年份、最佳成绩
@@ -91,6 +92,7 @@
     "flag_emoji": "🇧🇷",
     "federation": "CBF",
     "fifa_rank": 1,
+    "group": "H",
     "colors": {
       "primary": "#009C3B",
       "secondary": "#FFDF00",

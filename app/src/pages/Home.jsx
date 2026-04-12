@@ -5,20 +5,39 @@ import Controls from '../components/Controls.jsx'
 import { useApp } from '../context/AppContext.jsx'
 import styles from './Home.module.css'
 
+const GROUPS = ['A','B','C','D','E','F','G','H','I','J','K','L']
+
 export default function Home() {
   const [teams, setTeams] = useState([])
+  const [groupMap, setGroupMap] = useState({})  // slug → group letter
   const [loading, setLoading] = useState(true)
+  const [activeGroup, setActiveGroup] = useState('ALL')
   const { lang } = useApp()
 
   useEffect(() => {
-    fetch('/world-cup-soccer/data/teams/index.json')
-      .then(r => r.json())
-      .then(data => {
-        setTeams(data)
-        setLoading(false)
-      })
-      .catch(() => setLoading(false))
+    Promise.all([
+      fetch('/world-cup-soccer/data/teams/index.json').then(r => r.json()).catch(() => []),
+      fetch('/world-cup-soccer/data/groups.json').then(r => r.json()).catch(() => ({})),
+    ]).then(([teamsData, groupsData]) => {
+      setTeams(teamsData)
+      // Build reverse map: slug → group letter
+      const map = {}
+      for (const [letter, slugs] of Object.entries(groupsData.groups || {})) {
+        for (const slug of slugs) map[slug] = letter
+      }
+      setGroupMap(map)
+      setLoading(false)
+    })
   }, [])
+
+  const visibleTeams = activeGroup === 'ALL'
+    ? teams
+    : teams.filter(t => groupMap[t.slug] === activeGroup)
+
+  // Which groups actually have generated teams?
+  const populatedGroups = GROUPS.filter(g =>
+    teams.some(t => groupMap[t.slug] === g)
+  )
 
   return (
     <div className={styles.page}>
@@ -36,6 +55,26 @@ export default function Home() {
           {teams.length} / 48 <T zh="支球队" en="teams" />
         </div>
       </header>
+
+      {!loading && teams.length > 0 && (
+        <div className={styles.filterBar}>
+          <button
+            className={`${styles.filterBtn} ${activeGroup === 'ALL' ? styles.active : ''}`}
+            onClick={() => setActiveGroup('ALL')}
+          >
+            <T zh="全部" en="All" />
+          </button>
+          {populatedGroups.map(g => (
+            <button
+              key={g}
+              className={`${styles.filterBtn} ${activeGroup === g ? styles.active : ''}`}
+              onClick={() => setActiveGroup(g)}
+            >
+              <T zh={`${g}组`} en={`Group ${g}`} />
+            </button>
+          ))}
+        </div>
+      )}
 
       {loading ? (
         <div className={styles.loading}>
@@ -56,8 +95,13 @@ export default function Home() {
         </div>
       ) : (
         <div className={styles.grid}>
-          {teams.map(t => (
+          {visibleTeams.map(t => (
             <Link key={t.slug} to={`/teams/${t.slug}`} className={styles.card}>
+              {groupMap[t.slug] && (
+                <div className={styles.groupBadge}>
+                  <T zh={`${groupMap[t.slug]}组`} en={`Group ${groupMap[t.slug]}`} />
+                </div>
+              )}
               <div className={styles.flag}>{t.flag_emoji}</div>
               <div className={styles.teamName}>
                 {lang === 'zh' ? t.name_zh : t.name_en}

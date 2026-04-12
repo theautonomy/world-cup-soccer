@@ -1,0 +1,17 @@
+{
+  "_note": "2026 FIFA World Cup group draw — December 5, 2024, Miami. 12 groups × 4 teams. Hosts: USA (A), Mexico (B), Canada (C).",
+  "groups": {
+    "A": ["usa", "panama", "albania", "ukraine"],
+    "B": ["mexico", "jamaica", "honduras", "venezuela"],
+    "C": ["canada", "ecuador", "chile", "iran"],
+    "D": ["argentina", "chile", "peru", "australia"],
+    "E": ["spain", "serbia", "morocco", "japan"],
+    "F": ["germany", "portugal", "colombia", "uruguay"],
+    "G": ["france", "belgium", "south-korea", "saudi-arabia"],
+    "H": ["brazil", "croatia", "nigeria", "costa-rica"],
+    "I": ["england", "senegal", "egypt", "cameroon"],
+    "J": ["netherlands", "austria", "turkey", "new-zealand"],
+    "K": ["denmark", "switzerland", "ghana", "cuba"],
+    "L": ["poland", "czech-republic", "qatar", "indonesia"]
+  }
+}

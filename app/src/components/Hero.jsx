@@ -13,6 +13,11 @@ export default function Hero({ team }) {
         <span className={styles.rank}>
           <T zh="FIFA 排名" en="FIFA Rank" /> <strong>#{team.fifa_rank}</strong>
         </span>
+        {team.group && (
+          <span className={styles.group}>
+            <T zh={`${team.group} 组`} en={`Group ${team.group}`} />
+          </span>
+        )}
       </div>
     </section>
   )

@@ -30,6 +30,7 @@ const REQUIRED_FIELDS = [
   'team.colors.primary',
   'team.colors.secondary',
   'team.colors.accent',
+  'team.group',
   'country.capital',
   'country.population_zh',
   'country.population_en',
