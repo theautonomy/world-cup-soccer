@@ -23,9 +23,10 @@
           });
           // decoded[0] = "p=/teams/england" → slice(2) skips "p="
           // decoded[1] = "q=originalSearch"  → slice(2) skips "q="
+          // l.pathname = "/world-cup-soccer/" → slice(0,-1) strips trailing slash
           window.history.replaceState(
             null, null,
-            l.pathname +
+            l.pathname.slice(0, -1) +
             (decoded[0] ? decoded[0].slice(2) : '') +
             (decoded[1] ? '?' + decoded[1].slice(2) : '') +
             l.hash
