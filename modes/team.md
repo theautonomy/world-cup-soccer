@@ -10,6 +10,27 @@
 /world-cup team France
 ```
 
+## 推荐信息来源（Recommended Sources）
+
+以下为各类信息的推荐搜索站点，不限于此列表——根据实际搜索结果灵活选择最权威、最新的来源。
+
+| 类别 | 推荐站点 |
+|------|---------|
+| **国家基本信息** | `en.wikipedia.org` · `cia.gov/the-world-factbook` · `worldometers.info` |
+| **FIFA排名 & 联合会** | `fifa.com` · `uefa.com` · `conmebol.com` · `concacaf.com` |
+| **世界杯历史** | `fifa.com/worldcup` · `en.wikipedia.org` · `rsssf.com` · `11v11.com` |
+| **球员数据 & 阵容** | `transfermarkt.com` · `fbref.com` · `sofifa.com` · `soccerway.com` |
+| **新闻 & 深度报道** | `bbc.com/sport/football` · `espn.com/soccer` · `goal.com` · `theguardian.com/football` |
+| **统计 & 历史档案** | `transfermarkt.com` · `fbref.com` · `worldfootball.net` · `soccerstats.com` |
+| **中文来源（可选）** | `zh.wikipedia.org` · `zhihu.com` · `sohu.com/sports` · `sina.com.cn/sports` |
+
+**搜索策略：**
+- 用英文查询技术数据（FIFA排名、球员出场数、世界杯成绩）——数据更准确
+- 用中文查询叙述性内容（足球文化、历史故事）——中文描述更自然流畅
+- 优先 Wikipedia + FIFA.com 作为事实核查基准
+- transfermarkt.com 是球员数据和转会信息的最权威来源
+- fbref.com 提供最详细的比赛统计数据
+
 ## 研究阶段（Research Phase）
 
 使用 WebSearch + WebFetch 收集以下信息：
@@ -65,12 +86,14 @@
 
 ## 生成阶段（Generation Phase）
 
-1. 读取 `templates/team-template.html`
-2. 将所有 `{{PLACEHOLDER}}` 替换为研究阶段收集的内容
-3. 根据球队颜色设置 CSS 变量
-4. 将完整HTML写入 `output/teams/{slug}.html`
+1. 确定输出路径：`output/teams/{slug}.html`
    - slug = 球队英文名小写，空格替换为连字符（如 `brazil.html`、`south-korea.html`）
-5. 报告输出路径
+2. **如果文件已存在，先删除**：`Bash: rm -f output/teams/{slug}.html`
+3. 读取 `templates/team-template.html`
+4. 将所有 `{{PLACEHOLDER}}` 替换为研究阶段收集的内容
+5. 根据球队颜色设置 CSS 变量
+6. 将完整HTML写入 `output/teams/{slug}.html`
+7. 报告输出路径
 
 ## Placeholder 对照表
 

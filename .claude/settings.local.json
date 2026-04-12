@@ -4,7 +4,8 @@
       "WebSearch",
       "WebFetch(domain:www.goal.com)",
       "WebFetch(domain:en.wikipedia.org)",
-      "WebFetch(domain:sports.yahoo.com)"
+      "WebFetch(domain:sports.yahoo.com)",
+      "WebFetch(domain:www.fourfourtwo.com)"
     ]
   }
 }

@@ -19,6 +19,16 @@
       --color-text-muted: #8888aa;
       --radius: 16px;
       --radius-sm: 8px;
+      --shadow-card: 0 2px 12px rgba(0,0,0,0.4);
+    }
+
+    [data-theme="light"] {
+      --color-bg: #f4f4f8;
+      --color-surface: #ffffff;
+      --color-surface2: #eeeef6;
+      --color-text: #0a0a1a;
+      --color-text-muted: #5a5a7a;
+      --shadow-card: 0 2px 16px rgba(0,0,0,0.08);
     }
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -30,6 +40,39 @@
       overflow-x: hidden;
     }
 
+    /* ── CONTROLS ────────────────────────────────────────────── */
+    .controls {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .theme-btn {
+      width: 40px;
+      height: 40px;
+      border-radius: 100px;
+      border: 1px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
+      background: color-mix(in srgb, var(--color-surface) 95%, transparent);
+      font-size: 16px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+      transition: border-color 0.2s, transform 0.2s;
+      line-height: 1;
+    }
+
+    .theme-btn:hover {
+      border-color: color-mix(in srgb, var(--color-primary) 60%, transparent);
+      transform: rotate(20deg);
+    }
+
     /* ── LANGUAGE SWITCH ─────────────────────────────────────── */
     [data-lang="zh"] .en { display: none; }
     [data-lang="en"] .zh { display: none; }
@@ -38,10 +81,6 @@
     [data-lang="en"] { font-family: 'Inter', -apple-system, sans-serif; }
 
     .lang-toggle {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      z-index: 1000;
       display: flex;
       background: color-mix(in srgb, var(--color-surface) 95%, transparent);
       border: 1px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
@@ -613,10 +652,13 @@
 </head>
 <body>
 
-  <!-- LANGUAGE TOGGLE -->
-  <div class="lang-toggle">
-    <button class="lang-btn active" id="btn-zh" onclick="setLang('zh')">中文</button>
-    <button class="lang-btn" id="btn-en" onclick="setLang('en')">EN</button>
+  <!-- CONTROLS -->
+  <div class="controls">
+    <button class="theme-btn" id="btn-theme" onclick="toggleTheme()" aria-label="Toggle dark/light mode">🌙</button>
+    <div class="lang-toggle">
+      <button class="lang-btn active" id="btn-zh" onclick="setLang('zh')">中文</button>
+      <button class="lang-btn" id="btn-en" onclick="setLang('en')">EN</button>
+    </div>
   </div>
 
   <!-- HERO -->
@@ -909,9 +951,24 @@
       localStorage.setItem('wc-lang', lang);
     }
 
-    // Restore last used language
-    const saved = localStorage.getItem('wc-lang');
-    if (saved) setLang(saved);
+    function toggleTheme() {
+      const html = document.documentElement;
+      const isDark = html.getAttribute('data-theme') !== 'light';
+      const next = isDark ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      document.getElementById('btn-theme').textContent = next === 'light' ? '☀️' : '🌙';
+      localStorage.setItem('wc-theme', next);
+    }
+
+    // Restore preferences
+    const savedLang = localStorage.getItem('wc-lang');
+    if (savedLang) setLang(savedLang);
+
+    const savedTheme = localStorage.getItem('wc-theme');
+    if (savedTheme) {
+      document.documentElement.setAttribute('data-theme', savedTheme);
+      document.getElementById('btn-theme').textContent = savedTheme === 'light' ? '☀️' : '🌙';
+    }
   </script>
 
 </body>

@@ -1,6 +1,6 @@
-# ⚽ 2026世界杯 — AI-powered team profiles for all 48 nations
+# ⚽ FIFA 2026 — AI-powered team profiles for all 48 nations
 
-> One command. Deep research. Stunning HTML. Simplified Chinese + English.  
+> One command. Deep research. Stunning HTML. 
 > Built on [Claude Code](https://claude.ai/code).
 
 ---
@@ -9,7 +9,7 @@
 
 Type a team name. The agent researches the country, digs into World Cup history, finds the 2026 squad and coach, surfaces the all-time legends, and generates a beautiful self-contained HTML page — in both **Simplified Chinese and English**, switchable with a single click.
 
-![Language toggle: 中文 / EN](https://img.shields.io/badge/language-中文%20%2F%20EN-blue)
+![Language toggle: EN / 中文](https://img.shields.io/badge/language-中文%20%2F%20EN-blue)
 ![Teams: 48](https://img.shields.io/badge/teams-48-green)
 ![Built with Claude Code](https://img.shields.io/badge/built%20with-Claude%20Code-orange)
 
