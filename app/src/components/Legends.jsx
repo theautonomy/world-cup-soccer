@@ -16,7 +16,7 @@ export default function Legends({ legends = [] }) {
           <div key={i} className={styles.card}>
             <div className={styles.number}>#{legend.number || i + 1}</div>
             <div className={styles.name}>
-              {lang === 'zh' ? legend.name_zh : legend.name_en}
+              {legend.name || (lang === 'zh' ? legend.name_zh : legend.name_en)}
             </div>
             <div className={styles.meta}>
               <span className={styles.years}>{legend.years}</span>
@@ -27,9 +27,9 @@ export default function Legends({ legends = [] }) {
             <p className={styles.bio}>
               {lang === 'zh' ? legend.bio_zh : legend.bio_en}
             </p>
-            {legend.stat_value && (
+            {(legend.stat_value || legend.stat_zh || legend.stat_en) && (
               <div className={styles.stat}>
-                <span className={styles.statValue}>{legend.stat_value}</span>
+                {legend.stat_value && <span className={styles.statValue}>{legend.stat_value}</span>}
                 <span className={styles.statLabel}>
                   {lang === 'zh' ? legend.stat_zh : legend.stat_en}
                 </span>

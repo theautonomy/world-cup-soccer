@@ -5,14 +5,25 @@ import styles from './CountryInfo.module.css'
 export default function CountryInfo({ country }) {
   const { lang } = useApp()
 
+  // Support both flat string fields and zh/en bilingual fields
+  const capital = country.capital || (lang === 'zh' ? country.capital_zh : country.capital_en)
+  const population = (() => {
+    if (country.population_zh || country.population_en)
+      return lang === 'zh' ? country.population_zh : country.population_en
+    if (typeof country.population === 'number')
+      return lang === 'zh'
+        ? country.population.toLocaleString('zh-CN') + ' 人'
+        : country.population.toLocaleString('en-US') + ' people'
+    return country.population
+  })()
+  const area = typeof country.area === 'number'
+    ? country.area.toLocaleString() + ' km²'
+    : country.area
+
   const stats = [
-    { icon: '🏛️', label: { zh: '首都', en: 'Capital' }, value: country.capital },
-    {
-      icon: '👥',
-      label: { zh: '人口', en: 'Population' },
-      value: lang === 'zh' ? country.population_zh : country.population_en,
-    },
-    { icon: '📐', label: { zh: '面积', en: 'Area' }, value: country.area },
+    { icon: '🏛️', label: { zh: '首都', en: 'Capital' }, value: capital },
+    { icon: '👥', label: { zh: '人口', en: 'Population' }, value: population },
+    { icon: '📐', label: { zh: '面积', en: 'Area' }, value: area },
     {
       icon: '🗣️',
       label: { zh: '语言', en: 'Language' },
