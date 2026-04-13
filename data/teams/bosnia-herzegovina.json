@@ -1,0 +1,310 @@
+{
+  "meta": {
+    "slug": "bosnia-herzegovina",
+    "generated": "2026-04-13",
+    "version": 1
+  },
+  "team": {
+    "name_zh": "波黑",
+    "name_en": "Bosnia and Herzegovina",
+    "flag_emoji": "🇧🇦",
+    "federation": "UEFA",
+    "fifa_rank": 65,
+    "group": "B",
+    "colors": {
+      "primary": "#002395",
+      "secondary": "#FFCD00",
+      "accent": "#003DA5"
+    }
+  },
+  "country": {
+    "name_zh": "波斯尼亚和黑塞哥维那",
+    "name_en": "Bosnia and Herzegovina",
+    "capital": "Sarajevo",
+    "population_zh": "340万",
+    "population_en": "3.4 million",
+    "area": "51,197 km²",
+    "language_zh": "波斯尼亚语、塞尔维亚语、克罗地亚语",
+    "language_en": "Bosnian, Serbian, and Croatian",
+    "continent_zh": "欧洲",
+    "continent_en": "Europe",
+    "currency_zh": "波黑可兑换马克",
+    "currency_en": "Bosnia-Herzegovina Convertible Mark",
+    "anthem_zh": "国歌（无歌词）",
+    "anthem_en": "Intermeco (no lyrics)",
+    "desc_zh": "波斯尼亚和黑塞哥维那位于巴尔干半岛西部，首都萨拉热窝是一座历史沧桑的城市——这里是1914年引发第一次世界大战的萨拉热窝刺杀事件发生地，也是1990年代波黑战争的核心舞台。如今，萨拉热窝已成为东西文化交融的独特城市，奥斯曼、奥匈帝国与南斯拉夫的多元历史留下了丰富的建筑与文化遗产。",
+    "desc_en": "Bosnia and Herzegovina occupies the western Balkans, with its capital Sarajevo a city of extraordinary historical depth — site of the 1914 assassination that triggered World War I and the centre of the devastating 1990s Bosnian War. Today Sarajevo is a remarkable fusion of Eastern and Western cultures, with Ottoman, Austro-Hungarian, and Yugoslav layers woven into its architecture and identity.",
+    "football_desc_zh": "波黑国家队绰号\"黄龙\"，代表着一个独立历史不长但足球激情却汹涌澎湃的小国。迪济科、皮亚尼奇等一代天才球员让全世界认识了这支球队，2014年世界杯是他们的首次亮相。2026年的资格赛征程更是充满传奇色彩——他们先在点球大战中淘汰威尔士，再在主场以点球大战击败意大利，以最戏剧化的方式重返世界杯舞台。",
+    "football_desc_en": "Known as the Zmajevi (Dragons), Bosnia and Herzegovina represents a young nation with an ancient football passion. The golden generation of Džeko, Pjanić, and Ibisevic put them on the world map at the 2014 World Cup debut. Their 2026 qualifying campaign was the stuff of legend — eliminating Wales on penalties, then beating Italy on penalties at home in one of European qualifying's most dramatic results."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 2,
+    "best_result_zh": "小组赛出局",
+    "best_result_en": "Group stage",
+    "title_years": [],
+    "history": [
+      {
+        "year": 2014,
+        "host_zh": "巴西",
+        "host_en": "Brazil",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "首届世界杯，首战1-2负阿根廷（姆扎里奇自摆乌龙），次战3-1胜伊朗，末战0-1负尼日利亚，小组出局",
+        "note_en": "World Cup debut; lost 1-2 to Argentina (with a controversial own goal), beat Iran 3-1, then lost 0-1 to Nigeria — eliminated at the group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2026,
+        "host_zh": "美国/加拿大/墨西哥",
+        "host_en": "USA/Canada/Mexico",
+        "result_zh": "已晋级",
+        "result_en": "Qualified",
+        "note_zh": "经欧洲区附加赛点球大战淘汰威尔士和意大利晋级，分入B组迎战加拿大、瑞士和卡塔尔；首战6月12日在多伦多BMO球场对阵加拿大",
+        "note_en": "Qualified via UEFA play-offs — beat Wales on penalties, then stunned Italy on penalties at home; drawn into Group B vs Canada, Switzerland and Qatar; opener vs Canada on June 12 in Toronto",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name_zh": "谢尔盖·巴尔巴雷斯",
+      "name_en": "Sergej Barbarez",
+      "nationality_zh": "波黑",
+      "nationality_en": "Bosnian"
+    },
+    "players": [
+      {
+        "name_zh": "内马尼亚·斯特凡诺维奇",
+        "name_en": "Nikola Vasilj",
+        "position": "GK",
+        "club": "St. Pauli",
+        "caps": 22
+      },
+      {
+        "name_zh": "伊布拉希姆·西查诺维奇",
+        "name_en": "Ibrahim Šehić",
+        "position": "GK",
+        "club": "Čukarički",
+        "caps": 42
+      },
+      {
+        "name_zh": "塞纳德·卢利奇",
+        "name_en": "Ermin Bičakčić",
+        "position": "DEF",
+        "club": "Hajduk Split",
+        "caps": 35
+      },
+      {
+        "name_zh": "阿德南·努雷基奇",
+        "name_en": "Adnan Nureković",
+        "position": "DEF",
+        "club": "Sporting Braga",
+        "caps": 28
+      },
+      {
+        "name_zh": "塞亚德·萨利霍维奇",
+        "name_en": "Jusuf Gazibegović",
+        "position": "DEF",
+        "club": "Sturm Graz",
+        "caps": 30
+      },
+      {
+        "name_zh": "德尼斯·塞利莫维奇",
+        "name_en": "Denis Zlomislić",
+        "position": "DEF",
+        "club": "Adana Demirspor",
+        "caps": 22
+      },
+      {
+        "name_zh": "尼达尔·切利克",
+        "name_en": "Nidal Čelić",
+        "position": "DEF",
+        "club": "Feyenoord",
+        "caps": 18
+      },
+      {
+        "name_zh": "本杰明·塔希罗维奇",
+        "name_en": "Benjamin Tahirović",
+        "position": "MID",
+        "club": "Ajax",
+        "caps": 28
+      },
+      {
+        "name_zh": "阿尔明·吉戈维奇",
+        "name_en": "Armin Gigović",
+        "position": "MID",
+        "club": "Olympiacos",
+        "caps": 25
+      },
+      {
+        "name_zh": "哈里斯·多利奇",
+        "name_en": "Haris Dulić",
+        "position": "MID",
+        "club": "Borac Banja Luka",
+        "caps": 18
+      },
+      {
+        "name_zh": "哈里斯·穆里奇",
+        "name_en": "Sead Kolašinac",
+        "position": "MID",
+        "club": "Atalanta",
+        "caps": 55
+      },
+      {
+        "name_zh": "柯里姆·阿拉约贝戈维奇",
+        "name_en": "Kerim Alajbegović",
+        "position": "MID",
+        "club": "Sporting CP",
+        "caps": 20
+      },
+      {
+        "name_zh": "埃丁·迪济科",
+        "name_en": "Edin Džeko",
+        "position": "FWD",
+        "club": "Schalke 04",
+        "caps": 146
+      },
+      {
+        "name_zh": "埃尔梅丁·德米罗维奇",
+        "name_en": "Ermedin Demirović",
+        "position": "FWD",
+        "club": "Stuttgart",
+        "caps": 42
+      },
+      {
+        "name_zh": "埃斯米尔·拜亚克塔雷维奇",
+        "name_en": "Esmir Bajraktarević",
+        "position": "FWD",
+        "club": "New England Revolution",
+        "caps": 15
+      },
+      {
+        "name_zh": "达里奥·斯帕奇奇",
+        "name_en": "Dario Šunjić",
+        "position": "FWD",
+        "club": "Hajduk Split",
+        "caps": 25
+      }
+    ]
+  },
+  "legends": [
+    {
+      "number": 1,
+      "name_zh": "埃丁·迪济科",
+      "name_en": "Edin Džeko",
+      "years": "2008–至今",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "迪济科是波黑历史上最伟大的球员，146次代表国家队出场，打入72球，两项数据均为历史纪录。他的俱乐部生涯足迹遍及沃尔夫斯堡、曼城、罗马和国际米兰，以精准的控球、头球和无私的传球著称。2026年世界杯时，他已年届40岁，却依然是这支球队中不可或缺的精神领袖，其职业生涯的壮阔令人动容。",
+      "bio_en": "Edin Džeko is Bosnia-Herzegovina's greatest player, holding both the all-time caps record (146) and goals record (72). His club career spanned Wolfsburg, Manchester City, Roma, and Inter Milan — always prolific, always a leader. Turning 40 during the 2026 World Cup campaign, he remains an irreplaceable figurehead for his nation, and his final World Cup appearance will mark the end of an extraordinary career.",
+      "stat_value": "72",
+      "stat_zh": "国家队进球",
+      "stat_en": "international goals"
+    },
+    {
+      "number": 2,
+      "name_zh": "米拉莱姆·皮亚尼奇",
+      "name_en": "Miralem Pjanić",
+      "years": "2008–2024",
+      "position_zh": "中场",
+      "position_en": "Midfielder",
+      "bio_zh": "皮亚尼奇是波黑黄金一代中最具技术天赋的球员，以精准的直接任意球、细腻的触球和出色的场上视野著称。他在里昂、罗马和尤文图斯赢得过多个国家联赛冠军，在尤文图斯时期被视为世界上最好的中场之一。2024年底宣布退役后，他是波黑黄金一代最后离开的一位巨星，为一个时代画上了句号。",
+      "bio_en": "Miralem Pjanić was the most technically gifted player of Bosnia's golden generation — celebrated for his precise free-kicks, silky touch, and exceptional vision. He won league titles at Lyon, Roma, and Juventus, where he was regarded as one of the world's finest midfielders. His retirement in late 2024 closed the final chapter of Bosnia's golden era, leaving Džeko as the last active member of that legendary generation.",
+      "stat_value": "103",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 3,
+      "name_zh": "维达德·伊比谢维奇",
+      "name_en": "Vedad Ibisević",
+      "years": "2008–2019",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "伊比谢维奇是波黑黄金一代的另一位重要射手，曾在德甲的霍芬海姆和斯图加特效力，以强壮的身体和稳定的进球能力著称。他与迪济科共同组成了波黑历史上最令对方胆寒的双前锋组合，是2014年世界杯资格赛夺冠和决赛圈首秀的关键人物，打入51粒国际进球。",
+      "bio_en": "Vedad Ibisević was the lethal partner to Džeko in Bosnia's most feared striking partnership, forming a devastating duo at the 2014 World Cup. He shone in the Bundesliga at Hoffenheim and Stuttgart, prized for his physical strength and consistent goal-scoring. His 51 international goals and key role in reaching the 2014 World Cup made him a defining figure in Bosnian football history.",
+      "stat_value": "51",
+      "stat_zh": "国家队进球",
+      "stat_en": "international goals"
+    },
+    {
+      "number": 4,
+      "name_zh": "塞纳德·卢利奇",
+      "name_en": "Senad Lulić",
+      "years": "2007–2021",
+      "position_zh": "中场/边翼",
+      "position_en": "Midfielder/Winger",
+      "bio_zh": "卢利奇是波黑国家队的战斗队长，以顽强的斗志和无私的团队精神著称。他在拉齐奥效力多年，并于2013年以一粒关键进球帮助拉齐奥在罗马德比中夺得意大利杯冠军，那粒进球至今仍是罗马球迷心中最痛的记忆之一。84次代表国家队出场的他是波黑黄金一代中最重要的精神支柱之一。",
+      "bio_en": "Senad Lulić was Bosnia's warrior captain — a fierce, selfless competitor who led by example throughout his career. At Lazio he scored the winner in a Rome derby Italian Cup final in 2013, a goal etched into rivalry history. In 84 caps he was one of the most vital spiritual pillars of Bosnia's golden generation, providing the tenacity and leadership that complemented the team's technical talents.",
+      "stat_value": "84",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 5,
+      "name_zh": "埃尔梅丁·德米罗维奇",
+      "name_en": "Ermedin Demirović",
+      "years": "2018–至今",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "德米罗维奇是波黑新一代最重要的进攻球员，在德甲的斯图加特以高效的进球率和全力以赴的工作态度赢得了广泛赞誉。他是迪济科在锋线上的最佳拍档，以无私的跑位和关键时刻的大心脏著称。2026年世界杯将是他正式接过波黑进攻核心重任的历史契机，也是他向世界证明自己的最大舞台。",
+      "bio_en": "Ermedin Demirović is the most important attacking player of Bosnia's new generation, earning widespread respect in the Bundesliga at Stuttgart for his clinical finishing and tireless work rate. He is the ideal partner for Džeko — selfless in his movement and reliable in the big moments. The 2026 World Cup represents his opportunity to step out of Džeko's shadow and establish himself as the new face of Bosnian football.",
+      "stat_value": "42",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "意大利",
+      "opponent_en": "Italy",
+      "desc_zh": "2026年世界杯欧洲区附加赛，波黑在主场以点球大战4-1击败意大利，制造了欧洲区资格赛历史上最大的冷门之一，将四届世界杯冠军拒于门外。这场胜利瞬间成为波黑足球史上最辉煌的时刻之一，也让波黑与意大利之间的对阵充满了划时代的历史重量。",
+      "desc_en": "Bosnia and Herzegovina's 4-1 penalty shoot-out victory over Italy in the 2026 World Cup UEFA play-offs — at home, eliminating a four-time World Cup champion — was one of European qualifying's greatest shocks and immediately became the most celebrated moment in Bosnian football history. The win gave the Bosnia-Italy rivalry a defining, era-marking weight."
+    },
+    {
+      "opponent_zh": "塞尔维亚",
+      "opponent_en": "Serbia",
+      "desc_zh": "波黑与塞尔维亚的对阵是巴尔干最敏感的足球宿怨之一，两国之间的历史纠葛——尤其是1990年代的战争——使每次交锋都充满了超越体育的复杂情绪。在球场上，两队的竞争同样激烈，每次欧洲区预选赛或友谊赛相遇都能引发两国球迷的高度关注。",
+      "desc_en": "Bosnia vs Serbia is one of the Balkans' most historically sensitive rivalries, carrying the emotional weight of the 1990s conflict between the nations. On the pitch the competition is fierce — every European qualifier or friendly between them generates intense interest from both sets of supporters and serves as a barometer of national pride and identity."
+    },
+    {
+      "opponent_zh": "阿根廷",
+      "opponent_en": "Argentina",
+      "desc_zh": "2014年世界杯首场比赛，波黑以1-2不敌阿根廷，但穆尔萨科维奇在上半场被判定为乌龙球的那粒进球至今仍有争议，若非此球，比赛结果可能大相径庭。那场比赛对波黑来说意义非凡——它是他们世界杯征程的第一战，也是与梅西领衔的阿根廷的高光对决，永远载入了波黑足球史册。",
+      "desc_en": "Bosnia's 2014 World Cup opener against Argentina — lost 1-2, with Mujdža's controversial own-goal in the first half potentially altering the game's trajectory — is the most historically significant match in Bosnian football history. Facing Messi's Argentina in their World Cup debut was a defining moment for the nation, and the result still generates debate about what might have been."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🎯",
+      "text_zh": "波黑在2026年世界杯欧洲区附加赛中先后以点球大战淘汰威尔士和意大利，成为近年来欧洲区附加赛中最戏剧化的晋级队伍，这份成就在波黑足球史上举足轻重",
+      "text_en": "Bosnia qualified for the 2026 World Cup by beating both Wales and Italy on penalty shoot-outs in successive UEFA play-off rounds — one of the most dramatic qualifying stories in recent European football history, and one that will be celebrated in Bosnia for generations"
+    },
+    {
+      "icon": "🎲",
+      "text_zh": "波黑主帅谢尔盖·巴尔巴雷斯在成为职业足球教练之前，曾是一名颇具声誉的职业扑克玩家，这一独特背景令他在国际体育圈成为一道别具一格的风景线",
+      "text_en": "Head coach Sergej Barbarez had no prior senior management experience when he was appointed — and was also a professional poker player of some repute before coaching — making him one of the most unconventional national team coaches at the 2026 World Cup"
+    },
+    {
+      "icon": "🎂",
+      "text_zh": "迪济科在2026年世界杯期间将年满40岁，是本届世界杯年龄最大的球员之一，以40岁之躯出征世界杯的他将与世界球坛最顶级的对手同场竞技，书写一段足球传奇",
+      "text_en": "Edin Džeko will turn 40 during the 2026 World Cup, making him one of the oldest outfield players in the tournament; his presence at the age of 40 against the world's best defenders is one of the competition's most compelling individual storylines"
+    },
+    {
+      "icon": "🏙️",
+      "text_zh": "萨拉热窝是欧洲最独特的城市之一，在同一条街道上你可以看到清真寺、东正教教堂、天主教大教堂和犹太会堂，被誉为\"巴尔干的耶路撒冷\"",
+      "text_en": "Sarajevo is one of Europe's most unique cities — nicknamed the 'Jerusalem of the Balkans' because a mosque, Orthodox church, Catholic cathedral, and synagogue all stand within the same city block, reflecting centuries of coexisting religious communities"
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "尽管波黑作为独立国家参加世界杯的机会屈指可数（2014年和2026年），但这个仅有340万人口的小国却为世界足球贡献了迪济科、皮亚尼奇这样的世界级球星，人才密度之高令人称奇",
+      "text_en": "Despite having competed in only two World Cups as an independent nation, Bosnia — with a population of just 3.4 million — has produced world-class players like Džeko and Pjanić, giving them one of the highest concentrations of elite talent relative to population in European football"
+    },
+    {
+      "icon": "🎺",
+      "text_zh": "波黑国歌是欧洲唯一一首没有歌词的世界杯参赛国国歌，这一特殊安排源于独立初期三个民族（波斯尼亚族、塞尔维亚族、克罗地亚族）未能就国歌歌词达成共识，反而成为这个国家多元融合精神的象征",
+      "text_en": "Bosnia and Herzegovina's national anthem has no lyrics — the only lyric-free anthem among 2026 World Cup participants — because the three constituent peoples (Bosniaks, Serbs, and Croats) couldn't agree on words after independence; players hum or stand in silence, making it one of football's most unusual pre-match anthems"
+    }
+  ]
+}

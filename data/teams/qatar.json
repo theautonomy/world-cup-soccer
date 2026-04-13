@@ -1,0 +1,310 @@
+{
+  "meta": {
+    "slug": "qatar",
+    "generated": "2026-04-13",
+    "version": 1
+  },
+  "team": {
+    "name_zh": "卡塔尔",
+    "name_en": "Qatar",
+    "flag_emoji": "🇶🇦",
+    "federation": "AFC",
+    "fifa_rank": 51,
+    "group": "B",
+    "colors": {
+      "primary": "#8D153A",
+      "secondary": "#FFFFFF",
+      "accent": "#6A1232"
+    }
+  },
+  "country": {
+    "name_zh": "卡塔尔",
+    "name_en": "Qatar",
+    "capital": "Doha",
+    "population_zh": "300万",
+    "population_en": "3 million",
+    "area": "11,586 km²",
+    "language_zh": "阿拉伯语",
+    "language_en": "Arabic",
+    "continent_zh": "亚洲（中东）",
+    "continent_en": "Asia (Middle East)",
+    "currency_zh": "卡塔尔里亚尔",
+    "currency_en": "Qatari Riyal",
+    "anthem_zh": "和平",
+    "anthem_en": "As-Salam",
+    "desc_zh": "卡塔尔位于阿拉伯半岛东部，是一个面积不大却财富极为雄厚的中东小国。凭借巨大的天然气储量，卡塔尔成为全球最富裕的国家之一，首都多哈是现代化的国际大都市，摩天大楼林立、文化设施一流。2022年世界杯的成功举办令卡塔尔跻身全球体育版图的核心位置。",
+    "desc_en": "Qatar occupies the eastern Arabian Peninsula — a small yet immensely wealthy Gulf state whose vast natural gas reserves have made it one of the world's richest nations. Its capital Doha is a gleaming modern metropolis of skyscrapers and world-class cultural institutions. Hosting the 2022 World Cup established Qatar at the heart of the global sporting landscape.",
+    "football_desc_zh": "卡塔尔足球近年来通过系统化的人才培养体系（尤其是阿斯拜尔学院）和大规模的赛事举办经验，实现了跨越式发展。2022年世界杯虽在主场未能出线，但2019年以客队身份参加阿根廷举办的美洲杯，以及2023年亚洲杯的夺冠，展示了卡塔尔足球的真实实力。洛佩特吉的接手令卡塔尔队带来了更系统的战术训练，2026年世界杯将是他们在新教练体系下的第一次重大检验。",
+    "football_desc_en": "Qatar's football has been transformed by systematic talent development — especially through the Aspire Academy — and the experience of hosting world-class football. Though eliminated at the group stage as 2022 hosts, their 2019 Copa América participation as guests and their 2023 Asian Cup title demonstrated genuine quality. Julen Lopetegui's appointment brings elite tactical structure, and the 2026 World Cup is their first major test under his system."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 2,
+    "best_result_zh": "小组赛出局",
+    "best_result_en": "Group stage",
+    "title_years": [],
+    "history": [
+      {
+        "year": 2022,
+        "host_zh": "卡塔尔",
+        "host_en": "Qatar",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "首届世界杯，作为主办国参赛，成为历史上首个小组赛出局的亚洲东道主，三战积0分",
+        "note_en": "World Cup debut as hosts; became the first host nation to be eliminated with zero points in the group stage — lost all three matches",
+        "row_class": "group"
+      },
+      {
+        "year": 2026,
+        "host_zh": "美国/加拿大/墨西哥",
+        "host_en": "USA/Canada/Mexico",
+        "result_zh": "已晋级",
+        "result_en": "Qualified",
+        "note_zh": "以亚洲区A组第一名身份晋级，分入B组迎战加拿大、瑞士和波黑",
+        "note_en": "Qualified top of AFC Group A; drawn into Group B vs Canada, Switzerland and Bosnia-Herzegovina",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name_zh": "胡伦·洛佩特吉",
+      "name_en": "Julen Lopetegui",
+      "nationality_zh": "西班牙",
+      "nationality_en": "Spanish"
+    },
+    "players": [
+      {
+        "name_zh": "穆沙尔·巴尔沙姆",
+        "name_en": "Meshaal Barsham",
+        "position": "GK",
+        "club": "Al-Sadd",
+        "caps": 55
+      },
+      {
+        "name_zh": "沙哈布·埃利西",
+        "name_en": "Shehab Ellethy",
+        "position": "GK",
+        "club": "Al-Shahaniya",
+        "caps": 18
+      },
+      {
+        "name_zh": "卢卡斯·门德斯",
+        "name_en": "Lucas Mendes",
+        "position": "DEF",
+        "club": "Al-Wakrah",
+        "caps": 58
+      },
+      {
+        "name_zh": "塔里克·萨勒曼",
+        "name_en": "Tarek Salman",
+        "position": "DEF",
+        "club": "Al-Sadd",
+        "caps": 40
+      },
+      {
+        "name_zh": "霍曼·艾哈迈德",
+        "name_en": "Homam Ahmed",
+        "position": "DEF",
+        "club": "Al-Duhail",
+        "caps": 42
+      },
+      {
+        "name_zh": "伊萨·莱耶",
+        "name_en": "Issa Laye",
+        "position": "DEF",
+        "club": "Al-Arabi",
+        "caps": 35
+      },
+      {
+        "name_zh": "苏丹·布雷克",
+        "name_en": "Sultan Al-Brake",
+        "position": "DEF",
+        "club": "Al-Duhail",
+        "caps": 30
+      },
+      {
+        "name_zh": "贾西姆·加伯",
+        "name_en": "Jassem Gaber",
+        "position": "MID",
+        "club": "Al-Rayyan",
+        "caps": 35
+      },
+      {
+        "name_zh": "阿西姆·马迪博",
+        "name_en": "Assim Madibo",
+        "position": "MID",
+        "club": "Al-Wakrah",
+        "caps": 38
+      },
+      {
+        "name_zh": "阿卜杜勒阿齐兹·哈滕",
+        "name_en": "Abdulaziz Hatem",
+        "position": "MID",
+        "club": "Al-Rayyan",
+        "caps": 68
+      },
+      {
+        "name_zh": "穆罕默德·瓦阿德",
+        "name_en": "Mohammed Waad",
+        "position": "MID",
+        "club": "Al-Sadd",
+        "caps": 25
+      },
+      {
+        "name_zh": "爱德米尔森·朱尼奥尔",
+        "name_en": "Edmilson Junior",
+        "position": "MID",
+        "club": "Al-Duhail",
+        "caps": 55
+      },
+      {
+        "name_zh": "阿克拉姆·阿菲夫",
+        "name_en": "Akram Afif",
+        "position": "FWD",
+        "club": "Al-Sadd",
+        "caps": 92
+      },
+      {
+        "name_zh": "阿尔穆兹·阿里",
+        "name_en": "Almoez Ali",
+        "position": "FWD",
+        "club": "Al-Duhail",
+        "caps": 88
+      },
+      {
+        "name_zh": "穆罕默德·蒙塔里",
+        "name_en": "Mohammed Muntari",
+        "position": "FWD",
+        "club": "Al-Gharafa",
+        "caps": 52
+      },
+      {
+        "name_zh": "艾哈迈德·阿拉丁",
+        "name_en": "Ahmed Alaaeldin",
+        "position": "FWD",
+        "club": "Al-Rayyan",
+        "caps": 42
+      }
+    ]
+  },
+  "legends": [
+    {
+      "number": 1,
+      "name_zh": "阿克拉姆·阿菲夫",
+      "name_en": "Akram Afif",
+      "years": "2015–至今",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "阿菲夫是卡塔尔历史上最出色的球员，两度赢得亚洲足球先生称号，2023年亚洲杯以4球成为关键人物，并赢得金球奖。他是卡塔尔战术体系中最核心的组织者与进球手，以出色的盘带、视野和临门一脚著称，为卡塔尔效力超过90次。卡塔尔的进攻战术几乎是围绕他量身定制的，是全亚洲最具价值的现役球员之一。",
+      "bio_en": "Akram Afif is Qatar's finest-ever player, a two-time AFC Player of the Year and the star of Qatar's 2023 Asian Cup triumph — scoring four goals and claiming the tournament's Golden Ball. The Qatar tactical system orbits around his dribbling, vision, and clinical finishing. In over 90 appearances he has established himself as one of Asia's most valuable active players, capable of producing moments of magic that can decide tournaments.",
+      "stat_value": "92",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 2,
+      "name_zh": "阿尔穆兹·阿里",
+      "name_en": "Almoez Ali",
+      "years": "2014–至今",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "阿尔穆兹·阿里是卡塔尔历史上进球最多的球员，以在各项洲际赛事中的出色表现著称。他以9球拿下2019年亚洲杯金靴奖，成为那届赛事的最高产射手，并且在美洲杯和金杯赛中均有进球，是极少数能在多个联合会赛事中入球的球员之一。作为卡塔尔的头号中锋，他是对方防线必须重点照看的对象。",
+      "bio_en": "Almoez Ali is Qatar's all-time leading scorer and most prolific goal-getter across continental competitions. His nine goals at the 2019 Asian Cup earned him the Golden Boot, and he has also scored in the Copa América and CONCACAF Gold Cup — one of a very small number of players to net across three different confederation tournaments. He is Qatar's first-choice striker and the player opponents must mark most tightly.",
+      "stat_value": "88",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 3,
+      "name_zh": "阿卜杜勒阿齐兹·哈滕",
+      "name_en": "Abdulaziz Hatem",
+      "years": "2012–至今",
+      "position_zh": "中场",
+      "position_en": "Midfielder",
+      "bio_zh": "哈滕是卡塔尔中场的大脑和组织核心，以精准的传球视野和稳定的场上控制力著称。他为国家队效力超过68次，参与了2019年亚洲杯夺冠全程，是卡塔尔中场控制节奏和分配球权的关键人物。他在卡塔尔最成功的时期承担了中场策动的核心职责。",
+      "bio_en": "Abdulaziz Hatem is the brain of Qatar's midfield — a composed, vision-rich player who controls tempo and distributes with precision. In over 68 caps he was a key contributor to Qatar's 2019 Asian Cup title. He provides the midfield control and ball-distribution that Qatar's attack depends on, and remains one of the most experienced and reliable figures in the national team.",
+      "stat_value": "68",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 4,
+      "name_zh": "爱德米尔森·朱尼奥尔",
+      "name_en": "Edmilson Junior",
+      "years": "2017–至今",
+      "position_zh": "中场/前锋",
+      "position_en": "Midfielder/Forward",
+      "bio_zh": "巴西裔的爱德米尔森为卡塔尔归化入籍，以充沛的活力、出色的技术和强烈的进攻欲望著称。他是卡塔尔中前场的重要轮换选项，参加了2022年世界杯和多届亚洲杯，在阿尔杜黑尔俱乐部效力多年，是卡塔尔星级联赛中颇具影响力的球员，也是国家队最具攻击性的中场选项之一。",
+      "bio_en": "Brazilian-born Edmilson Junior was naturalised by Qatar and brings energy, technical quality, and aggressive attacking play to the national team's midfield. A key rotational option who appeared at the 2022 World Cup and multiple Asian Cups, he is a longstanding Al-Duhail star and one of the most dynamic midfielders in Qatar's system, providing the attacking thrust in the final third.",
+      "stat_value": "55",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 5,
+      "name_zh": "穆沙尔·巴尔沙姆",
+      "name_en": "Meshaal Barsham",
+      "years": "2018–至今",
+      "position_zh": "门将",
+      "position_en": "Goalkeeper",
+      "bio_zh": "巴尔沙姆是卡塔尔现任首选门将，以出色的反应速度、勇于出击的\"清道夫式\"门将风格和点球大战中的大心脏著称。他在2023年亚洲杯中的出色表现是卡塔尔夺冠的重要因素，也是该届赛事最佳门将的有力竞争者。他是卡塔尔后防线的最后一道屏障，洛佩特吉高防线战术体系中不可或缺的重要一环。",
+      "bio_en": "Meshaal Barsham is Qatar's first-choice goalkeeper, renowned for his reflexes, sweeper-keeper instincts, and composure in shoot-outs. His performances were central to Qatar's 2023 Asian Cup triumph and he was among the tournament's best goalkeepers. As the last line of defence behind Lopetegui's high defensive line, his positioning and decision-making are crucial to Qatar's tactical system.",
+      "stat_value": "55",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "伊朗",
+      "opponent_en": "Iran",
+      "desc_zh": "卡塔尔与伊朗的对阵是海湾足球中地缘政治色彩最浓厚的竞争，两国同为波斯湾沿岸强国，在亚洲区预选赛中多次直接交锋。近年来卡塔尔与伊朗在亚洲足球的地位均大幅提升，双方的竞争愈发激烈，每次交锋都带有强烈的地区强权角力色彩。",
+      "desc_en": "Qatar vs Iran is the most geopolitically charged rivalry in Gulf football, two major Gulf powers who meet regularly in AFC World Cup qualifying. Both nations have risen significantly in Asian football in recent years, making their encounters increasingly significant as a contest for regional supremacy in Middle Eastern football."
+    },
+    {
+      "opponent_zh": "沙特阿拉伯",
+      "opponent_en": "Saudi Arabia",
+      "desc_zh": "卡塔尔与沙特的德比是阿拉伯世界最重要的足球宿怨之一，承载着两国之间的外交恩怨（2017-2021年断交危机）。在足球场上，两国均是亚洲足球的重要力量，他们的对决往往超越体育本身，成为地区影响力的博弈与角力。",
+      "desc_en": "The Qatar-Saudi Arabia derby is one of the Arab world's most significant football rivalries, historically coloured by diplomatic tensions including the 2017-2021 blockade. On the pitch both are significant Asian football powers, and their encounters carry weight far beyond the sport itself — a contest of regional prestige and influence."
+    },
+    {
+      "opponent_zh": "日本",
+      "opponent_en": "Japan",
+      "desc_zh": "卡塔尔与日本在亚洲杯决赛（2019年）的交锋是近年来亚洲足球最精彩的对决之一，卡塔尔以3-1击败日本夺冠，令亚洲球迷对这两个足球强国之间的对抗充满期待。2023年亚洲杯半决赛，日本再次负于卡塔尔，进一步加深了这段竞争关系的戏剧性。",
+      "desc_en": "Qatar's 3-1 defeat of Japan in the 2019 Asian Cup final was one of Asian football's most memorable recent moments, while their 2023 AFCON semi-final win over Japan added further drama to the rivalry. The Japan-Qatar matchup has become a highlight of Asian football, with both nations consistently competing for continental supremacy."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🏆",
+      "text_zh": "卡塔尔是2022年世界杯历史上最受争议的东道主之一，也是首个举办世界杯的中东国家和阿拉伯国家，尽管在本届赛事上小组赛即出局，但世界杯对卡塔尔社会的影响是深远的",
+      "text_en": "Qatar became the first Middle Eastern and Arab nation to host the World Cup in 2022 — one of the most debated hosting decisions in the tournament's history; though eliminated at the group stage, the event's transformative impact on Qatari society and football was immense"
+    },
+    {
+      "icon": "🎓",
+      "text_zh": "阿斯拜尔学院（Aspire Academy）是卡塔尔专为培养顶级足球人才而建立的精英学院，向全球招募优秀青少年球员，是卡塔尔足球现代化的核心机构，2022年和2026年的多名国脚都是从这里走出的",
+      "text_en": "The Aspire Academy is Qatar's elite football development institution, recruiting talented youth players globally to create a world-class player pipeline. Multiple members of Qatar's 2022 and 2026 World Cup squads are Aspire graduates — making it the foundation of Qatar's football modernisation project"
+    },
+    {
+      "icon": "🌟",
+      "text_zh": "阿菲夫是2023年亚洲杯MVP，他在亚洲杯决赛中帽子戏法，帮助卡塔尔2-1击败约旦，卫冕亚洲冠军，成为2026年世界杯前卡塔尔最重要的明星时刻",
+      "text_en": "Akram Afif scored a hat-trick in the 2023 Asian Cup final, leading Qatar to a 3-1 victory over Jordan and defending the continental title — the defining pre-2026 World Cup moment for Qatari football and the performance that established Afif as Asia's biggest star"
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "阿尔穆兹·阿里是世界上极少数曾在三个不同联合会赛事（亚洲杯、美洲杯、金杯赛）中均有进球的球员之一，这一壮举在足球历史上屈指可数",
+      "text_en": "Almoez Ali is one of very few footballers in history to have scored in three different confederation competitions — the AFC Asian Cup, CONCACAF Gold Cup, and Copa América — a feat of scoring versatility achieved by a tiny number of players worldwide"
+    },
+    {
+      "icon": "🏙️",
+      "text_zh": "卡塔尔首都多哈在过去20年内从一座小城市发展成为闪耀的国际大都市，世界杯的举办大大加速了这一进程，多哈的卡塔尔之星联赛也是亚洲资本最雄厚的职业足球联赛之一",
+      "text_en": "Doha has transformed from a modest city into a gleaming international metropolis over 20 years, with World Cup hosting dramatically accelerating the process; the Qatar Stars League is now one of Asia's best-funded professional football leagues, attracting global talent"
+    },
+    {
+      "icon": "🇪🇸",
+      "text_zh": "卡塔尔任命西班牙名帅洛佩特吉为主帅，是卡塔尔足球有史以来最高调的一次外援引进。洛佩特吉曾执教西班牙国家队和皇家马德里，其战术思想和精英管理经验将为卡塔尔带来质的飞跃。",
+      "text_en": "Qatar's appointment of Julen Lopetegui — former Spain national team and Real Madrid coach — as head coach is the most high-profile foreign coaching hire in Qatari football history, bringing elite tactical knowledge and Champions League-calibre management to the national setup"
+    }
+  ]
+}
