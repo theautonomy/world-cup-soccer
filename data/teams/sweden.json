@@ -1,0 +1,329 @@
+{
+  "meta": {
+    "slug": "sweden",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "瑞典",
+    "name_en": "Sweden",
+    "flag_emoji": "🇸🇪",
+    "federation": "UEFA",
+    "fifa_rank": 38,
+    "group": "F",
+    "colors": {
+      "primary": "#006AA7",
+      "secondary": "#FECC02",
+      "accent": "#FECC02"
+    }
+  },
+  "country": {
+    "capital_zh": "斯德哥尔摩",
+    "capital_en": "Stockholm",
+    "population": 10500000,
+    "area": 450295,
+    "language_zh": "瑞典语",
+    "language_en": "Swedish",
+    "continent_zh": "欧洲",
+    "continent_en": "Europe",
+    "currency_zh": "瑞典克朗",
+    "currency_en": "Swedish Krona (SEK)",
+    "anthem_zh": "你古老，你自由",
+    "anthem_en": "Du gamla, Du fria",
+    "desc_zh": "瑞典是斯堪的纳维亚半岛最大的国家，以极光、午夜太阳、冰湖和广袤森林著称，也是IKEA、ABBA、诺贝尔奖、沃尔沃和Spotify的故乡。瑞典是全球最具创新能力和福利水平最高的国家之一，以高质量的生活方式、可持续发展理念和设计美学享誉世界。",
+    "desc_en": "Sweden is the largest Scandinavian country, celebrated for the Northern Lights, midnight sun, pristine lakes, and vast forests. It is the birthplace of IKEA, ABBA, Nobel Prizes, Volvo, and Spotify. Consistently ranked among the world's most innovative and liveable countries, Sweden is renowned for its quality of life, sustainability ethos, and distinctive design aesthetic.",
+    "football_desc_zh": "足球是瑞典最受欢迎的运动，以出产高质量的技术型球员著称。在伊布拉希莫维奇的时代，瑞典足球达到了现代最高峰。在格雷厄姆·波特的带领下，亚历山大·伊萨克、维克托·久约凯雷斯等人组成的强力锋线是瑞典足球史上最具进攻火力的阵容。尽管资格赛历经波折，一支由久约凯雷斯打入绝杀的点球大战惊险出线，让蓝黄军团重返世界杯舞台（2018年后首次）。",
+    "football_desc_en": "Football is Sweden's most popular sport, and the country has a proud tradition of producing technically gifted, physically imposing forwards. The Zlatan Ibrahimović era brought Swedish football to its modern peak, and now under Graham Potter, a devastating attacking trio of Isak, Gyökeres, and Kulusevski represents arguably Sweden's greatest-ever attacking generation. A nail-biting playoff run, decided by Gyökeres' stoppage-time goal, sent Sweden back to the World Cup for the first time since 2018."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 13,
+    "best_result_zh": "亚军（1958年，主办国）",
+    "best_result_en": "Runner-Up (1958, as hosts)",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1938,
+        "stage_zh": "四强",
+        "stage_en": "Semi-Final (4th)",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 1950,
+        "stage_zh": "季军",
+        "stage_en": "Third Place",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 1958,
+        "stage_zh": "亚军（主办国）",
+        "stage_en": "Runner-Up (Host)",
+        "row_class": "final"
+      },
+      {
+        "year": 1970,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1974,
+        "stage_zh": "小组赛（第二轮）",
+        "stage_en": "Group Stage (2nd Round)",
+        "row_class": "group"
+      },
+      {
+        "year": 1978,
+        "stage_zh": "小组赛（第二轮）",
+        "stage_en": "Group Stage (2nd Round)",
+        "row_class": "group"
+      },
+      {
+        "year": 1990,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1994,
+        "stage_zh": "季军",
+        "stage_en": "Third Place",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 2002,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2006,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2018,
+        "stage_zh": "八强",
+        "stage_en": "Quarter-Final",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Graham Potter",
+      "nationality_zh": "英格兰",
+      "nationality_en": "English"
+    },
+    "players": [
+      {
+        "name": "Viktor Johansson",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Middlesbrough",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 14
+      },
+      {
+        "name": "Marcus Danielson",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Djurgårdens IF",
+        "club_country_zh": "瑞典",
+        "club_country_en": "Sweden",
+        "caps": 22
+      },
+      {
+        "name": "Victor Lindelöf",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Manchester United",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 58
+      },
+      {
+        "name": "Emil Krafth",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "Newcastle United",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 26
+      },
+      {
+        "name": "Ludwig Augustinsson",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "Villarreal",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 48
+      },
+      {
+        "name": "Albin Ekdal",
+        "position_zh": "后腰",
+        "position_en": "DM",
+        "club": "Djurgårdens IF",
+        "club_country_zh": "瑞典",
+        "club_country_en": "Sweden",
+        "caps": 54
+      },
+      {
+        "name": "Dejan Kulusevski",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Tottenham Hotspur",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 48
+      },
+      {
+        "name": "Emil Forsberg",
+        "position_zh": "攻击中场",
+        "position_en": "AM",
+        "club": "RB Leipzig",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 72
+      },
+      {
+        "name": "Anthony Elanga",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Nottingham Forest",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 24
+      },
+      {
+        "name": "Alexander Isak",
+        "position_zh": "中锋",
+        "position_en": "ST",
+        "club": "Newcastle United",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 42
+      },
+      {
+        "name": "Viktor Gyökeres",
+        "position_zh": "中锋",
+        "position_en": "ST",
+        "club": "Arsenal",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 32
+      },
+      {
+        "name": "Jesper Karlsson",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Bologna",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 22
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Zlatan Ibrahimović",
+      "years": "2001–2016",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "瑞典足球史上最伟大的球员，效力尤文图斯、国际米兰、巴塞罗那、AC米兰、大巴黎、曼联和洛杉矶银河，赢得无数联赛冠军。以华丽的技术、霸气的个性和各种高难度进球著称，其在国家队62球的进球纪录至今无人打破。",
+      "bio_en": "The greatest Swedish footballer of all time, Ibrahimović won league titles at Juventus, Inter, Barcelona, AC Milan, PSG, and Manchester United. Famous for acrobatic goals, an outsized personality, and relentless self-belief, his national team record of 62 goals remains unmatched and may stand for decades.",
+      "stat_zh": "116帽62球（瑞典历史纪录）",
+      "stat_en": "116 caps, 62 goals (Swedish all-time records)"
+    },
+    {
+      "name": "Henrik Larsson",
+      "years": "1993–2009",
+      "position_zh": "前锋",
+      "position_en": "FWD",
+      "bio_zh": "在凯尔特人效力七年，是苏格兰甲级联赛历史上最伟大的球员之一，两度荣膺苏格兰足球先生。也曾效力巴塞罗那，在2006年欧冠决赛中以替补身份上场并奠定胜局，是那一代最受人尊敬的瑞典球员。",
+      "bio_en": "A legend at Celtic, where he won numerous titles and two Scottish Player of the Year awards. His fairytale spell at Barcelona included a decisive substitute appearance in the 2006 Champions League Final. Universally respected as one of the most complete Swedish strikers of any era.",
+      "stat_zh": "106帽37球",
+      "stat_en": "106 caps, 37 goals"
+    },
+    {
+      "name": "Gunnar Nordahl",
+      "years": "1942–1948",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "二战前后最伟大的欧洲中锋之一，在意甲AC米兰以245球的惊人战绩创下历史纪录。率瑞典夺得1948年奥运会金牌，是瑞典足球鼎盛年代的象征，也是球星辈出的「格伦-诺达尔-莱德霍尔姆」三叉戟之一。",
+      "bio_en": "One of the greatest European centre-forwards of the post-war era, Nordahl scored 245 goals for AC Milan — a club record that stood for decades. Helped Sweden win the 1948 Olympic gold medal and is a symbol of Swedish football's golden age, forming part of the legendary 「Gre-No-Li」 Milan trio.",
+      "stat_zh": "33帽43球，1948年奥运冠军",
+      "stat_en": "33 caps, 43 goals; 1948 Olympic gold medalist"
+    },
+    {
+      "name": "Freddie Ljungberg",
+      "years": "1998–2007",
+      "position_zh": "中场",
+      "position_en": "MID",
+      "bio_zh": "阿森纳黄金年代的核心人物，以出众的奔跑能力、精准的跑位和重要时刻的进球著称。参加了1998年、2002年和2006年三届世界杯，是千禧年代瑞典足球的代表人物，现已转型为教练。",
+      "bio_en": "The dynamic midfield heartbeat of Arsenal's Invincibles era, known for his extraordinary stamina, intelligent runs, and knack for scoring crucial goals. A three-time World Cup participant (1998, 2002, 2006) and one of the most recognisable Swedish footballers of the 2000s.",
+      "stat_zh": "75帽16球，2004年阿森纳不败冠军成员",
+      "stat_en": "75 caps, 16 goals; member of Arsenal's Invincibles (2003-04)"
+    },
+    {
+      "name": "Viktor Gyökeres",
+      "years": "2021–至今",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "在葡萄牙体育成名后加盟阿森纳，以惊人的进球效率震惊欧洲足坛。在资格赛附加赛中打入关键进球，成为瑞典打入2026年世界杯的最大功臣。与伊萨克并列，是当今欧洲最令人畏惧的双锋组合之一。",
+      "bio_en": "After his explosive breakout at Sporting CP, Gyökeres joined Arsenal and continued his prolific scoring in the Premier League. His hat-trick against Ukraine and stoppage-time playoff winner against Poland were the defining moments of Sweden's World Cup qualification. Alongside Isak, he forms one of Europe's most feared striking partnerships.",
+      "stat_zh": "32帽（现役）",
+      "stat_en": "32 caps (active)"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "丹麦",
+      "opponent_en": "Denmark",
+      "desc_zh": "北欧足球最大的斯堪的纳维亚德比，两国在欧洲预选赛和北欧锦标赛中多次交锋。政治历史上的联系和地理上的相邻使这场比赛充满了独特的北欧竞争气氛，两国球迷之间既有友谊又有对峙。",
+      "desc_en": "The Scandinavian derby between these long-standing neighbours is the defining fixture of Nordic football. Historical ties and geographical proximity make every Sweden-Denmark encounter a charged affair, with fans on both sides of the Øresund strait deeply invested in the result."
+    },
+    {
+      "opponent_zh": "挪威",
+      "opponent_en": "Norway",
+      "desc_zh": "北欧三兄弟中最「安静」却竞争同样激烈的对阵，瑞典和挪威在欧洲预选赛中多次争夺同一组出线名额。哈兰德的崛起让挪威足球重回人们视野，两国间的竞争也因此更加白热化。",
+      "desc_en": "A fiercely competitive Nordic rivalry, with Sweden and Norway regularly competing in the same UEFA qualifying groups for limited World Cup spots. The rise of Erling Haaland has intensified Norwegian ambitions, making every Sweden-Norway clash a significant test of Nordic football supremacy."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "👑",
+      "text_zh": "1958年世界杯在瑞典本土举行，17岁的贝利横空出世，在决赛中打入帽子戏法，率巴西5-2大胜东道主瑞典夺冠。那届比赛是世界杯历史上最浪漫的故事之一，瑞典虽败犹荣。",
+      "text_en": "The 1958 World Cup was held in Sweden, and a 17-year-old Pelé burst onto the world stage, scoring a hat-trick in the final as Brazil won 5-2 against the hosts. Sweden's runner-up finish on home soil remains one of the most romantic stories in World Cup history."
+    },
+    {
+      "icon": "⚡",
+      "text_zh": "维克托·久约凯雷斯在附加赛对阵乌克兰上演帽子戏法（3-1）后，又在对阵波兰的决定性比赛第88分钟打入绝杀，以戏剧性的方式将瑞典送入2026年世界杯。这是近年来欧洲区资格赛最扣人心弦的时刻之一。",
+      "text_en": "Viktor Gyökeres scored a hat-trick against Ukraine in the playoff semi-final, then netted the decisive goal against Poland in the 88th minute of the playoff final to send Sweden to the 2026 World Cup. His heroics stand as one of the most dramatic individual qualifying performances in recent European football history."
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "瑞典是世界杯历史上拿过三次奖牌却从未夺冠的球队之一（1950年季军、1958年亚军、1994年季军）。这种持续在大赛中表现出色的能力体现了瑞典足球深厚的底蕴。",
+      "text_en": "Sweden have won three World Cup medals — bronze in 1950, silver in 1958, bronze in 1994 — without ever lifting the trophy. This remarkable consistency across different generations underlines the deep footballing culture that Sweden has maintained for nearly a century."
+    },
+    {
+      "icon": "💪",
+      "text_zh": "格雷厄姆·波特于2025年10月接任瑞典主帅，成为首位执教北欧豪强的英格兰籍教练。波特在布莱顿积累的足球哲学与瑞典队传统技术风格高度契合，被认为是令球队脱胎换骨的关键人物。",
+      "text_en": "Graham Potter became the first English manager of Sweden in October 2025, bringing his philosophy of patient, possession-based football to a squad overflowing with attacking talent. His appointment is seen as transformative — providing the tactical structure that Sweden's star-studded forwards had previously lacked."
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "伊萨克与久约凯雷斯的双锋组合被誉为欧洲当今最昂贵、最具威胁的前锋搭档之一。两人身价合计超过2亿英镑，分别效力纽卡斯尔联和阿森纳，组成了2026年世界杯上最令对手胆寒的锋线。",
+      "text_en": "The Isak-Gyökeres partnership represents one of European football's most expensive and dangerous striking combinations, with a combined market value exceeding £200 million. Individually world-class at Newcastle and Arsenal respectively, they form the most feared attacking pairing Sweden has ever taken to a World Cup."
+    }
+  ]
+}

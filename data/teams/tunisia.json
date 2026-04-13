@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "slug": "tunisia",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "突尼斯",
+    "name_en": "Tunisia",
+    "flag_emoji": "🇹🇳",
+    "federation": "CAF",
+    "fifa_rank": 44,
+    "group": "F",
+    "colors": {
+      "primary": "#E70013",
+      "secondary": "#FFFFFF",
+      "accent": "#E70013"
+    }
+  },
+  "country": {
+    "capital_zh": "突尼斯市",
+    "capital_en": "Tunis",
+    "population": 12000000,
+    "area": 163610,
+    "language_zh": "阿拉伯语、柏柏尔语",
+    "language_en": "Arabic, Berber",
+    "continent_zh": "非洲",
+    "continent_en": "Africa",
+    "currency_zh": "突尼斯第纳尔",
+    "currency_en": "Tunisian Dinar (TND)",
+    "anthem_zh": "保卫者之歌",
+    "anthem_en": "Humat Al-Hima",
+    "desc_zh": "突尼斯是北非的地中海国家，是阿拉伯世界和非洲最古老的文明之一。迦太基古城曾是地中海世界的霸主，撒哈拉沙漠的边缘、地中海的蓝白小镇西迪布赛义德和悠久的伊斯兰文化交织成独特的突尼斯风情。2011年阿拉伯之春运动发源于此，突尼斯被视为北非最具民主传统的国家之一。",
+    "desc_en": "Tunisia is a North African Mediterranean nation that is home to one of the ancient world's greatest civilisations — Carthage. From the edge of the Sahara to the iconic blue-and-white clifftop town of Sidi Bou Said, Tunisia blends Arab, Berber, and Mediterranean cultures. It was the birthplace of the 2011 Arab Spring and is considered one of North Africa's most progressive nations.",
+    "football_desc_zh": "突尼斯是北非足球强国，「迦太基雄鹰」先后七次打入世界杯（1978、1998、2002、2006、2010、2022、2026），是非洲参加世界杯次数最多的球队之一。1978年世界杯曾创造非洲球队首次世界杯赢球的历史，以3-1击败墨西哥。新生代球员分布欧洲各大联赛，拉穆基执教下的球队渴望在2026年世界杯首度打入淘汰赛。",
+    "football_desc_en": "Tunisia are one of North Africa's most consistent football nations, qualifying for the World Cup seven times (1978, 1998, 2002, 2006, 2010, 2022, 2026). In 1978, they became the first African team to win a World Cup match, defeating Mexico 3-1 — a landmark moment for the continent. A new generation of European-based players under Sabri Lamouchi is looking to finally break Tunisia's group-stage ceiling in 2026."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 7,
+    "best_result_zh": "小组赛出局（历次）",
+    "best_result_en": "Group Stage (all appearances)",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1978,
+        "stage_zh": "小组赛（非洲首胜）",
+        "stage_en": "Group Stage (first African win)",
+        "row_class": "group"
+      },
+      {
+        "year": 1998,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2002,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2006,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2010,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2022,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Sabri Lamouchi",
+      "nationality_zh": "突尼斯",
+      "nationality_en": "Tunisian"
+    },
+    "players": [
+      {
+        "name": "Aymen Dahmen",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Stade Rennais",
+        "club_country_zh": "法国",
+        "club_country_en": "France",
+        "caps": 34
+      },
+      {
+        "name": "Montassar Talbi",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "RC Lens",
+        "club_country_zh": "法国",
+        "club_country_en": "France",
+        "caps": 30
+      },
+      {
+        "name": "Dylan Bronn",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Salernitana",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 36
+      },
+      {
+        "name": "Yan Valery",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "Angers",
+        "club_country_zh": "法国",
+        "club_country_en": "France",
+        "caps": 22
+      },
+      {
+        "name": "Ali Abdi",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "Caen",
+        "club_country_zh": "法国",
+        "club_country_en": "France",
+        "caps": 28
+      },
+      {
+        "name": "Ellyes Skhiri",
+        "position_zh": "后腰",
+        "position_en": "DM",
+        "club": "Eintracht Frankfurt",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 74
+      },
+      {
+        "name": "Ferjani Sassi",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Al Gharafa",
+        "club_country_zh": "卡塔尔",
+        "club_country_en": "Qatar",
+        "caps": 62
+      },
+      {
+        "name": "Hannibal Mejbri",
+        "position_zh": "攻击中场",
+        "position_en": "AM",
+        "club": "Burnley",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 28
+      },
+      {
+        "name": "Elias Achouri",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "FC Copenhagen",
+        "club_country_zh": "丹麦",
+        "club_country_en": "Denmark",
+        "caps": 18
+      },
+      {
+        "name": "Youssef Msakni",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Espérance Sportive de Tunis",
+        "club_country_zh": "突尼斯",
+        "club_country_en": "Tunisia",
+        "caps": 92
+      },
+      {
+        "name": "Hazem Mastouri",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Angers",
+        "club_country_zh": "法国",
+        "club_country_en": "France",
+        "caps": 22
+      },
+      {
+        "name": "Mohamed Ali Ben Romdhane",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Ferencváros",
+        "club_country_zh": "匈牙利",
+        "club_country_en": "Hungary",
+        "caps": 30
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Youssef Msakni",
+      "years": "2010–至今",
+      "position_zh": "前锋",
+      "position_en": "FWD",
+      "bio_zh": "突尼斯现役最具代表性的球员，以精湛的盘带和灵活的进攻技术著称，效力突尼斯国内联赛。曾在卡塔尔联赛效力多年，多次入选突尼斯最佳阵容。尽管年近职业生涯尾声，其经验和领导力对2026年世界杯阵容仍然至关重要。",
+      "bio_en": "The most iconic Tunisian footballer of the modern era, Msakni's dribbling ability and creative flair have dazzled fans for over a decade. Having starred in both the Qatari league and at home, his experience and leadership remain invaluable to the squad even as his career draws towards its end.",
+      "stat_zh": "92帽（历史最多出场）",
+      "stat_en": "92 caps (Tunisian all-time record)"
+    },
+    {
+      "name": "Tarek Dhiab",
+      "years": "1978–1994",
+      "position_zh": "中场",
+      "position_en": "MID",
+      "bio_zh": "突尼斯足球史上最具影响力的球员之一，参与了1978年世界杯突尼斯击败墨西哥的历史性比赛。其在法国联赛效力的经历为突尼斯球员赴欧洲闯荡开辟了道路，是那个时代北非最出色的球员之一。",
+      "bio_en": "One of the most influential figures in Tunisian football history, Dhiab was part of the 1978 World Cup side that made history by defeating Mexico — the first African team to win a World Cup match. His career in French football helped pave the way for future Tunisian players to succeed in Europe.",
+      "stat_zh": "58帽，1978年世界杯历史功勋",
+      "stat_en": "58 caps; hero of the 1978 World Cup historic win"
+    },
+    {
+      "name": "Riadh Jelassi",
+      "years": "1988–2002",
+      "position_zh": "门将",
+      "position_en": "GK",
+      "bio_zh": "突尼斯历史上最出色的门将，在1998年和2002年两届世界杯均有出色表现。以超强的反应能力和稳健的发挥著称，是那个时代非洲最优秀的门将之一。",
+      "bio_en": "Tunisia's finest goalkeeper, who performed admirably at the 1998 and 2002 World Cups. Known for his lightning-fast reflexes and composed performances under pressure, he was consistently ranked among Africa's best goalkeepers of his era.",
+      "stat_zh": "两届世界杯主力门将",
+      "stat_en": "First-choice goalkeeper at two World Cups (1998, 2002)"
+    },
+    {
+      "name": "Ellyes Skhiri",
+      "years": "2017–至今",
+      "position_zh": "后腰",
+      "position_en": "DM",
+      "bio_zh": "突尼斯现役中场核心，在法甲蒙彼利埃和德甲科隆、美因茨效力积累了丰富的顶级职业联赛经验。以出色的覆盖范围、抢断能力和组织效率著称，是突尼斯2026年世界杯防守体系的核心支柱。",
+      "bio_en": "The backbone of the Tunisian midfield, Skhiri has built an impressive European career in Ligue 1 and the Bundesliga. His exceptional range, tackling ability, and organisational intelligence make him the cornerstone of Tunisia's defensive midfield structure at the 2026 World Cup.",
+      "stat_zh": "74帽（现役）",
+      "stat_en": "74 caps (active)"
+    },
+    {
+      "name": "Hannibal Mejbri",
+      "years": "2021–至今",
+      "position_zh": "攻击中场",
+      "position_en": "AM",
+      "bio_zh": "突尼斯足球的未来之星，曾效力曼联青训并与一队签约，现租借布莱克本或燃利效力。以充沛的精力、独特的创造力和高速的推进著称，是2026年世界杯上突尼斯最具进攻威胁的球员。",
+      "bio_en": "Tunisia's most exciting young talent, who came through Manchester United's youth system before establishing himself in the Championship and beyond. His energy, creativity, and ability to drive forward at pace make him Tunisia's most dangerous attacking threat for the 2026 World Cup.",
+      "stat_zh": "28帽（现役）",
+      "stat_en": "28 caps (active)"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "摩洛哥",
+      "opponent_en": "Morocco",
+      "desc_zh": "北非马格里布地区最重要的足球对阵，政治和文化上的历史纠葛为比赛增添了浓厚的情绪。两国在非洲杯和世界杯资格赛中多次交锋，争夺北非足球霸主之位，是整个北非地区最受关注的德比之一。",
+      "desc_en": "The defining North African derby — Morocco vs Tunisia — is charged with historical and cultural significance beyond sport. Encounters in AFCON and World Cup qualifying are watched passionately across the Maghreb region, with both nations vying for North African footballing supremacy."
+    },
+    {
+      "opponent_zh": "埃及",
+      "opponent_en": "Egypt",
+      "desc_zh": "非洲足球强国之间的对决，两国都是非洲杯的传统劲旅。突尼斯和埃及在非洲大陆赛事中多次交锋，每场比赛都牵动着整个阿拉伯世界球迷的心弦。",
+      "desc_en": "A clash between two of Africa's most storied football nations, with both Tunisia and Egypt being regular contenders in AFCON competitions. Their matches carry continental and pan-Arab significance, drawing huge audiences from Morocco to the Gulf."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🏆",
+      "text_zh": "1978年，突尼斯以3-1击败墨西哥，成为世界杯历史上第一支赢球的非洲球队，创造了非洲足球史上最重要的里程碑之一。那届比赛中，突尼斯还以0-0平局逼平了西德，震惊世界。",
+      "text_en": "In 1978, Tunisia defeated Mexico 3-1 to become the first African team ever to win a World Cup match — a landmark moment for the entire continent. They also held West Germany to a 0-0 draw in the same tournament, announcing African football's arrival on the world stage."
+    },
+    {
+      "icon": "🌍",
+      "text_zh": "突尼斯参加了2026年世界杯，是他们在世界杯历史上的第七次亮相，平并也是非洲参加世界杯次数最多的球队之一。这种持续参赛的能力证明了突尼斯足球长期以来的稳定性。",
+      "text_en": "The 2026 World Cup marks Tunisia's seventh appearance at the tournament, making them one of Africa's most consistent World Cup qualifiers. This sustained presence at football's greatest stage reflects the deep footballing culture embedded in Tunisian society."
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "突尼斯队中的大量球员出生或成长于法国，拥有法突双重国籍，充分体现了北非移民与欧洲文化的交融。这种多元背景为球队带来了欧洲化的职业足球经验，也提升了球队的整体水准。",
+      "text_en": "Many Tunisian players were born or raised in France and hold dual nationality, reflecting the deep cultural ties between North Africa and France. This Franco-Tunisian talent pipeline has been a major source of the squad's European professional experience."
+    },
+    {
+      "icon": "🎯",
+      "text_zh": "2022年世界杯，突尼斯以0-1不敌法国，但比赛中有进球被判越位取消，是颇具争议的一场失利。如果那粒进球算数，突尼斯将可能以积分出线，那也将是非洲足球史上的又一个里程碑。",
+      "text_en": "At the 2022 World Cup, Tunisia lost just 0-1 to France, with a goal controversially ruled out for offside. Had it stood, Tunisia might have advanced — a tantalising near-miss that fuels their determination to finally reach the knockout rounds in 2026."
+    },
+    {
+      "icon": "🌟",
+      "text_zh": "汉尼拔·梅吉布里的名字来自古迦太基名将汉尼拔·巴卡（公元前247-183年），那位曾率军越过阿尔卑斯山进攻罗马、让整个欧洲为之颤栗的战略天才。对突尼斯人而言，这个名字承载着无上的民族荣耀。",
+      "text_en": "Hannibal Mejbri shares his first name with Hannibal Barca (247-183 BC) — the Carthaginian general who crossed the Alps with war elephants to terrify Rome. For Tunisians, the name carries the weight of ancient glory, making the young midfielder a particularly resonant symbol of national pride."
+    }
+  ]
+}

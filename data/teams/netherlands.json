@@ -1,0 +1,332 @@
+{
+  "meta": {
+    "slug": "netherlands",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "荷兰",
+    "name_en": "Netherlands",
+    "flag_emoji": "🇳🇱",
+    "federation": "UEFA",
+    "fifa_rank": 7,
+    "group": "F",
+    "colors": {
+      "primary": "#FF6600",
+      "secondary": "#FFFFFF",
+      "accent": "#003DA5"
+    }
+  },
+  "country": {
+    "capital_zh": "阿姆斯特丹",
+    "capital_en": "Amsterdam",
+    "population": 17900000,
+    "area": 41543,
+    "language_zh": "荷兰语",
+    "language_en": "Dutch",
+    "continent_zh": "欧洲",
+    "continent_en": "Europe",
+    "currency_zh": "欧元",
+    "currency_en": "Euro (EUR)",
+    "anthem_zh": "威廉颂",
+    "anthem_en": "Het Wilhelmus",
+    "desc_zh": "荷兰是西欧低地国家，以风车、郁金香、运河和自行车文化闻名于世。超过四分之一的国土低于海平面，荷兰人以精湛的水利工程著称。阿姆斯特丹是欧洲最具活力的城市之一，伦勃朗和梵高是荷兰诞生的两位世界级艺术大师。",
+    "desc_en": "The Netherlands is a low-lying Western European nation famous for windmills, tulips, canals, and cycling culture. More than a quarter of the country sits below sea level, and the Dutch are world-renowned for their mastery of water management engineering. Amsterdam is one of Europe's most vibrant cities, and the Netherlands gave the world master artists Rembrandt and Van Gogh.",
+    "football_desc_zh": "荷兰以「全攻全守」哲学闻名于世，由荷兰足球之父约翰·克鲁伊夫在1970年代开创。尽管三度打入世界杯决赛（1974、1978、2010）却未能夺冠，被称为「最美丽的亚军」。如今以范迪克、弗雷尼·德容、加克波、西蒙斯为核心的「橙衣军团」在罗纳德·科曼的带领下，渴望终结漫长的冠军等待。",
+    "football_desc_en": "The Netherlands is synonymous with 「Total Football」 — the revolutionary philosophy pioneered by Johan Cruyff in the 1970s that changed the game forever. Despite three World Cup final appearances (1974, 1978, 2010) without a title, the Dutch are called 「the greatest team never to win.」 Under Ronald Koeman, the 「Oranje」 — led by Van Dijk, De Jong, Gakpo, and Simons — are hungry to finally claim the trophy that has eluded them for half a century."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 11,
+    "best_result_zh": "亚军（1974、1978、2010年）",
+    "best_result_en": "Runner-Up (1974, 1978, 2010)",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1974,
+        "stage_zh": "亚军",
+        "stage_en": "Runner-Up",
+        "row_class": "final"
+      },
+      {
+        "year": 1978,
+        "stage_zh": "亚军",
+        "stage_en": "Runner-Up",
+        "row_class": "final"
+      },
+      {
+        "year": 1990,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 1994,
+        "stage_zh": "八强",
+        "stage_en": "Quarter-Final",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1998,
+        "stage_zh": "四强",
+        "stage_en": "Semi-Final",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 2006,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2010,
+        "stage_zh": "亚军",
+        "stage_en": "Runner-Up",
+        "row_class": "final"
+      },
+      {
+        "year": 2014,
+        "stage_zh": "季军",
+        "stage_en": "Third Place",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 2018,
+        "stage_zh": "未晋级",
+        "stage_en": "Did Not Qualify",
+        "row_class": "did-not-qualify"
+      },
+      {
+        "year": 2022,
+        "stage_zh": "八强",
+        "stage_en": "Quarter-Final",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Ronald Koeman",
+      "nationality_zh": "荷兰",
+      "nationality_en": "Dutch"
+    },
+    "players": [
+      {
+        "name": "Bart Verbruggen",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Brighton & Hove Albion",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 20
+      },
+      {
+        "name": "Virgil van Dijk",
+        "position_zh": "中后卫（队长）",
+        "position_en": "CB",
+        "club": "Liverpool",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 92
+      },
+      {
+        "name": "Stefan de Vrij",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Inter Milan",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 52
+      },
+      {
+        "name": "Denzel Dumfries",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "Inter Milan",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 54
+      },
+      {
+        "name": "Nathan Aké",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "Manchester City",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 48
+      },
+      {
+        "name": "Frenkie de Jong",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Barcelona",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 62
+      },
+      {
+        "name": "Tijjani Reijnders",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "AC Milan",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 30
+      },
+      {
+        "name": "Ryan Gravenberch",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Liverpool",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 22
+      },
+      {
+        "name": "Xavi Simons",
+        "position_zh": "攻击中场",
+        "position_en": "AM",
+        "club": "RB Leipzig",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 28
+      },
+      {
+        "name": "Cody Gakpo",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Liverpool",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 44
+      },
+      {
+        "name": "Memphis Depay",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Corinthians",
+        "club_country_zh": "巴西",
+        "club_country_en": "Brazil",
+        "caps": 102
+      },
+      {
+        "name": "Donyell Malen",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Aston Villa",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 32
+      },
+      {
+        "name": "Brian Brobbey",
+        "position_zh": "中锋",
+        "position_en": "ST",
+        "club": "Ajax",
+        "club_country_zh": "荷兰",
+        "club_country_en": "Netherlands",
+        "caps": 18
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Johan Cruyff",
+      "years": "1966–1977",
+      "position_zh": "前锋",
+      "position_en": "FWD",
+      "bio_zh": "荷兰乃至世界足球史上最具影响力的球员之一，「全攻全守」战术的化身。三度荣膺金球奖（1971、1973、1974），率荷兰打入1974年世界杯决赛。他在球场内外对足球战术与青训的贡献使其成为永恒的传奇。",
+      "bio_en": "The most influential footballer in Dutch history and one of the greatest ever, Johan Cruyff was the embodiment of Total Football. A three-time Ballon d'Or winner (1971, 1973, 1974) who led the Netherlands to the 1974 World Cup Final. His vision of attacking, intelligent football transformed the game and his coaching legacy at Barcelona reshaped European football.",
+      "stat_zh": "48帽33球，三届金球奖得主",
+      "stat_en": "48 caps, 33 goals; three-time Ballon d'Or winner"
+    },
+    {
+      "name": "Marco van Basten",
+      "years": "1983–1992",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "被誉为史上最完美的中锋，以优雅的技术、致命的进球和标志性的控球著称。1988年欧洲杯决赛那记匪夷所思的凌空抽射是足球史上最伟大的进球之一。三度荣获金球奖（1988、1989、1992），职业生涯因伤英年早逝令人扼腕。",
+      "bio_en": "Widely regarded as the most technically complete centre-forward in history. His acrobatic volley in the 1988 European Championship Final is considered one of the greatest goals ever scored. A three-time Ballon d'Or winner (1988, 1989, 1992) whose career was tragically cut short by injury.",
+      "stat_zh": "58帽24球，三届金球奖，1988欧洲杯MVP",
+      "stat_en": "58 caps, 24 goals; three Ballon d'Or awards; Euro 1988 Player of the Tournament"
+    },
+    {
+      "name": "Ruud Gullit",
+      "years": "1981–1994",
+      "position_zh": "前锋/中场",
+      "position_en": "FWD / MID",
+      "bio_zh": "荷兰足球黄金一代的领袖，以全面的技术和领袖气质著称。1987年金球奖得主，率荷兰夺得1988年欧洲杯冠军。个性鲜明、风格独特，是足球史上最具魅力的球员之一。",
+      "bio_en": "The charismatic leader of the Netherlands' 1988 golden generation, Gullit combined physical power, technical brilliance, and attacking versatility. The 1987 Ballon d'Or winner captained the Dutch to their only major international trophy — the 1988 European Championship.",
+      "stat_zh": "66帽17球，1987年金球奖，1988欧洲杯冠军队长",
+      "stat_en": "66 caps, 17 goals; 1987 Ballon d'Or; Euro 1988 winning captain"
+    },
+    {
+      "name": "Robin van Persie",
+      "years": "2005–2017",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "2012-13赛季英超金靴，荷兰历史最佳射手之一。2014年世界杯小组赛对阵西班牙的翻身鱼雷头球被誉为世界杯历史上最精彩的进球之一，帮助荷兰5-1大胜卫冕冠军西班牙。",
+      "bio_en": "One of the most lethal strikers of his generation, van Persie's diving header against Spain at the 2014 World Cup — Netherlands winning 5-1 against the defending champions — produced one of the most iconic images in World Cup history. Won the 2012-13 Premier League Golden Boot at Manchester United.",
+      "stat_zh": "102帽50球",
+      "stat_en": "102 caps, 50 goals"
+    },
+    {
+      "name": "Virgil van Dijk",
+      "years": "2015–至今",
+      "position_zh": "中后卫（队长）",
+      "position_en": "CB (Captain)",
+      "bio_zh": "当今世界最顶级的中后卫之一，利物浦防线的核心。2022年11月打破荷兰队长出场纪录（72次），以92帽领衔2026年世界杯阵容。其高大的身材、出色的空中优势和冷静的传球让他成为荷兰防线不可或缺的领袖。",
+      "bio_en": "One of the world's elite centre-backs and the bedrock of Liverpool's defence. Broke the Netherlands captaincy record (72 games) in November 2025. His commanding presence, aerial dominance, and composure in possession make him the undisputed leader of the Dutch rearguard heading into 2026.",
+      "stat_zh": "92帽（现役）",
+      "stat_en": "92 caps (active)"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "德国",
+      "opponent_en": "Germany",
+      "desc_zh": "欧洲足球史上最大的宿敌之一，两国之间的对阵充满了历史、战争与足球的纠葛。1974年世界杯决赛荷兰主场落败西德，是荷兰足球永远的痛。每次交锋都是争夺欧洲霸权的关键。",
+      "desc_en": "One of European football's deepest rivalries, rooted in both sporting competition and historical tensions. The 1974 World Cup Final — the Netherlands losing to West Germany on home soil after scoring first — remains the defining trauma of Dutch football history. Every subsequent meeting carries enormous significance."
+    },
+    {
+      "opponent_zh": "西班牙",
+      "opponent_en": "Spain",
+      "desc_zh": "2010年世界杯决赛，荷兰以0-1不敌西班牙，再度与冠军失之交臂；而2014年小组赛5-1大胜西班牙，则是对这场复仇的极好回应。两队在近代世界杯中多次交锋，始终精彩绝伦。",
+      "desc_en": "The 2010 World Cup Final ended in heartbreak for the Netherlands — a 0-1 loss to Spain in extra time. Four years later, the 5-1 demolition of the defending champions in the group stage was one of football's greatest statements of revenge. Their World Cup meetings have produced some of the tournament's most memorable moments."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🔶",
+      "text_zh": "橙色是荷兰的国家颜色，源自荷兰王室的奥兰治-拿骚家族。「橙衣军团」（Oranje）的橙色球衣是世界上最具辨识度的球衣之一，在观众席中一眼可见。",
+      "text_en": "Orange is the Netherlands' national colour, derived from the House of Orange-Nassau, the Dutch royal family. 「Oranje」 is instantly recognisable in any stadium, and the Dutch fan army in bright orange is one of the most spectacular sights in international football."
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "荷兰是世界杯历史上未夺冠但最具影响力的球队。三次打入决赛（1974、1978、2010）均告负，克鲁伊夫的那支1974年球队被誉为有史以来最具天赋却与冠军失之交臂的球队。",
+      "text_en": "The Netherlands are the most influential team in World Cup history never to have won it. Three final appearances (1974, 1978, 2010), three defeats. Cruyff's 1974 side is universally considered the greatest team never to lift the trophy — a distinction the Dutch carry with pride and frustration in equal measure."
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "阿贾克斯青训学院「德托科姆斯特」是世界上最著名的足球青训系统之一，培育了克鲁伊夫、博格坎普、范德萨等无数世界级球星，对全球足球青训体系产生了深远影响。",
+      "text_en": "Ajax's famed youth academy 「De Toekomst」 (The Future) is one of football's greatest talent factories, producing Cruyff, Bergkamp, Van der Sar, and generations of world-class players. Its influence on modern youth coaching methodology is felt across the entire footballing world."
+    },
+    {
+      "icon": "🌍",
+      "text_zh": "荷兰队中有大量苏里南裔球员，体现了荷兰的多元移民文化。从古利特到罗本，再到加克波，苏里南裔球员为荷兰队带来了无与伦比的技术和速度，是荷兰足球多元化的最好体现。",
+      "text_en": "The Dutch squad has long been enriched by players of Surinamese heritage — from Gullit to Robben to Gakpo — reflecting the Netherlands' multicultural society. This diversity has been one of the most powerful forces behind Dutch football's enduring excellence."
+    },
+    {
+      "icon": "🔴",
+      "text_zh": "荷兰是世界上拥有最多球员进入欧洲五大联赛的小国之一，平均每百万人产出的顶级球员数量位居全球前列。荷兰足球的教育体系和哲学体系在全球范围内广泛输出。",
+      "text_en": "Despite its small population, the Netherlands produces more top-level European footballers per capita than almost any other nation. The Dutch football philosophy — built on positional play, pressing, and technical excellence — has been exported to clubs and academies around the world."
+    }
+  ]
+}

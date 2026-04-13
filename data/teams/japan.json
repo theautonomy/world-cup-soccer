@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "slug": "japan",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "日本",
+    "name_en": "Japan",
+    "flag_emoji": "🇯🇵",
+    "federation": "AFC",
+    "fifa_rank": 18,
+    "group": "F",
+    "colors": {
+      "primary": "#003087",
+      "secondary": "#FFFFFF",
+      "accent": "#BC002D"
+    }
+  },
+  "country": {
+    "capital_zh": "东京",
+    "capital_en": "Tokyo",
+    "population": 125000000,
+    "area": 377975,
+    "language_zh": "日语",
+    "language_en": "Japanese",
+    "continent_zh": "亚洲",
+    "continent_en": "Asia",
+    "currency_zh": "日元",
+    "currency_en": "Japanese Yen (JPY)",
+    "anthem_zh": "君之代",
+    "anthem_en": "Kimigayo",
+    "desc_zh": "日本是东亚太平洋上的岛国，以独特的文化、先进的科技和精致的美食闻名于世。从古都京都的传统文化到东京的现代都市魅力，从富士山到岚山竹林，日本处处散发着东方美学的韵味。日本的动漫、游戏和时尚文化已成为全球流行文化的重要组成部分。",
+    "desc_en": "Japan is a Pacific archipelago renowned for its unique fusion of ancient tradition and cutting-edge modernity. From the historic temples of Kyoto to the neon skylines of Tokyo, from Mount Fuji to the bamboo forests of Arashiyama, Japan offers breathtaking contrasts. Its manga, anime, gaming, and culinary cultures have become pillars of global popular culture.",
+    "football_desc_zh": "足球在日本经历了跨越式发展，J联赛成立于1993年，此后日本足球迅速崛起。「蓝武士」从1998年首次打入世界杯到2022年连续八届出线，在卡塔尔世界杯上先后击败德国和西班牙，震惊了世界。如今以久保建英、三笘薰为代表的欧洲联赛球员群体是日本足球史上最强阵容，他们渴望在2026年世界杯突破十六强的魔咒。",
+    "football_desc_en": "Japan's footballing rise has been one of the sport's great modern stories. After the J-League launched in 1993, the Samurai Blue reached the World Cup for the first time in 1998 and have qualified for every edition since. At the 2022 World Cup in Qatar, they shocked the world by defeating Germany and Spain — giants of world football — in the group stage. Now, with a European-based golden generation led by Kubo and Mitoma, Japan are poised to go further than ever in 2026."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 8,
+    "best_result_zh": "十六强（2002、2010、2018、2022年）",
+    "best_result_en": "Round of 16 (2002, 2010, 2018, 2022)",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1998,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2002,
+        "stage_zh": "十六强（主办国）",
+        "stage_en": "Round of 16 (Host)",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2006,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2010,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2014,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2018,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2022,
+        "stage_zh": "十六强（击败德国、西班牙）",
+        "stage_en": "Round of 16 (beat Germany & Spain)",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Hajime Moriyasu",
+      "nationality_zh": "日本",
+      "nationality_en": "Japanese"
+    },
+    "players": [
+      {
+        "name": "Zion Suzuki",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Sint-Truiden",
+        "club_country_zh": "比利时",
+        "club_country_en": "Belgium",
+        "caps": 22
+      },
+      {
+        "name": "Hiroki Ito",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Bayern Munich",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 28
+      },
+      {
+        "name": "Ko Itakura",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Borussia Mönchengladbach",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 32
+      },
+      {
+        "name": "Koki Machida",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "AS Roma",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 26
+      },
+      {
+        "name": "Wataru Endo",
+        "position_zh": "后腰（队长）",
+        "position_en": "DM",
+        "club": "Liverpool",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 72
+      },
+      {
+        "name": "Daichi Kamada",
+        "position_zh": "攻击中场",
+        "position_en": "AM",
+        "club": "Crystal Palace",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 50
+      },
+      {
+        "name": "Hidemasa Morita",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Sporting CP",
+        "club_country_zh": "葡萄牙",
+        "club_country_en": "Portugal",
+        "caps": 38
+      },
+      {
+        "name": "Ao Tanaka",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Leeds United",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 30
+      },
+      {
+        "name": "Takefusa Kubo",
+        "position_zh": "前腰",
+        "position_en": "AM",
+        "club": "Real Sociedad",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 44
+      },
+      {
+        "name": "Kaoru Mitoma",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Brighton & Hove Albion",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 42
+      },
+      {
+        "name": "Ritsu Doan",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Freiburg",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 48
+      },
+      {
+        "name": "Ayase Ueda",
+        "position_zh": "中锋",
+        "position_en": "ST",
+        "club": "Feyenoord",
+        "club_country_zh": "荷兰",
+        "club_country_en": "Netherlands",
+        "caps": 34
+      },
+      {
+        "name": "Takumi Minamino",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Monaco",
+        "club_country_zh": "摩纳哥",
+        "club_country_en": "Monaco",
+        "caps": 58
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Hidetoshi Nakata",
+      "years": "1996–2006",
+      "position_zh": "中场",
+      "position_en": "MID",
+      "bio_zh": "日本足球的先驱者和国际化象征，是首位在意甲（佩鲁贾、罗马、博洛尼亚、帕尔马）真正立足的日本球员。1998年和2002年两届世界杯参赛者，以优雅的技术和强烈的个人魅力成为日本最具全球影响力的体育偶像之一。",
+      "bio_en": "The pioneer who proved Japanese footballers could compete in European football's elite, Nakata starred in Serie A at Perugia, Roma, Bologna, and Parma. A two-time World Cup participant (1998, 2002), his technical elegance and global star appeal made him Japan's most internationally recognised sports figure of his era.",
+      "stat_zh": "77帽11球",
+      "stat_en": "77 caps, 11 goals"
+    },
+    {
+      "name": "Shinji Kagawa",
+      "years": "2008–2020",
+      "position_zh": "攻击中场",
+      "position_en": "AM",
+      "bio_zh": "曾效力多特蒙德和曼联，是亚洲首位效力英超豪门并成为核心的球员之一。在多特蒙德两度夺得德甲冠军，是那一代最出色的日本球员，以出色的位置感和无球跑动著称。",
+      "bio_en": "Starred at Borussia Dortmund and Manchester United, becoming one of the first Asian players to be a genuine regular at a Premier League giant. Won two Bundesliga titles at Dortmund and was the most accomplished Japanese footballer of his generation, known for his intelligent movement and creative passing.",
+      "stat_zh": "97帽31球",
+      "stat_en": "97 caps, 31 goals"
+    },
+    {
+      "name": "Shunsuke Nakamura",
+      "years": "2000–2010",
+      "position_zh": "攻击中场",
+      "position_en": "AM",
+      "bio_zh": "以精准的任意球技术闻名，在凯尔特人效力期间以一记任意球击败曼联的欧冠进球举世皆知。日本历史上技术最精湛的攻击中场之一，在两届世界杯中代表日本出赛。",
+      "bio_en": "Renowned worldwide for his deadly free-kick technique, Nakamura's stunning Champions League free-kick for Celtic against Manchester United became one of the most-watched goals in the competition's modern era. One of Japan's most technically gifted attacking midfielders and a two-time World Cup participant.",
+      "stat_zh": "98帽24球",
+      "stat_en": "98 caps, 24 goals"
+    },
+    {
+      "name": "Keisuke Honda",
+      "years": "2008–2018",
+      "position_zh": "前腰",
+      "position_en": "AM",
+      "bio_zh": "日本足球的精神领袖，效力莫斯科中央陆军和AC米兰，以大赛关键时刻的进球和顽强的领袖精神著称。三届世界杯参赛者，是2010和2014年世界杯日本队的绝对核心，进球能力和点球能力出色。",
+      "bio_en": "The inspirational captain of Japan's golden generation at two World Cups (2010, 2014), Honda starred at CSKA Moscow and AC Milan. Known for his extraordinary big-game performances and penalty-kick composure, he was the heartbeat of a Japan side that consistently punched above its weight on the world stage.",
+      "stat_zh": "98帽37球（日本历史最佳射手之一）",
+      "stat_en": "98 caps, 37 goals (one of Japan's all-time top scorers)"
+    },
+    {
+      "name": "Takefusa Kubo",
+      "years": "2019–至今",
+      "position_zh": "前腰",
+      "position_en": "AM",
+      "bio_zh": "日本现役最具技术天赋的球员，从皇家马德里青训走出，在皇家社会确立了欧洲一流前腰的地位。以惊艳的盘带、突破和射门能力著称，被誉为日本足球史上最有天赋的球员之一，是2026年世界杯最受期待的亚洲球星之一。",
+      "bio_en": "Emerged from Real Madrid's youth academy before establishing himself as a world-class playmaker at Real Sociedad. His dribbling, vision, and ability to unlock defences make him the creative heartbeat of Japan's 2026 squad and one of the most exciting Asian players at the tournament.",
+      "stat_zh": "44帽（现役）",
+      "stat_en": "44 caps (active)"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "韩国",
+      "opponent_en": "South Korea",
+      "desc_zh": "亚洲足球最大的宿敌之一，两国之间历史、政治和文化上的复杂关系使每场比赛都超越了纯粹的体育竞争。日韩德比（东亚德比）是整个亚洲最受关注的国际赛事，球迷热情无与伦比。",
+      "desc_en": "Asia's defining football rivalry, intensified by deep historical and cultural tensions between the two nations. The Japan-Korea derby transcends sport, drawing massive audiences across Asia and generating an atmosphere unmatched in continental football."
+    },
+    {
+      "opponent_zh": "澳大利亚",
+      "opponent_en": "Australia",
+      "desc_zh": "AFC区域最重要的技术性对抗，两国都是亚洲杯和世界杯预选赛的常年劲旅。2006年世界杯小组赛日本1-3不敌澳大利亚，是近年来最令日本球迷印象深刻的对阵。两队近年来在亚洲区名次交替上升。",
+      "desc_en": "One of the AFC's most significant rivalries, with Japan and Australia regularly competing at the top of Asian football. Their 2006 World Cup group-stage encounter — Japan leading 1-0 before conceding three late goals — remains one of the most painful Japanese World Cup memories."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "⚡",
+      "text_zh": "2022年卡塔尔世界杯，日本在小组赛中先后击败德国（1-2→2-1逆转）和西班牙（0-1→2-1逆转），成为历史上首支在同届世界杯小组赛中击败两支世界冠军球队的亚洲球队，震惊世界。",
+      "text_en": "At the 2022 World Cup, Japan became the first Asian nation to defeat two reigning World Champions in a single tournament, stunning Germany (2-1) and Spain (2-1) in the group stage with comeback victories. It was one of the greatest collective upsets in World Cup history."
+    },
+    {
+      "icon": "🎌",
+      "text_zh": "2022年世界杯，日本球迷赛后自发清扫看台垃圾的行为感动了全球，被各国媒体广泛报道。日本球迷的文明举止已成为世界杯文化的一道独特风景，也是日本人精神的体现。",
+      "text_en": "After every 2022 World Cup match, Japanese fans stayed behind to clean the stadium — a spontaneous act of respect that went viral worldwide. This tradition has become synonymous with Japanese football culture and is celebrated by fans and media across the globe."
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "久保建英从8岁起便进入皇家马德里青训，是亚洲历史上最早加盟欧洲顶级俱乐部青训体系的球员之一。他的成长历程代表着日本足球青训与欧洲足球的深度融合。",
+      "text_en": "Takefusa Kubo joined Real Madrid's youth academy at just 8 years old — one of the earliest Asian players to enter a top European club's youth system. His development exemplifies the increasingly deep integration between Japanese football talent and the European game."
+    },
+    {
+      "icon": "🌍",
+      "text_zh": "日本现役阵容中有超过20名球员效力于欧洲顶级联赛，分布在英超、西甲、德甲、意甲等。这种「欧洲化」程度是亚洲球队中无与伦比的，也是日本足球持续进步的根本原因。",
+      "text_en": "Japan's 2026 squad is arguably the most European-based Asian squad in history, with over 20 players based at clubs across the Premier League, La Liga, Bundesliga, and Serie A. This unprecedented level of European experience is the engine of Japan's sustained rise."
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "J联赛1993年成立时，巴西足球传奇济科担任鹿岛鹿角队球员兼顾问，成为推动日本足球腾飞的重要力量。如今三十余年过去，日本已从足球荒漠成长为世界强队，这段历史令人感叹。",
+      "text_en": "When the J-League launched in 1993, Brazilian legend Zico joined Kashima Antlers as a player and ambassador, helping to inspire a generation. Thirty years later, Japan has risen from a footballing backwater to a genuine world force — a transformation as remarkable as any in the sport's history."
+    }
+  ]
+}
