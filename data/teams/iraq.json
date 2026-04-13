@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "slug": "iraq",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "伊拉克",
+    "name_en": "Iraq",
+    "flag_emoji": "🇮🇶",
+    "federation": "AFC",
+    "fifa_rank": 57,
+    "group": "I",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "accent": "#CE1126"
+    }
+  },
+  "country": {
+    "capital_zh": "巴格达",
+    "capital_en": "Baghdad",
+    "population": 42000000,
+    "area": 438317,
+    "language_zh": "阿拉伯语、库尔德语",
+    "language_en": "Arabic, Kurdish",
+    "continent_zh": "亚洲",
+    "continent_en": "Asia",
+    "currency_zh": "伊拉克第纳尔",
+    "currency_en": "Iraqi Dinar (IQD)",
+    "anthem_zh": "我的祖国",
+    "anthem_en": "Mawtini (My Homeland)",
+    "desc_zh": "伊拉克是中东古老文明的发源地之一，两河流域（幼发拉底河和底格里斯河之间）是人类文明的摇篮之一。巴格达曾是伊斯兰黄金时代的学术与文化中心，拥有近4200万人口。尽管经历了数十年的战乱与重建，伊拉克的年轻一代正以蓬勃的生命力和对未来的渴望重新塑造这个国家的形象。",
+    "desc_en": "Iraq is one of the cradles of human civilisation — Mesopotamia (between the Euphrates and Tigris rivers) is where writing, agriculture, and the first cities were born. Baghdad was the centre of the Islamic Golden Age of learning and culture. With nearly 42 million people, and despite decades of conflict and reconstruction, Iraq's young generation is reshaping the country's identity with vitality and hope for the future.",
+    "football_desc_zh": "伊拉克是亚洲足球历史上重要的一极，曾夺得1964年亚洲杯冠军，多次参与亚洲杯并有出色发挥。1986年世界杯是其首次参赛，距今已整整40年。2026年是其时隔40年的历史性回归，由澳大利亚籍主教练格雷厄姆·阿诺德带领「美索不达米亚雄狮」先后闯过亚洲区和洲际附加赛（2-1击败玻利维亚），成为本届世界杯最后一支确定资格的球队，国内举国欢庆。",
+    "football_desc_en": "Iraq are an important pillar of Asian football history — Asian Cup champions in 1964 and multiple-time continental participants. Their 1986 World Cup was their first and only appearance before 2026, a gap of exactly 40 years. Under Australian coach Graham Arnold, the 「Lions of Mesopotamia」 fought through Asian qualifying and the intercontinental play-offs — defeating Bolivia 2-1 to clinch the final World Cup berth on April 1, 2026. The country erupted in celebration, making Iraq the last team confirmed for the tournament."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 2,
+    "best_result_zh": "小组赛",
+    "best_result_en": "Group Stage",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1986,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Graham Arnold",
+      "nationality_zh": "澳大利亚",
+      "nationality_en": "Australian"
+    },
+    "players": [
+      {
+        "name": "Jalal Hassan",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Al-Zawraa",
+        "club_country_zh": "伊拉克",
+        "club_country_en": "Iraq",
+        "caps": 38
+      },
+      {
+        "name": "Rebin Sulaka",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Al-Quwa Al-Jawiya",
+        "club_country_zh": "伊拉克",
+        "club_country_en": "Iraq",
+        "caps": 28
+      },
+      {
+        "name": "Ali Adnan",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "Colorado Rapids",
+        "club_country_zh": "美国",
+        "club_country_en": "USA",
+        "caps": 78
+      },
+      {
+        "name": "Amjad Attwan",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "Al-Zawraa",
+        "club_country_zh": "伊拉克",
+        "club_country_en": "Iraq",
+        "caps": 32
+      },
+      {
+        "name": "Saad Abdul Amir",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Al-Quwa Al-Jawiya",
+        "club_country_zh": "伊拉克",
+        "club_country_en": "Iraq",
+        "caps": 42
+      },
+      {
+        "name": "Hussein Ali",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Persepolis",
+        "club_country_zh": "伊朗",
+        "club_country_en": "Iran",
+        "caps": 36
+      },
+      {
+        "name": "Bashar Resan",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Al-Ahly Tripoli",
+        "club_country_zh": "利比亚",
+        "club_country_en": "Libya",
+        "caps": 44
+      },
+      {
+        "name": "Youssef Amyn",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Charleroi",
+        "club_country_zh": "比利时",
+        "club_country_en": "Belgium",
+        "caps": 28
+      },
+      {
+        "name": "Marko Farji",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Al-Shorta",
+        "club_country_zh": "伊拉克",
+        "club_country_en": "Iraq",
+        "caps": 34
+      },
+      {
+        "name": "Aymen Hussein",
+        "position_zh": "前锋",
+        "position_en": "ST",
+        "club": "Al-Zawraa",
+        "club_country_zh": "伊拉克",
+        "club_country_en": "Iraq",
+        "caps": 52
+      },
+      {
+        "name": "Ali Al-Hamadi",
+        "position_zh": "中锋",
+        "position_en": "ST",
+        "club": "Ipswich Town",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 38
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Ahmed Radhi",
+      "years": "1982–1993",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "伊拉克足球史上最伟大的球员，也是伊拉克在1986年世界杯上唯一一个进球的球员——对阵比利时的那粒进球至今仍是伊拉克在世界杯历史上唯一一粒进球，具有里程碑式的意义。以出色的头球和速度著称，效力阿尔卡尔赫和国内多支俱乐部，是伊拉克足球黄金时代的核心人物。1988年荣膺亚洲最佳球员，是迄今为止亚洲足球史上最具代表性的伊拉克球员。",
+      "bio_en": "Iraq's greatest ever footballer and scorer of the only goal in the country's entire World Cup history — his strike against Belgium at the 1986 World Cup remains a milestone of unique historical significance. Known for his heading ability and pace, Radhi was the centrepiece of Iraq's domestic football golden era. Named Asian Footballer of the Year in 1988, he remains the most decorated and recognised Iraqi player in football history.",
+      "stat_zh": "126帽（内战前数据），伊拉克世界杯史上唯一进球，1988年亚洲最佳球员",
+      "stat_en": "126 caps; scorer of Iraq's only-ever World Cup goal vs Belgium 1986; 1988 Asian Footballer of the Year"
+    },
+    {
+      "name": "Ali Adnan",
+      "years": "2012–至今",
+      "position_zh": "左后卫",
+      "position_en": "LB",
+      "bio_zh": "现役资历最深的伊拉克球员，效力过多支欧洲和美国职业俱乐部（包括乌迪内斯和科罗拉多急流队），是伊拉克球员在海外职业联赛中最成功的代表之一。以出色的左路传中和进攻参与感著称，多次率队参加亚洲杯，是伊拉克足球重建时期的核心人物和精神旗帜。",
+      "bio_en": "Iraq's most experienced active player, having represented the country in professional leagues in Europe (Udinese) and the United States (Colorado Rapids). Known for incisive left-sided delivery and attacking contribution, he has been a pillar of Iraq's national team through their difficult rebuild era. A role model for young Iraqi players demonstrating that international football careers beyond the Middle East are achievable.",
+      "stat_zh": "78帽（现役），曾效力乌迪内斯和科罗拉多急流队",
+      "stat_en": "78 caps (active); played in Serie A (Udinese) and MLS (Colorado Rapids)"
+    },
+    {
+      "name": "Younis Mahmoud",
+      "years": "2001–2018",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "2007年亚洲杯冠军队队长，也是决赛进球的人——那届比赛在战乱背景下举行，伊拉克夺冠被誉为「令整个世界动容的世界杯」之一，球队夺冠后伊拉克街头欢庆的场景震惊了全球，被称为「超越足球的胜利」。以强壮的身体和禁区内的终结能力著称，是伊拉克足球最黑暗时期的光明使者。",
+      "bio_en": "Captain and the goalscorer of Iraq's stunning 2007 AFC Asian Cup triumph — achieved in the midst of a devastating civil war, at a tournament held outside Iraq due to the conflict. The scenes of celebration on the streets of Baghdad moved the entire world and the triumph was widely described as 「a victory that transcended football.」 A physical centre-forward with clinical finishing, Mahmoud remains Iraq's most celebrated modern footballer.",
+      "stat_zh": "126帽78球，2007年亚洲杯决赛进球队长",
+      "stat_en": "126 caps, 78 goals; captain and scorer in Iraq's 2007 AFC Asian Cup final victory"
+    },
+    {
+      "name": "Ali Al-Hamadi",
+      "years": "2019–至今",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "现役最具潜力的伊拉克球员，在英冠英格兰效力后加盟英超伊普斯维奇，成为伊拉克球员进军英超的代表性人物。以出色的速度、精准的射门和在英格兰联赛中的持续进球著称，是格雷厄姆·阿诺德带领伊拉克出线的核心功臣之一，也是伊拉克足球面向未来的希望所在。",
+      "bio_en": "Iraq's most exciting active talent, who made the step up to the Premier League with Ipswich Town — making him one of the few Iraqi players to play at England's top level. Known for pace, precise shooting, and consistent goals in English football. A key figure in Graham Arnold's successful qualifying campaign and the symbol of Iraq football's ambition to develop players capable of competing in Europe's elite leagues.",
+      "stat_zh": "38帽（现役），英超伊普斯维奇效力，伊拉克出线功臣",
+      "stat_en": "38 caps (active); Premier League player at Ipswich Town; key figure in 2026 qualifying"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "伊朗",
+      "opponent_en": "Iran",
+      "desc_zh": "中东足球最具历史重量的宿敌关系之一，两国之间超过四十年的地缘政治紧张（包括1980-1988年两伊战争）使每场足球比赛都充满了远超体育的政治意义。亚洲杯和世预赛中的每次碰面都是中东最受关注的足球时刻之一，也是亚洲足球历史的重要篇章。",
+      "desc_en": "One of Middle Eastern football's most historically loaded rivalries, shaped by over four decades of geopolitical tension including the devastating 1980-1988 Iran-Iraq War. Every meeting in the Asian Cup or World Cup qualifying transcends sport and carries the weight of history. Their encounters consistently rank among the most politically charged football matches anywhere in the world."
+    },
+    {
+      "opponent_zh": "沙特阿拉伯",
+      "opponent_en": "Saudi Arabia",
+      "desc_zh": "中东「海湾德比」的重要组成部分，两国在亚洲杯和海湾杯中多次交锋。伊拉克近年来在亚洲足球的崛起，使这场曾由沙特占据优势的对决逐渐趋于平衡，代表了阿拉伯世界内部新兴足球强国与传统强队之间的博弈。",
+      "desc_en": "A key component of the Middle Eastern 「Gulf Derby」, played out in Asian Cup and Gulf Cup competitions across decades. Iraq's recent rise in Asian football has brought balance to a rivalry that Saudi Arabia once dominated, representing a broader shift in the balance of power among Arab football nations."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "⏳",
+      "text_zh": "伊拉克以「最后一支确定资格」的身份杀进2026年世界杯——2026年4月1日，他们在墨西哥蒙特雷以2-1击败玻利维亚，成为48支参赛球队中最后一支拿到入场券的球队。这也是他们时隔整整40年的世界杯回归（上次是1986年），国内民众的欢庆场面令人动容。",
+      "text_en": "Iraq qualified for the 2026 World Cup as the very last team — defeating Bolivia 2-1 in Monterrey on April 1, 2026, to claim the 48th and final place. The 40-year gap between their 1986 debut and their 2026 return is one of the longest in World Cup history. Street celebrations in Baghdad and across Iraq after the final whistle were among the tournament's most moving pre-tournament moments."
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "2007年亚洲杯，伊拉克在战乱最惨烈的年代赢得冠军——球员们在比赛期间连续接到家人遇难的消息，却依然坚持踢完比赛并一路夺冠。冠军消息传回巴格达，民众走上街头欢庆，这一刻被全球媒体誉为「超越足球的胜利」，是当代体育史上最感人的时刻之一。",
+      "text_en": "Iraq's 2007 Asian Cup triumph is one of sport's most poignant stories — achieved during the height of the country's civil war, with players receiving news of family members' deaths during the tournament yet continuing to play. The scenes in Baghdad after the final — streets filled with celebrating Iraqis — were broadcast worldwide and described as 「a victory that transcended football.」"
+    },
+    {
+      "icon": "🦘",
+      "text_zh": "伊拉克的主教练格雷厄姆·阿诺德是澳大利亚人，他曾率澳大利亚队参加多届世界杯，如今又带领伊拉克完成了第二次世界杯出线。这使他成为历史上极少数以主教练身份带领两支不同国家队出线世界杯的人之一，「英雄」称号在澳大利亚媒体和伊拉克媒体上都得到了充分的赞美。",
+      "text_en": "Head coach Graham Arnold is Australian — he previously managed Australia in multiple World Cups, and now led Iraq to their qualification, making him one of a tiny number of coaches to qualify two different national teams for the World Cup. Iraqi fans greeted his achievement with hero worship, and Australian media celebrated his achievement too — a genuinely rare dual-nation coaching legacy."
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "伊拉克在1986年世界杯上唯一的一粒进球，是由艾哈迈德·拉迪对阵比利时时打入的——这是伊拉克世界杯史上迄今为止的所有进球。等待了40年后，国家队终于有机会再次在世界杯舞台上写下历史的新篇章，这也是为什么整个伊拉克如此期待2026年世界杯的到来。",
+      "text_en": "Ahmed Radhi's goal against Belgium in 1986 is the only goal Iraq have ever scored at a World Cup — one goal in one appearance, 40 years ago. The 2026 tournament gives Iraq the chance to write the second chapter of their World Cup story. For a football-mad nation that has endured so much hardship, every moment of the tournament will carry profound meaning."
+    }
+  ]
+}

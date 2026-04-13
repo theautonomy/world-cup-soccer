@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "slug": "senegal",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "塞内加尔",
+    "name_en": "Senegal",
+    "flag_emoji": "🇸🇳",
+    "federation": "CAF",
+    "fifa_rank": 14,
+    "group": "I",
+    "colors": {
+      "primary": "#00853F",
+      "secondary": "#FDEF42",
+      "accent": "#E31B23"
+    }
+  },
+  "country": {
+    "capital_zh": "达喀尔",
+    "capital_en": "Dakar",
+    "population": 17000000,
+    "area": 196722,
+    "language_zh": "法语（官方）、沃洛夫语",
+    "language_en": "French (official), Wolof",
+    "continent_zh": "非洲",
+    "continent_en": "Africa",
+    "currency_zh": "西非法郎",
+    "currency_en": "West African CFA Franc (XOF)",
+    "anthem_zh": "民族的黎明",
+    "anthem_en": "Pincez Tous vos Koras, Frappez les Balafons",
+    "desc_zh": "塞内加尔位于西非最西端，首都达喀尔是非洲大陆最西的城市。以其丰富的沃洛夫文化、音乐（姆巴拉克斯音乐）和开放多元的海滨城市风情著称。塞内加尔是西非最稳定的民主国家之一，自独立以来从未发生军事政变，在政治稳定性方面令非洲大陆引以为傲。",
+    "desc_en": "Senegal sits at the westernmost tip of Africa — Dakar is the continent's westernmost capital city. Celebrated for its rich Wolof culture, Mbalax music, and vibrant coastal city life. Senegal is one of West Africa's most stable democracies, having never experienced a military coup since independence — a source of genuine pride on a continent where political instability is common.",
+    "football_desc_zh": "塞内加尔是近年来崛起最迅猛的非洲足球强国。2002年世界杯首次参赛即打进八强（击败法国、瑞典），2022年夺得首个非洲杯冠军，2026年1月再次卫冕非洲杯冠军（击败东道主摩洛哥）。以马内为核心的「雄狮」将个人技术、强悍的身体对抗与出色的整体战术融为一体，是当今非洲最具竞争力的球队，也是2026年世界杯最不可忽视的黑马。",
+    "football_desc_en": "Senegal are Africa's most dramatically risen football power. Their 2002 World Cup debut reached the quarter-finals (defeating defending champions France along the way), their 2022 AFCON triumph was their first-ever continental title, and they defended that title in January 2026 (defeating host Morocco in extra time). 「The Lions of Teranga」 blend individual brilliance, physical intensity, and tactical discipline — making them Africa's most formidable team and one of 2026's most dangerous dark horses."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 3,
+    "best_result_zh": "八强（2002年）",
+    "best_result_en": "Quarterfinal (2002)",
+    "title_years": [],
+    "history": [
+      {
+        "year": 2002,
+        "stage_zh": "八强",
+        "stage_en": "Quarterfinal",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 2022,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Pape Thiaw",
+      "nationality_zh": "塞内加尔",
+      "nationality_en": "Senegalese"
+    },
+    "players": [
+      {
+        "name": "Édouard Mendy",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Al-Ahli",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 44
+      },
+      {
+        "name": "Kalidou Koulibaly",
+        "position_zh": "中后卫（队长）",
+        "position_en": "CB (Captain)",
+        "club": "Al-Hilal",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 78
+      },
+      {
+        "name": "Abdou Diallo",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "RB Leipzig",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 42
+      },
+      {
+        "name": "El Hadji Malick Diouf",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "West Ham United",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 22
+      },
+      {
+        "name": "Formose Mendy",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "Almería",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 18
+      },
+      {
+        "name": "Idrissa Gana Gueye",
+        "position_zh": "后腰",
+        "position_en": "DM",
+        "club": "Everton",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 92
+      },
+      {
+        "name": "Pape Matar Sarr",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Tottenham Hotspur",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 28
+      },
+      {
+        "name": "Nampalys Mendy",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Al-Ettifaq",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 34
+      },
+      {
+        "name": "Ismaila Sarr",
+        "position_zh": "右边锋",
+        "position_en": "FWD",
+        "club": "Crystal Palace",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 52
+      },
+      {
+        "name": "Iliman Ndiaye",
+        "position_zh": "攻击中场",
+        "position_en": "AM",
+        "club": "Everton",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 30
+      },
+      {
+        "name": "Nicolas Jackson",
+        "position_zh": "中锋",
+        "position_en": "ST",
+        "club": "Chelsea",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 24
+      },
+      {
+        "name": "Sadio Mané",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Al-Nassr",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 102
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Sadio Mané",
+      "years": "2012–至今",
+      "position_zh": "前锋",
+      "position_en": "FWD",
+      "bio_zh": "塞内加尔史上最伟大的球员，非洲足球的旗帜性人物。在利物浦效力期间帮助球队赢得英超和欧冠冠军，2022年荣膺非洲最佳球员。率领塞内加尔赢得2022年非洲杯（塞内加尔史上首次），在点球大战中打入关键点球。现效力沙特阿拉伯纳斯尔，但仍以国家队大旗手身份回归，参加其最后一届世界杯。以速度、身体素质和强大的进攻端全面性著称。",
+      "bio_en": "Senegal's greatest ever player and a standard-bearer for African football. At Liverpool he helped deliver the Premier League and Champions League, and in 2022 won the African Footballer of the Year. Led Senegal to their first-ever AFCON title in 2022, scoring the decisive penalty in the final shootout. Now at Al-Nassr but returned for what is likely his final World Cup — a player whose pace, physicality, and all-round attacking quality have never been surpassed in Senegal's history.",
+      "stat_zh": "102帽39球，2022年非洲最佳球员，2022年非洲杯冠军",
+      "stat_en": "102 caps, 39 goals; 2022 African Footballer of the Year; AFCON champion (2022)"
+    },
+    {
+      "name": "Kalidou Koulibaly",
+      "years": "2011–至今",
+      "position_zh": "中后卫",
+      "position_en": "CB",
+      "bio_zh": "现任队长，被誉为非洲历史最伟大的中后卫之一。在那不勒斯效力近十年，成为意甲最令人闻风丧胆的防守球员之一。率领塞内加尔赢得2022年非洲杯，2026年1月再次率队卫冕，是球队精神领袖和防线核心。以强悍的身体对抗、出色的速度（对于中后卫而言）和完美的领导力著称。",
+      "bio_en": "Current captain and considered one of Africa's greatest ever central defenders. After nearly a decade at Napoli becoming one of Serie A's most feared defenders, he captained Senegal to the 2022 AFCON title and defended it in January 2026. The spiritual leader of Senegal's defence and the dressing room, known for physical dominance, pace (exceptional for a CB), and inspiring leadership.",
+      "stat_zh": "78帽（现役），两届非洲杯冠军队长（2022、2026年）",
+      "stat_en": "78 caps (active); captained Senegal to back-to-back AFCON titles (2022, 2026)"
+    },
+    {
+      "name": "El Hadji Diouf",
+      "years": "2000–2012",
+      "position_zh": "前锋",
+      "position_en": "FWD",
+      "bio_zh": "2002年世界杯的英雄，是那届赛事塞内加尔奇迹冲锋的标志性人物。在首场比赛即击败卫冕冠军法国后，率领「特朗加雄狮」一路杀进四强。两届非洲最佳球员（2001、2002年），是塞内加尔足球进入世界视野的第一代旗帜人物，以强悍的身体和出色的边路突破著称。",
+      "bio_en": "The hero of Senegal's legendary 2002 World Cup debut, where they upset defending champions France on day one and reached the quarter-finals. Two-time African Footballer of the Year (2001, 2002), Diouf was the first player to put Senegalese football truly on the world map. Known for physical strength and wide play, he remains a legend of Senegal's first footballing golden era.",
+      "stat_zh": "69帽22球，两届非洲最佳球员（2001、2002年），2002年世界杯八强英雄",
+      "stat_en": "69 caps, 22 goals; two-time African Footballer of the Year; hero of Senegal's 2002 WC run"
+    },
+    {
+      "name": "Idrissa Gana Gueye",
+      "years": "2011–至今",
+      "position_zh": "后腰",
+      "position_en": "DM",
+      "bio_zh": "塞内加尔中场的「铁血引擎」，以无穷无尽的奔跑、精准的拦截和顽强的斗志著称。在阿斯顿维拉、埃弗顿和PSG证明了自己是顶级欧洲联赛中最出色的防守型中场之一，是塞内加尔黄金一代不可或缺的幕后英雄，以低调的职业精神赢得了队友和教练的一致尊重。",
+      "bio_en": "Senegal's midfield engine, celebrated for relentless running, precise tackling, and fierce competitive spirit. He proved himself one of the finest defensive midfielders in top-level European football at Aston Villa, Everton, and PSG. The unsung hero of Senegal's golden generation — an understated professional whose work rate and football intelligence have made him irreplaceable across 15 years of service.",
+      "stat_zh": "92帽（现役），曾效力埃弗顿和PSG，塞内加尔中场核心",
+      "stat_en": "92 caps (active); elite defensive midfielder at Everton and PSG; Senegal's midfield cornerstone"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "法国",
+      "opponent_en": "France",
+      "desc_zh": "宗主国与前殖民地之间的特殊情感对决。2002年世界杯首场比赛，塞内加尔1-0击败法国——卫冕冠军被前殖民地击败，布尔穆迪安科洛·迪奥普的进球震惊世界。这场比赛的政治和情感意义至今仍是塞内加尔足球史上最重要的一刻，也是法国足球最难以释怀的耻辱之一。",
+      "desc_en": "Former colonial power meets liberated nation — a rivalry layered with history and emotion. Senegal's 1-0 defeat of France at their very first World Cup match in 2002 — the defending champions beaten by their former colony — remains one of football's most politically charged upsets. Papa Bouba Diop's goal is the most celebrated in Senegal's history, and one of France's most painful World Cup memories."
+    },
+    {
+      "opponent_zh": "摩洛哥",
+      "opponent_en": "Morocco",
+      "desc_zh": "非洲足球最精彩的大陆级对决之一。2026年1月非洲杯决赛，塞内加尔在加时赛以1-0击败东道主摩洛哥，成功卫冕冠军。两队均是非洲顶级强队，塞摩之战也是近年来非洲杯最受关注的对决之一，近年的胜负频繁易主，使这段宿敌关系愈加引人入胜。",
+      "desc_en": "One of African football's most compelling continental clashes. In January 2026, Senegal defeated host Morocco 1-0 in extra time in the AFCON final to successfully defend their continental title — one of the most dramatic finals in tournament history. Both teams are Africa's elite, and their recent exchanges of dominance have made this rivalry one of the continent's most anticipated matchups."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🦁",
+      "text_zh": "2002年世界杯，塞内加尔以第一次参赛的身份击败卫冕冠军法国1-0（布尔穆迪安科洛·迪奥普进球），随后一路打进八强，成为仅第二支在世界杯首秀即杀入四强的非洲球队（继2002年的喀麦隆之后）。这一奇迹至今仍是非洲足球历史上最精彩的章节之一。",
+      "text_en": "At their very first World Cup in 2002, Senegal defeated defending champions France 1-0 on day one, then reached the quarter-finals — only the second African team ever to do so at a World Cup. Papa Bouba Diop's goal against France in that opening match remains the most celebrated moment in Senegalese football history."
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "塞内加尔是唯一在非洲杯历史上连续卫冕冠军（2022、2026年）的球队之一。2022年首夺非洲杯、2026年再次加冕，标志着塞内加尔正式完成从非洲「黑马」到「非洲霸主」的蜕变，是非洲足球进入「塞内加尔时代」的最有力证明。",
+      "text_en": "Senegal won back-to-back Africa Cup of Nations titles (2022 and January 2026), cementing their status as Africa's dominant force. Their transformation from perennial underachievers to continental champions in just a few years — under the guidance of their players' European-club experience — is one of African football's greatest modern success stories."
+    },
+    {
+      "icon": "🇬🇧",
+      "text_zh": "2026年世界杯阵容中，至少有6名球员在英超联赛效力——库利巴利、盖耶、帕佩·马塔尔·萨尔、伊利曼·恩迪亚耶、伊斯梅拉·萨尔和尼古拉斯·杰克逊，使塞内加尔成为英超代表人数最多的非洲队伍之一。英超高强度的对抗使这些球员具备了参加世界顶级赛事的充足经验。",
+      "text_en": "The 2026 Senegal squad features at least six Premier League players — Koulibaly, Gueye, Pape Matar Sarr, Ndiaye, Ismaila Sarr, and Jackson — making them one of the most Premier League-represented African nations at the tournament. The intensity of English football has given these players exactly the battle-hardened experience needed for World Cup competition."
+    },
+    {
+      "icon": "💙",
+      "text_zh": "马内的成长故事是足球史上最励志的之一——他出生于塞内加尔一个贫穷的家庭，年幼时曾被塞纳体育学院拒收，只能躲在车上偷偷参加训练。如今他已是非洲足球史上最伟大的球员之一，将自己的财富用于为家乡修建学校和诊所，是非洲青少年最大的足球偶像之一。",
+      "text_en": "Mané's rise is one of football's most inspiring stories. Born into poverty in rural Senegal, he was initially rejected by Senegal's football academy and reportedly hid in vehicles to attend training. He has since become one of Africa's greatest footballers and has used his wealth to build schools and a hospital in his hometown — making him one of the continent's most beloved sports figures."
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "slug": "france",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "法国",
+    "name_en": "France",
+    "flag_emoji": "🇫🇷",
+    "federation": "UEFA",
+    "fifa_rank": 1,
+    "group": "I",
+    "colors": {
+      "primary": "#002395",
+      "secondary": "#FFFFFF",
+      "accent": "#ED2939"
+    }
+  },
+  "country": {
+    "capital_zh": "巴黎",
+    "capital_en": "Paris",
+    "population": 68000000,
+    "area": 551695,
+    "language_zh": "法语",
+    "language_en": "French",
+    "continent_zh": "欧洲",
+    "continent_en": "Europe",
+    "currency_zh": "欧元",
+    "currency_en": "Euro (EUR)",
+    "anthem_zh": "马赛曲",
+    "anthem_en": "La Marseillaise",
+    "desc_zh": "法国是西欧最大的国家，以艺术、哲学、美食、时尚和浪漫文化闻名于世，是全球访问量最多的旅游目的地。巴黎是世界的文化之都，埃菲尔铁塔、卢浮宫、凡尔赛宫是其永恒的象征。法国也是欧盟和联合国安理会五大常任理事国之一，在国际政治和文化领域有着巨大的影响力。",
+    "desc_en": "France is Western Europe's largest country and one of the world's most influential nations in art, philosophy, cuisine, fashion, and romance. Paris is the world's cultural capital, with the Eiffel Tower, Louvre, and Palace of Versailles among its eternal icons. France is a founding EU member and one of five UN Security Council permanent members, wielding enormous influence in global politics and culture.",
+    "football_desc_zh": "法国是现代足球最成功的国家之一，两次世界杯冠军（1998年主场、2018年俄罗斯），一次亚军（2022年卡塔尔）。以由非洲裔和加勒比海裔球员组成的「蓝色多元军团」著称，体现了法国社会的多元文化特质。1998年、2006年、2018年三代黄金阵容，以及以姆巴佩为核心的第四代，使法国成为当今世界足坛综合实力最强的球队之一，FIFA排名高居榜首。",
+    "football_desc_en": "France are one of modern football's most successful nations — two-time World Cup winners (1998 as hosts, 2018 in Russia) and 2022 runners-up. Celebrated for their multicultural 「Les Bleus」, drawing talent from African and Caribbean communities that reflects France's diverse society. Three golden generations (1998, 2006, 2018) and now a fourth built around Mbappé make France the world's number one ranked side heading into 2026 — and the tournament's most complete team."
+  },
+  "world_cup": {
+    "titles": 2,
+    "appearances": 17,
+    "best_result_zh": "冠军（1998、2018年）",
+    "best_result_en": "Champions (1998, 2018)",
+    "title_years": [1998, 2018],
+    "history": [
+      {
+        "year": 1930,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1934,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1938,
+        "stage_zh": "八强",
+        "stage_en": "Quarterfinal",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1954,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1958,
+        "stage_zh": "季军",
+        "stage_en": "Third Place",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 1966,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1978,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1982,
+        "stage_zh": "第四名",
+        "stage_en": "Fourth Place",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 1986,
+        "stage_zh": "季军",
+        "stage_en": "Third Place",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 1998,
+        "stage_zh": "冠军（主办国）",
+        "stage_en": "Champions (Host)",
+        "row_class": "champion"
+      },
+      {
+        "year": 2002,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2006,
+        "stage_zh": "亚军",
+        "stage_en": "Runner-Up",
+        "row_class": "final"
+      },
+      {
+        "year": 2010,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2014,
+        "stage_zh": "八强",
+        "stage_en": "Quarterfinal",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 2018,
+        "stage_zh": "冠军",
+        "stage_en": "Champions",
+        "row_class": "champion"
+      },
+      {
+        "year": 2022,
+        "stage_zh": "亚军",
+        "stage_en": "Runner-Up",
+        "row_class": "final"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Didier Deschamps",
+      "nationality_zh": "法国",
+      "nationality_en": "French"
+    },
+    "players": [
+      {
+        "name": "Mike Maignan",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "AC Milan",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 24
+      },
+      {
+        "name": "William Saliba",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Arsenal",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 26
+      },
+      {
+        "name": "Dayot Upamecano",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Bayern Munich",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 38
+      },
+      {
+        "name": "Theo Hernández",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "AC Milan",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 34
+      },
+      {
+        "name": "Jules Koundé",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "Barcelona",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 38
+      },
+      {
+        "name": "N'Golo Kanté",
+        "position_zh": "后腰",
+        "position_en": "DM",
+        "club": "Al-Ittihad",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 58
+      },
+      {
+        "name": "Aurélien Tchouaméni",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Real Madrid",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 38
+      },
+      {
+        "name": "Adrien Rabiot",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Olympique Marseille",
+        "club_country_zh": "法国",
+        "club_country_en": "France",
+        "caps": 52
+      },
+      {
+        "name": "Antoine Griezmann",
+        "position_zh": "攻击中场",
+        "position_en": "AM",
+        "club": "Atlético Madrid",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 132
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "position_zh": "右边锋",
+        "position_en": "FWD",
+        "club": "PSG",
+        "club_country_zh": "法国",
+        "club_country_en": "France",
+        "caps": 56
+      },
+      {
+        "name": "Randal Kolo Muani",
+        "position_zh": "前锋",
+        "position_en": "ST",
+        "club": "Juventus",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 28
+      },
+      {
+        "name": "Kylian Mbappé",
+        "position_zh": "中锋（队长）",
+        "position_en": "ST (Captain)",
+        "club": "Real Madrid",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 88
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Zinedine Zidane",
+      "years": "1994–2006",
+      "position_zh": "攻击中场",
+      "position_en": "AM",
+      "bio_zh": "法国足球史上最伟大的球员，被誉为现代足球史上最优雅的球员之一。以惊人的球感、出色的技术控制和无与伦比的大赛发挥著称，1998年世界杯决赛头球轰入双响，送给法国第一个世界杯冠军。2006年世界杯决赛头球顶人是其职业生涯最后一幕，充满争议却难掩其传奇色彩。三届世界最佳球员（FIFA年度最佳），前皇马主教练。",
+      "bio_en": "France's greatest footballer and one of the most elegant players in the history of the modern game. Known for extraordinary touch, technique, and supreme big-game performances. Scored twice with his head in the 1998 World Cup final to deliver France's first title. His headbutt in the 2006 final was a controversial final act — yet nothing diminishes his legend. Three-time FIFA World Player of the Year and later a Champions League-winning Real Madrid manager.",
+      "stat_zh": "108帽31球，三届FIFA年度最佳球员，1998年世界杯冠军队长",
+      "stat_en": "108 caps, 31 goals; three-time FIFA World Player of the Year; scored twice in 1998 World Cup final"
+    },
+    {
+      "name": "Michel Platini",
+      "years": "1976–1987",
+      "position_zh": "攻击中场",
+      "position_en": "AM",
+      "bio_zh": "法国足球1980年代的标志性人物，三届欧洲金球奖（1983、1984、1985年）得主，至今无人超越。1984年欧洲杯率法国夺冠，独揽9粒进球，是那届赛事最高射手（进球纪录保持至2021年才被C罗打破）。在尤文图斯效力期间赢得意甲和欧冠冠军，是那个时代无可争议的欧洲最佳球员。",
+      "bio_en": "The defining figure of French football in the 1980s and the only player to win three consecutive Ballon d'Or awards (1983, 1984, 1985). Led France to the 1984 European Championship, personally scoring nine goals in the tournament — a record that stood until Cristiano Ronaldo eclipsed it in 2021. At Juventus he won Serie A and the European Cup — the undisputed best player in Europe of his era.",
+      "stat_zh": "72帽41球，三届金球奖（1983-85），1984年欧洲杯最高射手",
+      "stat_en": "72 caps, 41 goals; three consecutive Ballon d'Or awards (1983–85); 9 goals at Euro 1984"
+    },
+    {
+      "name": "Thierry Henry",
+      "years": "1997–2010",
+      "position_zh": "前锋",
+      "position_en": "ST",
+      "bio_zh": "法国历史最高射手，以无与伦比的速度、技术和得分能力统治了2000年代的欧洲足球。在阿森纳和巴塞罗那屡创佳绩，2003-04赛季率枪手完成英超不败赛季。2006年世界杯亚军功臣，被誉为法国足球史上最全面的前锋，其在阿森纳的进球纪录至今仍是球队历史纪录。",
+      "bio_en": "France's all-time leading scorer and one of the most complete forwards European football has ever seen. At Arsenal he famously contributed to the 2003-04 Invincibles season, and at Barcelona he won the treble. PFA Players' Player of the Year twice in England, and a key figure in France's 2006 World Cup runner-up campaign. His Arsenal goal record still stands.",
+      "stat_zh": "123帽51球，法国历史最高射手，阿森纳不败赛季核心",
+      "stat_en": "123 caps, 51 goals; France's all-time leading scorer; part of Arsenal's 2003-04 Invincibles"
+    },
+    {
+      "name": "Kylian Mbappé",
+      "years": "2017–至今",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "现任队长，法国乃至世界足球的新一代领袖。2018年世界杯决赛进球，成为继贝利（1958年）之后第二位在世界杯决赛进球的青少年球员。以闪电般的速度（测速超过36km/h）、出色的技术和大赛冷静著称，在大赛历史总进球数上正快速追赶多位传奇人物。2022年世界杯决赛帽子戏法（法国最终因点球负于阿根廷）令全世界印象深刻。",
+      "bio_en": "Current captain and the face of the new generation of world football. His goal in the 2018 World Cup final made him only the second teenager (after Pelé in 1958) to score in a World Cup final. Clocked at over 36 km/h — one of the fastest players ever measured. His hat-trick in the 2022 World Cup final (a 3-3 draw, eventually lost on penalties to Argentina) is already one of the great individual final performances in football history.",
+      "stat_zh": "88帽（现役），2018年世界杯决赛进球，2022年决赛帽子戏法",
+      "stat_en": "88 caps (active); scored in the 2018 WC final; hat-trick in the 2022 WC final vs Argentina"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "阿根廷",
+      "opponent_en": "Argentina",
+      "desc_zh": "2022年世界杯决赛是现代足球史上最精彩的比赛之一——阿根廷2-0领先，法国连入两球2-2扳平（姆巴佩补时双响），加时赛又再度2-2，最终阿根廷以点球4-2胜出。这场决赛被誉为「史上最佳世界杯决赛」，梅西vs姆巴佩的历史性对决为这段宿敌关系增添了全新的时代色彩。",
+      "desc_en": "The 2022 World Cup final is widely considered the greatest match in modern football history. Argentina led 2-0 before Mbappé's stunning double levelled it at 2-2; extra time ended 3-3; Argentina won 4-2 on penalties. The Messi vs Mbappé duel — two of the greatest players of their eras — gave this rivalry a generational dimension that will define international football for years."
+    },
+    {
+      "opponent_zh": "德国",
+      "opponent_en": "Germany",
+      "desc_zh": "欧洲最重要的国际足球宿敌之一，两国在世界杯和欧洲杯的历次对决几乎每次都能产生历史级别的大战。法国在1982年世界杯半决赛点球负于西德是欧洲足球史上最令人心碎的时刻之一，此后两国在2014年世界杯（法国5-2大胜）等大赛中的对决同样扣人心弦。",
+      "desc_en": "One of European football's most important international rivalries. France and Germany have produced epic tournament clashes across decades. The 1982 World Cup semi-final — West Germany defeating France on penalties after an extraordinary 3-3 draw — remains one of European football's most heartbreaking moments. France's 5-2 demolition of Germany at the 2014 World Cup answered old scores in emphatic fashion."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🌍",
+      "text_zh": "法国的「彩虹队」由来自非洲、加勒比海和欧洲各地血统的球员共同构成。1998年冠军队中，球员来自瓜德罗普（蒂拉姆）、阿尔及利亚（齐达内）、加纳（德萨伊）等地。这一多元性不仅是法国足球的力量来源，更是法国社会开放包容精神的体现，被誉为「世界杯历史上最能代表世界的球队」。",
+      "text_en": "France's 「Rainbow Team」 draws players from African, Caribbean, and European backgrounds. The 1998 champions included Thuram (Guadeloupe), Zidane (Algeria), and Desailly (Ghana). This diversity is both France's footballing strength and a symbol of its open society — often cited as 「the most representative team of the world at a World Cup.」"
+    },
+    {
+      "icon": "👶",
+      "text_zh": "姆巴佩在2018年世界杯决赛以19岁零207天的年龄进球，成为贝利（1958年，17岁）之后第二位在世界杯决赛进球的青少年球员。他还是世界杯历史上得分最快、效率最高的球员之一，在2022年世界杯决赛帽子戏法后，其世界杯生涯进球数跻身历史前十。",
+      "text_en": "Mbappé scored in the 2018 World Cup final at 19 years and 207 days — the second teenager to score in a World Cup final after Pelé in 1958. His 2022 World Cup final hat-trick (in a 3-3 draw ultimately lost on penalties) placed him among the all-time top scorers in World Cup history before his 24th birthday."
+    },
+    {
+      "icon": "📉",
+      "text_zh": "2002年世界杯，法国以卫冕冠军身份出征，却在小组赛颗粒无收——三场小组赛无进球、1平2负，成为世界杯历史上第一支未进一球即出局的卫冕冠军，被称为「最大的卫冕冠军崩溃」之一。这与2018年夺冠后的迅速复苏，成为法国足球史上最鲜明的对比。",
+      "text_en": "At the 2002 World Cup as defending champions, France failed to score a single goal — three group games, one draw, two defeats, zero goals — becoming the first reigning champion to exit without scoring. This stunning collapse, contrasted with their 2018 triumph, remains one of football's most extreme boom-and-bust cycles."
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "迪迪埃·德尚是世界足球史上极少数以球员和主教练双重身份赢得世界杯冠军的人——他是1998年冠军队的队长，也是2018年夺冠的主教练。与其并列的只有贝肯鲍尔（1974年球员/1990年教练）和扎加洛（1958/1962年球员/1970年教练）。这一壮举使他成为法国足球有史以来最重要的人物之一。",
+      "text_en": "Didier Deschamps is one of only three men in history to win the World Cup as both player and manager — captain of the 1998 champions, head coach of the 2018 champions. He shares this exclusive honour only with Franz Beckenbauer (1974/1990) and Mário Zagallo (1958/1962 as player; 1970 as coach). The 2026 World Cup will be his farewell as manager."
+    }
+  ]
+}

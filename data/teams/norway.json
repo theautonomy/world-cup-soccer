@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "slug": "norway",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "挪威",
+    "name_en": "Norway",
+    "flag_emoji": "🇳🇴",
+    "federation": "UEFA",
+    "fifa_rank": 32,
+    "group": "I",
+    "colors": {
+      "primary": "#EF2B2D",
+      "secondary": "#FFFFFF",
+      "accent": "#002868"
+    }
+  },
+  "country": {
+    "capital_zh": "奥斯陆",
+    "capital_en": "Oslo",
+    "population": 5500000,
+    "area": 385207,
+    "language_zh": "挪威语",
+    "language_en": "Norwegian",
+    "continent_zh": "欧洲",
+    "continent_en": "Europe",
+    "currency_zh": "挪威克朗",
+    "currency_en": "Norwegian Krone (NOK)",
+    "anthem_zh": "是的，我们热爱这片土地",
+    "anthem_en": "Ja, vi elsker dette landet",
+    "desc_zh": "挪威是北欧斯堪的纳维亚半岛上的国家，以峡湾、极光、午夜阳光和原始自然风光闻名于世。是全球人均GDP最高的国家之一，也是全球幸福指数和人类发展指数排名最高的国家之一。以维京人历史、石油工业和高福利社会制度著称，奥斯陆是全球最宜居的城市之一。",
+    "desc_en": "Norway is a Scandinavian nation on the north-western edge of Europe, famed for fjords, the Northern Lights, the midnight sun, and pristine wilderness. One of the world's highest GDP-per-capita nations, consistently among the top in global happiness and human development indices. Known for Viking heritage, North Sea oil wealth, and an exceptional welfare state — Oslo is regularly voted one of the world's most liveable cities.",
+    "football_desc_zh": "挪威拥有哈兰德这位可能是当今世界最佳中锋的存在，本届世界杯预选赛以全胜战绩（8胜0平0负）杀入决赛圈，37粒进球仅失5球，哈兰德本人独入16球（打平世预赛个人进球历史纪录）。这是挪威28年来首次出线世界杯（上次是1998年），被视为2026年世界杯最大的黑马之一。奥德高德7次助攻领跑欧洲区预选赛，哈奥组合被誉为本届世界杯最危险的进攻二人组之一。",
+    "football_desc_en": "Norway possess arguably the world's best striker in Erling Haaland and qualified for the 2026 World Cup in imperious fashion — 8 wins from 8 qualifying matches, 37 goals scored, just 5 conceded, Haaland personally netting 16 (tying the single-campaign European qualifying record). This is Norway's first World Cup in 28 years (last qualified in 1998) — a drought that makes their arrival all the more anticipated. With Ødegaard's seven qualifying assists complementing Haaland's goals, the Haaland-Ødegaard partnership is one of 2026's most dangerous attacking combinations."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 4,
+    "best_result_zh": "小组赛",
+    "best_result_en": "Group Stage",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1938,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1994,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1998,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Ståle Solbakken",
+      "nationality_zh": "挪威",
+      "nationality_en": "Norwegian"
+    },
+    "players": [
+      {
+        "name": "Ørjan Nyland",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Brentford",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 44
+      },
+      {
+        "name": "Leo Østigård",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Napoli",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 32
+      },
+      {
+        "name": "Andreas Hanche-Olsen",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Genk",
+        "club_country_zh": "比利时",
+        "club_country_en": "Belgium",
+        "caps": 22
+      },
+      {
+        "name": "Birger Meling",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "Rennes",
+        "club_country_zh": "法国",
+        "club_country_en": "France",
+        "caps": 28
+      },
+      {
+        "name": "Kristian Thorstvedt",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Sassuolo",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 24
+      },
+      {
+        "name": "Sander Berge",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Fulham",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 52
+      },
+      {
+        "name": "Martin Ødegaard",
+        "position_zh": "攻击中场（队长）",
+        "position_en": "AM (Captain)",
+        "club": "Arsenal",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 68
+      },
+      {
+        "name": "Antonio Nusa",
+        "position_zh": "左边锋",
+        "position_en": "FWD",
+        "club": "RB Leipzig",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 18
+      },
+      {
+        "name": "Jørgen Strand Larsen",
+        "position_zh": "前锋",
+        "position_en": "ST",
+        "club": "Crystal Palace",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 28
+      },
+      {
+        "name": "Alexander Sørloth",
+        "position_zh": "前锋",
+        "position_en": "ST",
+        "club": "Atlético Madrid",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 44
+      },
+      {
+        "name": "Erling Haaland",
+        "position_zh": "中锋",
+        "position_en": "ST",
+        "club": "Manchester City",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 38
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Erling Haaland",
+      "years": "2019–至今",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "当今世界最佳中锋，可能是足球史上最高效的进球机器之一。在多特蒙德和曼城均创下进球纪录，2022-23赛季在曼城打入36粒英超进球打破英超单赛季纪录，率曼城夺得三冠王。世预赛独入16球，与莱万多夫斯基并列世预赛单届进球纪录。父亲阿尔菲·哈兰德曾是1998年世界杯挪威的主力球员，国家队荣誉即将从父亲传递到儿子。",
+      "bio_en": "The world's best striker and arguably the most prolific goal-scorer in football history. Set goal-scoring records at both Dortmund and Manchester City — his 36 Premier League goals in 2022-23 broke the single-season PL record as Man City won the treble. His 16 qualifying goals tie the single-campaign European record held by Lewandowski. His father Alfie Haaland played for Norway at the 1998 World Cup — making the 2026 tournament a family story decades in the making.",
+      "stat_zh": "38帽（现役，持续增加），世预赛16球，2022-23英超36球纪录",
+      "stat_en": "38 caps (active); 16 World Cup qualifying goals; 36 Premier League goals in 2022-23 (PL record)"
+    },
+    {
+      "name": "Martin Ødegaard",
+      "years": "2014–至今",
+      "position_zh": "攻击中场",
+      "position_en": "AM",
+      "bio_zh": "现任队长，阿森纳的绝对核心，挪威足球复兴的大脑。15岁时以天才少年之姿加盟皇马，经历租借磨砺后在阿森纳找到了真正属于自己的舞台，以出色的球感、传球和领导力成为英超最佳进攻中场之一。世预赛7次助攻领跑欧洲区，是哈兰德进球的幕后推手。",
+      "bio_en": "Current captain, Arsenal's creative cornerstone, and the brain of Norway's footballing renaissance. Joined Real Madrid at 15 as the most hyped teenage talent in Europe, and after loan spells found his true stage at Arsenal — where his touch, passing, and leadership have made him one of the Premier League's finest attacking midfielders. His seven assists in World Cup qualifying led all European players — he is the architect behind Haaland's goals.",
+      "stat_zh": "68帽（现役），世预赛7助攻领跑欧洲区",
+      "stat_en": "68 caps (active); 7 assists — most of any player in European World Cup qualifying"
+    },
+    {
+      "name": "Ole Gunnar Solskjær",
+      "years": "1994–2007",
+      "position_zh": "前锋",
+      "position_en": "ST",
+      "bio_zh": "「宝贝脸杀手」——1999年欧冠决赛第93分钟替补出场，随后打入致胜进球，帮助曼联完成大逆转击败拜仁慕尼黑，赢得三冠王。这粒进球是欧洲俱乐部足球史上最戏剧性的进球之一。在曼联效力11年，是最出色的替补球员之一，后来成为曼联主教练。他是1990年代和2000年代挪威足球对外形象的代言人。",
+      "bio_en": "「The Baby-Faced Assassin」 — his 93rd-minute substitute winner for Manchester United against Bayern Munich in the 1999 Champions League final completed one of the greatest comebacks in football history and is among the most iconic goals in European club football. An 11-year United servant and the ultimate super-sub, later became United manager. The face of Norwegian football's international profile in the 1990s and 2000s.",
+      "stat_zh": "67帽23球，1999年欧冠决赛制胜进球",
+      "stat_en": "67 caps, 23 goals; scored the 93rd-minute winner in the 1999 Champions League final"
+    },
+    {
+      "name": "John Carew",
+      "years": "1998–2011",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "挪威身材最高大的前锋传奇，以惊人的身体素质、空中优势和得分能力在欧洲多家顶级俱乐部效力，包括巴伦西亚、里昂、阿斯顿维拉等。他的进球能力和国家队贡献使他成为哈兰德之前挪威最著名的球员之一，在2000年代挪威足球缺席世界杯的黑暗时期充当了球队的精神灯塔。",
+      "bio_en": "Norway's most physically imposing striker legend — a towering presence with aerial dominance and clinical finishing who served Valencia, Lyon, and Aston Villa. Carew's goals and national team contributions made him Norway's most recognizable player of the 2000s, a period when Norway repeatedly failed to qualify for major tournaments. He was the beacon of quality who kept Norwegian football's ambitions alive.",
+      "stat_zh": "91帽24球，曾效力巴伦西亚、里昂、阿斯顿维拉",
+      "stat_en": "91 caps, 24 goals; played for Valencia, Lyon, and Aston Villa across his career"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "瑞典",
+      "opponent_en": "Sweden",
+      "desc_zh": "斯堪的纳维亚最伟大的足球宿敌，在文化、历史和民族认同上的深刻联系使这场比赛充满了邻里间的骄傲与较量。两国每次在世预赛或友谊赛中相遇，都是北欧足球最受关注的对阵之一，哈兰德对阵伊萨克的中锋对决成为近年来北欧德比最令人期待的看点。",
+      "desc_en": "Scandinavia's greatest football rivalry. Deep cultural, historical, and national identity ties make every Norway-Sweden match a clash of Nordic pride. Their World Cup qualifying encounters are the most watched football matches in both countries. The striker duel between Haaland and Alexander Isak (Sweden) has become the most anticipated individual matchup in modern Scandinavian football."
+    },
+    {
+      "opponent_zh": "意大利",
+      "opponent_en": "Italy",
+      "desc_zh": "2025年UEFA世预赛，挪威在圣西罗4-1大胜意大利，是挪威足球史上最精彩的客场胜利之一，也是意大利在本土的惨败之一。哈兰德大演独角戏，完成帽子戏法。这场胜利不仅确保了挪威出线，更向全世界宣告：挪威足球已经回来了。",
+      "desc_en": "Norway's 4-1 demolition of Italy at the San Siro in November 2025 — the result that sealed their World Cup qualification — is one of the finest away performances in Norwegian football history and one of Italy's most embarrassing home defeats. Haaland's hat-trick announced to the world that Norway had not just qualified, but arrived as genuine contenders."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "⚽",
+      "text_zh": "哈兰德在本届世预赛独入16球，与波兰的莱万多夫斯基并列单届欧洲世预赛个人进球最高纪录。以550万人口的小国而言，在全球最顶级的射手中产出如此效率，证明了挪威独特的球员培养体系。而他的父亲阿尔菲·哈兰德正是1998年代表挪威出战世界杯的成员之一。",
+      "text_en": "Haaland's 16 qualifying goals tied the European World Cup qualifying single-campaign record. For a nation of just 5.5 million, producing the world's most prolific striker — and qualifying for the World Cup — is a remarkable footballing achievement. The symmetry with his father Alfie, who played for Norway at the 1998 World Cup, gives the 2026 tournament a compelling generational storyline."
+    },
+    {
+      "icon": "🇧🇷",
+      "text_zh": "1998年法国世界杯，挪威在小组赛最后一轮2-1击败五星巴西（罗纳尔多落选当天的球队），是挪威足球史上最伟大的比赛之一。这场惊天冷门使巴西以小组第二出线，而挪威则以小组第一晋级——这段历史在挪威至今仍是老一辈球迷津津乐道的传奇时刻。",
+      "text_en": "At the 1998 World Cup, Norway defeated a Brazil side featuring Ronaldo 2-1 in an iconic group-stage upset — one of the greatest results in Norwegian football history. The win sent Norway through as group winners ahead of a Brazilian team that would ultimately reach the final. For a generation of Norwegian fans, that result against the five-time world champions remains the sport's most cherished memory."
+    },
+    {
+      "icon": "📊",
+      "text_zh": "挪威以8胜0平0负的完美战绩通过欧洲区预选赛，37球仅失5球，成为本届欧洲区预选赛进球最多、胜场最多的球队之一。如此统治性的预选赛表现，令外界对哈兰德和奥德高德领衔的这支挪威队充满了期待——时隔28年的世界杯再度亮相，带着满满的冲劲而来。",
+      "text_en": "Norway's perfect qualifying record — 8 wins from 8, 37 goals, just 5 conceded — was one of the most dominant in all of European qualifying. Only a couple of other nations matched their win rate, and no team in Europe scored more freely. After 28 years away from the World Cup, Norway arrive in 2026 not as grateful participants but as genuine contenders."
+    },
+    {
+      "icon": "👨‍👦",
+      "text_zh": "哈兰德的父亲阿尔菲·哈兰德是挪威1998年世界杯阵容的成员，而小哈兰德正是在1998年之后出生的。如今父子相隔28年，各自代表挪威出征世界杯，成为2026年世界杯最具温情的故事之一。小哈兰德表示，他的世界杯梦想从童年看父亲踢球的那一刻就种下了。",
+      "text_en": "Erling Haaland's father Alfie played for Norway at the 1998 World Cup — the last time Norway qualified before 2026. Erling was born after that tournament, watched his father's highlights as a child, and now fulfils the family dream 28 years later. The father-son World Cup connection spanning a generation is one of the tournament's most heartwarming storylines."
+    }
+  ]
+}
