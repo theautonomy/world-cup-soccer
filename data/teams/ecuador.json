@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "slug": "ecuador",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "厄瓜多尔",
+    "name_en": "Ecuador",
+    "flag_emoji": "🇪🇨",
+    "federation": "CONMEBOL",
+    "fifa_rank": 23,
+    "group": "E",
+    "colors": {
+      "primary": "#FFD100",
+      "secondary": "#003DA5",
+      "accent": "#CC0000"
+    }
+  },
+  "country": {
+    "capital_zh": "基多",
+    "capital_en": "Quito",
+    "population": 18000000,
+    "area": 283561,
+    "language_zh": "西班牙语",
+    "language_en": "Spanish",
+    "continent_zh": "南美洲",
+    "continent_en": "South America",
+    "currency_zh": "美元",
+    "currency_en": "US Dollar (USD)",
+    "anthem_zh": "萨拉维国家颂歌",
+    "anthem_en": "Salve, Oh Patria",
+    "desc_zh": "厄瓜多尔是南美洲唯一一个以赤道命名的国家，地跨赤道线，拥有亚马逊雨林、安第斯高原和加拉帕戈斯群岛等多种生态奇观。首都基多是世界上海拔最高的首都之一，加拉帕戈斯群岛的独特生物启发了达尔文的进化论研究，是世界级的自然遗产。",
+    "desc_en": "Ecuador is the only country in the world named after the equator, which runs through its territory. It encompasses the Amazon rainforest, the Andes highlands, and the Galápagos Islands — a natural wonder whose unique wildlife inspired Charles Darwin's theory of evolution. Its capital Quito is one of the highest capitals in the world.",
+    "football_desc_zh": "足球是厄瓜多尔最受欢迎的运动，「三色旗军团」（La Tri）近年来凭借出色的青训体系和整体防守快速崛起。2002年首次打入世界杯，2006年创造历史最佳成绩（十六强）。以莫伊塞斯·凯塞多和肯德里·帕埃斯为代表的新生代是迄今最强阵容，贝卡塞斯带队打造了CONMEBOL预选赛失球最少（5球）的壮举。",
+    "football_desc_en": "Football is Ecuador's most popular sport, and 「La Tri」 has risen rapidly thanks to an improved development system and collective defensive discipline. They debuted at the World Cup in 2002 and recorded their best finish — the Round of 16 — in 2006. The Moisés Caicedo and Kendry Páez generation is widely considered Ecuador's greatest-ever squad, having conceded only 5 goals across the entire CONMEBOL qualifying campaign."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 5,
+    "best_result_zh": "十六强（2006年）",
+    "best_result_en": "Round of 16 (2006)",
+    "title_years": [],
+    "history": [
+      {
+        "year": 2002,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2006,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2014,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2022,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Sebastián Beccacece",
+      "nationality_zh": "阿根廷",
+      "nationality_en": "Argentine"
+    },
+    "players": [
+      {
+        "name": "Hernán Galíndez",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Aucas",
+        "club_country_zh": "厄瓜多尔",
+        "club_country_en": "Ecuador",
+        "caps": 42
+      },
+      {
+        "name": "Piero Hincapié",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Arsenal",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 42
+      },
+      {
+        "name": "Willian Pacho",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Paris Saint-Germain",
+        "club_country_zh": "法国",
+        "club_country_en": "France",
+        "caps": 34
+      },
+      {
+        "name": "Pervis Estupiñán",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "AC Milan",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 48
+      },
+      {
+        "name": "Joel Ordóñez",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "Club Brugge",
+        "club_country_zh": "比利时",
+        "club_country_en": "Belgium",
+        "caps": 26
+      },
+      {
+        "name": "Moisés Caicedo",
+        "position_zh": "后腰",
+        "position_en": "DM",
+        "club": "Chelsea",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 52
+      },
+      {
+        "name": "Alan Franco",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Talleres",
+        "club_country_zh": "阿根廷",
+        "club_country_en": "Argentina",
+        "caps": 38
+      },
+      {
+        "name": "Kendry Páez",
+        "position_zh": "攻击中场",
+        "position_en": "AM",
+        "club": "Chelsea",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 18
+      },
+      {
+        "name": "Nilson Angulo",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Inter Milan",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 24
+      },
+      {
+        "name": "Gonzalo Plata",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Flamengo",
+        "club_country_zh": "巴西",
+        "club_country_en": "Brazil",
+        "caps": 46
+      },
+      {
+        "name": "Enner Valencia",
+        "position_zh": "前锋（队长）",
+        "position_en": "FWD (Captain)",
+        "club": "Pachuca",
+        "club_country_zh": "墨西哥",
+        "club_country_en": "Mexico",
+        "caps": 88
+      },
+      {
+        "name": "Kevin Rodríguez",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Udinese",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 22
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Enner Valencia",
+      "years": "2012–至今",
+      "position_zh": "前锋（队长）",
+      "position_en": "FWD (Captain)",
+      "bio_zh": "厄瓜多尔历史最佳射手和最多出场球员，以36岁高龄仍是球队队长。2022年世界杯开幕式独进两球震惊全场，是厄瓜多尔足球史上最具代表性的球员。效力西汉姆联、埃弗顿、菲内巴切等顶级俱乐部，大赛经验无与伦比。",
+      "bio_en": "Ecuador's all-time leading scorer and most-capped player, still captaining his country at age 36. His two goals in Ecuador's opening match of the 2022 World Cup were among the tournament's most electric moments. A veteran of West Ham, Everton, and Fenerbahçe, his big-game experience is invaluable.",
+      "stat_zh": "88帽40球（历史纪录）",
+      "stat_en": "88 caps, 40 goals (Ecuadorian all-time records)"
+    },
+    {
+      "name": "Iván Hurtado",
+      "years": "1992–2014",
+      "position_zh": "中后卫",
+      "position_en": "CB",
+      "bio_zh": "厄瓜多尔历史最多出场球员（在被超越前），被誉为厄瓜多尔足球发展奠基人之一。在国家队征战22年，参与了2002年和2006年两届世界杯，是厄瓜多尔防线最重要的领袖。",
+      "bio_en": "Ecuador's most-capped player for many years and one of the founding figures of Ecuadorian football. Served his national team for 22 years and was a key defensive leader at the 2002 and 2006 World Cups, helping establish Ecuador as a CONMEBOL force.",
+      "stat_zh": "167帽（历史纪录）",
+      "stat_en": "167 caps (Ecuadorian record at retirement)"
+    },
+    {
+      "name": "Álex Aguinaga",
+      "years": "1987–2003",
+      "position_zh": "中场",
+      "position_en": "MID",
+      "bio_zh": "厄瓜多尔足球史上最具技术的中场，在墨西哥联赛效力多年，赢得无数荣誉。被誉为将厄瓜多尔足球带入国际视野的关键人物，是那个时代南美洲最出色的中场之一。",
+      "bio_en": "The most technically gifted midfielder in Ecuadorian football history, who built his career in Mexico and won numerous league titles. Widely credited with raising Ecuador's international profile and is regarded as one of the finest South American midfielders of his era.",
+      "stat_zh": "109帽23球",
+      "stat_en": "109 caps, 23 goals"
+    },
+    {
+      "name": "Moisés Caicedo",
+      "years": "2021–至今",
+      "position_zh": "后腰",
+      "position_en": "DM",
+      "bio_zh": "以创纪录的转会费（约1.16亿英镑）加盟切尔西，被誉为世界上最出色的防守型中场之一。以无与伦比的对抗能力、抢断范围和快速转化攻守著称，是厄瓜多尔2026年世界杯的战术核心。",
+      "bio_en": "Joined Chelsea for a record-breaking fee (approximately £116m) and is now considered one of the finest defensive midfielders on the planet. His tackling range, athleticism, and ability to immediately spark attacks make him the tactical spine of Ecuador's 2026 World Cup campaign.",
+      "stat_zh": "52帽（现役）",
+      "stat_en": "52 caps (active)"
+    },
+    {
+      "name": "Agustín Delgado",
+      "years": "1994–2006",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "厄瓜多尔首届世界杯（2002年）的重要功臣之一，强壮的身体和出色的头球让对手望而生畏。在英超南安普顿效力，是厄瓜多尔打入世界杯历史上的第一批英超球员，对厄瓜多尔足球国际化具有重要意义。",
+      "bio_en": "A key figure in Ecuador's historic 2002 World Cup debut, Delgado's physical power and aerial ability made him a handful for any defence. His time at Southampton in the Premier League made him one of Ecuador's first players to succeed in top European football.",
+      "stat_zh": "71帽31球",
+      "stat_en": "71 caps, 31 goals"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "哥伦比亚",
+      "opponent_en": "Colombia",
+      "desc_zh": "南美最激烈的邻国对阵之一，两国在CONMEBOL预选赛中多次交锋，争夺南美区有限的出线名额。政治和文化上的紧张关系令每场德比增添了额外的激情，安第斯山脉两侧的球迷都在密切关注比分。",
+      "desc_en": "One of South America's most charged cross-border rivalries, with Colombia and Ecuador battling fiercely through CONMEBOL qualifying for limited World Cup berths. Political and cultural tensions add extra spice to every derby, with fans on both sides of the Andes following every result closely."
+    },
+    {
+      "opponent_zh": "秘鲁",
+      "opponent_en": "Peru",
+      "desc_zh": "太平洋海岸的传统对阵，两国在南美预选赛中你追我赶。厄瓜多尔在近年来建立了对阵秘鲁的优势，是南美洲最有潜力崛起的球队之一。",
+      "desc_en": "A traditional Pacific Coast rivalry between two neighbouring nations. Ecuador has established a growing advantage over Peru in recent qualifying campaigns, reflecting the rapid rise of Ecuadorian football relative to their Andean neighbours."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🌍",
+      "text_zh": "2022年世界杯资格赛，厄瓜多尔曾因球员拜伦·卡斯蒂略的国籍问题险遭取消资格，最终保住出线资格。这段惊险的经历让他们更加珍惜2022年和2026年两次世界杯名额。",
+      "text_en": "Ecuador nearly had their 2022 World Cup qualification stripped after a controversy over player Byron Castillo's eligibility — a nerve-racking episode that made their eventual participation, and subsequent 2026 qualification, all the more meaningful."
+    },
+    {
+      "icon": "🔒",
+      "text_zh": "在2026年世界杯CONMEBOL预选赛中，厄瓜多尔仅失5球，是整个预选赛失球最少的球队。这堪称世界预选赛史上最出色的防守表演之一，充分体现了贝卡塞斯战术体系的成功。",
+      "text_en": "In CONMEBOL World Cup qualifying, Ecuador conceded only 5 goals across the entire campaign — the fewest of any South American side. This defensive masterclass under Beccacece underlines just how structured and cohesive the team has become."
+    },
+    {
+      "icon": "⭐",
+      "text_zh": "肯德里·帕埃斯出生于2007年，2026年世界杯时年仅18岁。他在青少年阶段便加盟切尔西，被誉为厄瓜多尔足球史上最具天赋的球员，堪称本届世界杯年纪最小的明星之一。",
+      "text_en": "Kendry Páez was born in 2007 and will be just 18 at the 2026 World Cup. He signed for Chelsea as a teenager and is widely regarded as the most talented player Ecuador has ever produced — one of the tournament's youngest and most exciting prospects."
+    },
+    {
+      "icon": "🏔️",
+      "text_zh": "厄瓜多尔主场位于首都基多，海拔约2850米，令客队球员在稀薄的空气中极度不适。这是厄瓜多尔在CONMEBOL预选赛中的一大地理优势，主场几乎无敌。",
+      "text_en": "Ecuador's home venue in Quito sits at approximately 2,850 metres above sea level, making it one of the most gruelling away destinations in international football. This altitude advantage has been a significant factor in Ecuador's consistent CONMEBOL qualifying success."
+    },
+    {
+      "icon": "🚀",
+      "text_zh": "2022年卡塔尔世界杯，厄瓜多尔作为揭幕战球队出场，恩纳尔·瓦伦西亚上演帽子戏法（其中一球因越位被取消），最终2-0赢得开门红，创下世界杯史上最佳揭幕战成绩之一。",
+      "text_en": "Ecuador played in the 2022 World Cup opening match and thrilled the world — Enner Valencia scored twice (a third was disallowed for offside) in a 2-0 win, making it one of the most exciting World Cup openers in tournament history."
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "slug": "ivory-coast",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "科特迪瓦",
+    "name_en": "Ivory Coast",
+    "flag_emoji": "🇨🇮",
+    "federation": "CAF",
+    "fifa_rank": 37,
+    "group": "E",
+    "colors": {
+      "primary": "#FF8200",
+      "secondary": "#009A44",
+      "accent": "#FFFFFF"
+    }
+  },
+  "country": {
+    "capital_zh": "亚穆苏克罗",
+    "capital_en": "Yamoussoukro",
+    "population": 28000000,
+    "area": 322463,
+    "language_zh": "法语",
+    "language_en": "French",
+    "continent_zh": "非洲",
+    "continent_en": "Africa",
+    "currency_zh": "西非法郎",
+    "currency_en": "West African CFA Franc (XOF)",
+    "anthem_zh": "阿比让颂歌",
+    "anthem_en": "L'Abidjanaise",
+    "desc_zh": "科特迪瓦位于西非，是非洲最大的可可豆生产国，也是世界上最重要的农业出口国之一。首都是亚穆苏克罗，但最大城市和经济中心是阿比让。国名科特迪瓦意为「象牙海岸」，拥有丰富的热带雨林、多样的民族文化和悠久的艺术传统。",
+    "desc_en": "Ivory Coast (Côte d'Ivoire) is located in West Africa and is the world's largest producer of cocoa beans. While Yamoussoukro is the official capital, Abidjan is the economic heart and largest city. The country name means 「Ivory Coast,」 reflecting its historical trade history. It is home to rich rainforests, diverse ethnic cultures, and vibrant artistic traditions.",
+    "football_desc_zh": "科特迪瓦以「大象军团」之名享誉非洲足坛，以德罗格巴、图雷兄弟为代表的黄金一代曾在欧洲各大联赛威震四方。虽在历届世界杯均止步小组赛，却先后夺得2015年和2024年非洲杯冠军。由埃默斯·法埃执教的新生代正在塑造新的非洲足球力量，2026年世界杯是他们证明自己跻身世界顶级强队的绝佳舞台。",
+    "football_desc_en": "Ivory Coast — the 「Elephants」 — are one of Africa's most storied football nations, powered in the 2000s by a golden generation including Didier Drogba and the Touré brothers who dominated European club football. Despite failing to advance past the World Cup group stage, they won AFCON titles in 2015 and 2024. Under Emerse Faé, a new generation looks to finally make the knockout rounds at the 2026 World Cup."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 4,
+    "best_result_zh": "小组赛出局",
+    "best_result_en": "Group Stage",
+    "title_years": [],
+    "history": [
+      {
+        "year": 2006,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2010,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2014,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Emerse Faé",
+      "nationality_zh": "科特迪瓦",
+      "nationality_en": "Ivorian"
+    },
+    "players": [
+      {
+        "name": "Yahia Fofana",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Chelsea",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 28
+      },
+      {
+        "name": "Odilon Kossounou",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Bayer Leverkusen",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 32
+      },
+      {
+        "name": "Willy Boly",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Nottingham Forest",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 26
+      },
+      {
+        "name": "Ghislain Konan",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "Reims",
+        "club_country_zh": "法国",
+        "club_country_en": "France",
+        "caps": 30
+      },
+      {
+        "name": "Serge Aurier",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "Nottingham Forest",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 70
+      },
+      {
+        "name": "Franck Kessié",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Al-Ahli",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 68
+      },
+      {
+        "name": "Jean Michaël Seri",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Galatasaray",
+        "club_country_zh": "土耳其",
+        "club_country_en": "Turkey",
+        "caps": 46
+      },
+      {
+        "name": "Ibrahim Sangaré",
+        "position_zh": "后腰",
+        "position_en": "DM",
+        "club": "Nottingham Forest",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 34
+      },
+      {
+        "name": "Amad Diallo",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Manchester United",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 22
+      },
+      {
+        "name": "Simon Adingra",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Brighton & Hove Albion",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 24
+      },
+      {
+        "name": "Nicolas Pépé",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Trabzonspor",
+        "club_country_zh": "土耳其",
+        "club_country_en": "Turkey",
+        "caps": 42
+      },
+      {
+        "name": "Sébastien Haller",
+        "position_zh": "中锋",
+        "position_en": "ST",
+        "club": "Borussia Dortmund",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 38
+      },
+      {
+        "name": "Wilfried Zaha",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Galatasaray",
+        "club_country_zh": "土耳其",
+        "club_country_en": "Turkey",
+        "caps": 14
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Didier Drogba",
+      "years": "2002–2014",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "科特迪瓦足球史上最伟大的球员，被誉为「非洲之王」。在切尔西四度夺得英超冠军，两度赢得欧冠（2012年伊斯坦布尔决赛绝平再点球夺冠令人难忘）。同时是一位和平使者，其2006年世界杯预选赛后的讲话曾促成科特迪瓦内战停火。",
+      "bio_en": "The greatest Ivorian player of all time and one of Africa's finest ever footballers. Won four Premier League titles at Chelsea and was the decisive figure in their iconic 2012 Champions League win. Off the pitch, his 2006 post-match speech helped broker a ceasefire in the Ivorian civil war — making him a genuine national hero.",
+      "stat_zh": "105帽65球（历史纪录）",
+      "stat_en": "105 caps, 65 goals (Ivorian all-time record)"
+    },
+    {
+      "name": "Yaya Touré",
+      "years": "2004–2019",
+      "position_zh": "中场",
+      "position_en": "MID",
+      "bio_zh": "在巴塞罗那和曼城均达到世界顶级水准的中场巨星，四度荣膺非洲年度最佳球员（2011-2014年）。以出众的体魄、技术和得分能力著称，被誉为非洲足球史上最完整的中场球员之一。",
+      "bio_en": "A midfield colossus who reached the highest level at Barcelona and Manchester City, winning four consecutive African Player of the Year awards (2011-2014). His combination of physical power, technical class, and goal-scoring ability made him arguably the most complete African midfielder in history.",
+      "stat_zh": "101帽19球，四届非洲年度最佳球员",
+      "stat_en": "101 caps, 19 goals; four-time African Player of the Year"
+    },
+    {
+      "name": "Kolo Touré",
+      "years": "2000–2017",
+      "position_zh": "中后卫",
+      "position_en": "CB",
+      "bio_zh": "亚亚的哥哥，效力阿森纳、曼城、利物浦，是科特迪瓦防线的坚实基石。以顽强的对抗和高超的大局观著称，兄弟二人同时效力国家队的岁月是科特迪瓦足球的黄金年代。",
+      "bio_en": "Yaya's older brother and the defensive bedrock of Ivory Coast's golden generation. A stalwart at Arsenal, Manchester City, and Liverpool, Kolo's tenacity and reading of the game complemented his brother perfectly, with both Tourés playing key roles in Ivory Coast's most successful era.",
+      "stat_zh": "120帽2球",
+      "stat_en": "120 caps, 2 goals"
+    },
+    {
+      "name": "Salomon Kalou",
+      "years": "2007–2019",
+      "position_zh": "前锋",
+      "position_en": "FWD",
+      "bio_zh": "效力切尔西、赫塔费和柏林赫塔，是德罗格巴身边不可或缺的进攻搭档。在三届世界杯（2006、2010、2014）中出场，是科特迪瓦黄金一代的重要组成部分，也是国家队史上第二射手。",
+      "bio_en": "A tireless attacking partner to Drogba at Chelsea, and a crucial member of Ivory Coast's golden generation across three World Cups (2006, 2010, 2014). His work rate and clinical finishing made him one of the most reliable strikers in Ivorian history.",
+      "stat_zh": "103帽28球",
+      "stat_en": "103 caps, 28 goals"
+    },
+    {
+      "name": "Sébastien Haller",
+      "years": "2015–至今",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "克服睾丸癌重回赛场，其抗癌历程激励了无数人。在多特蒙德效力期间攻入大量进球，是科特迪瓦2024年非洲杯夺冠功臣，也是2026年世界杯进攻核心。",
+      "bio_en": "Overcame testicular cancer to return to professional football, inspiring millions worldwide with his resilience. A prolific striker at Borussia Dortmund and a key figure in Ivory Coast's 2024 AFCON triumph, he leads the attack into the 2026 World Cup.",
+      "stat_zh": "38帽14球（现役）",
+      "stat_en": "38 caps, 14 goals (active)"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "加纳",
+      "opponent_en": "Ghana",
+      "desc_zh": "西非足球最激烈的双城记，被称为「西非德比」或「黑星对大象」。两国在非洲杯中多次对阵，每场比赛都是整个西非地区最受关注的体育盛事，球迷的激情和自豪感无与伦比。",
+      "desc_en": "West Africa's most intense football derby — 「Black Stars vs Elephants」 — generates enormous passion across the region. Encounters in AFCON competitions are must-see events for the entire West African football community, with both nations deeply invested in bragging rights."
+    },
+    {
+      "opponent_zh": "尼日利亚",
+      "opponent_en": "Nigeria",
+      "desc_zh": "非洲大陆最强球队之间的对决，科特迪瓦与尼日利亚在非洲杯多次碰头，双方都是非洲区世界杯名额的主要竞争者。每次交锋都充满战术博弈和强烈的竞争意识。",
+      "desc_en": "A clash between two of Africa's biggest football powers. Ivory Coast and Nigeria have met repeatedly in AFCON and qualifying, and both nations regularly compete for Africa's limited World Cup berths, making every encounter a high-stakes tactical battle."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🕊️",
+      "text_zh": "2006年非洲杯预选赛出线后，德罗格巴在球场上向全国发出呼吁，请求内战各方停火，并亲自前往科特迪瓦内战前线倡导和平。这一历史性的时刻让德罗格巴从球星成为民族英雄。",
+      "text_en": "After qualifying for the 2006 World Cup, Drogba delivered a famous locker-room speech that was broadcast nationwide, calling on warring factions to lay down their arms. He then visited the front lines to advocate for peace — cementing his status as not just a football star, but a genuine national hero."
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "科特迪瓦曾在2006、2010、2014三届世界杯中均被分在「死亡之组」，三次均小组出局，却未曾在世界杯中被大比分淘汰，展示了这支球队的顽强。2024年，他们终于在本土非洲杯夺冠。",
+      "text_en": "Ivory Coast were drawn into extremely tough World Cup groups in 2006, 2010, and 2014 — often facing multiple top-10 ranked opponents — yet never suffered a heavy defeat. Their 2024 AFCON title on home soil proved they remain Africa's most formidable team."
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "科特迪瓦是非洲球员在欧洲五大联赛影响力最大的国家之一。在德罗格巴、图雷兄弟的时代，他们在切尔西、曼城、巴萨同时效力，被誉为有史以来最强的非洲代际球员群体。",
+      "text_en": "Ivory Coast has produced one of the greatest concentrations of African talent ever to play in Europe's top leagues. At their peak, Drogba and the Touré brothers were simultaneously starring at Chelsea, Manchester City, and Barcelona — an unprecedented level of African representation at the elite level."
+    },
+    {
+      "icon": "🌟",
+      "text_zh": "阿曼德·迪亚洛效力曼联，西蒙·阿丁拉效力布莱顿，他们代表着科特迪瓦足球的新生代。法埃的球队平均年龄比黄金一代更年轻，2026年世界杯将是他们向世界证明实力的舞台。",
+      "text_en": "Amad Diallo (Manchester United) and Simon Adingra (Brighton) represent a new generation of Ivorian talent. Faé's squad is younger than the Drogba-era golden generation, and the 2026 World Cup is their opportunity to announce themselves on the global stage."
+    },
+    {
+      "icon": "💪",
+      "text_zh": "塞巴斯蒂安·哈勒在2022年8月被诊断出睾丸肿瘤，手术后经历数月艰难的治疗，最终奇迹般地于同年底重返赛场，并延续了在多特蒙德的进球。他的故事激励了无数科特迪瓦球迷。",
+      "text_en": "Sébastien Haller was diagnosed with a testicular tumour in August 2022, underwent surgery, endured months of treatment, and miraculously returned to the pitch before the year was out. His comeback story — and continued goal-scoring at Dortmund — has made him an inspiration to the entire Ivorian nation."
+    }
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "slug": "germany",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "德国",
+    "name_en": "Germany",
+    "flag_emoji": "🇩🇪",
+    "federation": "UEFA",
+    "fifa_rank": 10,
+    "group": "E",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#FFFFFF",
+      "accent": "#DD0000"
+    }
+  },
+  "country": {
+    "capital_zh": "柏林",
+    "capital_en": "Berlin",
+    "population": 84000000,
+    "area": 357114,
+    "language_zh": "德语",
+    "language_en": "German",
+    "continent_zh": "欧洲",
+    "continent_en": "Europe",
+    "currency_zh": "欧元",
+    "currency_en": "Euro (EUR)",
+    "anthem_zh": "德国之歌（第三节）",
+    "anthem_en": "Das Deutschlandlied (Third Verse)",
+    "desc_zh": "德国是欧洲最大的经济体，也是欧盟的核心成员国。以工业制造、汽车、哲学和古典音乐著称，柏林、慕尼黑、汉堡等城市各具魅力。德国统一于1990年，此后成为欧洲最具影响力的政治和经济力量之一，啤酒节、黑森林、莱茵河畔的城堡是其文化地标。",
+    "desc_en": "Germany is Europe's largest economy and a central pillar of the European Union. Renowned for engineering, automotive innovation, philosophy, and classical music, its cities — Berlin, Munich, Hamburg — each have a distinct character. Reunified in 1990, Germany became one of Europe's most influential political and economic forces. Oktoberfest, the Black Forest, and Rhine Valley castles are beloved cultural landmarks.",
+    "football_desc_zh": "德国是世界足球最成功的国家之一，四次世界杯冠军（1954、1974、1990、2014），以顽强、精准和团队精神著称。2018年和2022年连续小组出局令球迷震惊，纳格尔斯曼上任后着力打造以维尔茨、穆西亚拉为核心的进攻型新生代「模式足球」，誓要重返世界足球顶峰。作为2026年世界杯热门，「德意志战车」再度出征。",
+    "football_desc_en": "Germany is one of world football's most successful nations — four World Cup titles (1954, 1974, 1990, 2014), three runner-up finishes, and a record of consistent excellence. Shock group-stage exits in 2018 and 2022 prompted a generational reset under Julian Nagelsmann, who has built an exciting attacking side around Florian Wirtz and Jamal Musiala. The 「Mannschaft」 arrives at 2026 as genuine title contenders once more."
+  },
+  "world_cup": {
+    "titles": 4,
+    "appearances": 20,
+    "best_result_zh": "冠军（1954、1974、1990、2014年）",
+    "best_result_en": "Champions (1954, 1974, 1990, 2014)",
+    "title_years": [1954, 1974, 1990, 2014],
+    "history": [
+      {
+        "year": 1954,
+        "stage_zh": "冠军",
+        "stage_en": "Champions",
+        "row_class": "champion"
+      },
+      {
+        "year": 1966,
+        "stage_zh": "亚军",
+        "stage_en": "Runner-Up",
+        "row_class": "final"
+      },
+      {
+        "year": 1974,
+        "stage_zh": "冠军（主办国）",
+        "stage_en": "Champions (Host)",
+        "row_class": "champion"
+      },
+      {
+        "year": 1982,
+        "stage_zh": "亚军",
+        "stage_en": "Runner-Up",
+        "row_class": "final"
+      },
+      {
+        "year": 1986,
+        "stage_zh": "亚军",
+        "stage_en": "Runner-Up",
+        "row_class": "final"
+      },
+      {
+        "year": 1990,
+        "stage_zh": "冠军",
+        "stage_en": "Champions",
+        "row_class": "champion"
+      },
+      {
+        "year": 2002,
+        "stage_zh": "亚军",
+        "stage_en": "Runner-Up",
+        "row_class": "final"
+      },
+      {
+        "year": 2006,
+        "stage_zh": "季军（主办国）",
+        "stage_en": "Third Place (Host)",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 2010,
+        "stage_zh": "季军",
+        "stage_en": "Third Place",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 2014,
+        "stage_zh": "冠军",
+        "stage_en": "Champions",
+        "row_class": "champion"
+      },
+      {
+        "year": 2018,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2022,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Julian Nagelsmann",
+      "nationality_zh": "德国",
+      "nationality_en": "German"
+    },
+    "players": [
+      {
+        "name": "Oliver Baumann",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Hoffenheim",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 18
+      },
+      {
+        "name": "Marc-André ter Stegen",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Barcelona",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 42
+      },
+      {
+        "name": "Joshua Kimmich",
+        "position_zh": "右后卫（队长）",
+        "position_en": "RB (Captain)",
+        "club": "Bayern Munich",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 106
+      },
+      {
+        "name": "Jonathan Tah",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Bayern Munich",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 44
+      },
+      {
+        "name": "Nico Schlotterbeck",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Borussia Dortmund",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 28
+      },
+      {
+        "name": "David Raum",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "RB Leipzig",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 32
+      },
+      {
+        "name": "Aleksandar Pavlović",
+        "position_zh": "后腰",
+        "position_en": "DM",
+        "club": "Bayern Munich",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 12
+      },
+      {
+        "name": "Leon Goretzka",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Bayern Munich",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 58
+      },
+      {
+        "name": "Florian Wirtz",
+        "position_zh": "攻击中场",
+        "position_en": "AM",
+        "club": "Bayer Leverkusen",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 30
+      },
+      {
+        "name": "Jamal Musiala",
+        "position_zh": "攻击中场",
+        "position_en": "AM",
+        "club": "Bayern Munich",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 38
+      },
+      {
+        "name": "Leroy Sané",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Bayern Munich",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 68
+      },
+      {
+        "name": "Kai Havertz",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Arsenal",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 56
+      },
+      {
+        "name": "Serge Gnabry",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Bayern Munich",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 44
+      },
+      {
+        "name": "Niclas Füllkrug",
+        "position_zh": "中锋",
+        "position_en": "ST",
+        "club": "West Ham United",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 24
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Franz Beckenbauer",
+      "years": "1965–1977",
+      "position_zh": "清道夫",
+      "position_en": "Sweeper / Libero",
+      "bio_zh": "德国足球史上最伟大的球员，被誉为「皇帝」。既是1974年世界杯冠军队长，又是1990年世界杯夺冠主教练，是迄今为止唯一一位以球员和主帅双重身份赢得世界杯的人。其在场上的优雅统治力令人叹服。",
+      "bio_en": "「Der Kaiser」 — the greatest German footballer of all time. He captained West Germany to the 1974 World Cup title and later managed Germany to the 1990 title, making him the only person to win the World Cup as both player and coach. His elegance and authority on the field were unmatched.",
+      "stat_zh": "103帽14球，唯一以球员+教练双重身份夺世界杯的人",
+      "stat_en": "103 caps, 14 goals; the only man to win the World Cup as player AND coach"
+    },
+    {
+      "name": "Gerd Müller",
+      "years": "1966–1974",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "「轰炸机」格尔德·穆勒，世界足球史上最高效的禁区杀手。在世界杯历史上打入14球（当时的纪录），1970年金球奖得主，1972年欧洲杯和1974年世界杯的夺冠功勋。",
+      "bio_en": "「Der Bomber」 — the most lethal penalty-box striker in football history. Scored 14 World Cup goals (a record at the time), won the 1970 Ballon d'Or, and was the key figure in West Germany's 1972 European Championship and 1974 World Cup triumphs.",
+      "stat_zh": "62帽68球，世界杯14球（当时纪录）",
+      "stat_en": "62 caps, 68 goals; 14 World Cup goals (record at the time)"
+    },
+    {
+      "name": "Lothar Matthäus",
+      "years": "1980–2000",
+      "position_zh": "中场",
+      "position_en": "MID",
+      "bio_zh": "FIFA世界杯史上出场最多的球员（25场），1991年FIFA年度最佳球员。以无与伦比的体能、领导力和技术著称，率德国赢得1990年世界杯，是那个时代最全面的中场。",
+      "bio_en": "The most-capped World Cup player in history (25 matches), 1991 FIFA World Player of the Year. His combination of stamina, leadership, and technical ability was unrivalled. Led Germany to the 1990 World Cup and remains one of the most complete midfielders the sport has seen.",
+      "stat_zh": "150帽23球，25届世界杯出场（历史纪录）",
+      "stat_en": "150 caps, 23 goals; 25 World Cup matches (all-time record)"
+    },
+    {
+      "name": "Miroslav Klose",
+      "years": "2001–2014",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "世界杯历史最高射手，16球的纪录至今无人打破。2014年世界杯赛场，以37岁高龄仍在决赛中出场，亲历德国1-0击败阿根廷夺冠，为职业生涯画上完美句号。",
+      "bio_en": "The all-time World Cup top scorer with 16 goals — a record that still stands. Participated in four World Cups for Germany, finishing his career at the 2014 final where he witnessed Germany defeat Argentina 1-0 to lift the trophy.",
+      "stat_zh": "137帽71球，世界杯16球（历史纪录，至今未破）",
+      "stat_en": "137 caps, 71 goals; 16 World Cup goals (all-time record, still standing)"
+    },
+    {
+      "name": "Florian Wirtz",
+      "years": "2021–至今",
+      "position_zh": "攻击中场",
+      "position_en": "AM",
+      "bio_zh": "德国足球新生代的领军人物，帮助拜耳勒沃库森在2023-24赛季以不败金身夺得德甲冠军。以惊艳的盘带、出色的视野和得分能力享誉欧洲，被誉为梅西和齐达内的结合体，是2026年世界杯上最令人期待的球员之一。",
+      "bio_en": "The figurehead of Germany's exciting new generation, Wirtz helped Bayer Leverkusen win an unbeaten Bundesliga title in 2023-24. His dazzling dribbling, vision, and goal-scoring ability have drawn comparisons to Messi and Zidane — and he is one of the most anticipated players at the 2026 World Cup.",
+      "stat_zh": "30帽（现役，持续增加）",
+      "stat_en": "30 caps (active, rising)"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "荷兰",
+      "opponent_en": "Netherlands",
+      "desc_zh": "欧洲足球史上最大的宿敌之一，1974年世界杯决赛德国主场击败荷兰至今仍是经典。两国之间的历史恩怨延伸至二战，令每场比赛都充满深刻的情感意义，无论是在欧洲杯还是世界杯舞台。",
+      "desc_en": "One of European football's greatest rivalries, rooted in history extending beyond sport to World War II. The 1974 World Cup Final — West Germany defeating Johan Cruyff's Netherlands on home soil — remains one of football's most iconic matches. Every subsequent meeting carries enormous emotional weight."
+    },
+    {
+      "opponent_zh": "意大利",
+      "opponent_en": "Italy",
+      "desc_zh": "世界杯历史上最精彩的对阵之一，1970年「世纪之战」（德国4-3意大利）被誉为史上最伟大的世界杯半决赛。两支球队合计赢得八次世界杯冠军，每次交锋都是巅峰对决。",
+      "desc_en": "One of football's most storied matchups, defined by the legendary 「Game of the Century」 (West Germany 3-4 Italy) at the 1970 World Cup semi-finals. Between them, the two nations have won eight World Cup titles, and every meeting feels like a summit clash."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "⭐",
+      "text_zh": "德国是世界杯历史上最成功的球队之一，4次夺冠、4次亚军。2014年世界杯半决赛7-1大胜东道主巴西，被称为「历史上最伟大的世界杯比赛之一」，全世界为之震撼。",
+      "text_en": "Germany is one of football's most decorated nations — 4 World Cup titles and 4 runner-up finishes. Their 7-1 demolition of host Brazil in the 2014 semi-finals remains one of the most stunning results in World Cup history."
+    },
+    {
+      "icon": "📉",
+      "text_zh": "2018年德国以卫冕冠军身份出征俄罗斯，却惨遭小组出局，成为世界杯历史上第一支首轮即告折戟的卫冕冠军。这场惨败引发了德国足球的深刻反思和结构性改革。",
+      "text_en": "As defending champions in 2018, Germany became the first reigning World Cup winner to exit in the group stage. The humiliation triggered a deep reckoning with German football culture and eventually led to a full generational reset."
+    },
+    {
+      "icon": "📊",
+      "text_zh": "洛塔尔·马特乌斯在世界杯历史上出场25次，是史上最多的世界杯出场纪录保持者。克洛泽的16粒世界杯进球至今仍是历史纪录，两项纪录均被德国人保持。",
+      "text_en": "Lothar Matthäus holds the record for most World Cup appearances (25 matches), while Miroslav Klose holds the record for most World Cup goals (16). Germany is the only nation whose players hold both of football's most prestigious individual World Cup records."
+    },
+    {
+      "icon": "🌟",
+      "text_zh": "雅马尔·穆西亚拉和弗洛里安·维尔茨的「威穆组合」被誉为世界足球新生代最令人振奋的中场搭档之一。两人均不满24岁，却已在欧洲顶级赛事中身经百战，是本届世界杯最受期待的表演之一。",
+      "text_en": "The Wirtz-Musiala partnership is considered one of the most exciting young midfield combinations in world football. Both are under 24, yet already seasoned in Europe's biggest competitions — their interplay is one of the most anticipated spectacles of the 2026 tournament."
+    },
+    {
+      "icon": "🏟️",
+      "text_zh": "德国是世界杯历史上唯一一个以主办国身份夺冠的欧洲球队（1974年），也是主办过最多世界杯的国家之一（1974年和2006年），球场文化和足球热情举世公认。",
+      "text_en": "Germany (as West Germany) is the only European nation to win a World Cup on home soil (1974). They have also hosted the tournament twice (1974, 2006), and are universally recognised for their world-class stadium culture and deep footballing passion."
+    }
+  ]
+}

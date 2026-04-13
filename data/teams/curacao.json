@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "slug": "curacao",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "库拉索",
+    "name_en": "Curaçao",
+    "flag_emoji": "🇨🇼",
+    "federation": "CONCACAF",
+    "fifa_rank": 82,
+    "group": "E",
+    "colors": {
+      "primary": "#003DA5",
+      "secondary": "#FFD100",
+      "accent": "#FFFFFF"
+    }
+  },
+  "country": {
+    "capital_zh": "威廉斯塔德",
+    "capital_en": "Willemstad",
+    "population": 160000,
+    "area": 444,
+    "language_zh": "帕皮阿门托语、荷兰语、英语",
+    "language_en": "Papiamentu, Dutch, English",
+    "continent_zh": "北美洲（加勒比海）",
+    "continent_en": "North America (Caribbean)",
+    "currency_zh": "荷属安的列斯盾",
+    "currency_en": "Netherlands Antillean Guilder (ANG)",
+    "anthem_zh": "库拉索之歌",
+    "anthem_en": "Himno di Kòrsou",
+    "desc_zh": "库拉索是位于加勒比海南部的岛屿，属荷兰王国的组成部分，面积约444平方公里，人口约16万。首都威廉斯塔德以其色彩斑斓的殖民地建筑和天然深水港著称，入选联合国教科文组织世界遗产名录。库拉索是加勒比海最具魅力的旅游目的地之一，以其多元文化、碧蓝海水和帕皮阿门托混合语言独树一帜。",
+    "desc_en": "Curaçao is a small Caribbean island nation of just 444 square kilometres and approximately 160,000 people, situated near the Venezuelan coast. A constituent country of the Kingdom of the Netherlands, its capital Willemstad — with its iconic, colourful colonial waterfront — is a UNESCO World Heritage Site. The island is known for its multicultural character, crystal-clear waters, and unique Papiamentu creole language.",
+    "football_desc_zh": "库拉索足球的崛起是近代足球史上最励志的故事之一。在荷兰传奇教练迪克·阿德沃卡特的带领下完成CONCACAF预选赛7胜3平的出色战绩，以史上人口最少、面积最小的国家身份创造历史，首次打入世界杯决赛圈。国内球员多旅居荷兰和欧洲各国联赛，借助FIFA关于荷兰青年球员国籍规则的调整，库拉索得以网罗更多优质人才。",
+    "football_desc_en": "Curaçao's qualification for the 2026 World Cup is one of the great underdog stories in football history. Under Dutch legend Dick Advocaat, they went 7 wins and 3 draws through CONCACAF qualifying — becoming the smallest nation ever (by population and area) to reach a World Cup. Most players are based in Dutch and European leagues, and a FIFA rule change allowing players who represented the Netherlands at youth level to switch nations has strengthened the pool enormously."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 1,
+    "best_result_zh": "首次参赛（2026年）",
+    "best_result_en": "First Appearance (2026)",
+    "title_years": [],
+    "history": [
+      {
+        "year": 2026,
+        "stage_zh": "小组赛（历史性首秀）",
+        "stage_en": "Group Stage (Historic Debut)",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Fred Rutten",
+      "nationality_zh": "荷兰",
+      "nationality_en": "Dutch"
+    },
+    "players": [
+      {
+        "name": "Eloy Room",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Orlando City",
+        "club_country_zh": "美国",
+        "club_country_en": "USA",
+        "caps": 52
+      },
+      {
+        "name": "Etienne Vaessen",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "RKC Waalwijk",
+        "club_country_zh": "荷兰",
+        "club_country_en": "Netherlands",
+        "caps": 10
+      },
+      {
+        "name": "Perr Schuurs",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Torino",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 16
+      },
+      {
+        "name": "Cuco Martina",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Twente",
+        "club_country_zh": "荷兰",
+        "club_country_en": "Netherlands",
+        "caps": 38
+      },
+      {
+        "name": "Riechedly Bazoer",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Vitesse",
+        "club_country_zh": "荷兰",
+        "club_country_en": "Netherlands",
+        "caps": 22
+      },
+      {
+        "name": "Leandro Bacuna",
+        "position_zh": "中场（队长）",
+        "position_en": "MID (Captain)",
+        "club": "FC Groningen",
+        "club_country_zh": "荷兰",
+        "club_country_en": "Netherlands",
+        "caps": 52
+      },
+      {
+        "name": "Juninho Bacuna",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Birmingham City",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 34
+      },
+      {
+        "name": "Stef Peeters",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "KV Kortrijk",
+        "club_country_zh": "比利时",
+        "club_country_en": "Belgium",
+        "caps": 24
+      },
+      {
+        "name": "Gervane Kastaneer",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "PEC Zwolle",
+        "club_country_zh": "荷兰",
+        "club_country_en": "Netherlands",
+        "caps": 30
+      },
+      {
+        "name": "Rangelo Janga",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "SC Heerenveen",
+        "club_country_zh": "荷兰",
+        "club_country_en": "Netherlands",
+        "caps": 42
+      },
+      {
+        "name": "Jarchinio Antonia",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Beerschot",
+        "club_country_zh": "比利时",
+        "club_country_en": "Belgium",
+        "caps": 26
+      },
+      {
+        "name": "Ryan Koolwijk",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "ADO Den Haag",
+        "club_country_zh": "荷兰",
+        "club_country_en": "Netherlands",
+        "caps": 18
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Rangelo Janga",
+      "years": "2013–至今",
+      "position_zh": "前锋",
+      "position_en": "FWD",
+      "bio_zh": "库拉索历史上进球最多的球员，是世界杯预选赛征程中球队进攻的核心。在荷兰职业联赛效力多年，以出色的速度和得分能力著称，是库拉索足球从名不见经传到世界杯舞台的亲历者和贡献者。",
+      "bio_en": "Curaçao's all-time leading scorer and the attacking focal point of their historic World Cup qualifying campaign. A long-serving professional in the Dutch leagues, known for his pace and clinical finishing — and a symbol of how far this tiny island's football has come.",
+      "stat_zh": "42帽，库拉索历史最佳射手",
+      "stat_en": "42 caps, Curaçao's all-time top scorer"
+    },
+    {
+      "name": "Leandro Bacuna",
+      "years": "2013–至今",
+      "position_zh": "中场（队长）",
+      "position_en": "MID (Captain)",
+      "bio_zh": "库拉索国家队队长，历史出场最多球员之一。曾效力阿斯顿维拉、卡迪夫城、雷丁等英格兰职业俱乐部超过100场，是库拉索足球在欧洲踢出来的最具代表性的球员之一，也是带领球队打入世界杯的精神领袖。",
+      "bio_en": "The captain and spiritual leader who drove Curaçao to their historic World Cup qualification. Has made over 100 professional appearances in England at Aston Villa, Cardiff City, and Reading, making him one of the island's most experienced international-level players ever.",
+      "stat_zh": "52帽，历史最多出场纪录保持者（与Room并列）",
+      "stat_en": "52 caps, joint most-capped Curaçao player (with Eloy Room)"
+    },
+    {
+      "name": "Eloy Room",
+      "years": "2012–至今",
+      "position_zh": "门将",
+      "position_en": "GK",
+      "bio_zh": "库拉索历史出场最多的门将，与巴库纳并列为历史最多出场球员。预选赛期间表现出色，10场比赛贡献6次零封、30次扑救，是库拉索防守体系的核心支柱，被誉为史上最重要的库拉索球员之一。",
+      "bio_en": "Joint most-capped Curaçao player and the guardian of the historic qualifying campaign. His six clean sheets and 30 saves across 10 qualifying matches were the bedrock of Curaçao's unbeaten run and are central to why they reached the World Cup.",
+      "stat_zh": "52帽，历史最多出场纪录保持者（与Bacuna并列）",
+      "stat_en": "52 caps, joint most-capped Curaçao player (with Bacuna)"
+    },
+    {
+      "name": "Cuco Martina",
+      "years": "2010–至今",
+      "position_zh": "后卫",
+      "position_en": "DEF",
+      "bio_zh": "库拉索足球国际化的先驱之一，曾在英超效力南安普顿、埃弗顿。长期身兼多个防守位置，以丰富的经验和职业素养为球队贡献良多，是连接老一代和新生代的重要纽带。",
+      "bio_en": "One of the trailblazers of Curaçao's international footballing journey, with Premier League experience at Southampton and Everton. His versatility across defensive positions and wealth of professional experience has made him a vital bridge between generations for the national team.",
+      "stat_zh": "38帽，前英超球员",
+      "stat_en": "38 caps, former Premier League player"
+    },
+    {
+      "name": "Gervane Kastaneer",
+      "years": "2016–至今",
+      "position_zh": "边锋",
+      "position_en": "FWD",
+      "bio_zh": "世界杯预选赛进球最多的库拉索球员（5球），以出色的速度和突破能力令对手头疼。在库拉索实现历史性突破的资格赛征途中扮演了重要角色，是球队最具进攻威胁的球员之一。",
+      "bio_en": "The top scorer in Curaçao's World Cup qualifying campaign with 5 goals — a critical contributor to their historic achievement. Known for searing pace and direct running that consistently unsettled CONCACAF opponents, he is one of the team's most dangerous attacking weapons.",
+      "stat_zh": "30帽，资格赛5球（队内最多）",
+      "stat_en": "30 caps, 5 qualifying goals (team-high)"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "牙买加",
+      "opponent_en": "Jamaica",
+      "desc_zh": "CONCACAF区域最重要的加勒比海对阵之一。在2026年世界杯资格赛中，库拉索在主场以0-0逼平牙买加，凭借这一结果正式锁定出线资格，令整个岛屿陷入狂欢。这场平局将永远铭刻在库拉索足球史册。",
+      "desc_en": "One of the Caribbean's most significant CONCACAF rivalries. In World Cup qualifying, Curaçao's 0-0 draw with Jamaica at home sealed their historic qualification — sending the entire island into celebration. That result will be forever etched into Curaçaoan football history."
+    },
+    {
+      "opponent_zh": "特立尼达和多巴哥",
+      "opponent_en": "Trinidad and Tobago",
+      "desc_zh": "加勒比海小国之间的竞争，库拉索在资格赛中多次与特多争夺出线名额。两支球队都代表了加勒比地区足球力量的崛起，每场对阵都充满了地区自豪感。",
+      "desc_en": "A fellow Caribbean island rivalry played out across CONCACAF qualifying, with both nations competing for the same limited spots. Their encounters represent the broader rise of Caribbean football, with each side eager to prove that small island nations can compete at the highest level."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🏝️",
+      "text_zh": "库拉索人口约16万，面积约444平方公里，是世界杯历史上参赛人口最少、面积最小的国家。这一历史壮举让整个足球世界惊叹不已，证明小国同样可以在全球最大的运动赛事中占据一席之地。",
+      "text_en": "With a population of approximately 160,000 and an area of just 444 square kilometres, Curaçao is the smallest nation ever to qualify for the FIFA World Cup by both population and area. This achievement sent shockwaves through world football and proved that even the tiniest nations can reach the sport's greatest stage."
+    },
+    {
+      "icon": "🇳🇱",
+      "text_zh": "库拉索是荷兰王国的组成部分，其球员中有很多曾代表荷兰青年队出场。FIFA修改规定后允许这些球员转为代表库拉索，极大地充实了球队实力，荷兰裔球员成为球队核心力量。",
+      "text_en": "Curaçao is a constituent country of the Kingdom of the Netherlands, and many of its players previously represented the Netherlands at youth level. A FIFA rule change allowing these players to switch associations dramatically boosted the squad's quality and was pivotal to their World Cup qualification."
+    },
+    {
+      "icon": "🕊️",
+      "text_zh": "迪克·阿德沃卡特在生命的最后阶段担任库拉索主帅，完成了带队打入世界杯这一历史性任务后，因女儿患病不得不于2026年2月辞职。这段师徒情谊和他的无私奉献令整个库拉索为之动容。",
+      "text_en": "Dick Advocaat — a legendary Dutch coach who had managed major clubs and nations throughout Europe — took charge of Curaçao and delivered their historic World Cup qualification before sadly having to resign in February 2026 due to his daughter's illness. His selfless contribution to this small nation's greatest achievement will never be forgotten."
+    },
+    {
+      "icon": "🌍",
+      "text_zh": "库拉索是世界上唯一一个以橙皮甜酒（库拉索利口酒）命名的国家，其蓝色库拉索酒举世闻名。如今这个小岛以另一件事享誉全球：他们是2026年世界杯参赛队之一。",
+      "text_en": "Curaçao is the only country in the world that gives its name to a famous liqueur — Curaçao orange liqueur, and the iconic Blue Curaçao. Now the island has an even greater claim to global fame: a place at the 2026 FIFA World Cup."
+    },
+    {
+      "icon": "📊",
+      "text_zh": "库拉索在CONCACAF资格赛10场比赛中7胜3平，保持不败。这一成绩在CONCACAF资格赛历史上实属罕见，充分说明阿德沃卡特和鲁滕的战术体系的成功，以及球员们为这个历史性成就所付出的努力。",
+      "text_en": "Curaçao went unbeaten through 10 CONCACAF qualifying matches (7 wins, 3 draws). For a team of their size competing against much larger, more established nations, this extraordinary consistency was the foundation of their historic World Cup breakthrough."
+    }
+  ]
+}
