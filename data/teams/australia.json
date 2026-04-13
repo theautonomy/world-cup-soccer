@@ -1,0 +1,317 @@
+{
+  "meta": {
+    "slug": "australia",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "澳大利亚",
+    "name_en": "Australia",
+    "flag_emoji": "🇦🇺",
+    "federation": "AFC",
+    "fifa_rank": 26,
+    "group": "D",
+    "colors": {
+      "primary": "#FFD700",
+      "secondary": "#00843D",
+      "accent": "#000000"
+    }
+  },
+  "country": {
+    "capital_zh": "堪培拉",
+    "capital_en": "Canberra",
+    "population": 26500000,
+    "area": 7692024,
+    "language_zh": "英语",
+    "language_en": "English",
+    "continent_zh": "大洋洲",
+    "continent_en": "Oceania",
+    "currency_zh": "澳大利亚元",
+    "currency_en": "Australian Dollar (AUD)",
+    "anthem_zh": "澳大利亚进行曲",
+    "anthem_en": "Advance Australia Fair",
+    "desc_zh": "澳大利亚是世界上唯一一个独占整个大陆的国家，以壮阔的内陆荒漠、多样的野生动物和现代化的沿海城市著称。悉尼歌剧院和大堡礁是享誉全球的地标。澳大利亚是多元文化国家，近年来亚裔移民人口迅速增长，体育文化极为浓厚。",
+    "desc_en": "Australia is the world's only nation-continent, famous for its vast Outback, unique wildlife, and thriving coastal cities. The Sydney Opera House and the Great Barrier Reef are icons recognized worldwide. A proudly multicultural nation with a booming sports culture, Australia has grown increasingly diverse with significant Asian immigration in recent decades.",
+    "football_desc_zh": "足球（soccer）在澳大利亚发展迅猛，与橄榄球、板球等传统运动激烈竞争。2006年加入亚足联后，「袋鼠队」（Socceroos）开始在亚洲预选赛中崛起，连续6届世界杯出线。2022年世界杯在卡塔尔创造历史，时隔16年再度杀入十六强，让全国沸腾。托尼·波波维奇执掌的新生代球队期待延续辉煌。",
+    "football_desc_en": "Soccer (football) is one of Australia's fastest-growing sports, competing alongside rugby and cricket for national attention. Since joining the AFC in 2006, the Socceroos have qualified for six consecutive World Cups. Their historic 2022 run to the Round of 16 — including a penalty shootout victory over Denmark — captivated the nation. Tony Popovic now leads a new generation eager to match or exceed that achievement."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 7,
+    "best_result_zh": "十六强（2006年、2022年）",
+    "best_result_en": "Round of 16 (2006, 2022)",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1974,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2006,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2010,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2014,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2018,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2022,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Tony Popovic",
+      "nationality_zh": "澳大利亚",
+      "nationality_en": "Australian"
+    },
+    "players": [
+      {
+        "name": "Mathew Ryan",
+        "position_zh": "门将（队长）",
+        "position_en": "GK (Captain)",
+        "club": "Real Sociedad",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 91
+      },
+      {
+        "name": "Danny Vukovic",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Sydney FC",
+        "club_country_zh": "澳大利亚",
+        "club_country_en": "Australia",
+        "caps": 16
+      },
+      {
+        "name": "Harry Souttar",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Leicester City",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 28
+      },
+      {
+        "name": "Alessandro Circati",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Parma",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 18
+      },
+      {
+        "name": "Cameron Burgess",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Swansea City",
+        "club_country_zh": "威尔士",
+        "club_country_en": "Wales",
+        "caps": 20
+      },
+      {
+        "name": "Nathaniel Atkinson",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "Stoke City",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 22
+      },
+      {
+        "name": "Aziz Behich",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "Dundee United",
+        "club_country_zh": "苏格兰",
+        "club_country_en": "Scotland",
+        "caps": 40
+      },
+      {
+        "name": "Jackson Irvine",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "FC St. Pauli",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 72
+      },
+      {
+        "name": "Riley McGree",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Middlesbrough",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 36
+      },
+      {
+        "name": "Connor Metcalfe",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "FC St. Pauli",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 28
+      },
+      {
+        "name": "Martin Boyle",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Al-Faisaly",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 50
+      },
+      {
+        "name": "Craig Goodwin",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Adelaide United",
+        "club_country_zh": "澳大利亚",
+        "club_country_en": "Australia",
+        "caps": 38
+      },
+      {
+        "name": "Mitchell Duke",
+        "position_zh": "中锋",
+        "position_en": "ST",
+        "club": "Macarthur FC",
+        "club_country_zh": "澳大利亚",
+        "club_country_en": "Australia",
+        "caps": 44
+      },
+      {
+        "name": "Marco Tilio",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Celtic",
+        "club_country_zh": "苏格兰",
+        "club_country_en": "Scotland",
+        "caps": 22
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Tim Cahill",
+      "years": "2004–2018",
+      "position_zh": "中场",
+      "position_en": "MID",
+      "bio_zh": "澳大利亚足球史上最伟大的球员，以出众的头球和无坚不摧的斗志著称。在埃弗顿、纽约红牛等顶级俱乐部效力多年，四届世界杯（2006、2010、2014、2018）为国出征，是澳大利亚历史最佳射手。",
+      "bio_en": "The greatest player in Australian football history, renowned for his extraordinary heading ability and indomitable spirit. A stalwart at Everton and New York Red Bulls, Cahill competed at four World Cups (2006-2018) and remains the Socceroos' all-time leading scorer.",
+      "stat_zh": "108帽50球（历史纪录）",
+      "stat_en": "108 caps, 50 goals (Australian all-time record)"
+    },
+    {
+      "name": "Mark Schwarzer",
+      "years": "1993–2013",
+      "position_zh": "门将",
+      "position_en": "GK",
+      "bio_zh": "澳大利亚历史最佳门将，长期效力米德尔斯堡、富勒姆和切尔西。2006年世界杯资格赛对阵乌拉圭的点球大战中力挽狂澜，是澳大利亚那一代最重要的球员之一。",
+      "bio_en": "Australia's greatest goalkeeper, who spent his peak years at Middlesbrough, Fulham, and Chelsea. His heroic penalty saves in the 2006 World Cup qualifying playoff against Uruguay were pivotal to the Socceroos reaching their greatest World Cup.",
+      "stat_zh": "109帽，澳大利亚历史出场最多门将",
+      "stat_en": "109 caps, most-capped Australian goalkeeper"
+    },
+    {
+      "name": "Harry Kewell",
+      "years": "1996–2009",
+      "position_zh": "边锋",
+      "position_en": "FWD",
+      "bio_zh": "澳大利亚足球史上最具技术的球员之一，效力利兹联时期曾被誉为欧洲最佳左边锋。后加盟利物浦，在2005年欧冠决赛中上演戏剧性一幕。2006年世界杯对阵日本送出关键助攻。",
+      "bio_en": "One of Australia's most technically gifted players, widely regarded as Europe's best left winger during his peak at Leeds United. He joined Liverpool and played a dramatic role in the 2005 Champions League Final. His assist against Japan at the 2006 World Cup helped seal Australian qualification for the Round of 16.",
+      "stat_zh": "58帽17球",
+      "stat_en": "58 caps, 17 goals"
+    },
+    {
+      "name": "Mark Viduka",
+      "years": "1994–2007",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "上世纪末、本世纪初澳大利亚最具统治力的中锋，在利兹联、切尔西、纽卡斯尔联均有出色表现。体格强壮，技术细腻，是同时代最出色的澳大利亚前锋。",
+      "bio_en": "The most dominant Australian striker of the late 1990s and early 2000s, who impressed at Celtic, Leeds United, and Newcastle United. His combination of physical power and technical finesse made him one of the best Australian forwards of any era.",
+      "stat_zh": "43帽11球",
+      "stat_en": "43 caps, 11 goals"
+    },
+    {
+      "name": "Mathew Ryan",
+      "years": "2012–至今",
+      "position_zh": "门将（队长）",
+      "position_en": "GK (Captain)",
+      "bio_zh": "澳大利亚现役队长和门将第一人，曾效力布莱顿、皇家社会等欧洲俱乐部。四届世界杯参赛者（2014、2018、2022、2026），是当代澳大利亚足球的象征与领袖。",
+      "bio_en": "Australia's current captain and undisputed first-choice goalkeeper, with experience at Brighton and Real Sociedad. A veteran of four World Cups (2014-2026), Ryan is the symbol and on-field leader of contemporary Australian football.",
+      "stat_zh": "91帽（现役，历史最多出场纪录保持者）",
+      "stat_en": "91 caps (active, one of Australia's most-capped players ever)"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "日本",
+      "opponent_en": "Japan",
+      "desc_zh": "亚洲足球最重要的对阵之一，两支球队是亚洲杯和世界杯预选赛的常年强队。2006年世界杯小组赛，澳大利亚在落后0-1的情况下三球逆转击败日本，成为经典战役。",
+      "desc_en": "One of Asia's most significant football rivalries, with both nations consistently among the AFC's strongest sides. Their 2006 World Cup group stage match — where Australia came from 0-1 down to win 3-1 — remains a defining moment in Australian football history."
+    },
+    {
+      "opponent_zh": "韩国",
+      "opponent_en": "South Korea",
+      "desc_zh": "亚足联区的强强对话，两国在亚洲杯和世界杯预选赛的对阵总是高水平且充满竞争。无论是澳大利亚在悉尼还是韩国在首尔，现场气氛都极为热烈。",
+      "desc_en": "A top-tier clash within the AFC, with both nations regularly competing at the highest level in Asia. Matches between Australia and South Korea in the Asian Cup and World Cup qualifying always produce high-quality, closely fought encounters."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🌏",
+      "text_zh": "澳大利亚是大洋洲球队，却在2006年转会至亚足联（AFC）参赛，此后连续六届打入世界杯决赛圈，成为亚洲区的强队代表。这一「跳槽」改变了澳大利亚足球的命运。",
+      "text_en": "Although geographically in Oceania, Australia switched to the AFC in 2006 and has since qualified for six consecutive World Cups. This strategic move transformed the Socceroos from a qualifying afterthought into a genuine Asian football powerhouse."
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "2006年世界杯是澳大利亚足球史上最辉煌的时刻：小组赛3-1逆转日本，十六强仅以0-1不敌意大利（伤停补时争议点球），那届比赛激励了整整一代澳大利亚球迷。",
+      "text_en": "The 2006 World Cup was Australia's finest hour: a stunning comeback win over Japan in the group stage, followed by a narrow 0-1 defeat to Italy in the Round of 16 via a controversial stoppage-time penalty. That tournament inspired an entire generation of Australian fans."
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "2022年卡塔尔世界杯，澳大利亚再度杀入十六强，点球大战淘汰丹麦，并以1-2惜败于最终亚军阿根廷。那场比赛让全世界看到了澳大利亚足球的进步。",
+      "text_en": "At the 2022 World Cup in Qatar, Australia reached the Round of 16 again, eliminating Denmark on penalties before losing 1-2 to eventual runners-up Argentina. The result demonstrated how much Australian football had grown on the world stage."
+    },
+    {
+      "icon": "🦘",
+      "text_zh": "「袋鼠队」（Socceroos）这个昵称源自英文「Soccer」和「Kangaroo」的合并，既体现了澳大利亚独特的动物文化，也代表了球队不畏强敌的精神。",
+      "text_en": "The nickname 「Socceroos」 blends 「Soccer」 and 「Kangaroos,」 perfectly capturing Australia's unique national identity. Like their namesake marsupial, the team is known for its surprising power and resilience."
+    },
+    {
+      "icon": "🌟",
+      "text_zh": "蒂姆·卡希尔的头球举世无双，他在2006年世界杯对阵日本、2010年世界杯对阵加纳的入球，以及2014年世界杯对阵荷兰的经典头球，被认为是澳大利亚足球史上最伟大的进球。",
+      "text_en": "Tim Cahill's heading ability was unmatched in his era. His goals against Japan (2006), Ghana (2010), and his stunning volley against the Netherlands (2014) are considered the greatest goals in Australian football history."
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "slug": "paraguay",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "巴拉圭",
+    "name_en": "Paraguay",
+    "flag_emoji": "🇵🇾",
+    "federation": "CONMEBOL",
+    "fifa_rank": 40,
+    "group": "D",
+    "colors": {
+      "primary": "#D52B1E",
+      "secondary": "#FFFFFF",
+      "accent": "#0038A8"
+    }
+  },
+  "country": {
+    "capital_zh": "亚松森",
+    "capital_en": "Asunción",
+    "population": 7400000,
+    "area": 406752,
+    "language_zh": "西班牙语、瓜拉尼语",
+    "language_en": "Spanish, Guaraní",
+    "continent_zh": "南美洲",
+    "continent_en": "South America",
+    "currency_zh": "巴拉圭瓜拉尼",
+    "currency_en": "Paraguayan Guaraní (PYG)",
+    "anthem_zh": "巴拉圭人",
+    "anthem_en": "Paraguayos, República o Muerte",
+    "desc_zh": "巴拉圭是南美洲内陆国家，被阿根廷、玻利维亚和巴西所环抱，首都亚松森是南美洲最古老的城市之一。巴拉圭以其独特的瓜拉尼文化、双语社会（西班牙语与瓜拉尼语并用）和宁静的自然风光著称。伊泰普水坝是世界上最大的水电站之一，为巴拉圭提供绝大部分电力。",
+    "desc_en": "Paraguay is a landlocked South American nation bordered by Argentina, Bolivia, and Brazil. Its capital Asunción is one of South America's oldest cities. Paraguay is known for its unique Guaraní cultural heritage, its bilingual society (Spanish and Guaraní), and the Itaipú Dam — one of the world's largest hydroelectric power stations.",
+    "football_desc_zh": "足球是巴拉圭的国民运动，球迷热情澎湃。被称为「阿尔比罗哈」（Albirroja，红白军团）的国家队以顽强的防守和集体主义精神著称，在南美预选赛中常令强队难堪。2010年世界杯杀入八强是近代最辉煌的成就，现在他们渴望在古斯塔沃·阿尔法罗的带领下再创佳绩。",
+    "football_desc_en": "Football is Paraguay's national sport, backed by passionate fans across the country. Known as 「La Albirroja」 (the Red and Whites), the national team is renowned for its defensive resilience and collective spirit, frequently causing upsets in South American qualifying. Their 2010 World Cup quarter-final run remains the modern high watermark, and Gustavo Alfaro's side is hungry to match it."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 9,
+    "best_result_zh": "八强（2010年）",
+    "best_result_en": "Quarter-Final (2010)",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1930,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1950,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1958,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1986,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 1998,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2002,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2006,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2010,
+        "stage_zh": "八强",
+        "stage_en": "Quarter-Final",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Gustavo Alfaro",
+      "nationality_zh": "阿根廷",
+      "nationality_en": "Argentine"
+    },
+    "players": [
+      {
+        "name": "Antony Silva",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Olimpia",
+        "club_country_zh": "巴拉圭",
+        "club_country_en": "Paraguay",
+        "caps": 38
+      },
+      {
+        "name": "Gustavo Gómez",
+        "position_zh": "中后卫（队长）",
+        "position_en": "CB (Captain)",
+        "club": "Palmeiras",
+        "club_country_zh": "巴西",
+        "club_country_en": "Brazil",
+        "caps": 92
+      },
+      {
+        "name": "Omar Alderete",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Getafe",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 46
+      },
+      {
+        "name": "Junior Alonso",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Atlético Mineiro",
+        "club_country_zh": "巴西",
+        "club_country_en": "Brazil",
+        "caps": 34
+      },
+      {
+        "name": "Robert Rojas",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "River Plate",
+        "club_country_zh": "阿根廷",
+        "club_country_en": "Argentina",
+        "caps": 42
+      },
+      {
+        "name": "Matías Espinoza",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "Talleres",
+        "club_country_zh": "阿根廷",
+        "club_country_en": "Argentina",
+        "caps": 22
+      },
+      {
+        "name": "Andrés Cubas",
+        "position_zh": "后腰",
+        "position_en": "DM",
+        "club": "Nottingham Forest",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 35
+      },
+      {
+        "name": "Diego Gómez",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Brighton & Hove Albion",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 28
+      },
+      {
+        "name": "Richard Sánchez",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "América",
+        "club_country_zh": "墨西哥",
+        "club_country_en": "Mexico",
+        "caps": 48
+      },
+      {
+        "name": "Miguel Almirón",
+        "position_zh": "前腰",
+        "position_en": "AM",
+        "club": "Atlanta United",
+        "club_country_zh": "美国",
+        "club_country_en": "USA",
+        "caps": 73
+      },
+      {
+        "name": "Ramón Sosa",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Nottingham Forest",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 32
+      },
+      {
+        "name": "Julio Enciso",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Strasbourg",
+        "club_country_zh": "法国",
+        "club_country_en": "France",
+        "caps": 29
+      },
+      {
+        "name": "Antonio Sanabria",
+        "position_zh": "中锋",
+        "position_en": "ST",
+        "club": "Torino",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 50
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "José Luis Chilavert",
+      "years": "1989–2003",
+      "position_zh": "门将",
+      "position_en": "GK",
+      "bio_zh": "世界足球史上最具个性的门将之一，以擅长主罚点球和任意球著称，职业生涯为巴拉圭国家队攻入8球，为俱乐部攻入60余球。1998年世界杯率队打入十六强，是那个时代南美最具魅力的球员之一。",
+      "bio_en": "One of football's most unique goalkeepers, famed for his ability to take penalties and free kicks. He scored 8 goals for Paraguay and over 60 for his clubs. Led Paraguay to the 1998 World Cup Round of 16, and was named South American Footballer of the Year three times.",
+      "stat_zh": "74帽8球（门将进球奇才）",
+      "stat_en": "74 caps, 8 goals (extraordinary for a goalkeeper)"
+    },
+    {
+      "name": "Roque Santa Cruz",
+      "years": "1999–2015",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "巴拉圭历史上最著名的前锋，长期效力拜仁慕尼黑和曼城。以高超的技术和强壮的体魄著称，是2010年世界杯八强阵容的核心前锋。",
+      "bio_en": "Paraguay's most famous striker of the modern era, who played his best football at Bayern Munich and Manchester City. A technically gifted, physically imposing forward who was the attacking spearhead of Paraguay's remarkable 2010 World Cup quarter-final run.",
+      "stat_zh": "75帽32球",
+      "stat_en": "75 caps, 32 goals"
+    },
+    {
+      "name": "Salvador Cabañas",
+      "years": "2003–2010",
+      "position_zh": "前锋",
+      "position_en": "FWD",
+      "bio_zh": "巴拉圭历史上最出色的前锋之一，在墨西哥联赛拥有超高人气。2010年1月遭枪击头部，虽奇迹存活但职业生涯戛然而止，是足球界最令人惋惜的悲剧之一。",
+      "bio_en": "One of Paraguay's finest forwards and a huge star in Mexican football. His career was tragically cut short in January 2010 after he was shot in the head in a Mexico City nightclub. His survival was considered miraculous, but he never played competitively again.",
+      "stat_zh": "65帽28球（职业生涯因意外中断）",
+      "stat_en": "65 caps, 28 goals (career cut short by tragedy)"
+    },
+    {
+      "name": "Miguel Almirón",
+      "years": "2015–至今",
+      "position_zh": "前腰",
+      "position_en": "AM",
+      "bio_zh": "巴拉圭现役最具代表性的球员，曾效力阿特兰大联、纽卡斯尔联，以惊人的速度、技术和进攻能力享誉MLS和英超。是巴拉圭2026年世界杯征程中最关键的创造力来源。",
+      "bio_en": "The most recognizable Paraguayan player of the current era, having thrilled fans at Atlanta United and Newcastle United with his electrifying pace, skill, and work rate. Almirón is the creative heartbeat of Paraguay's 2026 World Cup campaign.",
+      "stat_zh": "73帽（现役）",
+      "stat_en": "73 caps (active)"
+    },
+    {
+      "name": "Julio César Romero",
+      "years": "1980–1989",
+      "position_zh": "中场",
+      "position_en": "MID",
+      "bio_zh": "被誉为巴拉圭足球史上最具天赋的中场球员，外号「Romerito」。1986年世界杯随队出征，是那个年代南美洲最优雅的中场之一，曾效力巴西弗拉门戈并荣获多项荣誉。",
+      "bio_en": "Widely regarded as the most gifted Paraguayan midfielder ever, nicknamed 「Romerito.」 A graceful, creative playmaker who starred at the 1986 World Cup and spent his peak years at Flamengo in Brazil, winning multiple honors.",
+      "stat_zh": "71帽，1986年世界杯明星球员",
+      "stat_en": "71 caps, star of the 1986 World Cup squad"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "阿根廷",
+      "opponent_en": "Argentina",
+      "desc_zh": "南美最激烈的区域对阵之一，两支球队在CONMEBOL预选赛中多次上演精彩对决。巴拉圭曾多次在主场以顽强防守逼平阿根廷，使阿松森成为阿根廷队最头疼的客场之一。",
+      "desc_en": "One of South America's most intense regional rivalries. Paraguay has repeatedly frustrated Argentina in CONMEBOL qualifying at home in Asunción, which has become one of the most difficult away venues in international football."
+    },
+    {
+      "opponent_zh": "乌拉圭",
+      "opponent_en": "Uruguay",
+      "desc_zh": "河床德比（Rio de la Plata Derby）的延伸，巴拉圭和乌拉圭在南美预选赛中的对阵总是充满火药味。两队风格相近，都以纪律严明和强悍防守著称，每场比赛都是一场硬仗。",
+      "desc_en": "An extension of the Rio de la Plata rivalry, Paraguay vs Uruguay always produces a ferocious battle in CONMEBOL qualifying. Both sides are known for their disciplined, physically tough style, making every encounter a grinding, tactical affair."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🧤",
+      "text_zh": "门将进球的传奇：何塞·路易斯·奇拉维特是世界上最著名的进球门将之一，在世界杯期间他的任意球和点球能力让对手心惊胆战，被评为三届南美洲年度最佳球员。",
+      "text_en": "Paraguay's goalkeeper-scorer legend: José Luis Chilavert is one of football's greatest goal-scoring goalkeepers, named South American Player of the Year three times. His set-piece prowess made him simultaneously the team's last line of defense and a genuine attacking threat."
+    },
+    {
+      "icon": "🌍",
+      "text_zh": "巴拉圭是首批参加1930年第一届世界杯的球队之一，那届比赛在乌拉圭举行。尽管小组赛出局，但能够参与足球最伟大赛事的创始版本，本身已是历史荣誉。",
+      "text_en": "Paraguay was one of the founding nations at the very first World Cup in 1930, held in Uruguay. Though they were eliminated in the group stage, participation in the inaugural tournament is a proud historical distinction."
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "2010年南非世界杯，巴拉圭以点球大战淘汰日本（十六强），随后在八强中仅以0-1不敌最终冠军西班牙。那届比赛是巴拉圭足球史上最闪耀的时刻。",
+      "text_en": "At the 2010 World Cup, Paraguay beat Japan on penalties in the Round of 16, then lost just 0-1 to eventual champions Spain in the quarter-finals. It remains the greatest moment in modern Paraguayan football history."
+    },
+    {
+      "icon": "🗣️",
+      "text_zh": "巴拉圭是南美洲唯一一个以土著语言（瓜拉尼语）作为官方语言之一的国家，约90%的国民能说瓜拉尼语，足球比赛解说有时也会以双语进行。",
+      "text_en": "Paraguay is the only South American country where a native indigenous language — Guaraní — is an official language spoken by approximately 90% of the population. Football commentary is sometimes even broadcast in Guaraní."
+    },
+    {
+      "icon": "⏳",
+      "text_zh": "巴拉圭曾连续打入四届世界杯（1998、2002、2006、2010），那是南美洲足球的黄金年代之一。此后缺席两届（2014、2018、2022），2026年的回归让球迷无比期待。",
+      "text_en": "Paraguay qualified for four consecutive World Cups (1998-2010) — a golden era of South American football. After missing three tournaments (2014, 2018, 2022), their 2026 return is a cause for national celebration."
+    }
+  ]
+}

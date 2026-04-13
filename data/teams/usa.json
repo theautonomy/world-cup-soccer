@@ -1,0 +1,371 @@
+{
+  "meta": {
+    "slug": "usa",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "美国",
+    "name_en": "United States",
+    "flag_emoji": "🇺🇸",
+    "federation": "CONCACAF",
+    "fifa_rank": 16,
+    "group": "D",
+    "colors": {
+      "primary": "#002868",
+      "secondary": "#BF0A30",
+      "accent": "#FFFFFF"
+    }
+  },
+  "country": {
+    "capital_zh": "华盛顿特区",
+    "capital_en": "Washington D.C.",
+    "population": 335000000,
+    "area": 9833520,
+    "language_zh": "英语",
+    "language_en": "English",
+    "continent_zh": "北美洲",
+    "continent_en": "North America",
+    "currency_zh": "美元",
+    "currency_en": "US Dollar (USD)",
+    "anthem_zh": "星条旗之歌",
+    "anthem_en": "The Star-Spangled Banner",
+    "desc_zh": "美国是世界上最大的经济体之一，国土面积辽阔，从大西洋延伸至太平洋。作为2026年世界杯的三个主办国之一，美国将以前所未有的规模迎接全球足球盛事。美国文化多元融合，汇聚了来自世界各地的移民，五大湖、大峡谷、自由女神像等地标举世闻名。",
+    "desc_en": "The United States is one of the world's largest economies, spanning coast to coast from the Atlantic to the Pacific. As one of three 2026 World Cup co-hosts, the USA will welcome the world's greatest sporting event on an unprecedented scale. The country's multicultural identity, drawn from generations of immigration, is reflected in its diverse population and world-famous landmarks from the Grand Canyon to the Statue of Liberty.",
+    "football_desc_zh": "足球在美国发展迅猛，随着MLS的壮大和新一代球星的涌现，美国足球正步入黄金时代。普利西奇、麦肯尼、亚当斯等球员在欧洲顶级联赛占据一席之地，让美国足球赢得了国际尊重。作为2026年世界杯主办国，美国队将在主场出征，背负举国期望。波切蒂诺执掌的新生代美国队被视为黑马，渴望复制甚至超越2002年的四强壮举。",
+    "football_desc_en": "Soccer in the USA is experiencing a golden era, fueled by a thriving MLS and a generation of world-class talent forged in Europe's top leagues. Pulisic, McKennie, Adams, and Reyna have earned genuine respect at the highest club level. As co-hosts of the 2026 World Cup, the USMNT will play in front of passionate home crowds, carrying the weight of a nation's expectations. Under Pochettino, this young squad is hungry to make a historic run."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 12,
+    "best_result_zh": "半决赛（1930年）",
+    "best_result_en": "Semi-Final (1930)",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1930,
+        "stage_zh": "半决赛",
+        "stage_en": "Semi-Final",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 1934,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1950,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1990,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1994,
+        "stage_zh": "八强",
+        "stage_en": "Quarter-Final",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1998,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2002,
+        "stage_zh": "八强",
+        "stage_en": "Quarter-Final",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 2006,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2010,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2014,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2018,
+        "stage_zh": "未晋级",
+        "stage_en": "Did Not Qualify",
+        "row_class": "did-not-qualify"
+      },
+      {
+        "year": 2022,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛（主办国）",
+        "stage_en": "Group Stage (Host)",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Mauricio Pochettino",
+      "nationality_zh": "阿根廷",
+      "nationality_en": "Argentine"
+    },
+    "players": [
+      {
+        "name": "Matt Turner",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Crystal Palace",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 40
+      },
+      {
+        "name": "Ethan Horvath",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Cardiff City",
+        "club_country_zh": "威尔士",
+        "club_country_en": "Wales",
+        "caps": 18
+      },
+      {
+        "name": "Sergiño Dest",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "PSV Eindhoven",
+        "club_country_zh": "荷兰",
+        "club_country_en": "Netherlands",
+        "caps": 38
+      },
+      {
+        "name": "Antonee Robinson",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "Fulham",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 46
+      },
+      {
+        "name": "Chris Richards",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Crystal Palace",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 26
+      },
+      {
+        "name": "Cameron Carter-Vickers",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Celtic",
+        "club_country_zh": "苏格兰",
+        "club_country_en": "Scotland",
+        "caps": 24
+      },
+      {
+        "name": "Tyler Adams",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Bournemouth",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 52
+      },
+      {
+        "name": "Weston McKennie",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Juventus",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 56
+      },
+      {
+        "name": "Yunus Musah",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "AC Milan",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 42
+      },
+      {
+        "name": "Malik Tillman",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "PSV Eindhoven",
+        "club_country_zh": "荷兰",
+        "club_country_en": "Netherlands",
+        "caps": 22
+      },
+      {
+        "name": "Christian Pulisic",
+        "position_zh": "前锋（队长）",
+        "position_en": "FWD (Captain)",
+        "club": "AC Milan",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 82
+      },
+      {
+        "name": "Gio Reyna",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Nottingham Forest",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 30
+      },
+      {
+        "name": "Timothy Weah",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Juventus",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 38
+      },
+      {
+        "name": "Josh Sargent",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Norwich City",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 35
+      },
+      {
+        "name": "Ricardo Pepi",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "PSV Eindhoven",
+        "club_country_zh": "荷兰",
+        "club_country_en": "Netherlands",
+        "caps": 30
+      },
+      {
+        "name": "Folarin Balogun",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Monaco",
+        "club_country_zh": "摩纳哥",
+        "club_country_en": "Monaco",
+        "caps": 18
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Landon Donovan",
+      "years": "2000–2014",
+      "position_zh": "前锋",
+      "position_en": "FWD",
+      "bio_zh": "美国足球史上最伟大的球员，三届世界杯（2002、2006、2010）参赛者。2010年南非世界杯那记绝杀阿尔及利亚的进球令全美沸腾。至今仍是USMNT历史最佳射手，生涯共打入57球。",
+      "bio_en": "The greatest player in US soccer history, a three-time World Cup participant (2002, 2006, 2010). His injury-time goal against Algeria at the 2010 World Cup remains the most celebrated moment in USMNT history. Still the all-time leading scorer with 57 goals.",
+      "stat_zh": "157帽57球（历史纪录）",
+      "stat_en": "157 caps, 57 goals (all-time USMNT record)"
+    },
+    {
+      "name": "Clint Dempsey",
+      "years": "2004–2017",
+      "position_zh": "前锋",
+      "position_en": "FWD",
+      "bio_zh": "美国足球史上第二大射手，以顽强的斗志和精准的门前把握著称。曾效力富勒姆、托特纳姆，在英超证明了美国球员的实力。2014年世界杯中以最快进球纪录震惊世界。",
+      "bio_en": "The USMNT's second all-time scorer, known for his tenacity and lethal finishing. Proved American players could thrive in the Premier League at Fulham and Tottenham. Scored the fastest goal in 2014 World Cup history (29 seconds) against Ghana.",
+      "stat_zh": "141帽57球（并列历史纪录）",
+      "stat_en": "141 caps, 57 goals (joint all-time USMNT record)"
+    },
+    {
+      "name": "Tim Howard",
+      "years": "2002–2016",
+      "position_zh": "门将",
+      "position_en": "GK",
+      "bio_zh": "美国历史最佳门将，长期效力曼联和埃弗顿。2014年世界杯对阵比利时一场创纪录的16次扑救令全世界震惊，被誉为「美国之盾」。",
+      "bio_en": "The greatest goalkeeper in USMNT history, a stalwart at Manchester United and Everton. His record-breaking 16 saves against Belgium at the 2014 World Cup made headlines worldwide, earning him the nickname 「The Secretary of Defense.」",
+      "stat_zh": "121帽，2014年世界杯16次扑救（单场纪录）",
+      "stat_en": "121 caps, record 16 saves in a single World Cup match (2014)"
+    },
+    {
+      "name": "Christian Pulisic",
+      "years": "2016–至今",
+      "position_zh": "前锋（队长）",
+      "position_en": "FWD (Captain)",
+      "bio_zh": "美国现役第一球星，效力多特蒙德、切尔西、AC米兰，是美国足球进入欧洲顶级舞台的代表人物。以出众的盘带、速度和攻门能力著称，是2026年主场世界杯的核心。",
+      "bio_en": "The face of American soccer's golden generation, having starred at Borussia Dortmund, Chelsea, and AC Milan. Pulisic's dribbling, pace, and eye for goal make him the USMNT's most dangerous weapon and the central figure for the 2026 home World Cup.",
+      "stat_zh": "82帽（现役，持续增加）",
+      "stat_en": "82 caps (active, continuing to rise)"
+    },
+    {
+      "name": "Claudio Reyna",
+      "years": "1994–2006",
+      "position_zh": "中场",
+      "position_en": "MID",
+      "bio_zh": "美国历史上最具技术性的中场球员，曾效力拜耳勒沃库森、曼城等顶级俱乐部。率领美国队打入2002年世界杯八强，是那一代最优秀的美国中场。其子乔·雷纳亦是现役国家队主力。",
+      "bio_en": "The most technically accomplished midfielder in USMNT history, who starred at Bayer Leverkusen and Manchester City. Captained the USA to the 2002 World Cup quarter-finals, the best result in modern USMNT history. His son Giovanni Reyna now carries the family legacy.",
+      "stat_zh": "112帽8球",
+      "stat_en": "112 caps, 8 goals"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "墨西哥",
+      "opponent_en": "Mexico",
+      "desc_zh": "北美足球最大的宿敌对阵，两国数十年来在CONCACAF资格赛和黄金杯中激烈交锋。被称为「CONCACAF经典德比」，充满了政治、文化和竞技上的火花。历史上美国对墨西哥的胜率逐步上升，近年来在大赛中多次击败对手。",
+      "desc_en": "North America's fiercest footballing rivalry, spanning decades of CONCACAF qualifying battles and Gold Cup finals. Known as the 「CONCACAF Clasico,」 the fixture carries political, cultural, and sporting intensity. The USMNT has increasingly held its own against El Tri in recent years."
+    },
+    {
+      "opponent_zh": "英格兰",
+      "opponent_en": "England",
+      "desc_zh": "1950年世界杯美国1-0爆冷击败英格兰是足球史上最大冷门之一，此役令英伦媒体以为报道有误。2022年卡塔尔世界杯再度碰头，以0-0平局收场，美国展示出不惧列强的实力。",
+      "desc_en": "The USA's stunning 1-0 victory over England at the 1950 World Cup remains one of football's greatest upsets — British newspapers initially thought it was a typo. Their 0-0 draw at the 2022 World Cup showed how far the USMNT has come since that underdog era."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🏟️",
+      "text_zh": "美国是2026年世界杯的主办国之一，与加拿大、墨西哥共同举办。美国境内将有11座球场参与赛事，其中包括MetLife体育场（可容纳82500人），预计将举办决赛。",
+      "text_en": "The USA is a co-host of the 2026 World Cup alongside Canada and Mexico. Eleven American stadiums will host matches, including MetLife Stadium (capacity 82,500), which is projected to host the final."
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "1994年，美国首次承办世界杯，平均上座率高达68,991人，创下了迄今为止世界杯历史最高单届平均观众纪录，证明了美国足球市场的潜力。",
+      "text_en": "When the USA hosted the 1994 World Cup, it set the all-time record for average attendance (68,991 per match) — a figure that still stands today and proved the enormous commercial potential of American soccer."
+    },
+    {
+      "icon": "🌟",
+      "text_zh": "美国国家队中有大量双重国籍球员，来自加纳、牙买加、德国等地，体现了美国的移民文化。巴洛贡（尼日利亚裔）、穆萨（迦纳裔）等球员已成为核心力量。",
+      "text_en": "The USMNT's squad reflects America's immigrant culture, with players of Ghanaian, Nigerian, Jamaican, German, and other backgrounds. This diversity — embodied by Balogun, Musah, and others — is one of the team's greatest strengths."
+    },
+    {
+      "icon": "📺",
+      "text_zh": "2022年世界杯，美国队对阵英格兰的比赛创下了美国足球电视收视纪录，超过1560万人收看，超越了同期NBA季后赛和MLB季后赛。",
+      "text_en": "The USMNT's match against England at the 2022 World Cup drew 15.6 million TV viewers in the USA — more than any concurrent NBA playoff or MLB postseason game, signaling soccer's growing mainstream appeal."
+    },
+    {
+      "icon": "💪",
+      "text_zh": "美国队2018年未能打入世界杯，是其历史上最大的耻辱之一。那次失利催生了彻底的足球改革和青训体系重建，最终孕育了如今这支充满活力的新生代球队。",
+      "text_en": "Failing to qualify for the 2018 World Cup was a national embarrassment that triggered a complete restructuring of US Soccer's development pipeline — and ultimately produced the exciting generation now heading into the 2026 tournament."
+    }
+  ]
+}

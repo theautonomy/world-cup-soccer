@@ -1,0 +1,293 @@
+{
+  "meta": {
+    "slug": "turkiye",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "土耳其",
+    "name_en": "Türkiye",
+    "flag_emoji": "🇹🇷",
+    "federation": "UEFA",
+    "fifa_rank": 25,
+    "group": "D",
+    "colors": {
+      "primary": "#E30A17",
+      "secondary": "#FFFFFF",
+      "accent": "#E30A17"
+    }
+  },
+  "country": {
+    "capital_zh": "安卡拉",
+    "capital_en": "Ankara",
+    "population": 85000000,
+    "area": 783562,
+    "language_zh": "土耳其语",
+    "language_en": "Turkish",
+    "continent_zh": "欧亚交界",
+    "continent_en": "Europe / Asia",
+    "currency_zh": "土耳其里拉",
+    "currency_en": "Turkish Lira (TRY)",
+    "anthem_zh": "独立进行曲",
+    "anthem_en": "İstiklal Marşı (Independence March)",
+    "desc_zh": "土耳其是横跨欧亚两洲的国家，伊斯坦布尔是唯一地跨两大洲的城市。历史上曾是奥斯曼帝国的核心，如今是联系东西方文明的桥梁。以悠久的历史文化、壮丽的蓝色清真寺和卡帕多西亚奇特地貌著称，是世界上最受欢迎的旅游目的地之一。",
+    "desc_en": "Türkiye straddles two continents, with Istanbul being the world's only city that spans Europe and Asia. Heir to the Ottoman Empire's vast legacy, it bridges Eastern and Western civilizations. Famous for the Blue Mosque, Hagia Sophia, Cappadocia's surreal landscapes, and rich cuisine, it is consistently one of the world's most visited countries.",
+    "football_desc_zh": "土耳其足球在过去二十年经历了起伏跌宕。2002年世界杯的第三名是迄今最高峰，随后进入漫长的低谷，甚至缺席了2010、2014、2018和2022年世界杯。在文森佐·蒙特拉的带领下，以阿尔达·居勒、哈坎·查尔汗奥卢、凯南·耶尔迪兹为核心的新生代球队击败科索沃、挺进2026年世界杯，结束了24年的等待。",
+    "football_desc_en": "Turkish football has experienced dramatic highs and lows over the past two decades. Their stunning third-place finish at the 2002 World Cup remains the pinnacle, followed by a prolonged absence from the tournament through 2022. Under Vincenzo Montella, a thrilling new generation led by Arda Güler, Hakan Çalhanoğlu, and Kenan Yıldız ended a 24-year World Cup wait by beating Kosovo in the UEFA playoffs."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 3,
+    "best_result_zh": "季军（2002年）",
+    "best_result_en": "Third Place (2002)",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1954,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2002,
+        "stage_zh": "季军",
+        "stage_en": "Third Place",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Vincenzo Montella",
+      "nationality_zh": "意大利",
+      "nationality_en": "Italian"
+    },
+    "players": [
+      {
+        "name": "Mert Günok",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Beşiktaş",
+        "club_country_zh": "土耳其",
+        "club_country_en": "Turkey",
+        "caps": 28
+      },
+      {
+        "name": "Altay Bayındır",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Manchester United",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 18
+      },
+      {
+        "name": "Çağlar Söyüncü",
+        "position_zh": "中后卫（队长）",
+        "position_en": "CB (Captain)",
+        "club": "Atlético Madrid",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 58
+      },
+      {
+        "name": "Merih Demiral",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Al-Qadsiah",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 46
+      },
+      {
+        "name": "Zeki Çelik",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "AS Roma",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 40
+      },
+      {
+        "name": "Ferdi Kadıoğlu",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "Fenerbahçe",
+        "club_country_zh": "土耳其",
+        "club_country_en": "Turkey",
+        "caps": 30
+      },
+      {
+        "name": "Hakan Çalhanoğlu",
+        "position_zh": "后腰",
+        "position_en": "DM",
+        "club": "Inter Milan",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 72
+      },
+      {
+        "name": "Salih Özcan",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Borussia Dortmund",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 32
+      },
+      {
+        "name": "Kaan Ayhan",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Galatasaray",
+        "club_country_zh": "土耳其",
+        "club_country_en": "Turkey",
+        "caps": 34
+      },
+      {
+        "name": "Arda Güler",
+        "position_zh": "前腰",
+        "position_en": "AM",
+        "club": "Real Madrid",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 22
+      },
+      {
+        "name": "Kenan Yıldız",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Juventus",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 20
+      },
+      {
+        "name": "Baris Alper Yılmaz",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Galatasaray",
+        "club_country_zh": "土耳其",
+        "club_country_en": "Turkey",
+        "caps": 26
+      },
+      {
+        "name": "Cenk Tosun",
+        "position_zh": "中锋",
+        "position_en": "ST",
+        "club": "Beşiktaş",
+        "club_country_zh": "土耳其",
+        "club_country_en": "Turkey",
+        "caps": 58
+      },
+      {
+        "name": "Bülent Ünder",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Marseille",
+        "club_country_zh": "法国",
+        "club_country_en": "France",
+        "caps": 42
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Hakan Şükür",
+      "years": "1992–2007",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "土耳其历史最佳射手，外号「博斯普鲁斯公牛」。在2002年世界杯季军之战中仅用10.8秒破门，创造了世界杯史上最快进球纪录（迄今未被打破）。职业生涯效力加拉塔萨雷，曾夺得UEFA杯冠军。",
+      "bio_en": "Turkey's all-time top scorer, nicknamed 「The Bull of the Bosphorus.」 At the 2002 World Cup third-place match, he scored after just 10.8 seconds — the fastest goal in World Cup history, a record that still stands. Won the UEFA Cup with Galatasaray.",
+      "stat_zh": "112帽51球（历史纪录），2002年世界杯最快进球（10.8秒）",
+      "stat_en": "112 caps, 51 goals (Turkish all-time record), fastest-ever World Cup goal (10.8 sec)"
+    },
+    {
+      "name": "Rüştü Reçber",
+      "years": "1993–2006",
+      "position_zh": "门将",
+      "position_en": "GK",
+      "bio_zh": "土耳其足球史上最伟大的门将，2002年世界杯的英雄，入选赛会最佳阵容。以标志性的黑色脸部防晒膏和神勇扑救著称，是那届世界杯最出色的门将之一。",
+      "bio_en": "The greatest goalkeeper in Turkish football history and the hero of the 2002 World Cup, named in the tournament's All-Star team. Famous for his distinctive black face paint and stunning saves, he was one of the best goalkeepers at the 2002 tournament.",
+      "stat_zh": "120帽，2002年世界杯最佳门将",
+      "stat_en": "120 caps, named to 2002 World Cup All-Star team"
+    },
+    {
+      "name": "İlhan Mansız",
+      "years": "1997–2005",
+      "position_zh": "前锋",
+      "position_en": "FWD",
+      "bio_zh": "2002年世界杯的黑马英雄，在对阵塞内加尔和韩国的比赛中上演关键进球，帮助土耳其创造历史。那届世界杯的最佳时刻之一是他对阵塞内加尔的黄金进球，将土耳其送入半决赛。",
+      "bio_en": "The surprise hero of the 2002 World Cup, scoring decisive goals against Senegal and Japan that powered Turkey to their historic semi-final run. His golden goal against Senegal in the quarter-finals remains one of the most memorable moments in Turkish football history.",
+      "stat_zh": "35帽20球，2002年世界杯英雄",
+      "stat_en": "35 caps, 20 goals, hero of the 2002 World Cup"
+    },
+    {
+      "name": "Hakan Çalhanoğlu",
+      "years": "2013–至今",
+      "position_zh": "后腰",
+      "position_en": "DM",
+      "bio_zh": "现任土耳其国家队核心，效力国际米兰，是当今最顶级的后腰之一。以精准的传球、强悍的对抗和出色的领导力著称，率领土耳其打入2024年欧洲杯四强，并带队完成2026年世界杯资格赛出线。",
+      "bio_en": "The heartbeat of the modern Turkish national team and one of Europe's elite deep-lying playmakers at Inter Milan. His precise passing, physical dominance, and leadership guided Turkey to the Euro 2024 quarter-finals and through the 2026 World Cup qualifying playoffs.",
+      "stat_zh": "72帽（现役）",
+      "stat_en": "72 caps (active)"
+    },
+    {
+      "name": "Arda Güler",
+      "years": "2022–至今",
+      "position_zh": "前腰",
+      "position_en": "AM",
+      "bio_zh": "土耳其足球的未来之星，从费内巴切横空出世后加盟皇家马德里，被梅西·奥齐尔誉为「接班人」。以惊艳的技术、视野和远射能力让全世界为之倾倒，是2026年世界杯最令人期待的年轻球员之一。",
+      "bio_en": "The most exciting young talent in Turkish football history. After emerging at Fenerbahçe, Güler joined Real Madrid and quickly became a fan favourite with his dazzling technique, vision, and long-range shooting. Praised as the heir to Mesut Özil, he is one of the most anticipated young players at the 2026 World Cup.",
+      "stat_zh": "22帽（现役，年仅21岁）",
+      "stat_en": "22 caps (active, just 21 years old)"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "希腊",
+      "opponent_en": "Greece",
+      "desc_zh": "历史上最富火药味的国际足球对阵之一，政治与体育激情完美交织。两国在欧洲预选赛中多次交锋，每场比赛都是巴尔干地区最受关注的体育赛事之一，充满戏剧性和情感。",
+      "desc_en": "One of international football's most politically charged rivalries, where sporting passion and historical tensions intertwine. Encounters between Turkey and Greece in European qualifying are among the most emotionally charged fixtures in the Balkans, invariably producing drama."
+    },
+    {
+      "opponent_zh": "克罗地亚",
+      "opponent_en": "Croatia",
+      "desc_zh": "欧洲预选赛的老对手，2002年世界杯小组赛中双方上演1-0的激烈对决。近年来两队在UEFA国家联赛和欧洲预选赛中多次相遇，土耳其在新生代带领下逐渐占据上风。",
+      "desc_en": "A longstanding European qualifying rival, with a memorable 1-0 group stage match at the 2002 World Cup. In recent years Turkey and Croatia have met repeatedly in UEFA Nations League and qualifying, with Turkey's new generation increasingly holding their own."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "⚡",
+      "text_zh": "2002年世界杯季军之战，哈坎·苏屈尔仅用10.8秒就破门得分，那是世界杯历史上最快的进球，至今无人打破。土耳其以3-2击败韩国，那届世界杯成为土耳其足球的巅峰时刻。",
+      "text_en": "At the 2002 World Cup third-place match, Hakan Şükür scored after just 10.8 seconds — the fastest goal in World Cup history. Turkey won 3-2 against South Korea, capping their greatest-ever tournament performance."
+    },
+    {
+      "icon": "⏳",
+      "text_zh": "土耳其2002年后缺席了整整五届世界杯（2006、2010、2014、2018、2022），等待了24年才在2026年重返世界杯舞台，这是一段漫长而痛苦的等待，如今终于画上句号。",
+      "text_en": "After their 2002 heroics, Turkey missed five consecutive World Cups (2006-2022) — a 24-year absence that made their dramatic 2026 playoff qualification against Kosovo all the more emotional and cathartic."
+    },
+    {
+      "icon": "🌟",
+      "text_zh": "阿尔达·居勒在2024年欧洲杯预选赛阶段一鸣惊人，以精湛的技术和冷静的心理素质让外界为之侧目。他效力皇家马德里，被认为是土耳其足球百年一遇的天才。",
+      "text_en": "Arda Güler announced himself to the world at Euro 2024 with stunning goals and performances, demonstrating why Real Madrid spent big to sign him. Many observers consider him the most naturally gifted Turkish footballer in at least a generation."
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "加拉塔萨雷在2000年夺得UEFA杯冠军（点球击败阿森纳），是土耳其俱乐部在欧洲赛场取得的最高荣誉。那届决赛奠定了土耳其足球在国际上的地位。",
+      "text_en": "Galatasaray's 2000 UEFA Cup victory (beating Arsenal on penalties in the final) remains the greatest achievement by a Turkish club in Europe, and helped raise the profile of Turkish football internationally heading into 2002."
+    },
+    {
+      "icon": "🌍",
+      "text_zh": "土耳其球队中有不少来自德国和欧洲各地的土裔后代球员，双重国籍传统为土耳其足球注入了多元活力，居勒、耶尔迪兹等人正是这一趋势的受益者。",
+      "text_en": "Türkiye's squad benefits from a rich tradition of diaspora players — particularly Turkish-Germans — choosing to represent the crescent-and-star. Players like Güler and Yıldız represent a new wave of dual-eligible talent helping to revitalize Turkish football."
+    }
+  ]
+}
