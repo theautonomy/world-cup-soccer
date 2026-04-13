@@ -14,7 +14,7 @@ export default function Rivalries({ rivalries = [] }) {
       <div className={styles.grid}>
         {rivalries.map((r, i) => (
           <div key={i} className={styles.card}>
-            <div className={styles.vs}>⚔️</div>
+            <div className={styles.vs}>⚽</div>
             <h3 className={styles.opponent}>
               {lang === 'zh' ? r.opponent_zh : r.opponent_en}
             </h3>
