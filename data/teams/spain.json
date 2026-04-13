@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "slug": "spain",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "西班牙",
+    "name_en": "Spain",
+    "flag_emoji": "🇪🇸",
+    "federation": "UEFA",
+    "fifa_rank": 2,
+    "group": "H",
+    "colors": {
+      "primary": "#C60B1E",
+      "secondary": "#F1BF00",
+      "accent": "#003DA5"
+    }
+  },
+  "country": {
+    "capital_zh": "马德里",
+    "capital_en": "Madrid",
+    "population": 47800000,
+    "area": 505990,
+    "language_zh": "西班牙语",
+    "language_en": "Spanish (Castilian)",
+    "continent_zh": "欧洲",
+    "continent_en": "Europe",
+    "currency_zh": "欧元",
+    "currency_en": "Euro (EUR)",
+    "anthem_zh": "国王进行曲",
+    "anthem_en": "Marcha Real",
+    "desc_zh": "西班牙是伊比利亚半岛上的文明古国，融合了罗马、摩尔、卡斯蒂利亚等多种文明遗产。弗拉门戈、斗牛、帕拉多尔古堡酒店、高迪建筑和地中海美食构成了其独特的文化名片。马德里、巴塞罗那和塞维利亚各具风情，是欧洲最受欢迎的旅游目的地。西班牙也是西班牙语的发源地，这种语言如今被全球超过5亿人使用。",
+    "desc_en": "Spain is an ancient civilisation on the Iberian Peninsula, blending Roman, Moorish, and Castilian heritage into a uniquely rich culture. Flamenco, bullfighting, Parador hotels, Gaudí architecture, and Mediterranean cuisine define its global identity. Madrid, Barcelona, and Seville are among Europe's most visited cities. Spain is the birthplace of the Spanish language — spoken by over 500 million people worldwide.",
+    "football_desc_zh": "西班牙是现代足球最成功的球队之一。2008至2012年间统治世界足坛——连续赢得欧洲杯（2008）、世界杯（2010）和欧洲杯（2012），创造「传控足球」时代。2022年欧洲杯再次加冕，以雅马尔、佩德里为核心的新生代继承传控衣钵并赋予其更强的速度与攻击性，西班牙被视为2026年世界杯最大热门之一。",
+    "football_desc_en": "Spain is one of modern football's most dominant nations. Between 2008 and 2012 they conquered the world — European Champions (2008), World Champions (2010), European Champions again (2012) — defining the 「tiki-taka」 era. A record fourth European Championship followed in 2024, with a new generation led by Lamine Yamal and Pedri inheriting the possession philosophy and adding electrifying pace and directness. Spain arrive at 2026 as one of the tournament's strongest favourites."
+  },
+  "world_cup": {
+    "titles": 1,
+    "appearances": 17,
+    "best_result_zh": "冠军（2010年）",
+    "best_result_en": "Champions (2010)",
+    "title_years": [2010],
+    "history": [
+      {
+        "year": 1934,
+        "stage_zh": "八强",
+        "stage_en": "Quarterfinal",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1950,
+        "stage_zh": "第四名",
+        "stage_en": "Fourth Place",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 1962,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1966,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1978,
+        "stage_zh": "第二轮",
+        "stage_en": "Second Round",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1982,
+        "stage_zh": "第二轮（主办国）",
+        "stage_en": "Second Round (Host)",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1986,
+        "stage_zh": "八强",
+        "stage_en": "Quarterfinal",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1990,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 1994,
+        "stage_zh": "八强",
+        "stage_en": "Quarterfinal",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1998,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2002,
+        "stage_zh": "八强",
+        "stage_en": "Quarterfinal",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 2006,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2010,
+        "stage_zh": "冠军",
+        "stage_en": "Champions",
+        "row_class": "champion"
+      },
+      {
+        "year": 2014,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2018,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2022,
+        "stage_zh": "八强",
+        "stage_en": "Quarterfinal",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Luis de la Fuente",
+      "nationality_zh": "西班牙",
+      "nationality_en": "Spanish"
+    },
+    "players": [
+      {
+        "name": "Unai Simón",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Athletic Bilbao",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 48
+      },
+      {
+        "name": "Joan García",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Espanyol",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 6
+      },
+      {
+        "name": "Pau Cubarsí",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Barcelona",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 18
+      },
+      {
+        "name": "Aymeric Laporte",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Al-Nassr",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 42
+      },
+      {
+        "name": "Alejandro Grimaldo",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "Bayer Leverkusen",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 22
+      },
+      {
+        "name": "Dani Carvajal",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "Real Madrid",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 68
+      },
+      {
+        "name": "Pedri",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Barcelona",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 42
+      },
+      {
+        "name": "Rodri",
+        "position_zh": "后腰",
+        "position_en": "DM",
+        "club": "Manchester City",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 58
+      },
+      {
+        "name": "Fabian Ruiz",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "PSG",
+        "club_country_zh": "法国",
+        "club_country_en": "France",
+        "caps": 36
+      },
+      {
+        "name": "Dani Olmo",
+        "position_zh": "攻击中场",
+        "position_en": "AM",
+        "club": "Barcelona",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 38
+      },
+      {
+        "name": "Nico Williams",
+        "position_zh": "左边锋",
+        "position_en": "FWD",
+        "club": "Athletic Bilbao",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 24
+      },
+      {
+        "name": "Lamine Yamal",
+        "position_zh": "右边锋",
+        "position_en": "FWD",
+        "club": "Barcelona",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 28
+      },
+      {
+        "name": "Álvaro Morata",
+        "position_zh": "中锋",
+        "position_en": "ST",
+        "club": "AC Milan",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 76
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Andrés Iniesta",
+      "years": "2006–2018",
+      "position_zh": "攻击中场",
+      "position_en": "AM",
+      "bio_zh": "2010年世界杯决赛的英雄，他在加时赛第116分钟打入唯一进球，为西班牙赢得历史上首个世界杯冠军。是「传控足球」哲学的化身，技术之精湛、传球之精准、控球之从容令无数对手束手无策。三届欧洲杯冠军，2010年世界杯最佳球员，被誉为西班牙足球史上最伟大的球员之一。",
+      "bio_en": "The hero of the 2010 World Cup final — his goal in the 116th minute of extra time gave Spain their first and only World Cup title. The embodiment of tiki-taka, Iniesta's technique, passing precision, and calmness under pressure were unmatched. Three-time European champion, 2010 World Cup Best Player, and widely regarded as the greatest Spanish footballer of all time.",
+      "stat_zh": "131帽13球，2010年世界杯最佳球员，决赛进球",
+      "stat_en": "131 caps, 13 goals; 2010 World Cup Best Player — scored the winning goal in the final"
+    },
+    {
+      "name": "Xavi Hernández",
+      "years": "2000–2014",
+      "position_zh": "中场",
+      "position_en": "MID",
+      "bio_zh": "被誉为「传控时代」的建筑师，他的短传渗透和节奏掌控能力令整个足球世界折服。与伊涅斯塔共同构建了西班牙中场的「黄金核心」，帮助西班牙实现2008-2012年的三连冠（欧洲杯-世界杯-欧洲杯）。2009年荣膺巴萨欧冠冠军，在西班牙历史上的传球次数居首位。",
+      "bio_en": "The architect of the tiki-taka era — his short passing, spatial awareness, and control of tempo revolutionised football. Alongside Iniesta he formed the golden heartbeat of Spain's 2008–2012 treble of trophies (EURO–World Cup–EURO). Won the Champions League with Barcelona in 2009 and holds the record for most passes in Spanish football history.",
+      "stat_zh": "133帽13球，三届大赛冠军，传控时代缔造者",
+      "stat_en": "133 caps, 13 goals; three consecutive major tournament titles; architect of the tiki-taka era"
+    },
+    {
+      "name": "Lamine Yamal",
+      "years": "2023–至今",
+      "position_zh": "右边锋",
+      "position_en": "FWD",
+      "bio_zh": "出生于2007年的他是欧洲杯和世界杯历史上最年轻的参赛球员之一。2024年欧洲杯半决赛对法国攻入惊天倒钩吊射，帮助西班牙晋级并最终夺冠，成为史上最年轻的欧洲杯冠军球员。以惊人的盘带速度、双脚均衡和临门一脚威胁著称，被誉为新一代梅西接班人。2026年出战时仅18岁，却已是世界足坛最令人期待的明星。",
+      "bio_en": "Born in 2007, one of the youngest players ever to feature at a major tournament. His stunning curling goal against France in the Euro 2024 semi-final propelled Spain to the final and the title, making him the youngest-ever European Championship winner. Blistering pace, two-footed threat, and maturity beyond his years have drawn inevitable Messi comparisons. At just 18 at the 2026 World Cup, he is global football's most anticipated performer.",
+      "stat_zh": "28帽（现役），2024年欧洲杯最年轻冠军，2025年金球奖第二名",
+      "stat_en": "28 caps (active); youngest-ever Euro winner; 2025 Ballon d'Or runner-up"
+    },
+    {
+      "name": "Iker Casillas",
+      "years": "2000–2016",
+      "position_zh": "门将",
+      "position_en": "GK",
+      "bio_zh": "「圣伊克」——西班牙足球史上最伟大的门将，也是欧洲足球史上最伟大的门将之一。2010年世界杯决赛的关键扑救帮助西班牙夺冠，皇马和西班牙的双重传奇。国家队167帽出场纪录至今无人打破，以超凡的反应速度和大赛稳定性著称。",
+      "bio_en": "「San Iker」 — Spain's greatest goalkeeper and one of the finest in the history of European football. His crucial saves in the 2010 World Cup final helped seal Spain's title. A dual legend at Real Madrid and the national team, his record of 167 caps for Spain has never been surpassed. Famous for his reflexes, big-game composure, and extraordinary consistency across two decades.",
+      "stat_zh": "167帽（西班牙纪录），三届大赛冠军守门员",
+      "stat_en": "167 caps (Spanish record); shot-stopper for all three of Spain's consecutive major titles"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "葡萄牙",
+      "opponent_en": "Portugal",
+      "desc_zh": "「伊比利亚德比」——地缘相连，文化相近，足球场上却势不两立。两国均产出了世界最顶级的球员，梅西C罗之争在西葡德比上得到了完美的投射，每次同处一个大赛都令球迷翘首以待。2018年世界杯小组赛3-3平局至今仍是该届赛事最精彩的比赛之一。",
+      "desc_en": "The 「Iberian Derby」 — neighboring nations sharing a peninsula and cultural roots but fierce rivals on the pitch. Both countries have produced some of football's greatest players, and their meetings at major tournaments always deliver drama. The epic 3-3 draw at the 2018 World Cup — featuring a hat-trick from Cristiano Ronaldo — remains one of the tournament's finest matches."
+    },
+    {
+      "opponent_zh": "德国",
+      "opponent_en": "Germany",
+      "desc_zh": "欧洲最重量级的大赛对决之一。西班牙在2008年欧洲杯决赛1-0击败德国，又在2010年世界杯半决赛1-0淘汰德国，两次决定性胜利令这段宿敌关系充满了强烈的历史感。2024年欧洲杯八强，西班牙再度淘汰东道主德国，剧本惊人相似。",
+      "desc_en": "One of European football's most storied heavyweight clashes. Spain defeated Germany in the final of Euro 2008 and the semi-final of the 2010 World Cup — both decisive 1-0 victories that defined the era. History repeated at Euro 2024 when Spain again eliminated Germany (as hosts) in the quarter-finals, cementing a rivalry that consistently produces European football's most compelling fixtures."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🏆",
+      "text_zh": "2008至2012年，西班牙成为历史上第一支连续赢得三项重大国际赛事的球队（欧洲杯-世界杯-欧洲杯），并在2024年再添第四座欧洲杯，成为欧洲杯历史上最成功的球队，共夺得4次冠军。",
+      "text_en": "Between 2008 and 2012, Spain became the first team in history to win three consecutive major international tournaments (EURO–World Cup–EURO). Their record fourth European Championship in 2024 makes them the most successful nation in EURO history. No other country has dominated an international era so completely."
+    },
+    {
+      "icon": "👶",
+      "text_zh": "雅马尔是2024年欧洲杯史上年龄最小的参赛球员，决赛前一天才刚满17岁。他在半决赛对法国的吊射入球成为欧洲杯史上最精彩的进球之一，随后西班牙赢得冠军——他也成为史上最年轻的欧洲杯冠军球员。",
+      "text_en": "Lamine Yamal was the youngest player in Euro 2024 history, turning 17 the day before the final. His stunning curling goal against France in the semi-final became one of the Euro's greatest-ever goals, and Spain went on to win the title — making him the youngest-ever European Championship winner."
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "2010年世界杯决赛，伊涅斯塔在加时赛第116分钟的制胜球至今仍是西班牙足球史上最神圣的时刻。赛后他脱下球衣，上面印着「Dani Jarque永远在我们心中」——这是对前一年去世的前塞维利亚队长的致敬，令全世界球迷动容。",
+      "text_en": "Iniesta's 116th-minute winner in the 2010 World Cup final remains the defining moment of Spanish football history. After scoring, he revealed a shirt with the message 「Dani Jarque — Always in our hearts」 — a tribute to the Espanyol captain who had died the previous year — moving fans worldwide and adding a profound human dimension to Spain's greatest sporting triumph."
+    },
+    {
+      "icon": "📊",
+      "text_zh": "西班牙是世界杯历史上最高产的欧洲冠军之一——自1950年代以来参赛17届，仅在小组赛即出局3次。其余14届全部打进淘汰赛，展示了与其文化影响力相匹配的顶级竞技稳定性。",
+      "text_en": "Spain have appeared at 17 World Cups since the 1950s and have been eliminated at the group stage only three times. Their record of advancing to the knockout rounds in 14 of their 17 appearances is a testament to a consistency that matches their enormous cultural influence on the global game."
+    }
+  ]
+}

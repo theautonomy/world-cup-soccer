@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "slug": "cape-verde",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "佛得角",
+    "name_en": "Cape Verde",
+    "flag_emoji": "🇨🇻",
+    "federation": "CAF",
+    "fifa_rank": 67,
+    "group": "H",
+    "colors": {
+      "primary": "#003893",
+      "secondary": "#CF2027",
+      "accent": "#F7D116"
+    }
+  },
+  "country": {
+    "capital_zh": "普拉亚",
+    "capital_en": "Praia",
+    "population": 550000,
+    "area": 4033,
+    "language_zh": "葡萄牙语",
+    "language_en": "Portuguese",
+    "continent_zh": "非洲",
+    "continent_en": "Africa",
+    "currency_zh": "佛得角埃斯库多",
+    "currency_en": "Cape Verdean Escudo (CVE)",
+    "anthem_zh": "祖国之歌",
+    "anthem_en": "Cântico da Liberdade",
+    "desc_zh": "佛得角是位于西非大西洋上的群岛国家，由10个岛屿组成，总面积仅4000余平方公里，人口约55万。以灿烂的海滩、独特的克里奥尔文化和音乐传统（科拉达音乐）闻名于世。尽管自然资源匮乏，佛得角却凭借稳定的民主体制和开放的经济政策，在非洲人均发展水平方面名列前茅，被誉为「大西洋上的明珠」。",
+    "desc_en": "Cape Verde is an archipelago of 10 islands in the Atlantic Ocean off the west coast of Africa — total area just over 4,000 km², population around 550,000. Famous for its beaches, unique Creole culture, and musical tradition (Morna and Coladeira genres). Despite scarce natural resources, Cape Verde has built a stable democracy and open economy, ranking among Africa's top performers in human development. Nicknamed 「the Pearl of the Atlantic.」",
+    "football_desc_zh": "「蓝鲨」是非洲足球的后起之秀，近年来以惊人的速度崛起。55万人口中诞生了一支纪律严明、高度团结的球队，球员散布于葡萄牙、法国、英格兰和荷兰等14个国家的职业联赛。2026年世界杯是其历史性的首次出线，以7胜2平1负的成绩力压传统强队喀麦隆，成为非洲最小国家征战世界杯的历史性时刻。",
+    "football_desc_en": "The 「Blue Sharks」 are African football's most exciting rising force. From a population of just 550,000 they have built a disciplined, tightly-knit squad whose players earn professional contracts across 14 countries — Portugal, France, England, the Netherlands and beyond. Their historic 2026 World Cup qualification, topping a CAF group ahead of traditional powerhouse Cameroon (7W-2D-1L), is the smallest African nation ever to reach the tournament — a moment of pure national joy."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 1,
+    "best_result_zh": "首次参赛（2026年）",
+    "best_result_en": "Debut (2026)",
+    "title_years": [],
+    "history": [
+      {
+        "year": 2026,
+        "stage_zh": "小组赛（首次参赛）",
+        "stage_en": "Group Stage (Debut)",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Pedro Brito (Bubista)",
+      "nationality_zh": "佛得角",
+      "nationality_en": "Cape Verdean"
+    },
+    "players": [
+      {
+        "name": "Fábio Moreira",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Arouca",
+        "club_country_zh": "葡萄牙",
+        "club_country_en": "Portugal",
+        "caps": 42
+      },
+      {
+        "name": "Roberto Lopes (Pico)",
+        "position_zh": "中后卫（队长）",
+        "position_en": "CB (Captain)",
+        "club": "Shamrock Rovers",
+        "club_country_zh": "爱尔兰",
+        "club_country_en": "Ireland",
+        "caps": 62
+      },
+      {
+        "name": "Logan Costa",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Villarreal",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 44
+      },
+      {
+        "name": "Diney",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "Arouca",
+        "club_country_zh": "葡萄牙",
+        "club_country_en": "Portugal",
+        "caps": 28
+      },
+      {
+        "name": "Stopira",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "Sporting CP B",
+        "club_country_zh": "葡萄牙",
+        "club_country_en": "Portugal",
+        "caps": 36
+      },
+      {
+        "name": "Jamiro Monteiro",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Moreirense",
+        "club_country_zh": "葡萄牙",
+        "club_country_en": "Portugal",
+        "caps": 52
+      },
+      {
+        "name": "Lisandro Semedo",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Vitória de Guimarães",
+        "club_country_zh": "葡萄牙",
+        "club_country_en": "Portugal",
+        "caps": 38
+      },
+      {
+        "name": "Kenny Rocha Santos",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Olimpija Ljubljana",
+        "club_country_zh": "斯洛文尼亚",
+        "club_country_en": "Slovenia",
+        "caps": 30
+      },
+      {
+        "name": "Garry Rodrigues",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Al-Gharafa",
+        "club_country_zh": "卡塔尔",
+        "club_country_en": "Qatar",
+        "caps": 58
+      },
+      {
+        "name": "Ryan Mendes",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "PAOK",
+        "club_country_zh": "希腊",
+        "club_country_en": "Greece",
+        "caps": 68
+      },
+      {
+        "name": "Djaniny",
+        "position_zh": "中锋",
+        "position_en": "ST",
+        "club": "Al-Fayha",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 48
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Héldon",
+      "years": "2009–2022",
+      "position_zh": "前锋",
+      "position_en": "FWD",
+      "bio_zh": "佛得角足球史上最具代表性的球员之一，以闪电般的速度和出色的边路突破著称，帮助蓝鲨队在多届非洲杯取得佳绩，为该国足球国际化铺平了道路。职业生涯主要在葡萄牙和中东各联赛效力，是引领后来一代佛得角球员走向职业道路的重要先驱。",
+      "bio_en": "One of Cape Verde's most iconic players, celebrated for electric pace and incisive wide play. He helped the Blue Sharks announce themselves on the continental stage at multiple AFCON tournaments, laying the groundwork for their rise. His professional career in Portugal and the Middle East helped inspire a generation of Cape Verdean players to pursue football full-time.",
+      "stat_zh": "68帽18球，蓝鲨队国际化的先驱",
+      "stat_en": "68 caps, 18 goals; pioneer of Cape Verde's international footballing rise"
+    },
+    {
+      "name": "Ryan Mendes",
+      "years": "2012–至今",
+      "position_zh": "边锋",
+      "position_en": "FWD",
+      "bio_zh": "现役资历最深的佛得角球员，以持续稳定的国家队表现和出色的左边路技术著称。职业生涯横跨多个联赛，曾效力于葡萄牙、法国、希腊等地，是蓝鲨队进攻体系的重要组成部分，也是将佛得角足球品牌带向国际舞台的核心人物之一。",
+      "bio_en": "Cape Verde's most experienced active player, renowned for consistent national team performances and sharp left-sided play across a career spanning Portugal, France, and Greece. A key part of the Blue Sharks' attacking system through their most successful decade, Mendes is one of the players most responsible for Cape Verde's rise on the international stage.",
+      "stat_zh": "68帽14球（现役），蓝鲨队经验最丰富的球员之一",
+      "stat_en": "68 caps, 14 goals (active); one of Cape Verde's most experienced internationals"
+    },
+    {
+      "name": "Roberto Lopes (Pico)",
+      "years": "2013–至今",
+      "position_zh": "中后卫",
+      "position_en": "CB",
+      "bio_zh": "现任队长，2026年世界杯出线的精神领袖。以强悍的防守、空中优势和激励队友的领导力著称。在爱尔兰联赛效力多年，赢得过联赛冠军，以身作则地示范了佛得角球员在海外立足的可能性。他赛后在混采区留下的采访话语「我们做到了」感动了无数球迷，成为佛得角历史上最重要的体育时刻之一。",
+      "bio_en": "Current captain and the spiritual leader of Cape Verde's historic 2026 World Cup qualification. Known for physical defending, aerial dominance, and the kind of leadership that galvanises teammates. His long career in the League of Ireland — winning multiple titles at Shamrock Rovers — demonstrated what Cape Verdean players can achieve abroad. His tearful post-qualification interview became the defining image of the nation's greatest sporting moment.",
+      "stat_zh": "62帽（现役），2026年世界杯出线队长",
+      "stat_en": "62 caps (active); captain who led Cape Verde to their historic 2026 World Cup debut"
+    },
+    {
+      "name": "Garry Rodrigues",
+      "years": "2014–至今",
+      "position_zh": "右边锋",
+      "position_en": "FWD",
+      "bio_zh": "佛得角最具活力的进攻球员之一，以令人窒息的速度和直接的过人技术著称，效力加拉塔萨雷期间打入多粒关键进球，使整个欧洲开始认识到佛得角球员的实力水平。他的职业生涯横跨多个国家，是推动佛得角足球职业化的重要一代人。",
+      "bio_en": "One of Cape Verde's most electric attacking players — blistering pace and direct wing play that has turned heads across European football. During his time at Galatasaray he scored crucial goals that introduced Cape Verdean talent to a European audience. His career across multiple countries exemplifies the diaspora profile that makes the Blue Sharks one of world football's most intriguing stories.",
+      "stat_zh": "58帽12球，前加拉塔萨雷效力，欧洲联赛多进球",
+      "stat_en": "58 caps, 12 goals; notable spells at Galatasaray and across European leagues"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "喀麦隆",
+      "opponent_en": "Cameroon",
+      "desc_zh": "2026年世界杯资格赛，佛得角在同组以4分之差力压喀麦隆——「非洲雄狮」是非洲杯五冠王，曾8次出线世界杯。这场以小博大的胜利被称为非洲足球史上最大的资格赛冷门之一，使「蓝鲨」的名字响彻整个非洲大陆。",
+      "desc_en": "Cape Verde's 2026 World Cup qualifying campaign culminated in finishing four points ahead of Cameroon — five-time AFCON winners and eight-time World Cup participants — in the same group. This David-vs-Goliath result is considered one of the greatest upsets in African qualifying history, announcing Cape Verde as a serious continental force."
+    },
+    {
+      "opponent_zh": "葡萄牙",
+      "opponent_en": "Portugal",
+      "desc_zh": "语言文化上的母子关系，足球场上的复杂情感。佛得角是葡萄牙的前殖民地，两国语言相通，许多佛得角球员在葡萄牙职业联赛成长，甚至拥有双重国籍——但每次两国相遇，佛得角球员都以格外强烈的斗志应战，证明「小家」不输「大家」。",
+      "desc_en": "A relationship shaped by colonial history and shared language — Cape Verde is Portugal's former colony, their people share a language, and many Blue Sharks players developed professionally in the Portuguese league system. Yet every time the two meet, Cape Verde's players compete with the extra intensity of a nation proving it has graduated beyond its former ruler's shadow."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🎉",
+      "text_zh": "2025年10月，佛得角以3-0击败斯威士兰完成出线，全国55万人陷入狂欢——据报道，首都普拉亚的庆祝持续了整整三天三夜。这一时刻是佛得角体育史上最伟大的瞬间，也是整个非洲大陆为之动容的历史性一刻。",
+      "text_en": "When Cape Verde sealed World Cup qualification in October 2025 with a 3-0 win over Eswatini, celebrations in the capital Praia reportedly lasted three days. For a nation of 550,000 people reaching the World Cup for the first time in history, the eruption of joy transcended sport — it was a moment of profound national pride felt across the entire African continent."
+    },
+    {
+      "icon": "🌍",
+      "text_zh": "佛得角国家队球员分布在全球14个国家效力，被媒体称为「LinkedIn一代」——他们通过职业网络和散居海外的葡语侨民社区将自己联结在一起，在没有顶级联赛的情况下，用散落全球的个体努力共同撑起了一支世界杯队伍。",
+      "text_en": "Cape Verde's squad is drawn from professional clubs in 14 different countries — nicknamed by media as the 「LinkedIn Generation」 for the way they have networked across the global football diaspora to build a World Cup squad. Without a major domestic league, every player is a self-made international export — making their collective achievement all the more remarkable."
+    },
+    {
+      "icon": "📐",
+      "text_zh": "佛得角以4033平方公里的国土面积，成为男足世界杯历史上面积最小的参赛国（此前纪录由卡塔尔保持）。以人口计算，其55万人口仅次于冰岛（2018年，约35万人），是世界杯史上第二小人口国，使其世界杯出线成为足球史上最令人震撼的奇迹之一。",
+      "text_en": "At 4,033 km², Cape Verde is the smallest country by area ever to qualify for the men's World Cup. By population (550,000), they are the second smallest in World Cup history — only Iceland (circa 350,000 in 2018) was smaller. To qualify for football's greatest tournament from such a tiny base is one of the sport's most extraordinary achievements."
+    },
+    {
+      "icon": "🎵",
+      "text_zh": "佛得角以音乐闻名于世，尤其是忧郁而深情的「莫尔纳」音乐——被誉为非洲的葡萄牙法朵。这种对音乐的热情同样融入了球队文化中，更衣室里的歌声和赛前仪式是球队凝聚力的重要来源，是「蓝鲨」精神的独特一面。",
+      "text_en": "Cape Verde is world-famous for Morna music — a melancholic, soulful genre sometimes called 「the African Fado」 — and this passion for music runs deep in the national team culture. Pre-match songs in the dressing room and celebratory rhythms after wins are a hallmark of the Blue Sharks' unique identity, reflecting a nation where football and music are woven from the same emotional thread."
+    }
+  ]
+}

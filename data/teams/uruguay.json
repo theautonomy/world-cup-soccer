@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "slug": "uruguay",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "乌拉圭",
+    "name_en": "Uruguay",
+    "flag_emoji": "🇺🇾",
+    "federation": "CONMEBOL",
+    "fifa_rank": 17,
+    "group": "H",
+    "colors": {
+      "primary": "#5BBFDE",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  "country": {
+    "capital_zh": "蒙得维的亚",
+    "capital_en": "Montevideo",
+    "population": 3600000,
+    "area": 176215,
+    "language_zh": "西班牙语",
+    "language_en": "Spanish",
+    "continent_zh": "南美洲",
+    "continent_en": "South America",
+    "currency_zh": "乌拉圭比索",
+    "currency_en": "Uruguayan Peso (UYU)",
+    "anthem_zh": "东方人！祖国或坟墓！",
+    "anthem_en": "Orientales, la Patria o la Tumba",
+    "desc_zh": "乌拉圭是南美洲最小的国家之一，却以其稳定的民主、高生活水平和进步的社会政策在南美独树一帜。首都蒙得维的亚是南美洲生活质量最高的城市之一。360万人口虽少，却孕育了惊人的足球天才，使乌拉圭在国际足坛的地位远超其人口和国土面积应有的比例。",
+    "desc_en": "Uruguay is one of South America's smallest countries, yet stands out for its stable democracy, high living standards, and progressive social policies. Montevideo is consistently ranked among South America's cities with the highest quality of life. With just 3.6 million people, Uruguay has produced a disproportionate number of world-class footballers — making it the sport's greatest per-capita overachiever.",
+    "football_desc_zh": "乌拉圭是足球史上最伟大的「小国」，以360万人口赢得两届世界杯冠军（1930、1950年），是南美洲的第二大世界杯巨头。「天蓝军团」以强悍的身体、顽强的意志和不服输的精神著称，这一精神被称为「Garra Charrúa」（查鲁亚爪）。比拉尔多执教体系下的新生代——瓦尔维德、努涅斯、阿劳霍——将这一精神与现代足球的速度和技术相结合，使乌拉圭依然是世界杯上不可忽视的力量。",
+    "football_desc_en": "Uruguay are football's greatest small-nation success story — two-time World Cup winners (1930, 1950) with just a fraction of the population of their rivals. 「La Celeste」 are renowned for physical toughness, fighting spirit, and the quality encapsulated by the term 「Garra Charrúa」 (Charrúan claw). Under Marcelo Bielsa, a new generation — Valverde, Núñez, Araújo — fuses that legendary spirit with modern pace and technical quality, keeping Uruguay among South America's most dangerous World Cup teams."
+  },
+  "world_cup": {
+    "titles": 2,
+    "appearances": 15,
+    "best_result_zh": "冠军（1930、1950年）",
+    "best_result_en": "Champions (1930, 1950)",
+    "title_years": [1930, 1950],
+    "history": [
+      {
+        "year": 1930,
+        "stage_zh": "冠军（主办国）",
+        "stage_en": "Champions (Host)",
+        "row_class": "champion"
+      },
+      {
+        "year": 1950,
+        "stage_zh": "冠军",
+        "stage_en": "Champions",
+        "row_class": "champion"
+      },
+      {
+        "year": 1954,
+        "stage_zh": "四强",
+        "stage_en": "Fourth Place",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 1962,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1966,
+        "stage_zh": "八强",
+        "stage_en": "Quarterfinal",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1970,
+        "stage_zh": "第四名",
+        "stage_en": "Fourth Place",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 1974,
+        "stage_zh": "第二轮",
+        "stage_en": "Second Round",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1986,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 1990,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2002,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2010,
+        "stage_zh": "第四名",
+        "stage_en": "Fourth Place",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 2014,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2018,
+        "stage_zh": "八强",
+        "stage_en": "Quarterfinal",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 2022,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Marcelo Bielsa",
+      "nationality_zh": "阿根廷",
+      "nationality_en": "Argentine"
+    },
+    "players": [
+      {
+        "name": "Sergio Rochet",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Nacional",
+        "club_country_zh": "乌拉圭",
+        "club_country_en": "Uruguay",
+        "caps": 38
+      },
+      {
+        "name": "Ronald Araújo",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Barcelona",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 44
+      },
+      {
+        "name": "José María Giménez",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Atlético Madrid",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 72
+      },
+      {
+        "name": "Mathías Olivera",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "Napoli",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 38
+      },
+      {
+        "name": "Nahitan Nández",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "Boca Juniors",
+        "club_country_zh": "阿根廷",
+        "club_country_en": "Argentina",
+        "caps": 52
+      },
+      {
+        "name": "Federico Valverde",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Real Madrid",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 71
+      },
+      {
+        "name": "Rodrigo Bentancur",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Tottenham Hotspur",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 62
+      },
+      {
+        "name": "Manuel Ugarte",
+        "position_zh": "后腰",
+        "position_en": "DM",
+        "club": "Manchester United",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 28
+      },
+      {
+        "name": "Nicolás De la Cruz",
+        "position_zh": "攻击中场",
+        "position_en": "AM",
+        "club": "Flamengo",
+        "club_country_zh": "巴西",
+        "club_country_en": "Brazil",
+        "caps": 36
+      },
+      {
+        "name": "Facundo Pellistri",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Manchester United",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 24
+      },
+      {
+        "name": "Darwin Núñez",
+        "position_zh": "中锋",
+        "position_en": "ST",
+        "club": "Al-Hilal",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 52
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Diego Forlán",
+      "years": "2002–2014",
+      "position_zh": "前锋",
+      "position_en": "ST",
+      "bio_zh": "2010年世界杯最佳球员，职业生涯效力曼联、比利亚雷亚尔、马德里竞技、国际米兰等欧洲豪门，是乌拉圭近代史上最杰出的前锋之一。以扎实的射门技术和无私的跑动著称，2010年在南非帮助乌拉圭登上第四名。",
+      "bio_en": "The 2010 World Cup Golden Ball winner and one of Uruguay's greatest modern strikers. Forlán shone at Villarreal, Atlético Madrid, and Internazionale, combining a clinical shot with tireless movement. He was the star of Uruguay's 2010 campaign that reached fourth place in South Africa — one of the great individual tournament performances of the modern era.",
+      "stat_zh": "112帽36球，2010年世界杯最佳球员",
+      "stat_en": "112 caps, 36 goals; 2010 World Cup Golden Ball winner"
+    },
+    {
+      "name": "Luis Suárez",
+      "years": "2007–2022",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "乌拉圭历史最高射手，以惊人的进球效率、顽强的斗志和极具争议的职业生涯名震足坛。效力阿贾克斯、利物浦、巴塞罗那等豪门，登顶欧洲足坛。2010年世界杯对加纳的手球扑救至今仍是世界杯史上最具争议的瞬间之一，引发了全球性的道德讨论。",
+      "bio_en": "Uruguay's all-time record scorer, known for extraordinary goal-scoring instinct, relentless determination, and one of football's most controversial careers. He was a serial winner at Ajax, Liverpool, and Barcelona. His handball against Ghana in the 2010 World Cup quarter-final — followed by Uruguay's penalty shootout victory — remains one of football's most debated moments.",
+      "stat_zh": "135帽68球，乌拉圭历史最高射手",
+      "stat_en": "135 caps, 68 goals; Uruguay's all-time record scorer"
+    },
+    {
+      "name": "Federico Valverde",
+      "years": "2017–至今",
+      "position_zh": "中场",
+      "position_en": "MID",
+      "bio_zh": "皇马铁卫，乌拉圭新生代的绝对核心。以惊人的体能、全场奔跑和致命的远射著称，欧冠赛场上多次扮演关键先生角色。在比拉尔多的战术体系中，他是乌拉圭中场的大脑和发动机，被誉为「乌拉圭的维尼修斯」之外的另一核心人物。",
+      "bio_en": "Real Madrid's midfield engine and Uruguay's new-generation leader. Known for extraordinary stamina, box-to-box intensity, and a devastating long-range shot. Has repeatedly delivered in Champions League high-pressure moments for Real Madrid. Under Bielsa, he is the creative brain and driving force of Uruguay's midfield — and one of the most complete midfielders in world football.",
+      "stat_zh": "71帽14球（现役），欧冠多次关键进球",
+      "stat_en": "71 caps, 14 goals (active); consistent Champions League performer with Real Madrid"
+    },
+    {
+      "name": "Obdulio Varela",
+      "years": "1942–1957",
+      "position_zh": "中场队长",
+      "position_en": "MID",
+      "bio_zh": "乌拉圭足球史上最传奇的队长，带领蓝色军团在1950年世界杯巴西决赛圈2-1击败东道主巴西，创造了「马拉卡纳惨案」（对于巴西人而言）。赛前拖延时间心理战、赛中激励队友、赛后谦逊如常的形象，使他成为乌拉圭「查鲁亚爪」精神的终极象征。",
+      "bio_en": "The most legendary captain in Uruguayan football history. He led La Celeste to their 1950 World Cup triumph — the stunning 2-1 defeat of host Brazil in the Maracanã (the 「Maracanazo」 to Uruguayans). His pre-match gamesmanship, in-game inspiration, and post-victory humility made him the ultimate symbol of the 「Garra Charrúa」 spirit that defines Uruguayan football.",
+      "stat_zh": "71帽（多有争议），1950年世界杯夺冠队长",
+      "stat_en": "71 caps; captain of Uruguay's legendary 1950 World Cup-winning team"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "阿根廷",
+      "opponent_en": "Argentina",
+      "desc_zh": "「超级德比」——世界上最古老、最激烈的国际足球对决之一。两国1902年便进行了首次对阵，此后的每一次交锋都充满火药味。2030年世界杯将由乌拉圭等国共同主办，而阿根廷则是永恒的南美宿敌，这场德比在政治、文化和足球层面均具有深刻意义。",
+      "desc_en": "The 「Superclásico」 of international football — one of the oldest and most fiercely contested rivalries in the sport, dating back to 1902. Every encounter carries enormous regional pride. With Uruguay as a co-host of the 2030 World Cup and Argentina as reigning world champions, the rivalry between these two River Plate neighbours has never been more charged with meaning."
+    },
+    {
+      "opponent_zh": "巴西",
+      "opponent_en": "Brazil",
+      "desc_zh": "「马拉卡纳惨案」使乌巴之争永刻于足球史册。1950年世界杯决赛圈，在巴西主场巨型马拉卡纳球场，乌拉圭2-1击败巴西，近20万巴西球迷集体陷入沉默。这场比赛被称为「世界杯史上最大的冷门」，乌巴两国此后的每次对阵都带着这段历史的烙印。",
+      "desc_en": "The 「Maracanazo」 — one of football's most iconic upsets — defines this rivalry. In 1950, Uruguay defeated Brazil 2-1 at the Maracanã stadium in front of nearly 200,000 stunned Brazilians to win the World Cup. The silence that fell over the ground remains one of sport's most vivid images. Every subsequent Uruguay-Brazil match is played in the shadow of that unforgettable day."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🏆",
+      "text_zh": "以360万人口论，乌拉圭是世界杯历史上最成功的「小国」——两次夺冠（1930、1950年），人均世界杯金牌数是巴西的数倍，是阿根廷的两倍。没有任何一个国家能以如此小的人口基数取得如此辉煌的成就。",
+      "text_en": "With a population of just 3.6 million, Uruguay are the most successful small nation in World Cup history — two titles (1930, 1950), with a per-capita World Cup success rate that dwarfs every other nation on earth. No country has punched so far above its weight so consistently across the history of the game."
+    },
+    {
+      "icon": "🤚",
+      "text_zh": "2010年世界杯八强，终场前最后一分钟，苏亚雷斯在门线上伸手扑出了加纳的进球，随后被红牌罚出。加纳随后罚失点球，乌拉圭在点球大战中晋级，「手球英雄」成为足球史上最具争议的角色之一，激起了全球性的道德讨论。",
+      "text_en": "In the 2010 World Cup quarter-final, Suárez deliberately handled the ball on the goal line in the final minute against Ghana, was sent off, and Ghana then missed the crucial penalty. Uruguay won on penalties — making Suárez simultaneously a villain to the world and a hero to his nation. The handball remains one of football's great moral flashpoints."
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "乌拉圭是首届世界杯（1930年）的举办国，也是首届世界杯的冠军，在决赛4-2击败阿根廷。第一场世界杯比赛、第一粒世界杯进球、第一支世界杯冠军队——世界杯的历史从乌拉圭开始。",
+      "text_en": "Uruguay hosted and won the very first World Cup in 1930 — defeating Argentina 4-2 in the final. The first World Cup match, the first World Cup goal, and the first World Cup champions all belong to Uruguay. The history of the world's greatest sporting tournament begins with La Celeste."
+    },
+    {
+      "icon": "💪",
+      "text_zh": "「查鲁亚爪」是乌拉圭足球的灵魂概念，源于殖民时期以顽强战斗著称的查鲁亚原住民部落。这一精神体现在每一代乌拉圭球员身上：绝不放弃、永远战斗到最后一秒。正是这种精神使乌拉圭多次在绝境中反转命运，让对手永远不敢对乌拉圭掉以轻心。",
+      "text_en": "「Garra Charrúa」 — 「Charrúan claw」 — is the spiritual concept at the heart of Uruguayan football, inspired by the fierce indigenous Charrúa people who resisted colonisation. It means never surrendering, fighting to the last second, and believing in victory when all seems lost. It has inspired miraculous comebacks across generations and ensures no opponent ever takes Uruguay lightly."
+    }
+  ]
+}

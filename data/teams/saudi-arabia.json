@@ -1,0 +1,275 @@
+{
+  "meta": {
+    "slug": "saudi-arabia",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "沙特阿拉伯",
+    "name_en": "Saudi Arabia",
+    "flag_emoji": "🇸🇦",
+    "federation": "AFC",
+    "fifa_rank": 61,
+    "group": "H",
+    "colors": {
+      "primary": "#006C35",
+      "secondary": "#FFFFFF",
+      "accent": "#006C35"
+    }
+  },
+  "country": {
+    "capital_zh": "利雅得",
+    "capital_en": "Riyadh",
+    "population": 37000000,
+    "area": 2149690,
+    "language_zh": "阿拉伯语",
+    "language_en": "Arabic",
+    "continent_zh": "亚洲",
+    "continent_en": "Asia",
+    "currency_zh": "沙特里亚尔",
+    "currency_en": "Saudi Riyal (SAR)",
+    "anthem_zh": "国王进行曲",
+    "anthem_en": "The Royal Salute",
+    "desc_zh": "沙特阿拉伯是中东最大的国家，世界主要石油出口国之一，也是伊斯兰教最神圣的两座城市（麦加和麦地那）的所在地。近年来，沙特正通过「2030愿景」大力推进经济多元化转型，在文化、娱乐和体育领域进行大量投资，吸引了C罗、本泽马等超级巨星加盟沙特职业联赛。",
+    "desc_en": "Saudi Arabia is the Middle East's largest country, a major oil exporter, and home to Islam's two holiest cities — Mecca and Medina. In recent years, Saudi Arabia has pursued an ambitious Vision 2030 economic diversification programme, making massive investments in culture, entertainment, and sport. The Saudi Pro League has attracted global superstars including Cristiano Ronaldo and Karim Benzema, and the country is rapidly becoming a major force in global sport.",
+    "football_desc_zh": "沙特阿拉伯是亚洲足球的传统强队，三届亚洲杯冠军（1984、1988、1996年），曾连续多届出线世界杯。1994年世界杯上从小组赛一路杀入十六强，奥瓦兰对比利时的那粒独走进球是世界杯史上最经典的进球之一。2022年卡塔尔世界杯2-1击败当届卫冕冠军阿根廷，震惊了整个足球世界，证明「绿色猎鹰」依然具备制造冷门的实力。",
+    "football_desc_en": "Saudi Arabia are Asia's traditional heavyweights — three-time Asian Cup winners (1984, 1988, 1996) and consistent World Cup qualifiers. At the 1994 World Cup, they reached the round of 16, with Al-Owairan's stunning solo goal against Belgium one of the greatest goals in World Cup history. Their 2-1 defeat of eventual winners Argentina at the 2022 World Cup shocked the football world and confirmed the Green Falcons can still produce moments of giant-killing brilliance."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 7,
+    "best_result_zh": "十六强（1994年）",
+    "best_result_en": "Round of 16 (1994)",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1994,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 1998,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2002,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2006,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2018,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2022,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Hervé Renard",
+      "nationality_zh": "法国",
+      "nationality_en": "French"
+    },
+    "players": [
+      {
+        "name": "Mohammed Al-Owais",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Al-Hilal",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 52
+      },
+      {
+        "name": "Ali Al-Bulaihi",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Al-Hilal",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 62
+      },
+      {
+        "name": "Hassan Tambakti",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Al-Hilal",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 36
+      },
+      {
+        "name": "Yasser Al-Shahrani",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "Al-Hilal",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 78
+      },
+      {
+        "name": "Saud Abdulhamid",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "AS Roma",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 42
+      },
+      {
+        "name": "Mohamed Kanno",
+        "position_zh": "后腰",
+        "position_en": "DM",
+        "club": "Al-Hilal",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 58
+      },
+      {
+        "name": "Abdullah Al-Hamdan",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Al-Shabab",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 32
+      },
+      {
+        "name": "Riyadh Sharahili",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Al-Ittihad",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 28
+      },
+      {
+        "name": "Salem Al-Dawsari",
+        "position_zh": "边锋（队长）",
+        "position_en": "FWD (Captain)",
+        "club": "Al-Hilal",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 88
+      },
+      {
+        "name": "Firas Al-Buraikan",
+        "position_zh": "前锋",
+        "position_en": "ST",
+        "club": "Al-Fateh",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 42
+      },
+      {
+        "name": "Saleh Al-Shehri",
+        "position_zh": "前锋",
+        "position_en": "ST",
+        "club": "Al-Hilal",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 54
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Saeed Al-Owairan",
+      "years": "1989–1999",
+      "position_zh": "前锋",
+      "position_en": "ST",
+      "bio_zh": "沙特足球史上最伟大的球员，1994年世界杯对比利时独自从己方半场盘过5名对手后破门——这粒进球被誉为「沙漠马拉多纳之球」，入选世界杯史上最伟大进球榜。同年荣膺亚洲足球先生，是沙特足球黄金时代的旗帜性人物，将沙特足球带入了国际公众的视野。",
+      "bio_en": "Saudi Arabia's greatest ever footballer. His goal against Belgium at the 1994 World Cup — dribbling past five defenders from deep in his own half — was dubbed the 「Goal of the Tournament」 and is regularly cited among the greatest goals in World Cup history. Voted Asian Footballer of the Year in 1994, he remains the defining figure of Saudi football's golden era.",
+      "stat_zh": "78帽24球，1994年世界杯最佳进球，亚洲足球先生",
+      "stat_en": "78 caps, 24 goals; 1994 World Cup goal of the tournament; Asian Footballer of the Year"
+    },
+    {
+      "name": "Sami Al-Jaber",
+      "years": "1992–2006",
+      "position_zh": "前锋",
+      "position_en": "ST",
+      "bio_zh": "沙特历史最高射手，四次参加世界杯（1994、1998、2002、2006年），是沙特足球历史最具代表性的人物之一。职业生涯曾旅英在狼队效力，是那个时代亚洲球员走向欧洲的先驱。以灵活的跑位和出色的得分能力著称，是沙特队的精神领袖。",
+      "bio_en": "Saudi Arabia's all-time leading scorer and a four-time World Cup participant (1994, 1998, 2002, 2006). A pioneer of Asian players in English football during his stint at Wolverhampton Wanderers, Al-Jaber was the spiritual leader of the national team across three generations. Known for clever movement and clinical finishing, he represented everything Saudi football aspired to be.",
+      "stat_zh": "163帽44球，沙特历史最高射手，四届世界杯参赛",
+      "stat_en": "163 caps, 44 goals; Saudi Arabia's all-time leading scorer; four World Cup appearances"
+    },
+    {
+      "name": "Salem Al-Dawsari",
+      "years": "2012–至今",
+      "position_zh": "边锋",
+      "position_en": "FWD",
+      "bio_zh": "现任队长，沙特现役最佳球员。2022年卡塔尔世界杯对阿根廷绝杀进球，成为沙特足球史上最重要的进球，举国沸腾，全世界震惊。终其职业生涯效力阿尔希拉尔，是沙特职业联赛最高水平的代表，以出众的技术和关键时刻的大心脏著称。",
+      "bio_en": "Current captain and Saudi Arabia's best active player. His last-gasp winner against Argentina at the 2022 World Cup — one of the most celebrated goals in Asian football history — sent the entire nation into euphoria and shocked the football world. A one-club man at Al-Hilal throughout his career, Al-Dawsari represents the highest standard of Saudi football and is renowned for his technical ability and big-game composure.",
+      "stat_zh": "88帽（现役），2022年世界杯击败阿根廷绝杀进球",
+      "stat_en": "88 caps (active); scored the last-gasp winner vs Argentina at the 2022 World Cup"
+    },
+    {
+      "name": "Majed Abdullah",
+      "years": "1977–1994",
+      "position_zh": "前锋",
+      "position_en": "ST",
+      "bio_zh": "「沙特足球之父」，沙特历史上第一位国际明星球员，职业生涯效力纳斯尔俱乐部，3次荣膺亚洲足球先生，以令人叹为观止的单人带球突破和得分能力著称。终身效力本土俱乐部而拒绝欧洲邀约，至今仍是沙特球迷心中最受尊敬的足球偶像。",
+      "bio_en": "「The Father of Saudi Football」 — Saudi Arabia's first international superstar. A three-time Asian Footballer of the Year, Abdullah was known for breathtaking solo runs and clinical finishing. He stayed loyal to Al-Nassr despite European interest, and remains the most revered football figure in Saudi Arabian history. He was on the pitch for Saudi Arabia's finest era.",
+      "stat_zh": "157帽71球，三届亚洲足球先生，一生效力纳斯尔",
+      "stat_en": "157 caps, 71 goals; three-time Asian Footballer of the Year; one-club legend at Al-Nassr"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "伊朗",
+      "opponent_en": "Iran",
+      "desc_zh": "中东足球最大的宿敌——沙特与伊朗的对阵不仅是球场上的较量，更是逊尼派与什叶派、阿拉伯世界与波斯世界之间历史张力的映射。两国在亚洲杯和世预赛中的碰面，始终是整个中东地区最受关注的体育盛事，政治背景赋予每场比赛格外深重的意义。",
+      "desc_en": "The Middle East's biggest football rivalry — Saudi Arabia vs Iran is not merely a football match but a reflection of decades of geopolitical tension between the Sunni Arab world and Shia Persia. Their meetings in the Asian Cup and World Cup qualifying are the most watched sporting events across the entire Middle East, with political undertones amplifying every result to historic proportions."
+    },
+    {
+      "opponent_zh": "阿根廷",
+      "opponent_en": "Argentina",
+      "desc_zh": "2022年世界杯的那场2-1奇迹赋予沙阿对决永恒的历史地位。世界排名第三的阿根廷、卫冕南美冠军、梅西领衔——沙特在下半场奇迹般地连入两球，震惊了球场和整个星球。这是世界杯史上最大的冷门之一，让「绿色猎鹰」的名字响彻全球。",
+      "desc_en": "Saudi Arabia's 2-1 defeat of Argentina at the 2022 World Cup created an instant rivalry for the ages. Argentina were world number three, Copa América champions, and led by Messi — yet Saudi Arabia conjured two second-half goals in a performance that shocked the stadium and the planet. One of the greatest upsets in World Cup history, the result made the Green Falcons a name known across the world."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "⚡",
+      "text_zh": "2022年世界杯开幕战次日，沙特阿拉伯以2-1击败阿根廷，沙特随即宣布全国放假一天以庆祝这一历史时刻。据媒体报道，当进球网波动的一刻，整个利雅得的欢呼声响彻云霄，成为该国体育史上最具感染力的集体记忆。",
+      "text_en": "After defeating Argentina at the 2022 World Cup, Saudi Arabia declared a national holiday the following day to celebrate the historic victory. Reports described the roar across Riyadh when the second goal went in as unlike anything the country had experienced. The moment is etched into Saudi Arabia's collective sporting memory."
+    },
+    {
+      "icon": "🌍",
+      "text_zh": "沙特职业联赛近年来吸引了C罗、本泽马、马内、坎特、马赫雷斯等数十位世界级球星加盟，使沙特联赛一跃成为全球最受关注的联赛之一，也显著提升了本土球员的竞技水平，为国家队输送了更多经历高水平对抗的球员。",
+      "text_en": "The Saudi Pro League has transformed into one of world football's most talked-about leagues after attracting global superstars including Cristiano Ronaldo, Karim Benzema, Sadio Mané, N'Golo Kanté, and Riyad Mahrez. The influx has raised domestic technical standards and exposed Saudi players to high-level opposition within their own league — a crucial development for the national team."
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "沙特阿拉伯是亚洲杯历史上三冠王之一（1984、1988、1996年），也是唯一在本大洲同届冠军夺得三连冠（1984-1988-1996）的球队之一。上世纪90年代，沙特队曾是亚洲最强队，世预赛所向披靡。",
+      "text_en": "Saudi Arabia are three-time Asian Cup champions (1984, 1988, 1996) — with the 1984 and 1988 consecutive titles giving them a dominant run in continental football during that era. For much of the 1990s, Saudi Arabia were unquestionably Asia's strongest team, and their World Cup qualifying records from that period reflect that dominance."
+    },
+    {
+      "icon": "🎯",
+      "text_zh": "1994年世界杯，奥瓦兰在对比利时的小组赛中从己方半场开始盘球，连续晃过5名比利时球员后从容破门。这粒进球随即被评为那届世界杯最佳进球，至今仍高居「世界杯史上最佳进球」各类榜单前列，是中东足球史上最重要的单粒进球。",
+      "text_en": "Saeed Al-Owairan's goal against Belgium at the 1994 World Cup — starting in his own half, dribbling past five defenders before finishing coolly — was immediately voted Goal of the Tournament. It regularly appears in lists of the greatest goals in World Cup history and remains the most important single goal ever scored by a Middle Eastern player."
+    }
+  ]
+}
