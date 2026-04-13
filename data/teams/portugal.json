@@ -1,0 +1,345 @@
+{
+  "meta": {
+    "slug": "portugal",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "葡萄牙",
+    "name_en": "Portugal",
+    "flag_emoji": "🇵🇹",
+    "federation": "UEFA",
+    "fifa_rank": 6,
+    "group": "K",
+    "colors": {
+      "primary": "#D21034",
+      "secondary": "#006600",
+      "accent": "#FFCC00"
+    }
+  },
+  "country": {
+    "capital_zh": "里斯本",
+    "capital_en": "Lisbon",
+    "population": 10300000,
+    "area": 92212,
+    "language_zh": "葡萄牙语",
+    "language_en": "Portuguese",
+    "continent_zh": "欧洲",
+    "continent_en": "Europe",
+    "currency_zh": "欧元",
+    "currency_en": "Euro",
+    "anthem_zh": "葡萄牙人",
+    "anthem_en": "A Portuguesa",
+    "desc_zh": "葡萄牙位于伊比利亚半岛西南端，是欧洲历史最悠久的国家之一，曾建立横跨五大洲的庞大海洋帝国。首都里斯本以其历史古城、传统法朵音乐和阳光海岸闻名于世。葡萄牙语是世界上使用人数最多的语言之一，全球约2.6亿人以此为母语。",
+    "desc_en": "Located at the southwestern tip of the Iberian Peninsula, Portugal is one of Europe's oldest nations, once building a vast maritime empire spanning five continents. Lisbon is renowned for its historic districts, traditional Fado music, and sunny coastline. Portuguese is one of the world's most spoken languages, with around 260 million native speakers globally.",
+    "football_desc_zh": "葡萄牙拥有欧洲最高水准的足球底蕴，培育了一代又一代世界级球星。从尤西比奥到菲戈，再到C罗，葡萄牙足球以个人技艺精湛、进攻风格鲜明著称。2016年欧洲杯夺冠是队史里程碑，C罗则是人类足球史上最伟大的球员之一。",
+    "football_desc_en": "Portugal boasts one of Europe's richest footballing traditions, producing world-class talents generation after generation. From Eusébio to Figo to Ronaldo, Portuguese football is defined by individual brilliance and attacking flair. The 2016 UEFA European Championship title was a historic milestone, and Cristiano Ronaldo is regarded as one of the greatest footballers of all time."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 9,
+    "best_result_zh": "第三名",
+    "best_result_en": "Third Place",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1966,
+        "host_zh": "英国",
+        "host_en": "England",
+        "stage_zh": "第三名",
+        "stage_en": "Third Place",
+        "row_class": "semifinal",
+        "notes_zh": "葡萄牙黄金一代，尤西比奥9球夺得金靴奖，半决赛1-2负于东道主英格兰",
+        "notes_en": "Golden generation led by Eusébio (9 goals, Golden Boot); lost 1-2 to hosts England in the semi-final"
+      },
+      {
+        "year": 1986,
+        "host_zh": "墨西哥",
+        "host_en": "Mexico",
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group",
+        "notes_zh": "小组赛被摩洛哥1-3击败，提前出局",
+        "notes_en": "Shock 1-3 defeat to Morocco, eliminated at group stage"
+      },
+      {
+        "year": 2002,
+        "host_zh": "韩国/日本",
+        "host_en": "South Korea/Japan",
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group",
+        "notes_zh": "含菲戈、鲁伊·科斯塔的黄金一代，却意外小组出局",
+        "notes_en": "Golden generation with Figo and Rui Costa shocked at group stage"
+      },
+      {
+        "year": 2006,
+        "host_zh": "德国",
+        "host_en": "Germany",
+        "stage_zh": "第四名",
+        "stage_en": "Fourth Place",
+        "row_class": "semifinal",
+        "notes_zh": "C罗首届世界杯，半决赛0-1负于法国，季军赛3-1胜东道主德国",
+        "notes_en": "Ronaldo's first World Cup; lost 0-1 to France in semis, won 3rd place vs hosts Germany"
+      },
+      {
+        "year": 2010,
+        "host_zh": "南非",
+        "host_en": "South Africa",
+        "stage_zh": "八强",
+        "stage_en": "Quarter-final",
+        "row_class": "quarterfinal",
+        "notes_zh": "八强0-1负于最终冠军西班牙",
+        "notes_en": "Quarter-final exit, 0-1 loss to eventual champions Spain"
+      },
+      {
+        "year": 2014,
+        "host_zh": "巴西",
+        "host_en": "Brazil",
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group",
+        "notes_zh": "含C罗，小组赛遭美国+德国，遗憾出局",
+        "notes_en": "With Ronaldo, pitted against USA and Germany, eliminated at group stage"
+      },
+      {
+        "year": 2018,
+        "host_zh": "俄罗斯",
+        "host_en": "Russia",
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16",
+        "notes_zh": "十六强1-2负于乌拉圭，C罗小组赛对西班牙上演帽子戏法",
+        "notes_en": "Last 16 exit, 1-2 to Uruguay; Ronaldo's hat-trick vs Spain in group stage was iconic"
+      },
+      {
+        "year": 2022,
+        "host_zh": "卡塔尔",
+        "host_en": "Qatar",
+        "stage_zh": "八强",
+        "stage_en": "Quarter-final",
+        "row_class": "quarterfinal",
+        "notes_zh": "小组赛6-2大胜瑞士，八强1-0负于摩洛哥；C罗落选首发引发争议",
+        "notes_en": "6-2 thrashing of Switzerland; quarter-final exit 0-1 to Morocco; Ronaldo's omission from starting XI sparked controversy"
+      },
+      {
+        "year": 2026,
+        "host_zh": "美国/加拿大/墨西哥",
+        "host_en": "USA/Canada/Mexico",
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group",
+        "notes_zh": "K组：哥伦比亚、乌兹别克斯坦、刚果民主共和国；C罗第六届也是最后一届世界杯",
+        "notes_en": "Group K: Colombia, Uzbekistan, DR Congo; Ronaldo's sixth and likely final World Cup"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Roberto Martínez",
+      "name_zh": "罗贝托·马丁内斯",
+      "nationality_zh": "西班牙",
+      "nationality_en": "Spanish",
+      "since": "2023"
+    },
+    "players": [
+      {
+        "name": "Diogo Costa",
+        "number": 1,
+        "position_en": "Goalkeeper",
+        "position_zh": "门将",
+        "club": "FC Porto",
+        "caps": 38,
+        "age": 25
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "number": 7,
+        "position_en": "Centre Forward",
+        "position_zh": "中锋",
+        "club": "Al-Nassr",
+        "caps": 219,
+        "age": 41,
+        "goals": 137
+      },
+      {
+        "name": "Bruno Fernandes",
+        "number": 8,
+        "position_en": "Attacking Midfielder",
+        "position_zh": "攻击型中场",
+        "club": "Manchester United",
+        "caps": 82,
+        "age": 31,
+        "goals": 20
+      },
+      {
+        "name": "João Neves",
+        "number": 16,
+        "position_en": "Central Midfielder",
+        "position_zh": "中场",
+        "club": "Paris Saint-Germain",
+        "caps": 24,
+        "age": 20
+      },
+      {
+        "name": "Vitinha",
+        "number": 14,
+        "position_en": "Central Midfielder",
+        "position_zh": "中场",
+        "club": "Paris Saint-Germain",
+        "caps": 42,
+        "age": 25
+      },
+      {
+        "name": "Rafael Leão",
+        "number": 11,
+        "position_en": "Left Winger",
+        "position_zh": "左边锋",
+        "club": "AC Milan",
+        "caps": 44,
+        "age": 26
+      },
+      {
+        "name": "Francisco Conceição",
+        "number": 17,
+        "position_en": "Right Winger",
+        "position_zh": "右边锋",
+        "club": "Juventus",
+        "caps": 18,
+        "age": 22
+      },
+      {
+        "name": "Nuno Mendes",
+        "number": 3,
+        "position_en": "Left Back",
+        "position_zh": "左后卫",
+        "club": "Paris Saint-Germain",
+        "caps": 38,
+        "age": 23
+      },
+      {
+        "name": "João Cancelo",
+        "number": 2,
+        "position_en": "Right Back",
+        "position_zh": "右后卫",
+        "club": "FC Barcelona",
+        "caps": 68,
+        "age": 31
+      },
+      {
+        "name": "Rúben Dias",
+        "number": 4,
+        "position_en": "Centre Back",
+        "position_zh": "中后卫",
+        "club": "Manchester City",
+        "caps": 75,
+        "age": 27
+      },
+      {
+        "name": "Pepe",
+        "number": 3,
+        "position_en": "Centre Back",
+        "position_zh": "中后卫",
+        "club": "FC Porto",
+        "caps": 141,
+        "age": 43
+      },
+      {
+        "name": "Matheus Fernandes",
+        "number": 15,
+        "position_en": "Central Midfielder",
+        "position_zh": "中场",
+        "club": "SC Braga",
+        "caps": 12,
+        "age": 23
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Eusébio",
+      "name_zh": "尤西比奥",
+      "years": "1961–1973",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "「黑豹」，葡萄牙足球史上第一位超级巨星。1966年世界杯以9球夺得金靴奖，领衔葡萄牙冲击季军。效力本菲卡期间获1962年欧洲冠军杯，职业生涯共打入733球，被FIFA列为二十世纪最伟大球员之一。",
+      "bio_en": "「The Black Panther」 — Portugal's first football superstar. Won the Golden Boot at the 1966 World Cup with 9 goals, leading Portugal to third place. Won the 1962 European Cup with Benfica and scored 733 career goals; named by FIFA as one of the greatest players of the 20th century.",
+      "stat_zh": "41国家队出场，41球",
+      "stat_en": "41 caps, 41 international goals"
+    },
+    {
+      "name": "Luís Figo",
+      "name_zh": "路易斯·菲戈",
+      "years": "1991–2006",
+      "position_zh": "右边锋",
+      "position_en": "Right Winger",
+      "bio_zh": "2001年世界足球先生，葡萄牙黄金一代领军人物。以出色的盘带技术和传球质量闻名，效力于巴塞罗那、皇家马德里、国际米兰等顶级俱乐部。两度征战世界杯，率队在2006年获得第四名。",
+      "bio_en": "FIFA World Player of the Year 2001 and the leader of Portugal's golden generation. Renowned for his dribbling and delivery, he graced Barcelona, Real Madrid, and Inter Milan. Appeared at two World Cups and helped Portugal finish fourth in 2006.",
+      "stat_zh": "127国家队出场，32球",
+      "stat_en": "127 caps, 32 goals"
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "name_zh": "克里斯蒂亚诺·罗纳尔多",
+      "years": "2003–",
+      "position_zh": "中锋/前锋",
+      "position_en": "Centre Forward",
+      "bio_zh": "人类足球史上进球最多的球员，五夺金球奖，五夺欧冠，曾效力曼联、皇家马德里、尤文图斯。2016年带领葡萄牙夺得欧洲杯冠军，是葡萄牙历史出场次数（219次）和进球数（137球）的双料纪录保持者。2026年世界杯是其第六届也可能是最后一届。",
+      "bio_en": "The all-time leading scorer in football history, five-time Ballon d'Or, five-time UCL champion across Manchester United, Real Madrid, and Juventus. Led Portugal to their 2016 Euro title and holds the national record for caps (219) and goals (137). The 2026 World Cup is his sixth — and likely final.",
+      "stat_zh": "219国家队出场，137球（均为葡萄牙队史纪录）",
+      "stat_en": "219 caps, 137 goals (both national records)"
+    },
+    {
+      "name": "Rui Costa",
+      "name_zh": "鲁伊·科斯塔",
+      "years": "1993–2004",
+      "position_zh": "攻击型中场",
+      "position_en": "Attacking Midfielder",
+      "bio_zh": "1990年代至2000年代初期葡萄牙最具创造力的中场球员，以精准传球和华丽技术著称。效力于佛罗伦萨和AC米兰期间被视为世界顶级中场之一，是葡萄牙黄金一代的核心人物。现任本菲卡主席。",
+      "bio_en": "Portugal's most creative midfielder of the 1990s–2000s, celebrated for his vision and technical brilliance at Fiorentina and AC Milan — widely regarded as one of the world's best playmakers of his era. Now president of SL Benfica.",
+      "stat_zh": "94国家队出场，26球",
+      "stat_en": "94 caps, 26 goals"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "西班牙",
+      "opponent_en": "Spain",
+      "desc_zh": "伊比利亚半岛德比，两个比邻国家在欧洲杯与世界杯上多次相遇。2018年世界杯小组赛C罗帽子戏法3-3平局是近年最精彩的一役。两国文化与语言相近，但足球上的竞争从未止息。",
+      "desc_en": "The Iberian Derby between two neighboring nations with frequent European and World Cup collisions. Ronaldo's hat-trick for a 3-3 draw in the 2018 World Cup group stage was a modern classic. Culturally close yet fiercely competitive on the pitch."
+    },
+    {
+      "opponent_zh": "摩洛哥",
+      "opponent_en": "Morocco",
+      "desc_zh": "历史恩怨加现实碰撞：1986年世界杯葡萄牙1-3输给摩洛哥是历史性爆冷；2022年卡塔尔世界杯摩洛哥再度击败葡萄牙晋级四强，成为非洲历史上首支闯入世界杯半决赛的球队，令葡萄牙黯然出局。",
+      "desc_en": "Historical grudge match: Morocco shocked Portugal 3-1 in 1986, and again eliminated Portugal 1-0 in the 2022 quarter-final, becoming the first African team to reach a World Cup semi-final, ending Portugal's tournament in stunning fashion."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🐐",
+      "text_zh": "C罗是国际足球赛场上进球最多的球员（137球），也是出场次数最多的球员（219场），两项纪录均遥遥领先于任何一位现役球员。",
+      "text_en": "Cristiano Ronaldo is the all-time leading scorer (137 goals) and most-capped player (219 caps) in international men's football — both records are far ahead of any active player."
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "葡萄牙是2016年欧洲杯冠军，2019年、2025年两届欧洲国家联赛冠军，在国际赛场连续保持高水准竞争力。",
+      "text_en": "Portugal are 2016 UEFA European Champions and two-time UEFA Nations League winners (2019, 2025), maintaining elite-level consistency across international competitions."
+    },
+    {
+      "icon": "🌍",
+      "text_zh": "葡萄牙曾建立人类历史上最大的殖民帝国之一，葡萄牙语如今是巴西、安哥拉、莫桑比克等9个国家的官方语言。",
+      "text_en": "Portugal once built one of history's largest colonial empires; Portuguese is now the official language in 9 countries including Brazil, Angola, and Mozambique."
+    },
+    {
+      "icon": "⭐",
+      "text_zh": "2026年将是C罗第六次参加世界杯，追平德国传奇门将洛塔尔·马特乌斯和意大利后卫贾恩路易吉·布冯的纪录。",
+      "text_en": "2026 will be Ronaldo's sixth World Cup, equaling the record held by German legend Lothar Matthäus and Italian keeper Gianluigi Buffon."
+    },
+    {
+      "icon": "🇵🇹",
+      "text_zh": "葡萄牙的国家队绰号是「领航员」（Navegadores），致敬葡萄牙大航海时代开创全球探索的历史先驱。",
+      "text_en": "Portugal's national team nickname is「Navegadores」(The Navigators), a tribute to the Portuguese explorers who pioneered global discovery during the Age of Sail."
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "slug": "uzbekistan",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "乌兹别克斯坦",
+    "name_en": "Uzbekistan",
+    "flag_emoji": "🇺🇿",
+    "federation": "AFC",
+    "fifa_rank": 52,
+    "group": "K",
+    "colors": {
+      "primary": "#1EB53A",
+      "secondary": "#FFFFFF",
+      "accent": "#0099B5"
+    }
+  },
+  "country": {
+    "capital_zh": "塔什干",
+    "capital_en": "Tashkent",
+    "population": 36000000,
+    "area": 448978,
+    "language_zh": "乌兹别克语",
+    "language_en": "Uzbek",
+    "continent_zh": "亚洲（中亚）",
+    "continent_en": "Asia (Central Asia)",
+    "currency_zh": "乌兹别克斯坦苏姆",
+    "currency_en": "Uzbekistani Som",
+    "anthem_zh": "乌兹别克斯坦共和国国歌",
+    "anthem_en": "O'zbekiston Respublikasining Davlat Madhiyasi",
+    "desc_zh": "乌兹别克斯坦位于中亚腹地，是古丝绸之路上最重要的文明交汇点之一。撒马尔罕、布哈拉等古城拥有数千年历史，是伊斯兰建筑艺术的瑰宝。乌兹别克斯坦于1991年苏联解体后独立，是人口最多的中亚国家，2026年世界杯是其独立以来最重要的国际体育荣誉之一。",
+    "desc_en": "Uzbekistan sits at the heart of Central Asia, once one of the most important civilizational crossroads on the ancient Silk Road. Historic cities like Samarkand and Bukhara contain magnificent Islamic architecture thousands of years old. Independent since the Soviet Union's dissolution in 1991, it is Central Asia's most populous country — and the 2026 World Cup is its greatest sporting achievement since independence.",
+    "football_desc_zh": "乌兹别克斯坦2026年世界杯资格是该国足球史上最伟大的里程碑，也是整个中亚地区有史以来第一次以独立国家身份出线世界杯。主帅法比奥·卡纳瓦罗将意大利足球的纪律性与中亚球员的身体素质结合，打造出一支结构严密的球队。绰号「白狼」。",
+    "football_desc_en": "Qualifying for the 2026 World Cup is the greatest milestone in Uzbekistani football history — and the first time any Central Asian nation has qualified as an independent state. Coach Fabio Cannavaro brings Italian tactical discipline to blend with the physical qualities of Central Asian players, building a compact, organized side. Nicknamed the 「White Wolves」."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 1,
+    "best_result_zh": "首次参赛",
+    "best_result_en": "First appearance",
+    "title_years": [],
+    "history": [
+      {
+        "year": 2026,
+        "host_zh": "美国/加拿大/墨西哥",
+        "host_en": "USA/Canada/Mexico",
+        "stage_zh": "小组赛（首次参赛）",
+        "stage_en": "Group Stage (debut)",
+        "row_class": "group",
+        "notes_zh": "K组：葡萄牙、哥伦比亚、刚果民主共和国；中亚历史上第一支出线世界杯的独立国家",
+        "notes_en": "Group K: Portugal, Colombia, DR Congo; first Central Asian nation to qualify as an independent state"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Fabio Cannavaro",
+      "name_zh": "法比奥·卡纳瓦罗",
+      "nationality_zh": "意大利",
+      "nationality_en": "Italian",
+      "since": "2023"
+    },
+    "players": [
+      {
+        "name": "Eldor Shomurodov",
+        "number": 9,
+        "position_en": "Centre Forward",
+        "position_zh": "中锋（队长）",
+        "club": "Istanbul Basaksehir",
+        "caps": 62,
+        "age": 29,
+        "goals": 28
+      },
+      {
+        "name": "Abdukodir Khusanov",
+        "number": 4,
+        "position_en": "Centre Back",
+        "position_zh": "中后卫",
+        "club": "Manchester City",
+        "caps": 26,
+        "age": 24
+      },
+      {
+        "name": "Akmal Mozgovoy",
+        "number": 1,
+        "position_en": "Goalkeeper",
+        "position_zh": "门将",
+        "club": "Pakhtakor",
+        "caps": 52,
+        "age": 31
+      },
+      {
+        "name": "Igor Sergeev",
+        "number": 7,
+        "position_en": "Winger",
+        "position_zh": "边锋",
+        "club": "Pakhtakor",
+        "caps": 44,
+        "age": 28
+      },
+      {
+        "name": "Khojiakbar Alijonov",
+        "number": 10,
+        "position_en": "Attacking Midfielder",
+        "position_zh": "攻击型中场",
+        "club": "Pakhtakor",
+        "caps": 38,
+        "age": 26
+      },
+      {
+        "name": "Otabek Shukurov",
+        "number": 6,
+        "position_en": "Defensive Midfielder",
+        "position_zh": "防守型中场",
+        "club": "Pakhtakor",
+        "caps": 45,
+        "age": 29
+      },
+      {
+        "name": "Jasurbek Yakhshiboev",
+        "number": 11,
+        "position_en": "Left Winger",
+        "position_zh": "左边锋",
+        "club": "AGMK",
+        "caps": 32,
+        "age": 25
+      },
+      {
+        "name": "Farrukh Tashkentov",
+        "number": 2,
+        "position_en": "Right Back",
+        "position_zh": "右后卫",
+        "club": "Pakhtakor",
+        "caps": 36,
+        "age": 27
+      },
+      {
+        "name": "Sherzod Nishonov",
+        "number": 5,
+        "position_en": "Centre Back",
+        "position_zh": "中后卫",
+        "club": "Pakhtakor",
+        "caps": 40,
+        "age": 28
+      },
+      {
+        "name": "Islom Tukhtahujaev",
+        "number": 3,
+        "position_en": "Left Back",
+        "position_zh": "左后卫",
+        "club": "Pakhtakor",
+        "caps": 28,
+        "age": 26
+      },
+      {
+        "name": "Murodjon Yaxshiliqov",
+        "number": 8,
+        "position_en": "Central Midfielder",
+        "position_zh": "中场",
+        "club": "Pakhtakor",
+        "caps": 34,
+        "age": 27
+      },
+      {
+        "name": "Umid Boltaboev",
+        "number": 14,
+        "position_en": "Defensive Midfielder",
+        "position_zh": "防守型中场",
+        "club": "AGMK",
+        "caps": 20,
+        "age": 24
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Eldor Shomurodov",
+      "name_zh": "埃尔多尔·舒穆罗多夫",
+      "years": "2016–",
+      "position_zh": "中锋",
+      "position_en": "Centre Forward",
+      "bio_zh": "乌兹别克斯坦现代足球的旗帜性人物，也是球队历史射手王。曾效力意甲热那亚、罗马和卡利亚里，是乌兹别克斯坦历史上在欧洲顶级联赛打出成绩的最出色球员，率队实现世界杯历史首次突破。",
+      "bio_en": "The figurehead of modern Uzbekistani football and the national team's all-time top scorer. His stints at Serie A clubs Genoa, Roma, and Cagliari make him the most accomplished Uzbekistani player to succeed in a major European league — and the man who led the country to its historic World Cup debut.",
+      "stat_zh": "62国家队出场，28球（历史纪录）",
+      "stat_en": "62 caps, 28 goals (national all-time record)"
+    },
+    {
+      "name": "Abdukodir Khusanov",
+      "name_zh": "阿布杜科迪尔·胡萨诺夫",
+      "years": "2022–",
+      "position_zh": "中后卫",
+      "position_en": "Centre Back",
+      "bio_zh": "2025年1月以1200万欧元从朗斯转会曼城，成为乌兹别克斯坦首位征战英超的球员。在瓜迪奥拉麾下的曼城锤炼防守技术和战术意识，是乌兹别克斯坦新一代球员走向国际顶级俱乐部的代表。",
+      "bio_en": "Moved to Manchester City from Lens for €12 million in January 2025, becoming the first Uzbekistani player in the Premier League. Developing under Pep Guardiola, he represents a new generation of Uzbekistani footballers breaking into top European clubs.",
+      "stat_zh": "首位效力曼城的乌兹别克斯坦球员",
+      "stat_en": "First Uzbekistani player at Manchester City"
+    },
+    {
+      "name": "Server Djeparov",
+      "name_zh": "塞尔弗·杰帕罗夫",
+      "years": "2002–2017",
+      "position_zh": "中场",
+      "position_en": "Midfielder",
+      "bio_zh": "「乌兹别克斯坦足球传奇」，四夺亚洲足球先生（2008、2011、2012、2014年），是中亚足球史上获得此殊荣最多的球员。长期效力帕赫塔科尔，技术细腻、组织能力出众，是乌兹别克斯坦足球历史地位的奠基者。",
+      "bio_en": "The legend of Uzbekistani football, winning the AFC Player of the Year award a record four times (2008, 2011, 2012, 2014) — the most by any Central Asian player. A technically gifted, creative midfielder who spent most of his career at Pakhtakor, he is the foundation of Uzbekistani football's historical identity.",
+      "stat_zh": "四届亚洲足球先生（2008、2011、2012、2014）",
+      "stat_en": "AFC Player of the Year 4× (2008, 2011, 2012, 2014)"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "伊朗",
+      "opponent_en": "Iran",
+      "desc_zh": "西亚与中亚的强强对决，两队在亚洲杯和世预赛中多次交锋。伊朗是乌兹别克斯坦迈向亚洲顶级球队时必须正面交锋的对手，近年两队竞争力差距已大幅缩小。",
+      "desc_en": "A West Asian vs Central Asian clash, with multiple meetings in the Asian Cup and World Cup qualifying. Iran represents the type of established Asian power Uzbekistan must overcome on their journey to the top — and the gap between the two has narrowed significantly in recent years."
+    },
+    {
+      "opponent_zh": "日本",
+      "opponent_en": "Japan",
+      "desc_zh": "乌兹别克斯坦视日本为亚洲足球的标杆，多次在亚洲杯上交锋，曾爆出冷门。2023年亚洲杯上两队有过精彩碰撞。追赶日本，是乌兹别克斯坦足球近十年发展的重要坐标。",
+      "desc_en": "Uzbekistan views Japan as the benchmark for Asian football, with multiple Asian Cup encounters and the occasional upset. Their 2023 Asian Cup clash was compelling. Bridging the gap to Japan has been a key ambition of Uzbekistani football development."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🌟",
+      "text_zh": "乌兹别克斯坦是中亚地区第一支以独立国家身份出线世界杯的球队，创造了中亚足球史上最重要的历史时刻。",
+      "text_en": "Uzbekistan is the first Central Asian nation to qualify for the World Cup as an independent state, marking the most important moment in Central Asian football history."
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "主帅卡纳瓦罗是2006年德国世界杯冠军，彼时他率领意大利捧起大力神杯，并荣获当年金球奖——这是迄今为止唯一一位夺得金球奖的后卫。",
+      "text_en": "Coach Cannavaro won the 2006 World Cup with Italy and earned the Ballon d'Or that year — the only defender ever to win football's most prestigious individual award."
+    },
+    {
+      "icon": "🕌",
+      "text_zh": "撒马尔罕曾是帖木儿帝国的首都，是世界上最古老且保存最完好的城市之一，见证了东西方文明数千年的交融。",
+      "text_en": "Samarkand, once the capital of Tamerlane's empire, is one of the world's oldest and best-preserved cities — a crossroads of Eastern and Western civilizations for thousands of years."
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "舒穆罗多夫曾效力罗马期间，以2200万欧元转会费成为乌兹别克斯坦历史上身价最高的球员，将中亚球员的市场价值带到新高度。",
+      "text_en": "Shomurodov's move to Roma for €22 million made him Uzbekistan's most expensive player ever, raising the profile and market value of Central Asian footballers to new heights."
+    },
+    {
+      "icon": "🐺",
+      "text_zh": "乌兹别克斯坦国家队绰号「白狼」，象征着这支球队的坚韧与凶猛——在资源有限、缺乏国际经验的情况下，他们凭顽强精神杀入世界杯。",
+      "text_en": "The national team's nickname is the 「White Wolves」— symbolizing tenacity and ferocity. With limited resources and international experience, they earned their World Cup place through sheer determination."
+    }
+  ]
+}

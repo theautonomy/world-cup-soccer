@@ -1,0 +1,328 @@
+{
+  "meta": {
+    "slug": "colombia",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "哥伦比亚",
+    "name_en": "Colombia",
+    "flag_emoji": "🇨🇴",
+    "federation": "CONMEBOL",
+    "fifa_rank": 14,
+    "group": "K",
+    "colors": {
+      "primary": "#FCD116",
+      "secondary": "#003087",
+      "accent": "#CE1126"
+    }
+  },
+  "country": {
+    "capital_zh": "波哥大",
+    "capital_en": "Bogotá",
+    "population": 52000000,
+    "area": 1141748,
+    "language_zh": "西班牙语",
+    "language_en": "Spanish",
+    "continent_zh": "南美洲",
+    "continent_en": "South America",
+    "currency_zh": "哥伦比亚比索",
+    "currency_en": "Colombian Peso",
+    "anthem_zh": "哥伦比亚赞美诗",
+    "anthem_en": "Himno Nacional de Colombia",
+    "desc_zh": "哥伦比亚位于南美洲西北部，是南美洲唯一同时拥有太平洋和加勒比海海岸线的国家，拥有亚马逊雨林、安第斯山脉和热带海滩等多样地理景观。哥伦比亚拥有丰富的咖啡、花卉和艺术文化，萨尔萨舞和音乐在全球享有盛誉。",
+    "desc_en": "Located in northwestern South America, Colombia is the only country on the continent with both Pacific and Caribbean coastlines, featuring the Amazon rainforest, Andes mountains, and tropical beaches. Renowned for its coffee, flowers, and vibrant arts culture, Colombia's salsa music is celebrated worldwide.",
+    "football_desc_zh": "绰号「咖啡金曲」（Los Cafeteros），哥伦比亚足球在1990年代以华尔德拉马的浪漫主义足球享誉全球，2014年在巴西世界杯凭借哈梅斯·罗德里格斯跻身八强并夺得金靴奖，迎来新的辉煌。内斯托尔·洛伦佐麾下的哥伦比亚队以强劲的整体性和快速进攻著称，2024年夺得美洲杯亚军。",
+    "football_desc_en": "Nicknamed Los Cafeteros, Colombian football captivated the world in the 1990s with Valderrama's romantic style, then had a resurgence at the 2014 World Cup when James Rodríguez's Golden Boot run carried them to the quarter-finals. Under Néstor Lorenzo, Colombia plays with cohesive team football and blistering pace — they were Copa América runners-up in 2024."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 7,
+    "best_result_zh": "八强",
+    "best_result_en": "Quarter-final",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1962,
+        "host_zh": "智利",
+        "host_en": "Chile",
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group",
+        "notes_zh": "首次参赛，创造历史；4-4平苏联一役令世界震惊",
+        "notes_en": "World Cup debut; stunning 4-4 draw with the Soviet Union is still remembered"
+      },
+      {
+        "year": 1990,
+        "host_zh": "意大利",
+        "host_en": "Italy",
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16",
+        "notes_zh": "华尔德拉马领衔，十六强0-2负于喀麦隆",
+        "notes_en": "Valderrama's leadership; round of 16 exit, 0-2 loss to Cameroon"
+      },
+      {
+        "year": 1994,
+        "host_zh": "美国",
+        "host_en": "USA",
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group",
+        "notes_zh": "赛前被誉为夺冠热门，却小组出局；安德烈斯·埃斯科瓦尔因乌龙球在赛后遇害，是足球史上最黑暗的悲剧之一",
+        "notes_en": "Pre-tournament favorites who crashed out in the group stage; Andrés Escobar was tragically murdered after scoring an own goal — one of football's darkest moments"
+      },
+      {
+        "year": 1998,
+        "host_zh": "法国",
+        "host_en": "France",
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group",
+        "notes_zh": "三战皆负出局，哥伦比亚足球进入低谷期",
+        "notes_en": "Lost all three group games, ushering in a difficult period for Colombian football"
+      },
+      {
+        "year": 2014,
+        "host_zh": "巴西",
+        "host_en": "Brazil",
+        "stage_zh": "八强",
+        "stage_en": "Quarter-final",
+        "row_class": "quarterfinal",
+        "notes_zh": "最佳历史成绩！哈梅斯6球夺金靴奖，八强1-2不敌东道主巴西",
+        "notes_en": "Best-ever result! James Rodríguez won the Golden Boot with 6 goals; quarter-final exit 1-2 to hosts Brazil"
+      },
+      {
+        "year": 2018,
+        "host_zh": "俄罗斯",
+        "host_en": "Russia",
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16",
+        "notes_zh": "十六强1-1平英格兰（含加时），点球大战出局",
+        "notes_en": "Round of 16: drew 1-1 with England (aet), eliminated on penalties"
+      },
+      {
+        "year": 2026,
+        "host_zh": "美国/加拿大/墨西哥",
+        "host_en": "USA/Canada/Mexico",
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group",
+        "notes_zh": "K组：葡萄牙、乌兹别克斯坦、刚果民主共和国；洛伦佐麾下28场不败重返世界杯",
+        "notes_en": "Group K: Portugal, Uzbekistan, DR Congo; return after missing Qatar 2022, 28-match unbeaten run under Lorenzo"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Néstor Lorenzo",
+      "name_zh": "内斯托尔·洛伦佐",
+      "nationality_zh": "阿根廷",
+      "nationality_en": "Argentine",
+      "since": "2022"
+    },
+    "players": [
+      {
+        "name": "David Ospina",
+        "number": 1,
+        "position_en": "Goalkeeper",
+        "position_zh": "门将",
+        "club": "Atlético Nacional",
+        "caps": 115,
+        "age": 37
+      },
+      {
+        "name": "James Rodríguez",
+        "number": 10,
+        "position_en": "Attacking Midfielder",
+        "position_zh": "攻击型中场",
+        "club": "Rayo Vallecano",
+        "caps": 102,
+        "age": 34,
+        "goals": 30
+      },
+      {
+        "name": "Luis Díaz",
+        "number": 7,
+        "position_en": "Left Winger",
+        "position_zh": "左边锋",
+        "club": "Bayern Munich",
+        "caps": 58,
+        "age": 28,
+        "goals": 18
+      },
+      {
+        "name": "Duván Zapata",
+        "number": 9,
+        "position_en": "Centre Forward",
+        "position_zh": "中锋",
+        "club": "Torino",
+        "caps": 66,
+        "age": 33,
+        "goals": 23
+      },
+      {
+        "name": "Jhon Córdoba",
+        "number": 11,
+        "position_en": "Centre Forward",
+        "position_zh": "中锋",
+        "club": "Krasnodar",
+        "caps": 35,
+        "age": 31,
+        "goals": 14
+      },
+      {
+        "name": "Richard Ríos",
+        "number": 6,
+        "position_en": "Central Midfielder",
+        "position_zh": "中场",
+        "club": "Palmeiras",
+        "caps": 26,
+        "age": 24
+      },
+      {
+        "name": "Mateus Uribe",
+        "number": 8,
+        "position_en": "Central Midfielder",
+        "position_zh": "中场",
+        "club": "Porto",
+        "caps": 55,
+        "age": 32
+      },
+      {
+        "name": "Davinson Sánchez",
+        "number": 4,
+        "position_en": "Centre Back",
+        "position_zh": "中后卫",
+        "club": "Galatasaray",
+        "caps": 72,
+        "age": 28
+      },
+      {
+        "name": "Yerry Mina",
+        "number": 13,
+        "position_en": "Centre Back",
+        "position_zh": "中后卫",
+        "club": "Real Valladolid",
+        "caps": 59,
+        "age": 30
+      },
+      {
+        "name": "Daniel Muñoz",
+        "number": 2,
+        "position_en": "Right Back",
+        "position_zh": "右后卫",
+        "club": "Crystal Palace",
+        "caps": 32,
+        "age": 28
+      },
+      {
+        "name": "Johan Mojica",
+        "number": 3,
+        "position_en": "Left Back",
+        "position_zh": "左后卫",
+        "club": "Girona",
+        "caps": 44,
+        "age": 32
+      },
+      {
+        "name": "Jhon Jáder Durán",
+        "number": 14,
+        "position_en": "Centre Forward",
+        "position_zh": "中锋",
+        "club": "Aston Villa",
+        "caps": 18,
+        "age": 21,
+        "goals": 8
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Carlos Valderrama",
+      "name_zh": "卡洛斯·华尔德拉马",
+      "years": "1985–1998",
+      "position_zh": "中场/自由人",
+      "position_en": "Midfielder / Libero",
+      "bio_zh": "「银发老头」，哥伦比亚史上最著名的球员，以标志性的爆炸头发型和如诗如画的传球技术闻名全球。1987年、1993年两届南美最佳球员，是1990年代哥伦比亚浪漫足球时代的精神象征，被誉为南美足球史上最伟大的中场之一。",
+      "bio_en": "「El Pibe」 — Colombia's most iconic footballer, world-famous for his enormous blond afro and poetic passing. Two-time South American Footballer of the Year (1987, 1993), he embodied the romantic Colombian football of the 1990s and is considered one of the greatest midfielders in South American history.",
+      "stat_zh": "111国家队出场，11球",
+      "stat_en": "111 caps, 11 goals"
+    },
+    {
+      "name": "Radamel Falcao",
+      "name_zh": "拉达梅尔·法尔考",
+      "years": "2007–2022",
+      "position_zh": "中锋",
+      "position_en": "Centre Forward",
+      "bio_zh": "「El Tigre」（猛虎），哥伦比亚历史射手王，曾效力波尔图、马德里竞技、摩纳哥等顶级俱乐部。在欧联杯和欧冠赛场创造无数进球纪录，因2014年世界杯前夕膝盖手术遗憾缺席，成为职业生涯最大遗憾之一。",
+      "bio_en": "「El Tigre」 — Colombia's all-time top scorer and a predatory striker who terrorized defenses at Porto, Atlético Madrid, and Monaco. A prolific Europa League/UCL performer who tragically missed the 2014 World Cup through a knee injury — the biggest what-if of his career.",
+      "stat_zh": "109国家队出场，36球（历史纪录）",
+      "stat_en": "109 caps, 36 goals (national all-time record)"
+    },
+    {
+      "name": "James Rodríguez",
+      "name_zh": "哈梅斯·罗德里格斯",
+      "years": "2011–",
+      "position_zh": "攻击型中场",
+      "position_en": "Attacking Midfielder",
+      "bio_zh": "2014年世界杯金靴奖得主，6球表现惊艳全球，加盟皇家马德里后成为国际明星。以出色的创造力、精准的任意球和左脚技术闻名，是哥伦比亚新黄金一代的精神领袖。2026年世界杯极可能是其最后一届。",
+      "bio_en": "2014 World Cup Golden Boot winner (6 goals) who dazzled the planet and earned a move to Real Madrid. Celebrated for his creativity, free kicks, and devastating left foot, he remains the spiritual leader of Colombia's golden generation. 2026 is likely his final World Cup.",
+      "stat_zh": "2014年世界杯金靴奖",
+      "stat_en": "2014 World Cup Golden Boot"
+    },
+    {
+      "name": "René Higuita",
+      "name_zh": "勒内·伊基塔",
+      "years": "1987–1999",
+      "position_zh": "门将",
+      "position_en": "Goalkeeper",
+      "bio_zh": "「疯子门将」，哥伦比亚足球史上最具个性的传奇人物。以其大胆的出击风格和标志性的「蝎子式」扑球动作（1995年对英格兰）名扬天下，将门将位置重新定义为参与进攻的角色。其生涯充满戏剧性，却是哥伦比亚足球的重要符号。",
+      "bio_en": "「El Loco」 — one of football's most iconic personalities, Higuita revolutionized the goalkeeper position with his daring sweeper style. His famous 「Scorpion Kick」 save against England in 1995 is one of football's most replayed moments. A dramatic career that perfectly embodied Colombian football's flamboyant identity.",
+      "stat_zh": "68国家队出场，0失球41场",
+      "stat_en": "68 caps, 41 clean sheets"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "阿根廷",
+      "opponent_en": "Argentina",
+      "desc_zh": "南美洲最激烈的对抗之一。2021年美洲杯半决赛哥伦比亚在点球大战中击败阿根廷，是近年最戏剧性的胜利之一。两队在南美预选赛的直接对决往往决定出线命运。",
+      "desc_en": "One of South America's fiercest rivalries. Colombia's penalty shootout win over Argentina in the 2021 Copa América semi-final was a dramatic landmark. Direct clashes in CONMEBOL qualifying often carry decisive weight for both nations."
+    },
+    {
+      "opponent_zh": "巴西",
+      "opponent_en": "Brazil",
+      "desc_zh": "2014年世界杯东道主巴西在八强2-1击败哥伦比亚，并出现多次恶意犯规，引发广泛争议。哈梅斯·罗德里格斯在此役仍有出色表现，赛后两队球迷恩怨延续至今。",
+      "desc_en": "Hosts Brazil beat Colombia 2-1 in the 2014 quarter-final in a match marred by rough tackles that drew widespread criticism. James Rodríguez still impressed in defeat, and the rivalry remains intense in South American competitions."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "⚡",
+      "text_zh": "哈梅斯·罗德里格斯在2014年世界杯对阵乌拉圭的进球——胸部停球后凌空抽射——被无数媒体评选为世界杯历史上最美妙的进球之一。",
+      "text_en": "James Rodríguez's chest-trap volley against Uruguay at the 2014 World Cup has been voted by many media outlets as one of the most beautiful goals in World Cup history."
+    },
+    {
+      "icon": "☕",
+      "text_zh": "哥伦比亚咖啡享誉全球，其国家队绰号「Los Cafeteros」（咖啡豆人）正是对这一国家骄傲的致敬。",
+      "text_en": "Colombian coffee is world-famous — the team's nickname 「Los Cafeteros」 (The Coffee Growers) pays tribute to this national pride."
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "洛伦佐执教期间，哥伦比亚创下国家队历史上最长28场不败纪录，期间击败了德国、巴西、西班牙和乌拉圭。",
+      "text_en": "Under Néstor Lorenzo, Colombia set a national record 28-match unbeaten run, defeating Germany, Brazil, Spain, and Uruguay along the way."
+    },
+    {
+      "icon": "🌟",
+      "text_zh": "路易斯·迪亚斯是波吉亚族原住民后裔，以闪电般的速度和出众的技术著称，是当今世界最出色的边锋之一。",
+      "text_en": "Luis Díaz, of Wayuu indigenous heritage, is one of the world's most electrifying wingers — his blistering pace and technique make him virtually uncontrollable in one-on-one situations."
+    },
+    {
+      "icon": "🎶",
+      "text_zh": "哥伦比亚是拉丁音乐的重要发源地，夏奇拉（Shakira）和J·巴尔文均来自哥伦比亚，与足球共同构成这个国家在全球文化中的符号。",
+      "text_en": "Colombia is a birthplace of Latin music — Shakira and J Balvin both hail from Colombia, sharing global cultural spotlight alongside the national football team."
+    }
+  ]
+}

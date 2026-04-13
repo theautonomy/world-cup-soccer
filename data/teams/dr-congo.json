@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "slug": "dr-congo",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "刚果民主共和国",
+    "name_en": "DR Congo",
+    "flag_emoji": "🇨🇩",
+    "federation": "CAF",
+    "fifa_rank": 55,
+    "group": "K",
+    "colors": {
+      "primary": "#007FFF",
+      "secondary": "#F7D618",
+      "accent": "#CE1126"
+    }
+  },
+  "country": {
+    "capital_zh": "金沙萨",
+    "capital_en": "Kinshasa",
+    "population": 102000000,
+    "area": 2344858,
+    "language_zh": "法语（官方），斯瓦希里语、刚果语、林加拉语等",
+    "language_en": "French (official), Swahili, Kikongo, Lingala",
+    "continent_zh": "非洲",
+    "continent_en": "Africa",
+    "currency_zh": "刚果法郎",
+    "currency_en": "Congolese Franc",
+    "anthem_zh": "刚果前进",
+    "anthem_en": "Debout Congolais",
+    "desc_zh": "刚果民主共和国是非洲第二大国家，也是非洲人口最多的法语国家，拥有世界第二大热带雨林——刚果盆地雨林。首都金沙萨是非洲最大城市之一，文化、音乐和艺术享誉全球。科巴音乐（Soukous）发源于此，对整个非洲音乐产生了深远影响。",
+    "desc_en": "The Democratic Republic of Congo is Africa's second-largest country and its most populous French-speaking nation, home to the world's second-largest tropical rainforest — the Congo Basin. Kinshasa is one of Africa's largest cities, globally celebrated for its culture, music, and art. Soukous (Congolese Rumba) originated here and profoundly influenced African music.",
+    "football_desc_zh": "绰号「豹子」（Les Léopards），刚果民主共和国足球拥有辉煌的非洲历史。1974年以「扎伊尔」之名成为撒哈拉以南非洲第一支出线世界杯的球队，开创历史。2026年以52年之功重返世界杯舞台，是非洲足球近年最感人的资格赛故事之一。",
+    "football_desc_en": "Nicknamed Les Léopards, DR Congo has a storied African football history. In 1974, as Zaire, they became the first sub-Saharan African nation to qualify for the World Cup. Their 2026 qualification — ending a 52-year wait — is one of African football's most emotional comeback stories."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 2,
+    "best_result_zh": "小组赛",
+    "best_result_en": "Group Stage",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1974,
+        "host_zh": "西德",
+        "host_en": "West Germany",
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group",
+        "notes_zh": "以「扎伊尔」之名出战，撒哈拉以南非洲首支世界杯球队；三场全败，0进球失14球，0-9惨败南斯拉夫",
+        "notes_en": "Competed as Zaire — first sub-Saharan African team at a World Cup; lost all 3 games, scored 0, conceded 14, including a 0-9 defeat to Yugoslavia"
+      },
+      {
+        "year": 2026,
+        "host_zh": "美国/加拿大/墨西哥",
+        "host_en": "USA/Canada/Mexico",
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group",
+        "notes_zh": "K组：葡萄牙、哥伦比亚、乌兹别克斯坦；以加时赛1-0击败牙买加（图安泽贝第100分钟进球）获得洲际附加赛资格",
+        "notes_en": "Group K: Portugal, Colombia, Uzbekistan; qualified via intercontinental play-off, 1-0 aet vs Jamaica (Tuanzebe, 100')"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Sébastien Desabre",
+      "name_zh": "塞巴斯蒂安·德萨布雷",
+      "nationality_zh": "法国",
+      "nationality_en": "French",
+      "since": "2022"
+    },
+    "players": [
+      {
+        "name": "Lionel Mpasi",
+        "number": 1,
+        "position_en": "Goalkeeper",
+        "position_zh": "门将",
+        "club": "TP Mazembe",
+        "caps": 38,
+        "age": 28
+      },
+      {
+        "name": "Cédric Bakambu",
+        "number": 9,
+        "position_en": "Centre Forward",
+        "position_zh": "中锋",
+        "club": "Real Betis",
+        "caps": 55,
+        "age": 33,
+        "goals": 21
+      },
+      {
+        "name": "Silas Katompa",
+        "number": 11,
+        "position_en": "Left Winger",
+        "position_zh": "左边锋",
+        "club": "VfB Stuttgart",
+        "caps": 30,
+        "age": 25
+      },
+      {
+        "name": "Axel Tuanzebe",
+        "number": 4,
+        "position_en": "Centre Back",
+        "position_zh": "中后卫",
+        "club": "Stade Brestois",
+        "caps": 18,
+        "age": 27
+      },
+      {
+        "name": "Noah Sadiki",
+        "number": 5,
+        "position_en": "Centre Back",
+        "position_zh": "中后卫",
+        "club": "RSC Anderlecht",
+        "caps": 14,
+        "age": 20
+      },
+      {
+        "name": "Samuel Essende",
+        "number": 10,
+        "position_en": "Centre Forward",
+        "position_zh": "中锋",
+        "club": "Stade Brestois",
+        "caps": 16,
+        "age": 26
+      },
+      {
+        "name": "Dodi Lukebakio",
+        "number": 7,
+        "position_en": "Right Winger",
+        "position_zh": "右边锋",
+        "club": "Sevilla",
+        "caps": 22,
+        "age": 27
+      },
+      {
+        "name": "Gaël Kakuta",
+        "number": 8,
+        "position_en": "Attacking Midfielder",
+        "position_zh": "攻击型中场",
+        "club": "RC Lens",
+        "caps": 35,
+        "age": 33
+      },
+      {
+        "name": "Marcel Tisserand",
+        "number": 6,
+        "position_en": "Centre Back",
+        "position_zh": "中后卫",
+        "club": "Fenerbahçe",
+        "caps": 42,
+        "age": 33
+      },
+      {
+        "name": "Chancel Mbemba",
+        "number": 3,
+        "position_en": "Centre Back / Left Back",
+        "position_zh": "中后卫/左后卫",
+        "club": "Marseille",
+        "caps": 48,
+        "age": 30
+      },
+      {
+        "name": "Arthur Masuaku",
+        "number": 15,
+        "position_en": "Left Back",
+        "position_zh": "左后卫",
+        "club": "Besiktas",
+        "caps": 26,
+        "age": 31
+      },
+      {
+        "name": "Timothy Fayulu",
+        "number": 16,
+        "position_en": "Goalkeeper",
+        "position_zh": "门将",
+        "club": "TP Mazembe",
+        "caps": 8,
+        "age": 24
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Dieumerci Mbokani",
+      "name_zh": "迪耶梅尔西·姆博卡尼",
+      "years": "2007–2019",
+      "position_zh": "中锋",
+      "position_en": "Centre Forward",
+      "bio_zh": "刚果民主共和国历史射手王，曾效力安德莱赫特、摩纳哥、动力基辅等欧洲豪门。强壮的身体素质和精准的射门是其标志，在比利时甲级联赛享有极高声誉，是非洲足球史上最具代表性的前锋之一。",
+      "bio_en": "DR Congo's all-time leading scorer, having played for Anderlecht, Monaco, and Dynamo Kyiv among others. Physically dominant with clinical finishing, he was hugely respected in Belgian football and is one of the most celebrated strikers in Central African football history.",
+      "stat_zh": "60国家队出场，24球（历史纪录）",
+      "stat_en": "60 caps, 24 goals (national all-time record)"
+    },
+    {
+      "name": "Cédric Bakambu",
+      "name_zh": "塞德里克·巴卡姆布",
+      "years": "2014–",
+      "position_zh": "中锋",
+      "position_en": "Centre Forward",
+      "bio_zh": "现役国家队得分第二高的球员，曾效力比利亚雷亚尔、北京中赫国安、奥林比亚科斯和皇家贝蒂斯。在西甲赛场展现了出色的进球能力，是刚果民主共和国近年在欧洲赛场最具知名度的球员之一。",
+      "bio_en": "DR Congo's second-all-time international scorer, having played for Villarreal, Beijing Guoan, Olympiacos, and Real Betis. His prolific record in La Liga demonstrated top-level finishing ability, making him one of DR Congo's most prominent players in European football.",
+      "stat_zh": "55国家队出场，21球",
+      "stat_en": "55 caps, 21 goals"
+    },
+    {
+      "name": "Trésor Lualua",
+      "name_zh": "特雷索尔·卢阿卢阿",
+      "years": "2002–2014",
+      "position_zh": "前锋/边锋",
+      "position_en": "Forward / Winger",
+      "bio_zh": "生于金沙萨、成长于英格兰，曾效力纽卡斯尔联、朴次茅斯等英超球队。以闪电般的速度和标志性的后空翻庆祝动作深受球迷喜爱，是刚果民主共和国足球走向国际舞台的重要代表人物之一。",
+      "bio_en": "Born in Kinshasa and raised in England, Lualua played for Newcastle United and Portsmouth in the Premier League. His electric pace and iconic backflip goal celebrations made him a fans' favourite — one of the most recognizable Congolese footballers internationally.",
+      "stat_zh": "45国家队出场",
+      "stat_en": "45 international caps"
+    },
+    {
+      "name": "Kalusha Bwalya",
+      "name_zh": "卡鲁沙·布瓦利亚",
+      "years": "（赞比亚球员，对刚果有影响意义）",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "严格来说，1994年非洲足球先生布瓦利亚来自赞比亚，与刚果民主共和国不同。刚果民主共和国自己最具代表性的历史前辈是1974年世界杯阵容中的马纳斯（Mana）等球员，他们以扎伊尔之名开创非洲足球史。",
+      "bio_en": "Note: this entry is corrected — the 1974 Zaire squad featured pioneers like Mwepu Ilunga and Adelard Mayanga, who made history as the first sub-Saharan African team at a World Cup. Their legacy lives on in every DR Congo squad that follows."
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "塞内加尔",
+      "opponent_en": "Senegal",
+      "desc_zh": "非洲最具吸引力的西非强强对决之一。两队在非洲杯预选赛和正赛中多次交手，刚果民主共和国凭借自身的身体素质和反击战术，在面对塞内加尔这样的非洲强队时往往能制造惊喜。",
+      "desc_en": "One of the most compelling West/Central African rivalries. DR Congo and Senegal have met multiple times in AFCON qualifying and finals, with Congo's physical, counter-attacking style often capable of springing a surprise against the African powerhouse."
+    },
+    {
+      "opponent_zh": "刚果共和国",
+      "opponent_en": "Congo",
+      "desc_zh": "「刚果德比」——同名但不同国的两支球队，金沙萨与布拉柴维尔隔刚果河相望。这场跨河德比不仅是足球比赛，更是两国政治与文化认同的竞争，是非洲独一无二的地缘政治足球对决。",
+      "desc_en": "The 「Congo Derby」 — two nations sharing the same name, with Kinshasa and Brazzaville facing each other across the Congo River. This trans-river derby goes beyond football, representing political and cultural identity, making it one of Africa's most unique geopolitical football rivalries."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "📅",
+      "text_zh": "刚果民主共和国（当时名为扎伊尔）是1974年世界杯上第一支来自撒哈拉以南非洲的球队，开创了非洲足球的历史新纪元。",
+      "text_en": "DR Congo (then Zaire) was the first sub-Saharan African team at a World Cup in 1974, pioneering a historic new era for African football."
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "2026年资格赛最关键一刻：阿克塞尔·图安泽贝在对阵牙买加的洲际附加赛加时赛第100分钟打入制胜球，结束了刚果民主共和国长达52年的世界杯缺席。",
+      "text_en": "The decisive moment of 2026 qualifying: Axel Tuanzebe's goal in the 100th minute of extra time against Jamaica ended DR Congo's 52-year World Cup absence."
+    },
+    {
+      "icon": "🌍",
+      "text_zh": "刚果民主共和国拥有超过1亿人口，是非洲人口第四多的国家，也是世界上讲法语人口最多的国家之一。",
+      "text_en": "With over 100 million people, DR Congo is Africa's fourth most populous country and one of the world's largest French-speaking nations."
+    },
+    {
+      "icon": "🦁",
+      "text_zh": "球队绰号「豹子」（Les Léopards），代表着刚果民主共和国国旗上的豹子形象，象征力量、速度与尊严。",
+      "text_en": "The team nickname 「Les Léopards」 (The Leopards) echoes the leopard imagery on DR Congo's national emblem, symbolizing strength, speed, and dignity."
+    },
+    {
+      "icon": "🎵",
+      "text_zh": "金沙萨是非洲流行音乐科巴（Soukous）的发源地，这种融合了古巴伦巴与非洲节奏的音乐已传遍整个非洲大陆，如同刚果足球的拼搏精神，影响深远。",
+      "text_en": "Kinshasa is the birthplace of Soukous (Congolese Rumba), a music style blending Cuban rumba and African rhythm that spread across the entire continent — much like DR Congo's fighting football spirit."
+    }
+  ]
+}
