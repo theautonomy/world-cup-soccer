@@ -1,0 +1,305 @@
+{
+  "meta": {
+    "slug": "algeria",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "阿尔及利亚",
+    "name_en": "Algeria",
+    "flag_emoji": "🇩🇿",
+    "federation": "CAF",
+    "fifa_rank": 28,
+    "group": "J",
+    "colors": {
+      "primary": "#006233",
+      "secondary": "#FFFFFF",
+      "accent": "#D21034"
+    }
+  },
+  "country": {
+    "capital_zh": "阿尔及尔",
+    "capital_en": "Algiers",
+    "population": 46000000,
+    "area": 2381741,
+    "language_zh": "阿拉伯语、柏柏尔语",
+    "language_en": "Arabic, Tamazight (Berber)",
+    "continent_zh": "非洲",
+    "continent_en": "Africa",
+    "currency_zh": "阿尔及利亚第纳尔",
+    "currency_en": "Algerian Dinar",
+    "anthem_zh": "我们发誓",
+    "anthem_en": "Kassaman (We Pledge)",
+    "desc_zh": "阿尔及利亚是非洲面积最大的国家，地中海沿岸的历史名城阿尔及尔是其首都。阿尔及利亚拥有丰富的石油和天然气资源，撒哈拉沙漠覆盖其约90%的国土面积。作为2019年非洲杯冠军，阿尔及利亚足球在非洲大陆享有盛誉。",
+    "desc_en": "Algeria is Africa's largest country by area, with the historic Mediterranean city of Algiers as its capital. Rich in oil and natural gas resources, the Sahara Desert covers approximately 90% of its territory. As 2019 Africa Cup of Nations champions, Algerian football holds a prestigious place on the continent.",
+    "football_desc_zh": "绰号「沙漠战士」，阿尔及利亚足球以其技术性打法和顽强斗志著称。2019年非洲杯夺冠标志着非洲足球的一个高峰，马赫雷斯、贝纳塞尔等旅欧球星为球队赋予了国际竞争力。",
+    "football_desc_en": "Known as the Desert Warriors, Algerian football is celebrated for its technical style and fighting spirit. The 2019 AFCON title marked a high point in African football, with European-based stars like Mahrez and Bennacer giving the team strong international pedigree."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 5,
+    "best_result_zh": "十六强",
+    "best_result_en": "Round of 16",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1982,
+        "host_zh": "西班牙",
+        "host_en": "Spain",
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group",
+        "notes_zh": "历史性击败西德2-1，却因「希洪的耻辱」遭遇不公淘汰",
+        "notes_en": "Historic 2-1 win vs West Germany, eliminated by infamous 「Disgrace of Gijón」"
+      },
+      {
+        "year": 1986,
+        "host_zh": "墨西哥",
+        "host_en": "Mexico",
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group",
+        "notes_zh": "卫冕1982年表现，三场比赛积分不足出局",
+        "notes_en": "Defended 1982 spirit, eliminated at group stage again"
+      },
+      {
+        "year": 2010,
+        "host_zh": "南非",
+        "host_en": "South Africa",
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group",
+        "notes_zh": "三场全败，零进球出局",
+        "notes_en": "Three defeats, zero goals, eliminated at group stage"
+      },
+      {
+        "year": 2014,
+        "host_zh": "巴西",
+        "host_en": "Brazil",
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16",
+        "notes_zh": "历史最佳成绩！以小组第二出线，1-2加时负于德国（最终冠军）",
+        "notes_en": "Best-ever result! Advanced as group runners-up, lost 1-2 aet to Germany (eventual champions)"
+      },
+      {
+        "year": 2026,
+        "host_zh": "美国/加拿大/墨西哥",
+        "host_en": "USA/Canada/Mexico",
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group",
+        "notes_zh": "J组：阿根廷、奥地利、约旦；以非洲区8胜1平1负成绩晋级",
+        "notes_en": "Group J: Argentina, Austria, Jordan; qualified with 8W-1D-1L in CAF qualifying"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Vladimir Petković",
+      "name_zh": "弗拉基米尔·佩特科维奇",
+      "nationality_zh": "瑞士/波黑",
+      "nationality_en": "Swiss/Bosnian",
+      "since": "2022"
+    },
+    "players": [
+      {
+        "name": "Rais M'Bolhi",
+        "number": 1,
+        "position_en": "Goalkeeper",
+        "position_zh": "门将",
+        "club": "Al-Ettifaq",
+        "caps": 92,
+        "age": 37
+      },
+      {
+        "name": "Ismaël Bennacer",
+        "number": 8,
+        "position_en": "Defensive Midfielder",
+        "position_zh": "防守型中场",
+        "club": "AC Milan",
+        "caps": 55,
+        "age": 27
+      },
+      {
+        "name": "Riyad Mahrez",
+        "number": 7,
+        "position_en": "Right Winger",
+        "position_zh": "右边锋",
+        "club": "Al-Ahli",
+        "caps": 107,
+        "age": 35,
+        "goals": 30
+      },
+      {
+        "name": "Islam Slimani",
+        "number": 9,
+        "position_en": "Centre Forward",
+        "position_zh": "中锋",
+        "club": "CR Belouizdad",
+        "caps": 101,
+        "age": 36,
+        "goals": 43
+      },
+      {
+        "name": "Youcef Atal",
+        "number": 2,
+        "position_en": "Right Back / Winger",
+        "position_zh": "右后卫/右边锋",
+        "club": "OGC Nice",
+        "caps": 52,
+        "age": 28
+      },
+      {
+        "name": "Amir Sayoud",
+        "number": 11,
+        "position_en": "Left Winger",
+        "position_zh": "左边锋",
+        "club": "CR Belouizdad",
+        "caps": 28,
+        "age": 32
+      },
+      {
+        "name": "Zakaria Aboukhlal",
+        "number": 10,
+        "position_en": "Attacking Midfielder / Winger",
+        "position_zh": "攻击型中场/边锋",
+        "club": "Toulouse",
+        "caps": 34,
+        "age": 24
+      },
+      {
+        "name": "Djamel Benlamri",
+        "number": 5,
+        "position_en": "Centre Back",
+        "position_zh": "中后卫",
+        "club": "Al-Qadsiah",
+        "caps": 62,
+        "age": 33
+      },
+      {
+        "name": "Ramy Bensebaini",
+        "number": 3,
+        "position_en": "Left Back",
+        "position_zh": "左后卫",
+        "club": "Borussia Dortmund",
+        "caps": 48,
+        "age": 29
+      },
+      {
+        "name": "Hicham Boudaoui",
+        "number": 6,
+        "position_en": "Central Midfielder",
+        "position_zh": "中场",
+        "club": "OGC Nice",
+        "caps": 40,
+        "age": 25
+      },
+      {
+        "name": "Saïd Benrahma",
+        "number": 14,
+        "position_en": "Attacking Midfielder",
+        "position_zh": "攻击型中场",
+        "club": "OGC Nice",
+        "caps": 46,
+        "age": 29
+      },
+      {
+        "name": "Farès Chaïbi",
+        "number": 15,
+        "position_en": "Attacking Midfielder",
+        "position_zh": "攻击型中场",
+        "club": "Toulouse",
+        "caps": 22,
+        "age": 22
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Lakhdar Belloumi",
+      "name_zh": "拉赫达尔·贝卢米",
+      "years": "1978–1990",
+      "position_zh": "前锋/中场",
+      "position_en": "Forward / Midfielder",
+      "bio_zh": "阿尔及利亚足球史上最伟大球员之一，1982年世界杯对阵西德的进球英雄。1981年被评为非洲最佳球员，技术出众、视野开阔，是沙漠战士黄金一代的代表人物。",
+      "bio_en": "One of Algeria's greatest ever players and a hero of the iconic 1982 World Cup win over West Germany. Named African Footballer of the Year in 1981, his vision and technique made him the symbol of Algeria's golden generation.",
+      "stat_zh": "89国家队出场",
+      "stat_en": "89 international caps"
+    },
+    {
+      "name": "Riyad Mahrez",
+      "name_zh": "里亚德·马赫雷斯",
+      "years": "2014–",
+      "position_zh": "右边锋",
+      "position_en": "Right Winger",
+      "bio_zh": "阿尔及利亚现代足球的标志性人物，2016年英超最佳球员，2019年欧冠冠军（曼城），同年率队夺得非洲杯冠军。以出色的盘带技术和创造力闻名，是球队史上最具国际影响力的球星。",
+      "bio_en": "The iconic face of modern Algerian football, 2016 PFA Players' Player of the Year, UCL winner with Man City in 2019, and key to Algeria's 2019 AFCON title. Known for his dribbling and creativity, the most internationally celebrated Algerian player of his era.",
+      "stat_zh": "107国家队出场，30球",
+      "stat_en": "107 caps, 30 goals"
+    },
+    {
+      "name": "Islam Slimani",
+      "name_zh": "伊斯兰·斯利马尼",
+      "years": "2012–",
+      "position_zh": "中锋",
+      "position_en": "Centre Forward",
+      "bio_zh": "阿尔及利亚历史射手王，曾效力莱斯特城、斯体育、摩纳哥等欧洲豪门。身体对抗能力强、头球技术出众，是球队在非洲预选赛中的核心箭头人物。",
+      "bio_en": "Algeria's all-time top scorer, having played for Leicester City, Sporting CP, and Monaco among others. Strong in the air and physically dominant, he has been the focal point of Algeria's African qualifying campaigns.",
+      "stat_zh": "101国家队出场，43球（历史最多）",
+      "stat_en": "101 caps, 43 goals (all-time national record)"
+    },
+    {
+      "name": "Ismaël Bennacer",
+      "name_zh": "伊斯梅尔·贝纳塞尔",
+      "years": "2016–",
+      "position_zh": "防守型中场",
+      "position_en": "Defensive Midfielder",
+      "bio_zh": "2019年非洲杯最佳球员，随AC米兰夺得2022年意甲冠军。以精准的传球、出色的拦截和场上领导力著称，是阿尔及利亚中场的核心枢纽。",
+      "bio_en": "Best Player at the 2019 AFCON, and Serie A champion with AC Milan in 2022. Celebrated for his precise passing, interceptions, and leadership, he is the engine of Algeria's midfield.",
+      "stat_zh": "2019年非洲杯最佳球员",
+      "stat_en": "2019 AFCON Best Player"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "摩洛哥",
+      "opponent_en": "Morocco",
+      "desc_zh": "北非德比，阿尔及利亚与摩洛哥之间的比赛充满政治与文化张力。两国在非洲杯的多次交锋都引发巨大关注，是非洲最受瞩目的国家队对决之一。",
+      "desc_en": "The North African Derby — matches between Algeria and Morocco carry intense political and cultural undertones. Their AFCON clashes draw enormous attention and represent one of Africa's most high-profile national team rivalries."
+    },
+    {
+      "opponent_zh": "埃及",
+      "opponent_en": "Egypt",
+      "desc_zh": "两支非洲足球传统强队的对决。2009年非洲杯预选赛附加赛在中立场地苏丹举行，阿尔及利亚1-0获胜出线世界杯，赛后引发两国外交紧张，这场比赛至今仍是非洲足球史上最具争议的一役。",
+      "desc_en": "A clash of two African powerhouses. The 2009 World Cup qualifying playoff in Sudan (neutral ground) saw Algeria win 1-0 to reach South Africa 2010, sparking diplomatic tensions between the two nations — one of African football's most controversial matches ever."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "⚡",
+      "text_zh": "1982年世界杯小组赛，阿尔及利亚2-1击败西德——这是世界杯历史上最著名的爆冷之一，令全世界震惊。",
+      "text_en": "At the 1982 World Cup, Algeria beat West Germany 2-1 in the group stage — one of the greatest upsets in World Cup history that shocked the entire world."
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "2019年非洲杯夺冠全程保持不败，成为非洲足球历史上最出色的锦标赛表现之一。",
+      "text_en": "Algeria's 2019 AFCON title run was unbeaten throughout the tournament, marking one of the most dominant performances in African football history."
+    },
+    {
+      "icon": "🌍",
+      "text_zh": "阿尔及利亚是非洲面积最大的国家，国土面积超过238万平方公里，约相当于西欧的总面积。",
+      "text_en": "Algeria is Africa's largest country by area, covering over 2.38 million km² — roughly equivalent to the combined area of Western Europe."
+    },
+    {
+      "icon": "⚖️",
+      "text_zh": "「希洪的耻辱」：1982年世界杯，西德与奥地利的协议性平局令阿尔及利亚出局，此役直接推动了FIFA修改赛制，要求同组最后一轮同时开赛。",
+      "text_en": "The 「Disgrace of Gijón」: In 1982, the agreed-upon West Germany vs Austria draw eliminated Algeria, directly prompting FIFA to mandate simultaneous final group-stage matches."
+    },
+    {
+      "icon": "🎯",
+      "text_zh": "贝纳塞尔是2019年非洲杯最佳球员，随AC米兰效力多年，是当今世界中场领域最具价值的非洲球员之一。",
+      "text_en": "Bennacer, named best player at the 2019 AFCON, has been one of Africa's most valued midfielders in world football during his AC Milan years."
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "slug": "austria",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "奥地利",
+    "name_en": "Austria",
+    "flag_emoji": "🇦🇹",
+    "federation": "UEFA",
+    "fifa_rank": 24,
+    "group": "J",
+    "colors": {
+      "primary": "#ED2939",
+      "secondary": "#FFFFFF",
+      "accent": "#ED2939"
+    }
+  },
+  "country": {
+    "capital_zh": "维也纳",
+    "capital_en": "Vienna",
+    "population": 9100000,
+    "area": 83871,
+    "language_zh": "德语",
+    "language_en": "German",
+    "continent_zh": "欧洲",
+    "continent_en": "Europe",
+    "currency_zh": "欧元",
+    "currency_en": "Euro (EUR)",
+    "anthem_zh": "山之国，大河之国",
+    "anthem_en": "Land der Berge, Land am Strome",
+    "desc_zh": "奥地利是欧洲中部的内陆国，以壮美的阿尔卑斯山、古典音乐传统（莫扎特、贝多芬、舒伯特的故乡）和精致的维也纳咖啡馆文化举世闻名。维也纳长期位列全球最宜居城市榜首，哈布斯堡王朝的建筑遗产使整个城市仿佛一座露天博物馆。奥地利在艺术、建筑、哲学和科学领域的贡献与其小国体量形成了鲜明的对比。",
+    "desc_en": "Austria is a Central European landlocked nation, world-famous for the Alps, its classical music heritage (birthplace of Mozart, and home to Beethoven and Schubert), and the refined culture of Viennese coffeehouses. Vienna consistently ranks as the world's most liveable city, and the Habsburg architectural legacy makes the city feel like an open-air museum. Austria's contributions to art, architecture, philosophy, and science are disproportionately large for a small nation.",
+    "football_desc_zh": "奥地利曾在1930年代凭借「神奇队」（Wunderteam）称雄欧洲，1954年世界杯夺得季军。此后数十年光景黯淡，直到朗尼克执教后迎来复兴——以高强度逼抢和快速传递的「朗尼克风格」打造出近年来欧洲最具活力的国家队之一，阿拉巴、萨比策、莱默尔的组合被誉为本届欧洲最有看头的中场之一。时隔28年重返世界杯，奥地利带着满满的野心出征。",
+    "football_desc_en": "Austria dazzled Europe in the 1930s with the 「Wunderteam」 and finished third at the 1954 World Cup. Decades of underachievement followed before Ralf Rangnick arrived to ignite a renaissance — his high-press, fast-transition 「Rangnick system」 has produced one of Europe's most energetic national teams. The Alaba-Sabitzer-Laimer combination is among the most exciting midfield profiles in European football. Back at the World Cup after 28 years, Austria arrive with genuine ambition."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 8,
+    "best_result_zh": "季军（1954年）",
+    "best_result_en": "Third Place (1954)",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1934,
+        "stage_zh": "第四名",
+        "stage_en": "Fourth Place",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 1954,
+        "stage_zh": "季军",
+        "stage_en": "Third Place",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 1958,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1978,
+        "stage_zh": "第二轮",
+        "stage_en": "Second Round",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1982,
+        "stage_zh": "第二轮",
+        "stage_en": "Second Round",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1990,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1994,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1998,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Ralf Rangnick",
+      "nationality_zh": "德国",
+      "nationality_en": "German"
+    },
+    "players": [
+      {
+        "name": "Patrick Pentz",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Bayer Leverkusen",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 28
+      },
+      {
+        "name": "David Alaba",
+        "position_zh": "中后卫（队长）",
+        "position_en": "CB (Captain)",
+        "club": "Real Madrid",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 111
+      },
+      {
+        "name": "Kevin Danso",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "RC Lens",
+        "club_country_zh": "法国",
+        "club_country_en": "France",
+        "caps": 38
+      },
+      {
+        "name": "Philipp Lienhart",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "SC Freiburg",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 30
+      },
+      {
+        "name": "Maximilian Wöber",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "Borussia Mönchengladbach",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 36
+      },
+      {
+        "name": "Stefan Posch",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "Bologna",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 34
+      },
+      {
+        "name": "Konrad Laimer",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Bayern Munich",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 54
+      },
+      {
+        "name": "Nicolas Seiwald",
+        "position_zh": "后腰",
+        "position_en": "DM",
+        "club": "RB Leipzig",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 38
+      },
+      {
+        "name": "Marcel Sabitzer",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Borussia Dortmund",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 82
+      },
+      {
+        "name": "Christoph Baumgartner",
+        "position_zh": "攻击中场",
+        "position_en": "AM",
+        "club": "RB Leipzig",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 44
+      },
+      {
+        "name": "Marko Arnautović",
+        "position_zh": "前锋",
+        "position_en": "ST",
+        "club": "Internazionale",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 130
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "David Alaba",
+      "years": "2009–至今",
+      "position_zh": "中后卫",
+      "position_en": "CB",
+      "bio_zh": "奥地利历史最佳球员，持有111帽国家队出场纪录。在拜仁慕尼黑效力12年，赢得超过30项俱乐部荣誉包括2020年欧冠冠军；此后转会皇马后继续获得联赛和欧冠荣誉。以优雅的控球、出色的传球视野和多位置适应能力著称（曾担任左后卫、中后卫），是现代最全面的后卫之一。",
+      "bio_en": "Austria's greatest ever player, holding the national record of 111 caps. Spent 12 years at Bayern Munich winning over 30 club honours including the 2020 Champions League; has added further trophies at Real Madrid. Celebrated for elegant ball-playing, passing vision, and positional versatility (excelling at both left-back and centre-back) — one of the most complete defenders of the modern era.",
+      "stat_zh": "111帽（现役，奥地利纪录），拜仁和皇马共赢超30项冠军",
+      "stat_en": "111 caps (active; Austrian record); 30+ club trophies with Bayern and Real Madrid"
+    },
+    {
+      "name": "Marko Arnautović",
+      "years": "2008–至今",
+      "position_zh": "前锋",
+      "position_en": "ST",
+      "bio_zh": "奥地利历史最高射手（47球）和最多出场球员（130帽），以强壮的身体、出色的持球能力和关键时刻的大心脏著称。效力斯托克城、西汉姆联、上海港、国际米兰等多支俱乐部，展示了令人钦佩的职业生涯韧性。在国家队历史留名深刻，是奥地利复兴时期的核心进攻力量。",
+      "bio_en": "Austria's all-time leading scorer (47 goals) and most-capped player (130 appearances), known for physical presence, hold-up play, and scoring in big moments. Has plied his trade at Stoke City, West Ham United, Shanghai Port, and Internazionale — a career of impressive versatility and longevity. A cornerstone of Austria's national team for over 17 years and a key figure in their World Cup return.",
+      "stat_zh": "130帽47球，奥地利历史最高射手和最多出场",
+      "stat_en": "130 caps, 47 goals; Austria's all-time leading scorer and most-capped player"
+    },
+    {
+      "name": "Matthias Sindelar",
+      "years": "1926–1937",
+      "position_zh": "前锋",
+      "position_en": "ST",
+      "bio_zh": "「纸人」——1930年代「神奇队」的精神领袖，被誉为那个时代欧洲最伟大的球员，1934年世界杯奥地利打进四强的核心。以纤细的身型却兼备惊人技巧和敏锐嗅球著称，是奥地利足球史上的传奇人物，被选入国际足球历史和统计联合会（IFFHS）的20世纪最佳球员名单。",
+      "bio_en": "「The Paper Man」 — the spiritual leader of the 1930s 「Wunderteam」 and considered the greatest European footballer of his era. His slender frame belied extraordinary technical skill and a lethal instinct around goal. The focal point of Austria's fourth-place 1934 World Cup run, he was named in the IFFHS list of the 20th century's greatest players — Austria's first and most iconic football legend.",
+      "stat_zh": "43帽26球，1930年代神奇队灵魂人物，奥地利足球之父",
+      "stat_en": "43 caps, 26 goals; spiritual leader of the 1930s Wunderteam; IFFHS 20th-century greats selection"
+    },
+    {
+      "name": "Marcel Sabitzer",
+      "years": "2014–至今",
+      "position_zh": "中场",
+      "position_en": "MID",
+      "bio_zh": "朗尼克战术体系中的关键齿轮，以强大的工作强度、远射能力和大赛稳定性著称。效力RB莱比锡、拜仁慕尼黑、曼联和多特蒙德，在欧洲顶级联赛积累了大量高水平比赛经验。2024年欧洲杯对土耳其的入球是奥地利足球近年来最令人振奋的时刻之一，是将奥地利带回世界舞台的核心功臣之一。",
+      "bio_en": "A critical cog in Rangnick's tactical machine, known for high work rate, long-range shooting, and big-game consistency. Has played for RB Leipzig, Bayern Munich, Manchester United, and Borussia Dortmund, accumulating elite European football experience. His goal against Turkey at Euro 2024 was one of Austria's most thrilling moments in recent years — a key figure in their World Cup return.",
+      "stat_zh": "82帽（现役），曾效力拜仁、曼联、多特蒙德",
+      "stat_en": "82 caps (active); played for Bayern Munich, Manchester United, Borussia Dortmund"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "德国",
+      "opponent_en": "Germany",
+      "desc_zh": "「德奥德比」——同种同语言的邻国宿敌，历史上存在着政治和文化层面的复杂情感。1978年世界杯「科尔多瓦奇迹」（奥地利3-2击败当时称霸欧洲的西德）至今仍是奥地利足球史上最伟大的胜利。这场比赛甚至促成了一首奥地利流行歌曲的诞生，成为奥地利民族自豪感的标志性时刻。",
+      "desc_en": "The 「German Derby」 — neighboring nations sharing language and culture but possessing a complex historical relationship. The 「Miracle of Córdoba」 at the 1978 World Cup — Austria defeating West Germany 3-2 — remains Austria's most celebrated victory and is so iconic it inspired a popular Austrian song. Every Austria-Germany encounter carries the weight of this storied context."
+    },
+    {
+      "opponent_zh": "匈牙利",
+      "opponent_en": "Hungary",
+      "desc_zh": "历史上的中欧足球霸权之争，两国在1930年代同为欧洲最强队，多次在重要赛事中相遇。战前欧洲足球的「多瑙河学派」（Danube School of football）以奥匈两国为代表，影响了整个欧洲现代足球的发展。两国均曾是欧洲最具影响力的足球思想输出国。",
+      "desc_en": "A rivalry rooted in Central European football supremacy — both nations were among Europe's strongest in the 1930s, meeting repeatedly in pivotal competitions. The pre-war 「Danube School」 of football, represented primarily by Austria and Hungary, shaped the development of the modern European game. Both nations were once the continent's most influential football-idea exporters."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🦸",
+      "text_zh": "1930年代的「神奇队」（Wunderteam）是有史以来第一支被贴上「最佳球队」标签的国家队——在胡戈·迈斯尔的带领下，连续赢得多场友谊赛，以流畅的短传渗透足球令欧洲折服，被认为是「传控足球」的鼻祖之一，远早于西班牙的「传控时代」数十年。",
+      "text_en": "The 1930s 「Wunderteam」 under Hugo Meisl was the first national team to be labelled the 「best team in the world.」 Their fluid short-passing style enthralled Europe and is considered an ancestor of modern possession football — decades before Spain's tiki-taka era. Their 1934 World Cup fourth-place finish remains Austria's best-ever result."
+    },
+    {
+      "icon": "🎶",
+      "text_zh": "1978年世界杯对西德的3-2胜利诞生了一首奥地利流行歌曲「永恒的科尔多瓦」（「I'm from Austria」），至今仍是奥地利体育史上最受欢迎的颂歌之一。那场比赛发生在一天后玻利维亚以0-6惨败给西德的同组，因此奥地利的胜利不仅仅是体育成就，更被视为整个奥地利民族的集体骄傲。",
+      "text_en": "Austria's 3-2 victory over West Germany at the 1978 World Cup — the 「Miracle of Córdoba」 — is so celebrated that it inspired an iconic Austrian pop song still played at sporting events today. The result remains the most celebrated win in Austrian football history and a touchstone of national sporting identity."
+    },
+    {
+      "icon": "📐",
+      "text_zh": "朗尼克是现代足球最具影响力的战术革新者之一，他发明的「三三制高位逼抢」系统被克洛普、纳格尔斯曼等弟子发扬光大，席卷英超和德甲。执教奥地利后，他将这套理念带入国家队层面，使奥地利成为欧洲最具组织性和战术纪律的球队之一，也是本届世界杯「最符合朗尼克哲学」的球队。",
+      "text_en": "Rangnick is one of modern football's most influential tactical innovators — his pressing system (adopted and developed by disciples like Klopp and Nagelsmann) has swept the Premier League and Bundesliga. Applying the same philosophy to the Austrian national team has produced one of Europe's most organised and tactically disciplined sides — the purest expression of 「Rangnick football」 at international level."
+    },
+    {
+      "icon": "🔄",
+      "text_zh": "奥地利在本届世界杯引入了两位新球员——前英格兰青年国脚卡尼·楚克维梅卡（多特蒙德）和前德国青年国脚保罗·万纳（PSV），两人均获FIFA批准转换国籍为奥地利参赛，为球队注入了宝贵的年轻活力，也彰显了欧洲足球独特的国籍灵活性带来的竞争机遇。",
+      "text_en": "Austria bolstered their World Cup squad with two nationality-switch players approved by FIFA — Carney Chukwuemeka (Borussia Dortmund), formerly of England's youth system, and Paul Wanner (PSV), formerly a German youth international. Both born in Austria, their switches add youthful flair to the squad and highlight the unique flexibility that modern European football's nationality rules provide."
+    }
+  ]
+}

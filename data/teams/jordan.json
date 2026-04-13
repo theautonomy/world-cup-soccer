@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "slug": "jordan",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "约旦",
+    "name_en": "Jordan",
+    "flag_emoji": "🇯🇴",
+    "federation": "AFC",
+    "fifa_rank": 63,
+    "group": "J",
+    "colors": {
+      "primary": "#007A3D",
+      "secondary": "#FFFFFF",
+      "accent": "#CE1126"
+    }
+  },
+  "country": {
+    "capital_zh": "安曼",
+    "capital_en": "Amman",
+    "population": 10800000,
+    "area": 89342,
+    "language_zh": "阿拉伯语",
+    "language_en": "Arabic",
+    "continent_zh": "亚洲",
+    "continent_en": "Asia",
+    "currency_zh": "约旦第纳尔",
+    "currency_en": "Jordanian Dinar",
+    "anthem_zh": "阿什-沙阿勒·马利基",
+    "anthem_en": "As-salam al-malaki al-urdoni",
+    "desc_zh": "约旦是中东地区一个历史悠久的王国，首都安曼是该地区重要的政治与文化中心。境内拥有佩特拉古城、死海等世界级旅游景点。作为2026年世界杯的首次参赛者，约旦向世界证明了中小球队同样可以在国际舞台上大放异彩。",
+    "desc_en": "Jordan is a historically rich kingdom in the Middle East, with Amman as an important political and cultural hub. Home to world-class sites like Petra and the Dead Sea, Jordan makes its World Cup debut in 2026, proving that smaller nations can shine on the global stage."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 1,
+    "best_result_zh": "首次参赛",
+    "best_result_en": "First appearance",
+    "title_years": [],
+    "history": [
+      {
+        "year": 2026,
+        "host_zh": "美国/加拿大/墨西哥",
+        "host_en": "USA/Canada/Mexico",
+        "stage_zh": "小组赛（首次参赛）",
+        "stage_en": "Group Stage (debut)",
+        "row_class": "group",
+        "notes_zh": "J组：阿根廷、奥地利、阿尔及利亚；2025年3月20日击败黎巴嫩1-0正式出线",
+        "notes_en": "Group J: Argentina, Austria, Algeria; qualified by beating Lebanon 1-0 on March 20, 2025"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Hussein Ammouta",
+      "name_zh": "侯赛因·阿穆塔",
+      "nationality_zh": "摩洛哥",
+      "nationality_en": "Moroccan",
+      "since": "2022"
+    },
+    "players": [
+      {
+        "name": "Baha Faisal",
+        "number": 1,
+        "position_en": "Goalkeeper",
+        "position_zh": "门将",
+        "club": "Al-Faisaly",
+        "caps": 55,
+        "age": 29
+      },
+      {
+        "name": "Musa Al-Taamari",
+        "number": 10,
+        "position_en": "Winger / Attacking Midfielder",
+        "position_zh": "边锋/攻击型中场",
+        "club": "Montpellier",
+        "caps": 52,
+        "age": 27,
+        "goals": 16
+      },
+      {
+        "name": "Ahmad Naser Dababseh",
+        "number": 9,
+        "position_en": "Centre Forward",
+        "position_zh": "中锋",
+        "club": "Al-Faisaly",
+        "caps": 40,
+        "age": 29,
+        "goals": 18
+      },
+      {
+        "name": "Yazan Al-Naimat",
+        "number": 7,
+        "position_en": "Right Winger",
+        "position_zh": "右边锋",
+        "club": "Al-Wehdat",
+        "caps": 35,
+        "age": 26
+      },
+      {
+        "name": "Oday Dabbagh",
+        "number": 11,
+        "position_en": "Centre Forward",
+        "position_zh": "中锋",
+        "club": "Oud-Heverlee Leuven",
+        "caps": 38,
+        "age": 26,
+        "goals": 14
+      },
+      {
+        "name": "Ebrahim Hashem",
+        "number": 6,
+        "position_en": "Defensive Midfielder",
+        "position_zh": "防守型中场",
+        "club": "Al-Faisaly",
+        "caps": 60,
+        "age": 31
+      },
+      {
+        "name": "Nour Al-Rawabdeh",
+        "number": 8,
+        "position_en": "Central Midfielder",
+        "position_zh": "中场",
+        "club": "Al-Wehdat",
+        "caps": 44,
+        "age": 28
+      },
+      {
+        "name": "Baha' Abdelrahman",
+        "number": 4,
+        "position_en": "Centre Back",
+        "position_zh": "中后卫",
+        "club": "Al-Faisaly",
+        "caps": 48,
+        "age": 30
+      },
+      {
+        "name": "Anas Bani Yaseen",
+        "number": 5,
+        "position_en": "Centre Back",
+        "position_zh": "中后卫",
+        "club": "Al-Wehdat",
+        "caps": 42,
+        "age": 28
+      },
+      {
+        "name": "Ali Olwan",
+        "number": 3,
+        "position_en": "Left Back",
+        "position_zh": "左后卫",
+        "club": "Al-Qadsiah",
+        "caps": 36,
+        "age": 27
+      },
+      {
+        "name": "Khaled Al-Rashidi",
+        "number": 2,
+        "position_en": "Right Back",
+        "position_zh": "右后卫",
+        "club": "Al-Faisaly",
+        "caps": 32,
+        "age": 26
+      },
+      {
+        "name": "Saad Al-Ghadir",
+        "number": 14,
+        "position_en": "Attacking Midfielder",
+        "position_zh": "攻击型中场",
+        "club": "Al-Wahda (UAE)",
+        "caps": 28,
+        "age": 25
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Ahmad Hayel",
+      "name_zh": "艾哈迈德·哈耶尔",
+      "years": "1990–2006",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "约旦足球史上最具代表性的球员之一，长期担任国家队箭头人物。职业生涯大部分时间效力于国内豪门阿尔韦达特，多次率队参加亚洲杯，是约旦足球发展历史中承上启下的核心人物。",
+      "bio_en": "One of the most iconic players in Jordanian football history, serving as the national team's main striker for many years. Spent most of his career at domestic powerhouse Al-Wehdat and featured prominently in multiple Asian Cups."
+    },
+    {
+      "name": "Musa Al-Taamari",
+      "name_zh": "穆萨·塔阿马里",
+      "years": "2018–",
+      "position_zh": "边锋/攻击型中场",
+      "position_en": "Winger / Attacking Midfielder",
+      "bio_zh": "约旦当代最出色的球员，效力法甲蒙彼利埃。在2023年亚洲杯半决赛对阵韩国时打入精彩进球，率领约旦首次闯入亚洲杯决赛。技术细腻、速度快、创造力强，是约旦冲击历史最佳成绩的核心人物。",
+      "bio_en": "Jordan's standout modern player, currently playing in Ligue 1 with Montpellier. Scored a stunning goal against South Korea in the 2023 Asian Cup semi-final, helping Jordan reach their first-ever Asian Cup final. Technical, quick, and creative, he is the key figure behind Jordan's historic 2026 World Cup qualification.",
+      "stat_zh": "2023年亚洲杯最佳阵容",
+      "stat_en": "2023 Asian Cup Team of the Tournament"
+    },
+    {
+      "name": "Saad Al-Ghadir",
+      "name_zh": "萨阿德·加迪尔",
+      "years": "2019–",
+      "position_zh": "攻击型中场",
+      "position_en": "Attacking Midfielder",
+      "bio_zh": "约旦新一代中场核心，效力于阿联酋顶级联赛。以出色的传球和组织能力著称，是约旦中场运转的重要齿轮，也是球队冲击2026年世界杯资格过程中的重要贡献者。",
+      "bio_en": "Jordan's next-generation midfield core, playing in the UAE top flight. Known for his passing and organizational ability, he is a vital cog in Jordan's midfield and played an important role in the World Cup qualifying campaign."
+    },
+    {
+      "name": "Oday Dabbagh",
+      "name_zh": "乌代·达巴格",
+      "years": "2020–",
+      "position_zh": "中锋",
+      "position_en": "Centre Forward",
+      "bio_zh": "在欧洲赛场奋斗的约旦前锋，效力于比利时联赛。在约旦世预赛冲刺阶段贡献关键进球，快速进步令人印象深刻，代表着约旦足球职业化输出的新方向。",
+      "bio_en": "A Jordanian striker carving out a career in European football with a Belgian club. Contributed crucial goals in the final stages of Jordan's World Cup qualifying, his rapid development represents the new direction of Jordanian football's professional output.",
+      "stat_zh": "预选赛关键进球贡献者",
+      "stat_en": "Key goal contributor in qualifying"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "巴勒斯坦",
+      "opponent_en": "Palestine",
+      "desc_zh": "地理和文化上最接近的对手，两队之间的比赛充满情感色彩。大量巴勒斯坦人生活在约旦，使这场比赛超越了足球本身，具有深厚的人文与历史意义。",
+      "desc_en": "The geographically and culturally closest rival, matches between the two carry deep emotional weight. With a large Palestinian population living in Jordan, this fixture transcends football with profound human and historical significance."
+    },
+    {
+      "opponent_zh": "伊拉克",
+      "opponent_en": "Iraq",
+      "desc_zh": "同为中东近邻，约旦与伊拉克在亚洲杯及世预赛中多次交锋，是西亚地区影响力最强的区域性对抗之一。两队近年均取得显著进步，竞争愈发激烈。",
+      "desc_en": "Fellow Middle Eastern neighbors, Jordan and Iraq have clashed frequently in the Asian Cup and World Cup qualifying. As both nations have significantly improved in recent years, their contests have become increasingly competitive and high-stakes."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🏆",
+      "text_zh": "2023年亚洲杯约旦首次打入决赛，创造国家队历史最佳成绩，震惊整个亚洲足坛。",
+      "text_en": "At the 2023 Asian Cup, Jordan reached the final for the first time in their history, creating the best-ever national team result and stunning the entire Asian football world."
+    },
+    {
+      "icon": "⭐",
+      "text_zh": "约旦2026年世界杯资格是其历史上第一次出线世界杯，2025年3月20日击败黎巴嫩成为决定性一役。",
+      "text_en": "Jordan's 2026 World Cup qualification is their first-ever, with the decisive moment coming on March 20, 2025, when they beat Lebanon 1-0 to seal the historic berth."
+    },
+    {
+      "icon": "🌍",
+      "text_zh": "约旦主帅阿穆塔曾率领摩洛哥出战2022年世界杯，成为首位带领两支不同非洲/亚洲球队参加世界杯的教练之一。",
+      "text_en": "Coach Hussein Ammouta previously managed Morocco at the 2022 World Cup, making him one of the few coaches to lead two different national teams at separate World Cups."
+    },
+    {
+      "icon": "🗿",
+      "text_zh": "约旦是佩特拉古城的所在地——这座「玫瑰红城市」被列为世界新七大奇迹之一，每年吸引数百万游客。",
+      "text_en": "Jordan is home to Petra — the 「Rose City」 named one of the New Seven Wonders of the World, attracting millions of visitors each year."
+    },
+    {
+      "icon": "🔥",
+      "text_zh": "穆萨·塔阿马里在2023年亚洲杯半决赛对阵韩国打入的进球被誉为近年亚洲杯最精彩进球之一，令整个亚洲球迷为之疯狂。",
+      "text_en": "Musa Al-Taamari's goal against South Korea in the 2023 Asian Cup semi-final was hailed as one of the most spectacular goals in recent Asian Cup history, sending fans across Asia into a frenzy."
+    }
+  ]
+}
