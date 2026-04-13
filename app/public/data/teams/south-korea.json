@@ -1,0 +1,410 @@
+{
+  "meta": {
+    "slug": "south-korea",
+    "generated": "2026-04-12",
+    "version": 1
+  },
+  "team": {
+    "name_zh": "韩国",
+    "name_en": "South Korea",
+    "flag_emoji": "🇰🇷",
+    "federation": "AFC",
+    "fifa_rank": 22,
+    "group": "A",
+    "colors": {
+      "primary": "#CE1126",
+      "secondary": "#FFFFFF",
+      "accent": "#003478"
+    }
+  },
+  "country": {
+    "name_zh": "韩国",
+    "name_en": "South Korea",
+    "capital": "Seoul",
+    "population_zh": "5160万",
+    "population_en": "51.6 million",
+    "area": "100,363 km²",
+    "language_zh": "韩语",
+    "language_en": "Korean",
+    "continent_zh": "亚洲",
+    "continent_en": "Asia",
+    "currency_zh": "韩元",
+    "currency_en": "South Korean Won",
+    "anthem_zh": "爱国歌",
+    "anthem_en": "Aegukga",
+    "desc_zh": "大韩民国位于朝鲜半岛南部，首都首尔是拥有约1000万人口的国际大都市。韩国是全球重要的经济体，以半导体、汽车、K-pop和影视文化享誉世界。这个民族对足球有着深厚的情感，\"太极战士\"是全亚洲最具战斗力的国家队之一。",
+    "desc_en": "The Republic of Korea occupies the southern Korean Peninsula, with its capital Seoul home to around 10 million people. South Korea is a global economic powerhouse known for semiconductors, automotive industry, K-pop, and film. Its people share a deep passion for football, and the Taegeuk Warriors are among Asia's most competitive national teams.",
+    "football_desc_zh": "韩国是亚洲足球的代表性力量，曾连续11次晋级世界杯决赛圈（1986年至2026年），亚洲队伍中无出其右。2002年韩日世界杯，韩国以东道主身份上演奇迹，先后击败意大利、西班牙打入四强，成为亚洲历史上世界杯成绩最好的球队。孙兴慜等一代球星在欧洲联赛证明了韩国球员的实力，带动了全国的足球热情。",
+    "football_desc_en": "South Korea is Asian football's benchmark, having qualified for eleven consecutive World Cups from 1986 to 2026 — more than any other Asian nation. At the 2002 Korea/Japan World Cup, South Korea produced one of football's greatest upsets as co-hosts, beating Italy and Spain en route to an unprecedented fourth-place finish. Stars like Son Heung-min have proven Korean footballers can compete at Europe's highest level."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 11,
+    "best_result_zh": "第四名",
+    "best_result_en": "4th place",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1954,
+        "host_zh": "瑞士",
+        "host_en": "Switzerland",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "首次参加世界杯，两场小组赛0-9大负匈牙利，0-7负土耳其",
+        "note_en": "World Cup debut; suffered heavy defeats — 0-9 to Hungary and 0-7 to Turkey in group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1986,
+        "host_zh": "墨西哥",
+        "host_en": "Mexico",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "重返世界杯，开启连续晋级之路",
+        "note_en": "Returned to the World Cup after a 32-year absence, beginning an unbroken qualifying streak",
+        "row_class": "group"
+      },
+      {
+        "year": 1990,
+        "host_zh": "意大利",
+        "host_en": "Italy",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "小组赛3平0胜，凭借平局积分未能出线",
+        "note_en": "Drew all three group games but failed to advance despite going unbeaten",
+        "row_class": "group"
+      },
+      {
+        "year": 1994,
+        "host_zh": "美国",
+        "host_en": "USA",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "与玻利维亚一胜两负",
+        "note_en": "One win, two defeats — eliminated at group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1998,
+        "host_zh": "法国",
+        "host_en": "France",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "小组赛未能出线",
+        "note_en": "Eliminated at group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2002,
+        "host_zh": "韩国/日本",
+        "host_en": "South Korea/Japan",
+        "result_zh": "第四名",
+        "result_en": "4th place",
+        "note_zh": "主场奇迹！击败波兰、葡萄牙、意大利、西班牙，以东道主身份创造亚洲世界杯历史最佳成绩",
+        "note_en": "Home miracle! Beat Poland, Portugal, Italy and Spain to reach the semi-finals — the best World Cup finish in Asian football history",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 2006,
+        "host_zh": "德国",
+        "host_en": "Germany",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "未能复制2002年辉煌",
+        "note_en": "Fell short of replicating 2002 heroics; eliminated at group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2010,
+        "host_zh": "南非",
+        "host_en": "South Africa",
+        "result_zh": "十六强",
+        "result_en": "Round of 16",
+        "note_zh": "0-2负于乌拉圭",
+        "note_en": "Lost 0-2 to Uruguay in the Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2014,
+        "host_zh": "巴西",
+        "host_en": "Brazil",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "小组赛未能出线",
+        "note_en": "Eliminated at group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2018,
+        "host_zh": "俄罗斯",
+        "host_en": "Russia",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "2-0击败卫冕冠军德国成为世界杯最大冷门，但仍遭淘汰",
+        "note_en": "Caused one of the tournament's biggest upsets by beating defending champions Germany 2-0, yet still eliminated at group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2022,
+        "host_zh": "卡塔尔",
+        "host_en": "Qatar",
+        "result_zh": "十六强",
+        "result_en": "Round of 16",
+        "note_zh": "小组赛最后一轮逆转葡萄牙晋级，十六强1-4负于巴西",
+        "note_en": "Dramatic last-gasp group stage qualification; lost 1-4 to Brazil in the Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2026,
+        "host_zh": "美国/加拿大/墨西哥",
+        "host_en": "USA/Canada/Mexico",
+        "result_zh": "已晋级",
+        "result_en": "Qualified",
+        "note_zh": "分入A组，与墨西哥、南非、捷克同组；首战6月11日对阵捷克",
+        "note_en": "Drawn into Group A alongside Mexico, South Africa and Czech Republic; opener vs Czech Republic on June 11",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name_zh": "洪明甫",
+      "name_en": "Hong Myung-bo",
+      "nationality_zh": "韩国",
+      "nationality_en": "South Korean"
+    },
+    "players": [
+      {
+        "name_zh": "赵贤佑",
+        "name_en": "Jo Hyeon-woo",
+        "position": "GK",
+        "club": "Ulsan HD",
+        "caps": 28
+      },
+      {
+        "name_zh": "金升奎",
+        "name_en": "Kim Seung-gyu",
+        "position": "GK",
+        "club": "Vissel Kobe",
+        "caps": 45
+      },
+      {
+        "name_zh": "金民哉",
+        "name_en": "Kim Min-jae",
+        "position": "DEF",
+        "club": "Bayern Munich",
+        "caps": 75
+      },
+      {
+        "name_zh": "金泰焕",
+        "name_en": "Kim Tae-hwan",
+        "position": "DEF",
+        "club": "Al-Qadsiah",
+        "caps": 50
+      },
+      {
+        "name_zh": "洪哲",
+        "name_en": "Hong Chul",
+        "position": "DEF",
+        "club": "Jeonbuk",
+        "caps": 38
+      },
+      {
+        "name_zh": "拉德斯拉夫·克雷奇",
+        "name_en": "Kim Jin-su",
+        "position": "DEF",
+        "club": "Girondin de Bordeaux",
+        "caps": 65
+      },
+      {
+        "name_zh": "权京元",
+        "name_en": "Kwon Kyung-won",
+        "position": "DEF",
+        "club": "Jeonbuk",
+        "caps": 42
+      },
+      {
+        "name_zh": "黄仁范",
+        "name_en": "Hwang In-beom",
+        "position": "MID",
+        "club": "Vancouver Whitecaps",
+        "caps": 58
+      },
+      {
+        "name_zh": "郑宇荣",
+        "name_en": "Jung Woo-young",
+        "position": "MID",
+        "club": "Al-Qadsiah",
+        "caps": 72
+      },
+      {
+        "name_zh": "李在成",
+        "name_en": "Lee Jae-sung",
+        "position": "MID",
+        "club": "Mainz 05",
+        "caps": 68
+      },
+      {
+        "name_zh": "李康仁",
+        "name_en": "Lee Kang-in",
+        "position": "MID",
+        "club": "Paris Saint-Germain",
+        "caps": 44
+      },
+      {
+        "name_zh": "白胜浩",
+        "name_en": "Baek Seung-ho",
+        "position": "MID",
+        "club": "Jeonbuk",
+        "caps": 22
+      },
+      {
+        "name_zh": "孙兴慜",
+        "name_en": "Son Heung-min",
+        "position": "FWD",
+        "club": "LAFC",
+        "caps": 141
+      },
+      {
+        "name_zh": "黄喜灿",
+        "name_en": "Hwang Hee-chan",
+        "position": "FWD",
+        "club": "Wolverhampton Wanderers",
+        "caps": 68
+      },
+      {
+        "name_zh": "曹圭成",
+        "name_en": "Cho Gue-sung",
+        "position": "FWD",
+        "club": "Midtjylland",
+        "caps": 32
+      },
+      {
+        "name_zh": "俞赫",
+        "name_en": "Oh Hyeon-gyu",
+        "position": "FWD",
+        "club": "Celtic",
+        "caps": 26
+      }
+    ]
+  },
+  "legends": [
+    {
+      "number": 1,
+      "name_zh": "孙兴慜",
+      "name_en": "Son Heung-min",
+      "years": "2010–至今",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "孙兴慜是韩国足球史上最伟大的球员，也是亚洲球员在欧洲顶级联赛的最高成就者。他在热刺效力期间成为欧洲五大联赛历史上进球最多的亚洲球员，并于2021-22赛季摘得英超金靴奖，成为首位获此殊荣的亚洲球员。141次代表国家队出场，国家队进球数超过50球，他是当之无愧的韩国足球旗帜人物。",
+      "bio_en": "Son Heung-min is South Korea's greatest footballer and the benchmark for Asian players in European football. At Tottenham Hotspur he became the highest-scoring Asian player in the history of Europe's top five leagues, claiming the 2021-22 Premier League Golden Boot — the first Asian to do so. With 141 caps and over 50 international goals, he is the undisputed icon of Korean football.",
+      "stat_value": "141",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 2,
+      "name_zh": "车范根",
+      "name_en": "Cha Bum-kun",
+      "years": "1972–1986",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "车范根是韩国历史上进球最多的球员，58粒国际进球至今仍是国家队历史纪录。他也是韩国历史上最成功的旅欧球员之一，在德甲的法兰克福和勒沃库森都赢得过欧洲联盟杯，凭借出色的技术和强劲的射门能力在70-80年代的欧洲足坛声名大噪，是开拓韩国球员旅欧道路的先驱。",
+      "bio_en": "Cha Bum-kun remains South Korea's all-time leading scorer with 58 international goals. He was also one of Korea's most successful overseas players, winning the UEFA Cup twice with Eintracht Frankfurt and Bayer Leverkusen in the Bundesliga. His technical brilliance and powerful shooting made him a star in European football during the 1970s and 80s.",
+      "stat_value": "58",
+      "stat_zh": "国家队进球",
+      "stat_en": "international goals"
+    },
+    {
+      "number": 3,
+      "name_zh": "朴智星",
+      "name_en": "Park Ji-sung",
+      "years": "2000–2011",
+      "position_zh": "中场",
+      "position_en": "Midfielder",
+      "bio_zh": "朴智星是2002年世界杯神话的重要参与者，以全场飞奔的无限体能和无私的团队精神赢得弗格森爵士和曼联球迷的心。他是第一位赢得欧冠冠军的亚洲球员，105次代表国家队出场，打入13球，是韩国历史上最具影响力的旅欧球员之一。",
+      "bio_en": "Park Ji-sung was central to South Korea's 2002 World Cup miracle and won Sir Alex Ferguson's admiration at Manchester United for his tireless running and selfless teamwork. He became the first Asian to win the UEFA Champions League. With 105 caps and 13 goals, he remains one of Korea's most influential players and European football ambassadors.",
+      "stat_value": "105",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 4,
+      "name_zh": "洪明甫",
+      "name_en": "Hong Myung-bo",
+      "years": "1990–2002",
+      "position_zh": "后卫",
+      "position_en": "Defender",
+      "bio_zh": "洪明甫是亚洲历史上最杰出的后卫，参加了四届世界杯（1990、1994、1998、2002年），并在2002年本土世界杯以队长身份带领韩国队打入四强。他在2002年世界杯赢得铜球奖，是第一位获此殊荣的亚洲球员，136次代表国家队出场，如今更以主教练身份带领同一支球队出征2026年世界杯。",
+      "bio_en": "Hong Myung-bo is Asia's most decorated defender, appearing at four World Cups (1990, 1994, 1998, 2002) and captaining South Korea to fourth place as co-hosts in 2002. He won the Bronze Ball at that tournament — the first Asian to do so — earning 136 caps as a player. He now manages the same national team at the 2026 World Cup, completing a remarkable circle.",
+      "stat_value": "136",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 5,
+      "name_zh": "金民哉",
+      "name_en": "Kim Min-jae",
+      "years": "2019–至今",
+      "position_zh": "后卫",
+      "position_en": "Defender",
+      "bio_zh": "\"怪物\"金民哉是当今世界最顶级的中后卫之一，以身体对抗、空中争顶和强悍的1v1防守而闻名。他先后赢得意甲（那不勒斯）和德甲（拜仁慕尼黑）冠军，并荣获意甲最佳后卫奖，是2026年世界杯韩国队防线的核心与定海神针。",
+      "bio_en": "Known as 'The Monster', Kim Min-jae is one of the world's elite centre-backs, renowned for his aerial dominance, physical power, and 1v1 defending. He won Serie A with Napoli — earning Serie A Best Defender — then the Bundesliga with Bayern Munich. He is the cornerstone of South Korea's defence and a pivotal figure heading into the 2026 World Cup.",
+      "stat_value": "75",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "日本",
+      "opponent_en": "Japan",
+      "desc_zh": "韩日之战是亚洲足球最具历史重量的德比，承载着两国之间复杂的历史情感与民族情绪。两队的对阵被称为\"东亚德比\"，每次交锋都远超足球本身的意义。近年来的世界杯资格赛争夺使这段宿怨更加激烈，两队均把击败对方视为最重要的胜利之一。",
+      "desc_en": "The Korea–Japan match is Asia's most historically charged fixture, carrying the weight of complex historical and cultural tensions between the two nations. Known as the 'East Asian Derby', every meeting carries meaning far beyond football. Intensified by recent World Cup qualifying competition, both nations regard victory over the other as among their most cherished results."
+    },
+    {
+      "opponent_zh": "德国",
+      "opponent_en": "Germany",
+      "desc_zh": "2018年世界杯小组赛，韩国以2-0击败卫冕冠军德国，制造了世界杯历史上最大的冷门之一，直接导致德国队史无前例地小组赛出局。孙兴慜在补时阶段打进第二球时的庆祝场面成为世界杯史上最具代表性的画面之一，也令这场意外胜利成为韩国足球史上最荣耀的一页。",
+      "desc_en": "South Korea's 2-0 win over defending champions Germany at the 2018 World Cup group stage produced one of the tournament's greatest shocks, sending the Germans home without advancing. Son Heung-min's celebration after sealing the victory in injury time became one of the World Cup's most iconic images, and remains one of Korean football's proudest moments."
+    },
+    {
+      "opponent_zh": "意大利",
+      "opponent_en": "Italy",
+      "desc_zh": "2002年世界杯十六强赛，韩国以2-1加时击败意大利，制造了世界杯历史上最具争议的比赛之一。这场胜利伴随着若干争议判罚，意大利球迷至今耿耿于怀，而在韩国人眼中，这是一场光荣的世界大冷门，是2002年奇迹征程的关键一役。",
+      "desc_en": "South Korea's 2-1 extra-time victory over Italy at the 2002 World Cup Round of 16 remains one of football's most controversial and celebrated results. Disputed refereeing decisions still provoke debate in Italy, while in Korea it is remembered as a glorious upset — the pivotal match of their 2002 miracle run."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🏆",
+      "text_zh": "韩国是亚洲唯一打入世界杯四强的球队，2002年的第四名至今仍是亚洲球队在世界杯历史上的最高成就",
+      "text_en": "South Korea is the only Asian nation to reach the World Cup semi-finals; their fourth-place finish in 2002 remains the highest World Cup achievement in Asian football history"
+    },
+    {
+      "icon": "📅",
+      "text_zh": "韩国从1986年至2026年连续11届晋级世界杯决赛圈，是亚洲连续晋级次数最多的球队，堪称亚洲最稳定的世界杯常客",
+      "text_en": "South Korea has qualified for eleven consecutive World Cups from 1986 to 2026 — the longest unbroken run in Asian football — making them Asia's most reliable World Cup qualifier"
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "孙兴慜是英超历史上进球最多的亚洲球员，并于2021-22赛季获得英超金靴奖，是首位荣获此奖的亚洲球员",
+      "text_en": "Son Heung-min is the highest-scoring Asian player in Premier League history and won the 2021-22 Golden Boot — the first Asian to receive the award"
+    },
+    {
+      "icon": "🇩🇪",
+      "text_zh": "2018年世界杯，韩国2-0击败卫冕冠军德国，直接导致德国82年来首次小组赛出局，令整个足球世界为之震惊",
+      "text_en": "In 2018, South Korea's 2-0 win knocked out defending champions Germany, sending them to their first group-stage exit since 1938 — one of the World Cup's all-time great upsets"
+    },
+    {
+      "icon": "🎭",
+      "text_zh": "2002年世界杯韩国红魔球迷的集体应援文化震惊全世界，数十万人身着红衣在广场上齐声呐喊，被视为现代体育史上最壮观的观赛文化奇观",
+      "text_en": "The 2002 World Cup saw South Korea's 'Red Devils' fans create a global phenomenon — hundreds of thousands dressed in red cheering in unison, widely regarded as one of the most spectacular supporter cultures in modern sport"
+    },
+    {
+      "icon": "🌏",
+      "text_zh": "韩国是亚洲（除日本外）唯一曾举办过世界杯的国家，2002年与日本联合举办，且是当届赛事的最佳东道主体验地之一",
+      "text_en": "South Korea is one of only two Asian nations to have hosted the World Cup, co-hosting the 2002 tournament with Japan to enormous critical acclaim"
+    }
+  ]
+}

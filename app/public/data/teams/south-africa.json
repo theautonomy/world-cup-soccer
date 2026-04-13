@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "slug": "south-africa",
+    "generated": "2026-04-12",
+    "version": 1
+  },
+  "team": {
+    "name_zh": "南非",
+    "name_en": "South Africa",
+    "flag_emoji": "🇿🇦",
+    "federation": "CAF",
+    "fifa_rank": 61,
+    "group": "A",
+    "colors": {
+      "primary": "#007A4D",
+      "secondary": "#FFB612",
+      "accent": "#002395"
+    }
+  },
+  "country": {
+    "name_zh": "南非",
+    "name_en": "South Africa",
+    "capital": "比勒陀利亚（行政）/ 开普敦（立法）/ 布隆方丹（司法）",
+    "population_zh": "6100万",
+    "population_en": "61 million",
+    "area": "1,219,090 km²",
+    "language_zh": "祖鲁语、科萨语、英语等11种官方语言",
+    "language_en": "11 official languages including Zulu, Xhosa, and English",
+    "continent_zh": "非洲",
+    "continent_en": "Africa",
+    "currency_zh": "南非兰特",
+    "currency_en": "South African Rand",
+    "anthem_zh": "天佑南非",
+    "anthem_en": "Nkosi Sikelel' iAfrika / Die Stem van Suid-Afrika",
+    "desc_zh": "南非位于非洲大陆最南端，是非洲最多元化的国家之一。拥有11种官方语言、彩虹之国的美誉，南非融合了祖鲁、科萨、英裔、阿非利卡人等多个民族的文化。曼德拉领导的终结种族隔离制度，使南非成为全球和平转型的典范。2010年世界杯是非洲大陆第一次举办这一最盛大的体育赛事。",
+    "desc_en": "South Africa sits at the southern tip of the African continent and is one of its most diverse nations. Known as the Rainbow Nation for its cultural plurality, it is home to 11 official language groups and a rich multi-ethnic heritage. Nelson Mandela's peaceful end to apartheid made South Africa an icon of reconciliation. In 2010, it became the first African country to host the FIFA World Cup.",
+    "football_desc_zh": "南非足球的灵魂是\"巴法纳巴法纳\"（意为\"男孩们！男孩们！\"）。2010年世界杯让南非足球享誉全球，南非国家队奋力出战虽未出线，但全国欢腾的世界杯氛围和呜呜祖拉的鸣响成为那届赛事最标志性的记忆。1996年非洲国家杯夺冠是南非足球的高光时刻，2026年的出征是他们16年来首次重返世界杯。",
+    "football_desc_en": "South African football's heartbeat is 'Bafana Bafana' — meaning 'The Boys! The Boys!' in Zulu. Hosting the 2010 World Cup brought global attention to South African football, and the tournament's vuvuzela-filled atmosphere became one of its most iconic memories. Their 1996 AFCON triumph on home soil remains the nation's proudest football moment. The 2026 tournament marks their long-awaited return to the World Cup after a 16-year absence."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 3,
+    "best_result_zh": "小组赛出局",
+    "best_result_en": "Group stage",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1998,
+        "host_zh": "法国",
+        "host_en": "France",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "首届世界杯，2-2平丹麦，3-0胜沙特阿拉伯，但2-1负法国",
+        "note_en": "World Cup debut; drew with Denmark and beat Saudi Arabia 3-0, but lost to France 2-1 and failed to advance",
+        "row_class": "group"
+      },
+      {
+        "year": 2002,
+        "host_zh": "韩国/日本",
+        "host_en": "South Korea/Japan",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "麦卡锡打进2球，2-2平巴拉圭，2-3负西班牙，无缘十六强",
+        "note_en": "Benni McCarthy scored twice; drew with Paraguay 2-2, lost 2-3 to Spain; failed to qualify from group",
+        "row_class": "group"
+      },
+      {
+        "year": 2010,
+        "host_zh": "南非",
+        "host_en": "South Africa",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "首个主办世界杯的非洲国家，1-1平墨西哥，0-3负乌拉圭，2-1击败法国，但未能出线",
+        "note_en": "First African nation to host the World Cup; drew with Mexico, lost to Uruguay, beat France, but still failed to advance from the group — the first host nation to be eliminated in the group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2026,
+        "host_zh": "美国/加拿大/墨西哥",
+        "host_en": "USA/Canada/Mexico",
+        "result_zh": "已晋级",
+        "result_en": "Qualified",
+        "note_zh": "以非洲区预选赛第一名身份晋级，分入A组迎战墨西哥、韩国和捷克；首战6月11日在阿兹特卡球场对阵墨西哥",
+        "note_en": "Qualified top of their CAF group with 18 points, ahead of Nigeria; drawn into Group A vs Mexico, South Korea and Czech Republic; open against Mexico at the Estadio Azteca on June 11",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name_zh": "雨果·布鲁斯",
+      "name_en": "Hugo Broos",
+      "nationality_zh": "比利时",
+      "nationality_en": "Belgian"
+    },
+    "players": [
+      {
+        "name_zh": "龙文·威廉姆斯",
+        "name_en": "Ronwen Williams",
+        "position": "GK",
+        "club": "Mamelodi Sundowns",
+        "caps": 52
+      },
+      {
+        "name_zh": "布鲁斯·巴卡拉科",
+        "name_en": "Veli Mothwa",
+        "position": "GK",
+        "club": "AmaZulu",
+        "caps": 12
+      },
+      {
+        "name_zh": "塞亚邦加·恩格扎纳",
+        "name_en": "Siyabonga Ngezana",
+        "position": "DEF",
+        "club": "FCSB",
+        "caps": 45
+      },
+      {
+        "name_zh": "塞托隆格·莫科纳",
+        "name_en": "Teboho Mokoena",
+        "position": "DEF",
+        "club": "Mamelodi Sundowns",
+        "caps": 35
+      },
+      {
+        "name_zh": "里斯顿·莫克万纳",
+        "name_en": "Reeve Frosler",
+        "position": "DEF",
+        "club": "Kaizer Chiefs",
+        "caps": 30
+      },
+      {
+        "name_zh": "格兰特·马加诺",
+        "name_en": "Grant Margeman",
+        "position": "DEF",
+        "club": "Mamelodi Sundowns",
+        "caps": 22
+      },
+      {
+        "name_zh": "凯根·多洛",
+        "name_en": "Keagan Dolly",
+        "position": "MID",
+        "club": "Kaizer Chiefs",
+        "caps": 40
+      },
+      {
+        "name_zh": "特博霍·莫科纳",
+        "name_en": "Teboho Mokoena",
+        "position": "MID",
+        "club": "Mamelodi Sundowns",
+        "caps": 55
+      },
+      {
+        "name_zh": "艾登·麦卡锡",
+        "name_en": "Ethan Ntwatwa",
+        "position": "MID",
+        "club": "Mamelodi Sundowns",
+        "caps": 18
+      },
+      {
+        "name_zh": "斯图尔特·鲍尔维尔",
+        "name_en": "Bongani Zungu",
+        "position": "MID",
+        "club": "Mamelodi Sundowns",
+        "caps": 48
+      },
+      {
+        "name_zh": "布拉德利·克罗斯",
+        "name_en": "Bradley Cross",
+        "position": "MID",
+        "club": "Orlando Pirates",
+        "caps": 15
+      },
+      {
+        "name_zh": "莱尔·福斯特",
+        "name_en": "Lyle Foster",
+        "position": "FWD",
+        "club": "Burnley",
+        "caps": 35
+      },
+      {
+        "name_zh": "佩西·陶",
+        "name_en": "Percy Tau",
+        "position": "FWD",
+        "club": "Al Ahly",
+        "caps": 60
+      },
+      {
+        "name_zh": "斯图尔特·鲍",
+        "name_en": "Evidence Makgopa",
+        "position": "FWD",
+        "club": "Orlando Pirates",
+        "caps": 25
+      },
+      {
+        "name_zh": "劳本·马德温达",
+        "name_en": "Relebohile Mofokeng",
+        "position": "FWD",
+        "club": "Orlando Pirates",
+        "caps": 12
+      }
+    ]
+  },
+  "legends": [
+    {
+      "number": 1,
+      "name_zh": "本尼·麦卡锡",
+      "name_en": "Benni McCarthy",
+      "years": "1997–2009",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "本尼·麦卡锡是南非足球史上最高产的射手，31粒国际进球至今仍是国家队历史纪录。他职业生涯在葡萄牙波尔图赢得了欧冠冠军（2004年），在冠军联赛决赛赛季共打入12球成为赛事最高进球者之一。麦卡锡是南非有史以来最成功的旅欧球员，也是巴法纳巴法纳历史上最受崇拜的英雄。",
+      "bio_en": "Benni McCarthy is South Africa's all-time leading scorer with 31 international goals — a record that still stands. He won the UEFA Champions League with Porto in 2004, scoring 12 goals en route to the final and becoming one of the tournament's top scorers that season. McCarthy is the most successful South African player to have competed abroad and the most celebrated figure in Bafana Bafana history.",
+      "stat_value": "31",
+      "stat_zh": "国家队进球",
+      "stat_en": "international goals"
+    },
+    {
+      "number": 2,
+      "name_zh": "亚伦·莫科纳",
+      "name_en": "Aaron Mokoena",
+      "years": "1999–2010",
+      "position_zh": "后卫/中场",
+      "position_en": "Defender/Midfielder",
+      "bio_zh": "莫科纳是南非历史上出场次数最多的球员，107次代表国家队出场，是\"巴法纳巴法纳\"坚强的领袖和防守核心。他参加了三届世界杯（1998、2002、2010年），并在2010年本土世界杯担任队长，在博卡朱尼尔斯、布莱顿等俱乐部效力的旅欧经历使他成为南非足球的骄傲。",
+      "bio_en": "Aaron Mokoena holds South Africa's all-time caps record with 107 international appearances and was the rock at the heart of Bafana Bafana for over a decade. He appeared at three World Cups (1998, 2002, 2010) and captained the side at the home 2010 tournament. His club career spanned Blackburn Rovers, Portsmouth, and Boca Juniors, making him one of South Africa's most widely-travelled footballers.",
+      "stat_value": "107",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 3,
+      "name_zh": "龙文·威廉姆斯",
+      "name_en": "Ronwen Williams",
+      "years": "2015–至今",
+      "position_zh": "门将",
+      "position_en": "Goalkeeper",
+      "bio_zh": "威廉姆斯是南非现任队长和最重要的球员。他以精准的反应和出色的大心脏著称，在2023年非洲国家杯四分之一决赛对阵佛得角的点球大战中扑出4个点球，成为那届赛事最具震撼力的表演之一，帮助南非取得1996年以来最佳成绩。他是这支南非队通往2026年世界杯的守护神。",
+      "bio_en": "Ronwen Williams is South Africa's captain and their most important player. Known for his reflexes and big-game composure, his four penalty saves against Cape Verde in the 2023 AFCON quarter-final shoot-out was one of the most spectacular goalkeeping performances of the tournament, carrying Bafana to their best finish since 1996. He is the guardian of South Africa's 2026 World Cup ambitions.",
+      "stat_value": "52",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 4,
+      "name_zh": "科尔曼·陶",
+      "name_en": "Doctor Khumalo",
+      "years": "1992–2000",
+      "position_zh": "中场",
+      "position_en": "Midfielder",
+      "bio_zh": "\"16V\"库马洛是南非足球在后种族隔离时代的第一个超级明星，以飘逸的盘带、精准的传球和强劲的远射闻名。他在南非国家队的「黄金一代」中担任核心，主导了1996年非洲国家杯夺冠，是南非足球最具标志性的名字之一，至今仍是开普敦和约翰内斯堡球迷的心中神话。",
+      "bio_en": "Known as '16V', Doctor Khumalo was post-apartheid South Africa's first football superstar — celebrated for his elegant dribbling, precise passing, and ferocious long-range shooting. He was the creative heartbeat of the 'Golden Generation' that won the 1996 AFCON on home soil, and remains one of the most iconic names in South African football history.",
+      "stat_value": "58",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 5,
+      "name_zh": "珀西·陶",
+      "name_en": "Percy Tau",
+      "years": "2017–至今",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "珀西·陶是南非当代最出色的进攻球员，绰号\"美洲狮\"，以速度、技术和创造力见长。他是第一个在比利时、法国和英国顶级联赛（布莱顿）均有上佳表现的南非球员，目前效力于埃及豪门阿赫利，60次代表国家队出场是南非新生代球员的领军人物。",
+      "bio_en": "Known as 'The Lion of Bafana', Percy Tau is South Africa's most dynamic modern attacker, prized for his pace, technique, and creativity. He became the first South African to perform at Belgium's, France's, and English Premier League (Brighton) clubs with distinction, and currently plays at Al Ahly. With 60 caps he is the flag-bearer of South Africa's new generation.",
+      "stat_value": "60",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "尼日利亚",
+      "opponent_en": "Nigeria",
+      "desc_zh": "南非与尼日利亚之间的竞争是非洲足球最具影响力的宿怨之一，两国同为非洲大陆的经济和文化巨头，在足球场上的对抗也格外激烈。2026年非洲区资格赛，南非在小组赛以最终排名压过尼日利亚，以头名姿态出线，令这段宿怨增添了新的章节。",
+      "desc_en": "South Africa vs Nigeria is one of African football's most charged rivalries, matching two of the continent's dominant economic and cultural powers. In 2026 World Cup CAF qualifying, South Africa edged Nigeria out of their group by finishing first — adding a fresh chapter to their long-standing continental contest."
+    },
+    {
+      "opponent_zh": "津巴布韦",
+      "opponent_en": "Zimbabwe",
+      "desc_zh": "南非与津巴布韦的德比因两国深厚的历史渊源而情感浓烈。两队相邻而居，两国球迷人口众多，比赛日充满了激情与对抗。南非历史上对津巴布韦保持着明显优势，但每次交锋都毫无冷场。",
+      "desc_en": "The South Africa-Zimbabwe derby carries deep emotional weight given the nations' shared history and border. Both have large, passionate football followings and every meeting is fiercely contested. South Africa has historically held the upper hand, but the rivalry always delivers intensity."
+    },
+    {
+      "opponent_zh": "墨西哥",
+      "opponent_en": "Mexico",
+      "desc_zh": "2026年世界杯A组首场比赛，南非将在墨西哥阿兹特卡球场迎战东道主墨西哥，这将是两队历史上分量最重的一次交锋。在万人瞩目的揭幕战中，巴法纳巴法纳要挑战在历史最著名球场征战的东道主，是对这支南非队勇气和实力的最直接检验。",
+      "desc_en": "South Africa's 2026 Group A opener against hosts Mexico at the Estadio Azteca will be the most high-profile match these nations have ever contested. Taking on the host nation at one of football's most iconic venues in the tournament's opening game is the ultimate test of courage for this South African side."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🌍",
+      "text_zh": "南非是2010年世界杯的主办国，成为历史上第一个举办这一赛事的非洲国家，但同时也是历史上第一个在小组赛就被淘汰的东道主国家",
+      "text_en": "South Africa hosted the 2010 World Cup, becoming the first African nation to do so — but also the first host nation in history to be eliminated at the group stage"
+    },
+    {
+      "icon": "📯",
+      "text_zh": "南非发明了呜呜祖拉（Vuvuzela）——这种外形像号角的吹奏乐器在2010年世界杯上以其震耳欲聋的声音令全世界球迷印象深刻，此后成为全球体育赛事的标志性符号",
+      "text_en": "South Africa gave the world the vuvuzela — the iconic plastic horn whose deafening sound defined the atmosphere of the 2010 World Cup and became a global sporting symbol"
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "南非是1996年非洲国家杯的冠军，那次夺冠正好在结束种族隔离制度、曼德拉就任总统后不久，被视为\"彩虹之国\"走向和平的最美丽象征之一",
+      "text_en": "South Africa won the 1996 Africa Cup of Nations on home soil shortly after the end of apartheid under President Mandela — a triumph celebrated as one of the Rainbow Nation's most beautiful symbols of unity"
+    },
+    {
+      "icon": "🎯",
+      "text_zh": "本尼·麦卡锡是迄今为止唯一在欧冠决赛球队效力期间拿下进球王称号的非洲球员（2004年波尔图），并以此成为第一个捧起欧冠奖杯的南非人",
+      "text_en": "Benni McCarthy remains the only South African — and one of the few African players — to win the UEFA Champions League, achieving this feat with Porto in 2004"
+    },
+    {
+      "icon": "🌈",
+      "text_zh": "\"彩虹之国\"拥有11种官方语言，国歌以5种语言演唱，是全球独一无二的文化多样性象征，也令南非足球代表了最多元化的社会背景",
+      "text_en": "The 'Rainbow Nation' has 11 official languages — its national anthem is sung in five — making South Africa's national team one of the most culturally diverse in world football"
+    },
+    {
+      "icon": "⚡",
+      "text_zh": "威廉姆斯在2023年非洲国家杯四分之一决赛对阵佛得角时连扑4个点球，成为非洲国家杯历史上单场扑救点球最多的门将之一",
+      "text_en": "Goalkeeper Ronwen Williams saved four consecutive penalties against Cape Verde in the 2023 AFCON quarter-final shoot-out — one of the greatest goalkeeping performances in African Cup of Nations history"
+    }
+  ]
+}

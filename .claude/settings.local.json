@@ -11,7 +11,9 @@
       "Bash(git commit -m ':*)",
       "WebFetch(domain:www.englandfootball.com)",
       "Bash(node:*)",
-      "WebFetch(domain:www.foxsports.com)"
+      "WebFetch(domain:www.foxsports.com)",
+      "WebFetch(domain:whyfootball.org)",
+      "WebFetch(domain:www.sofascore.com)"
     ]
   }
 }

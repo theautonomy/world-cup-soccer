@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "slug": "canada",
+    "generated": "2026-04-13",
+    "version": 1
+  },
+  "team": {
+    "name_zh": "加拿大",
+    "name_en": "Canada",
+    "flag_emoji": "🇨🇦",
+    "federation": "CONCACAF",
+    "fifa_rank": 27,
+    "group": "B",
+    "colors": {
+      "primary": "#FF0000",
+      "secondary": "#FFFFFF",
+      "accent": "#CC0000"
+    }
+  },
+  "country": {
+    "name_zh": "加拿大",
+    "name_en": "Canada",
+    "capital": "Ottawa",
+    "population_zh": "3850万",
+    "population_en": "38.5 million",
+    "area": "9,984,670 km²",
+    "language_zh": "英语、法语",
+    "language_en": "English and French",
+    "continent_zh": "北美洲",
+    "continent_en": "North America",
+    "currency_zh": "加元",
+    "currency_en": "Canadian Dollar",
+    "anthem_zh": "啊，加拿大",
+    "anthem_en": "O Canada",
+    "desc_zh": "加拿大是世界上面积第二大的国家，东临大西洋，西接太平洋，北抵北极。从枫叶、冰球到尼亚加拉大瀑布，加拿大以壮阔的自然风光和多元包容的文化闻名于世。渥太华是其首都，多伦多、温哥华和蒙特利尔是最大的城市，也是这届世界杯的重要举办城市。",
+    "desc_en": "Canada is the world's second-largest country by area, bordered by the Atlantic, Pacific, and Arctic oceans. Famous for maple leaves, ice hockey, and Niagara Falls, it is renowned for its spectacular landscapes and multicultural identity. Ottawa is the capital, while Toronto, Vancouver, and Montréal — all 2026 World Cup host cities — are its largest and most vibrant metropolises.",
+    "football_desc_zh": "加拿大足球经历了漫长的等待后，终于在21世纪迎来了属于自己的时代。从1986年世界杯首秀，到36年的荒漠，再到2022年世界杯的回归，以及2026年以联合主办国身份出征——这是加拿大足球的觉醒年代。戴维斯、大卫等一代超级球星的崛起，让全世界开始将目光投向这片北美土地。",
+    "football_desc_en": "Canadian football has endured a long wait before its golden era finally arrived. From a debut appearance in 1986 to a 36-year drought, then a historic return at the 2022 World Cup, and now co-hosting the 2026 tournament — this is Canadian football's awakening. The emergence of superstars like Alphonso Davies and Jonathan David has drawn global attention to what is now one of CONCACAF's most exciting national teams."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 3,
+    "best_result_zh": "小组赛出局",
+    "best_result_en": "Group stage",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1986,
+        "host_zh": "墨西哥",
+        "host_en": "Mexico",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "首届世界杯，三战全败，0-1负法国，0-2负苏联，0-2负匈牙利",
+        "note_en": "World Cup debut; three defeats — 0-1 to France, 0-2 to Soviet Union, 0-2 to Hungary",
+        "row_class": "group"
+      },
+      {
+        "year": 2022,
+        "host_zh": "卡塔尔",
+        "host_en": "Qatar",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "时隔36年重返世界杯，戴维斯攻入加拿大世界杯历史首球，但仍未能出线",
+        "note_en": "Returned to the World Cup after a 36-year absence; Davies scored Canada's first ever World Cup goal, but eliminated at group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2026,
+        "host_zh": "美国/加拿大/墨西哥",
+        "host_en": "USA/Canada/Mexico",
+        "result_zh": "已晋级（主办国）",
+        "result_en": "Qualified (co-host)",
+        "note_zh": "分入B组，与瑞士、卡塔尔、波黑同组；首战6月12日在多伦多BMO球场对阵波黑",
+        "note_en": "Drawn into Group B alongside Switzerland, Qatar and Bosnia-Herzegovina; opener vs Bosnia on June 12 at BMO Field, Toronto",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name_zh": "杰西·马尔施",
+      "name_en": "Jesse Marsch",
+      "nationality_zh": "美国",
+      "nationality_en": "American"
+    },
+    "players": [
+      {
+        "name_zh": "马克斯·科米尔",
+        "name_en": "Maxime Crépeau",
+        "position": "GK",
+        "club": "LA Galaxy",
+        "caps": 40
+      },
+      {
+        "name_zh": "米兰·博罗扬",
+        "name_en": "Milan Borjan",
+        "position": "GK",
+        "club": "Red Star Belgrade",
+        "caps": 62
+      },
+      {
+        "name_zh": "阿方索·戴维斯",
+        "name_en": "Alphonso Davies",
+        "position": "DEF",
+        "club": "Bayern Munich",
+        "caps": 65
+      },
+      {
+        "name_zh": "卡雷姆·阿克普姆",
+        "name_en": "Kamal Miller",
+        "position": "DEF",
+        "club": "Orlando City",
+        "caps": 48
+      },
+      {
+        "name_zh": "斯科特·肯尼迪",
+        "name_en": "Scott Kennedy",
+        "position": "DEF",
+        "club": "Club Brugge",
+        "caps": 28
+      },
+      {
+        "name_zh": "里奇·拉里亚",
+        "name_en": "Richie Laryea",
+        "position": "DEF",
+        "club": "Nottingham Forest",
+        "caps": 48
+      },
+      {
+        "name_zh": "内森·德尔贝",
+        "name_en": "Alistair Johnston",
+        "position": "DEF",
+        "club": "Celtic",
+        "caps": 40
+      },
+      {
+        "name_zh": "斯蒂芬·艾尤",
+        "name_en": "Stephen Eustáquio",
+        "position": "MID",
+        "club": "FC Porto",
+        "caps": 52
+      },
+      {
+        "name_zh": "塔约·阿达拉本",
+        "name_en": "Tajon Buchanan",
+        "position": "MID",
+        "club": "Inter Milan",
+        "caps": 55
+      },
+      {
+        "name_zh": "伊斯梅尔·科内",
+        "name_en": "Ismaël Koné",
+        "position": "MID",
+        "club": "Watford",
+        "caps": 28
+      },
+      {
+        "name_zh": "马克·安东尼·卡西",
+        "name_en": "Mark-Anthony Kaye",
+        "position": "MID",
+        "club": "CF Montréal",
+        "caps": 38
+      },
+      {
+        "name_zh": "乔纳森·大卫",
+        "name_en": "Jonathan David",
+        "position": "FWD",
+        "club": "Juventus",
+        "caps": 55
+      },
+      {
+        "name_zh": "辛西迪·沙尔曼",
+        "name_en": "Cyle Larin",
+        "position": "FWD",
+        "club": "Club Brugge",
+        "caps": 70
+      },
+      {
+        "name_zh": "卢卡斯·卡瓦利尼",
+        "name_en": "Lucas Cavallini",
+        "position": "FWD",
+        "club": "Vancouver Whitecaps",
+        "caps": 42
+      },
+      {
+        "name_zh": "大卫·沙姆巴",
+        "name_en": "Liam Millar",
+        "position": "FWD",
+        "club": "Basel",
+        "caps": 32
+      },
+      {
+        "name_zh": "戴克西·班贝里",
+        "name_en": "Jacob Shaffelburg",
+        "position": "FWD",
+        "club": "Nashville SC",
+        "caps": 22
+      }
+    ]
+  },
+  "legends": [
+    {
+      "number": 1,
+      "name_zh": "阿方索·戴维斯",
+      "name_en": "Alphonso Davies",
+      "years": "2017–至今",
+      "position_zh": "后卫/边锋",
+      "position_en": "Defender/Winger",
+      "bio_zh": "阿方索·戴维斯是加拿大足球史上最伟大的球员，出生于利比里亚难民营的他，成长为拜仁慕尼黑的超级明星。以惊人的速度和技术著称，曾入选欧冠最佳阵容，并在疫情期间拜仁夺得五冠王时扮演关键角色。2022年世界杯对阵克罗地亚攻入加拿大史上首粒世界杯进球，是加拿大足球新时代最鲜明的符号。",
+      "bio_en": "Alphonso Davies is Canada's greatest footballer, born in a Liberian refugee camp and raised to become a Bayern Munich superstar. Known for his breathtaking pace and technical quality, he earned a place in the Champions League Team of the Season during Bayern's historic 2020 Sextuple campaign. His goal against Croatia at the 2022 World Cup was Canada's first-ever in the tournament — the defining moment of Canadian football's new era.",
+      "stat_value": "65",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 2,
+      "name_zh": "乔纳森·大卫",
+      "name_en": "Jonathan David",
+      "years": "2019–至今",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "乔纳森·大卫是加拿大历史上进球最多的球员，在里尔五年间成为法甲最高产的中锋之一，随后以\"零元转会\"加盟尤文图斯，成为加拿大足球有史以来最具价值的球员之一。他以精准的禁区内跑位、敏锐的预判和稳定的进球能力著称，是这届世界杯加拿大队最危险的进球机器。",
+      "bio_en": "Jonathan David is Canada's all-time leading scorer and one of Ligue 1's most prolific strikers during his five-year tenure at Lille, where he scored over 100 goals. A free transfer to Juventus made him one of the most high-profile Canadian players ever. Blessed with clinical finishing, intelligent movement, and remarkable consistency, he is Canada's primary goal threat at the 2026 World Cup.",
+      "stat_value": "55",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 3,
+      "name_zh": "达韦·怀特",
+      "name_en": "Dwayne De Rosario",
+      "years": "2000–2013",
+      "position_zh": "前锋/中场",
+      "position_en": "Forward/Midfielder",
+      "bio_zh": "达韦·德·罗萨里奥是加拿大足球黑暗年代的旗帜人物，以丰富的MLS经历和令人惊艳的进球能力在北美足球界声名赫赫。他赢得过多次MLS最佳球员荣誉，是那个时代加拿大国家队中最具进攻威力的球员，以强悍的个人能力和关键时刻的出色发挥为人称道。",
+      "bio_en": "Dwayne De Rosario was Canada's standard-bearer during the lean years, earning multiple MLS MVP awards and becoming a legend of North American football. Blessed with pace and an eye for goal, he was the most dynamic attacking force in the Canadian national team during an era of limited success, keeping pride alive with his individual brilliance.",
+      "stat_value": "81",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 4,
+      "name_zh": "西里尔·拉林",
+      "name_en": "Cyle Larin",
+      "years": "2014–至今",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "西里尔·拉林是加拿大历史上出场最多的球员之一，也是2022年世界杯资格赛征程中的重要功臣。他在比利时联赛效力期间成为加拿大足球崛起时期最重要的大中锋，以强壮的身体对抗和扎实的进球能力成为队中的可靠支柱，参与了加拿大历史上一段最辉煌的时期。",
+      "bio_en": "Cyle Larin is one of Canada's most experienced forwards and a key figure in the historic 2022 World Cup qualifying campaign. A powerful centre-forward who became a consistent goal-scorer in the Belgian Pro League, he provided the physical presence and reliability that underpinned Canada's golden generation. A cornerstone of Concacaf qualifying success.",
+      "stat_value": "70",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 5,
+      "name_zh": "保罗·斯塔尔泰里",
+      "name_en": "Paul Stalteri",
+      "years": "1997–2009",
+      "position_zh": "后卫",
+      "position_en": "Defender",
+      "bio_zh": "保罗·斯塔尔泰里是加拿大足球史上最成功的旅欧球员之一，在德甲的不来梅和汉诺威以及热刺均有出色表现。87次代表国家队出场，是当时国家队的领袖人物，以坚韧的防守风格和在欧洲顶级联赛的出色经历为加拿大足球打开了旅欧之门，是21世纪初加拿大足球最重要的代表人物。",
+      "bio_en": "Paul Stalteri was Canada's most successful European export of his era, impressing at Werder Bremen, Hannover, and Tottenham Hotspur. In 87 international appearances he was a talismanic presence as captain, bringing Bundesliga and Premier League experience to the national team setup. A trailblazer who helped pave the way for the current generation of Canadian players in Europe.",
+      "stat_value": "87",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "美国",
+      "opponent_en": "United States",
+      "desc_zh": "美加之战是北美足球最具意义的德比，两个紧邻共享全球最长不设防边境，却在绿茵场上针锋相对。2024年Copa America半决赛，加拿大史无前例地击败美国晋级，令这段宿怨进入了全新篇章。在2026年联合主办的大背景下，两队若在淘汰赛相遇将引发北美乃至全球球迷的狂热关注。",
+      "desc_en": "The Canada-USA match is North America's most significant football derby, two neighbours sharing the world's longest undefended border yet fiercely competitive on the pitch. Canada's historic 2024 Copa América semi-final victory over the USA marked a turning point in the rivalry. With both nations co-hosting 2026, a potential knockout-stage meeting would ignite passion across the continent."
+    },
+    {
+      "opponent_zh": "墨西哥",
+      "opponent_en": "Mexico",
+      "desc_zh": "加拿大与墨西哥在CONCACAF赛场上的对决是北美三强竞争的核心部分。2021-22年世界杯资格赛，加拿大在墨西哥城历史性地击败墨西哥，令El Tri震惊不已。在2026年共同主办的大背景下，两国作为同一届赛事的东道主，这段竞争关系更添了非凡的友谊对抗色彩。",
+      "desc_en": "Canada vs Mexico is central to CONCACAF's three-way rivalry. Canada's historic 2021-22 World Cup qualifying win in Mexico City sent shockwaves through North American football. With both nations co-hosting 2026, the Canada-Mexico relationship combines sporting rivalry with the unique bond of sharing a landmark tournament."
+    },
+    {
+      "opponent_zh": "克罗地亚",
+      "opponent_en": "Croatia",
+      "desc_zh": "2022年世界杯小组赛，加拿大以1-4不敌克罗地亚遭到淘汰，但戴维斯攻入加拿大历史首粒世界杯进球，令这场失利充满了历史意义。那场比赛既是加拿大世界杯新时代的起点，也是他们需要在未来赛事中超越自我的动力源泉。",
+      "desc_en": "Canada's 1-4 defeat to Croatia at the 2022 World Cup ended their tournament, but Alphonso Davies scoring Canada's first-ever World Cup goal made it a historically significant loss. That match was simultaneously a painful elimination and a momentous milestone — the true beginning of Canada's World Cup story."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🍁",
+      "text_zh": "加拿大国旗上的枫叶是这个国家最具辨识度的象征，加拿大国家足球队也因此被球迷昵称为\"枫叶军团\"，红白配色的球衣与国旗遥相呼应",
+      "text_en": "The maple leaf on Canada's flag is the nation's most iconic symbol; the national football team's red-and-white kit mirrors the flag, earning the squad the affectionate nickname 'Les Rouges' (The Reds) among supporters"
+    },
+    {
+      "icon": "🏒",
+      "text_zh": "冰球才是加拿大的第一国民运动，足球长期生活在冰球的阴影之下，但戴维斯和大卫的崛起让足球正在成为这代加拿大年轻人最热爱的运动",
+      "text_en": "Ice hockey is Canada's first national sport and football has long lived in its shadow, but the rise of Davies and David is making football increasingly the sport of choice for Canada's youth"
+    },
+    {
+      "icon": "🌍",
+      "text_zh": "加拿大是世界上移民人口比例最高的国家之一，现役国家队中拥有来自牙买加、利比里亚、喀麦隆等多个国家血统的球员，真正体现了加拿大的多元包容精神",
+      "text_en": "Canada has one of the world's highest immigrant populations, and the national team reflects this beautifully — squad members trace roots to Jamaica, Liberia, Cameroon, Haiti, and beyond, embodying the country's multicultural identity"
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "2022年世界杯资格赛，加拿大以CONCACAF第一名的成绩晋级（领先美国和墨西哥），是加拿大足球史上最辉煌的资格赛成绩，也是他们重回世界舞台的历史宣言",
+      "text_en": "Canada topped CONCACAF World Cup qualifying for 2022 ahead of the USA and Mexico — their best-ever qualifying performance and the historic declaration that Canadian football had truly arrived on the world stage"
+    },
+    {
+      "icon": "🌆",
+      "text_zh": "2026年世界杯，加拿大国内将举办多伦多、温哥华两个城市的比赛，让加拿大人第一次在自己的土地上迎接世界杯的盛况，这对加拿大足球而言是无比珍贵的历史时刻",
+      "text_en": "The 2026 World Cup brings matches to Toronto and Vancouver, giving Canadians the chance to watch world-class football on home soil for the first time — an unmissable milestone in the sport's growth across the country"
+    },
+    {
+      "icon": "⚡",
+      "text_zh": "戴维斯被测定为世界上奔跑速度最快的现役足球运动员之一，在一场欧冠比赛中以36.51公里/小时的最高速冲破了拜仁慕尼黑的速度纪录",
+      "text_en": "Alphonso Davies was clocked as one of the fastest footballers in the world during a Champions League match, recording a top speed of 36.51 km/h — setting a Bayern Munich speed record that amplified his reputation as the fastest man in football"
+    }
+  ]
+}

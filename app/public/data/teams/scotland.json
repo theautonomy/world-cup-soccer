@@ -1,0 +1,347 @@
+{
+  "meta": {
+    "slug": "scotland",
+    "generated": "2026-04-12",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "苏格兰",
+    "name_en": "Scotland",
+    "flag_emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "federation": "UEFA",
+    "fifa_rank": 38,
+    "group": "C",
+    "colors": {
+      "primary": "#003380",
+      "secondary": "#FFDD00",
+      "accent": "#FFFFFF"
+    }
+  },
+  "country": {
+    "capital_zh": "爱丁堡",
+    "capital_en": "Edinburgh",
+    "population": 5500000,
+    "area": 77933,
+    "language_zh": "英语、苏格兰盖尔语",
+    "language_en": "English, Scottish Gaelic",
+    "continent_zh": "欧洲",
+    "continent_en": "Europe",
+    "currency_zh": "英镑",
+    "currency_en": "British Pound Sterling (GBP)",
+    "anthem_zh": "花之苏格兰",
+    "anthem_en": "Flower of Scotland",
+    "desc_zh": "苏格兰是大不列颠岛北部的国家，以壮丽的高地、古老城堡和威士忌而闻名。爱丁堡城堡矗立于城市之上，是国家的象征。苏格兰拥有丰富的凯尔特文化遗产，风笛声响彻山谷，格子呢花纹享誉世界。苏格兰人民以坚韧不拔和强烈的民族自豪感著称。",
+    "desc_en": "Scotland occupies the northern third of Great Britain, renowned for its dramatic Highland landscapes, ancient castles, and world-famous Scotch whisky. Edinburgh Castle dominates the capital's skyline as a timeless symbol of nationhood. With a rich Celtic heritage, Scotland is famous for its bagpipes, tartan patterns, and the legendary Loch Ness. Scots are known for their resilience and fierce national pride.",
+    "football_desc_zh": "苏格兰是足球运动的发源地之一，1872年与英格兰进行了有史以来第一场国际足球比赛。苏格兰球迷以热情著称，被称为「Tartan Army」（格子呢军团），走遍欧洲各地为球队助威。苏格兰球员遍布欧洲各大联赛，传统上以顽强的斗志和团队精神闻名。在史蒂夫·克拉克的带领下，苏格兰于2026年时隔28年再次打入世界杯。",
+    "football_desc_en": "Scotland is one of football's founding nations, having played the first-ever international match against England in 1872. Scottish fans, known as the Tartan Army, travel across Europe in vast numbers to support their team. Scottish players are found throughout Europe's top leagues, and the nation is traditionally known for battling spirit and teamwork. Under Steve Clarke, Scotland qualified for the 2026 World Cup — their first appearance in 28 years."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 9,
+    "best_result_zh": "小组赛出局",
+    "best_result_en": "Group Stage",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1954,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1958,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1974,
+        "stage_zh": "小组赛（未被淘汰）",
+        "stage_en": "Group Stage (unbeaten)",
+        "row_class": "group"
+      },
+      {
+        "year": 1978,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1982,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1986,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1990,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1998,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Steve Clarke",
+      "nationality_zh": "苏格兰",
+      "nationality_en": "Scottish"
+    },
+    "players": [
+      {
+        "name": "Angus Gunn",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Nottingham Forest",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 26
+      },
+      {
+        "name": "Liam Kelly",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Coventry City",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 14
+      },
+      {
+        "name": "Andy Robertson",
+        "position_zh": "左后卫（队长）",
+        "position_en": "LB (Captain)",
+        "club": "Liverpool",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 79
+      },
+      {
+        "name": "Nathan Patterson",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "Everton",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 24
+      },
+      {
+        "name": "Kieran Tierney",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "Celtic",
+        "club_country_zh": "苏格兰",
+        "club_country_en": "Scotland",
+        "caps": 58
+      },
+      {
+        "name": "Grant Hanley",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Norwich City",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 51
+      },
+      {
+        "name": "Jack Hendry",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Club Brugge",
+        "club_country_zh": "比利时",
+        "club_country_en": "Belgium",
+        "caps": 38
+      },
+      {
+        "name": "Scott McTominay",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Napoli",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 62
+      },
+      {
+        "name": "John McGinn",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Aston Villa",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 71
+      },
+      {
+        "name": "Billy Gilmour",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Napoli",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 31
+      },
+      {
+        "name": "Ryan Christie",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Bournemouth",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 62
+      },
+      {
+        "name": "Lewis Ferguson",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Bologna",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 25
+      },
+      {
+        "name": "Lennon Miller",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Udinese",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 10
+      },
+      {
+        "name": "Ché Adams",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Torino",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 35
+      },
+      {
+        "name": "Lyndon Dykes",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Charlton Athletic",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 39
+      },
+      {
+        "name": "Tommy Conway",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Middlesbrough",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 12
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Denis Law",
+      "years": "1958–1974",
+      "position_zh": "前锋",
+      "position_en": "FWD",
+      "bio_zh": "曼联传奇，1964年欧洲足球先生，苏格兰史上最伟大的前锋之一。以闪电般的反应和精准的头球闻名，被称为「国王」。",
+      "bio_en": "Manchester United legend and 1964 Ballon d'Or winner, one of Scotland's greatest ever forwards. Known as 「The King」 for his razor-sharp instincts and clinical finishing.",
+      "stat_zh": "55帽30球",
+      "stat_en": "55 caps, 30 goals"
+    },
+    {
+      "name": "Kenny Dalglish",
+      "years": "1971–1986",
+      "position_zh": "前锋",
+      "position_en": "FWD",
+      "bio_zh": "苏格兰足球史上最完整的球员，在凯尔特人和利物浦皆创造辉煌。曾率苏格兰参加三届世界杯，是进球数和上场数并列历史纪录保持者。",
+      "bio_en": "Regarded as Scotland's greatest player, Dalglish shone at Celtic and Liverpool. A three-time World Cup participant and joint record holder for caps and goals for Scotland.",
+      "stat_zh": "102帽30球（历史纪录）",
+      "stat_en": "102 caps, 30 goals (Scottish record)"
+    },
+    {
+      "name": "Jim Baxter",
+      "years": "1960–1967",
+      "position_zh": "中场",
+      "position_en": "MID",
+      "bio_zh": "苏格兰足球史上最具天赋的中场球员，以优雅的传球和控球著称。1967年在温布利球场对阵英格兰的经典表演令人叹服，那时英格兰正是卫冕世界冠军。",
+      "bio_en": "Arguably Scotland's most naturally gifted midfielder, Baxter was renowned for his elegant passing and ball control. His mesmerizing 1967 performance against World Champions England at Wembley is the stuff of legend.",
+      "stat_zh": "34帽3球",
+      "stat_en": "34 caps, 3 goals"
+    },
+    {
+      "name": "Andy Robertson",
+      "years": "2014–至今",
+      "position_zh": "左后卫",
+      "position_en": "LB",
+      "bio_zh": "苏格兰现任队长，利物浦欧冠冠军成员，被誉为现代足球最佳左后卫之一。在史蒂夫·克拉克麾下带领苏格兰打入2020年欧洲杯、2024年欧洲杯和2026年世界杯。",
+      "bio_en": "Scotland's current captain and a Champions League winner with Liverpool, widely regarded as one of the best left-backs of his generation. Led Scotland to Euro 2020, Euro 2024, and the 2026 World Cup under Steve Clarke.",
+      "stat_zh": "79帽5球（现役）",
+      "stat_en": "79 caps, 5 goals (active)"
+    },
+    {
+      "name": "Scott McTominay",
+      "years": "2018–至今",
+      "position_zh": "中场",
+      "position_en": "MID",
+      "bio_zh": "苏格兰中场核心，以在曼联的表现证明自己后加盟那不勒斯并获巨大成功。体能出众、对抗凶猛，是苏格兰2026年世界杯征程的核心驱动力。",
+      "bio_en": "The engine of Scotland's midfield who proved himself at Manchester United before thriving at Napoli. A dominant physical presence and key figure in Scotland's 2026 World Cup qualifying campaign.",
+      "stat_zh": "62帽12球（现役）",
+      "stat_en": "62 caps, 12 goals (active)"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "英格兰",
+      "opponent_en": "England",
+      "desc_zh": "世界上历史最悠久的国际足球对阵，首场比赛可追溯至1872年。被称为「不列颠锦标赛」或「老敌」，充满了浓厚的政治与文化情结。格子呢军团最渴望在任何赛事中击败的对手。",
+      "desc_en": "The oldest international rivalry in football history, dating back to 1872. Known as the British Championship or simply the 「Auld Enemy,」 it carries deep political and cultural weight. No result matters more to the Tartan Army than beating England."
+    },
+    {
+      "opponent_zh": "爱尔兰共和国",
+      "opponent_en": "Republic of Ireland",
+      "desc_zh": "凯尔特邻居之间的岛屿德比，充满友谊而竞争激烈。两国在欧洲预选赛中多次相遇，每次比赛都是两国球迷的盛会。",
+      "desc_en": "A passionate Celtic derby between island neighbors, always fiercely contested but played in a spirit of kinship. The teams have met repeatedly in European qualifying, with both fan bases creating an electric atmosphere."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "⚽",
+      "text_zh": "苏格兰是世界上历史最悠久的国家足球协会（苏格兰足总，1873年成立）所在地，苏格兰联赛也是全球最古老的职业联赛之一。",
+      "text_en": "Scotland is home to the world's oldest national football association (the SFA, founded 1873) and one of the world's oldest professional football leagues."
+    },
+    {
+      "icon": "🏟️",
+      "text_zh": "1937年，苏格兰在汉普登公园（苏格兰国家体育场）迎战英格兰，现场观众人数高达149,415人，创下欧洲足球史上的观众纪录。",
+      "text_en": "In 1937, Scotland vs England at Hampden Park drew 149,415 fans — a European football attendance record that still stands today."
+    },
+    {
+      "icon": "🎶",
+      "text_zh": "「格子呢军团」是世界上最著名的球迷群体之一，以和平旅行、友好氛围著称，曾多次荣获UEFA年度最佳球迷奖。",
+      "text_en": "The Tartan Army is one of world football's most celebrated fan groups, famous for their peaceful, good-humoured travel. They have won the UEFA Fan of the Year award multiple times."
+    },
+    {
+      "icon": "⏳",
+      "text_zh": "苏格兰在1974年世界杯小组赛中保持不败（1平2胜）却因净胜球劣势遭淘汰，成为世界杯历史上最大的遗憾之一。",
+      "text_en": "At the 1974 World Cup, Scotland went unbeaten in the group stage (one draw, two wins) yet were eliminated on goal difference — one of the great heartbreaks in World Cup history."
+    },
+    {
+      "icon": "🌟",
+      "text_zh": "史蒂夫·克拉克创造了苏格兰男队主帅执教场次的历史纪录，率队打入两届欧洲杯和2026年世界杯，是苏格兰足球史上最成功的主帅之一。",
+      "text_en": "Steve Clarke holds the record for the most matches managed as Scotland head coach. He led the team to back-to-back European Championships and the 2026 World Cup — the most successful stint in Scottish football history."
+    }
+  ]
+}

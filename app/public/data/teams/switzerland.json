@@ -1,0 +1,420 @@
+{
+  "meta": {
+    "slug": "switzerland",
+    "generated": "2026-04-13",
+    "version": 1
+  },
+  "team": {
+    "name_zh": "瑞士",
+    "name_en": "Switzerland",
+    "flag_emoji": "🇨🇭",
+    "federation": "UEFA",
+    "fifa_rank": 18,
+    "group": "B",
+    "colors": {
+      "primary": "#FF0000",
+      "secondary": "#FFFFFF",
+      "accent": "#CC0000"
+    }
+  },
+  "country": {
+    "name_zh": "瑞士",
+    "name_en": "Switzerland",
+    "capital": "Bern",
+    "population_zh": "870万",
+    "population_en": "8.7 million",
+    "area": "41,285 km²",
+    "language_zh": "德语、法语、意大利语、罗曼什语",
+    "language_en": "German, French, Italian, and Romansh",
+    "continent_zh": "欧洲",
+    "continent_en": "Europe",
+    "currency_zh": "瑞士法郎",
+    "currency_en": "Swiss Franc",
+    "anthem_zh": "瑞士圣咏",
+    "anthem_en": "Schweizer Psalm",
+    "desc_zh": "瑞士地处欧洲中心，是一个拥有四种官方语言的联邦制小国，以阿尔卑斯山壮美景色、精密钟表、优质巧克力和顶级银行业闻名全球。尽管国土面积不大，瑞士却是全球最富裕、生活质量最高的国家之一，也是联合国、红十字会等重要国际机构的所在地。",
+    "desc_en": "Switzerland sits at the heart of Europe as a small federal republic with four official languages, famed worldwide for its Alpine scenery, precision watchmaking, fine chocolate, and leading banking sector. Despite its modest size, it is one of the world's wealthiest nations with the highest quality of life, and hosts major international institutions including the UN European HQ and the Red Cross.",
+    "football_desc_zh": "瑞士国家队昵称\"罗索克罗恰蒂\"（意为红十字队），以稳定的竞技水准和连续晋级大赛的能力著称。近年来，得益于效力欧洲顶级联赛的移民背景球员的崛起——如沙卡、扎卡等——瑞士队的整体实力大幅提升。2022年世界杯四分之一决赛的亮相，是他们近68年来的最佳世界杯成绩，2026年被普遍视为夺冠的潜在黑马。",
+    "football_desc_en": "Switzerland's national team — nicknamed the Nati or Rossocrociati — is renowned for its remarkable consistency and ability to qualify for and progress through major tournaments. In recent years, the integration of players with immigrant backgrounds, like Xhaka and Akanji, has elevated the squad's quality significantly. Their 2022 World Cup quarter-final run was their best in 68 years, and they enter 2026 as genuine dark-horse contenders."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 12,
+    "best_result_zh": "八强",
+    "best_result_en": "Quarter-final",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1934,
+        "host_zh": "意大利",
+        "host_en": "Italy",
+        "result_zh": "八强",
+        "result_en": "Quarter-final",
+        "note_zh": "3-2胜荷兰后负于德国",
+        "note_en": "Beat Netherlands 3-2, then lost to Germany in the quarter-final",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1938,
+        "host_zh": "法国",
+        "host_en": "France",
+        "result_zh": "八强",
+        "result_en": "Quarter-final",
+        "note_zh": "加时4-2击败德国后，负于匈牙利",
+        "note_en": "Beat Germany 4-2 after extra time, then lost to Hungary in the quarter-final",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1950,
+        "host_zh": "巴西",
+        "host_en": "Brazil",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "小组赛未能出线",
+        "note_en": "Eliminated at group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1954,
+        "host_zh": "瑞士",
+        "host_en": "Switzerland",
+        "result_zh": "八强",
+        "result_en": "Quarter-final",
+        "note_zh": "主场举办，7-5击败奥地利（世界杯史上进球最多比赛之一），八强4-7大负奥地利",
+        "note_en": "As co-hosts; beat Austria 7-5 in a legendary match, then lost 4-7 to Austria in the quarter-final replay",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1962,
+        "host_zh": "智利",
+        "host_en": "Chile",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "小组赛未能出线",
+        "note_en": "Eliminated at group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1966,
+        "host_zh": "英格兰",
+        "host_en": "England",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "小组赛未能出线",
+        "note_en": "Eliminated at group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1994,
+        "host_zh": "美国",
+        "host_en": "USA",
+        "result_zh": "十六强",
+        "result_en": "Round of 16",
+        "note_zh": "时隔28年重返世界杯，十六强0-3负西班牙",
+        "note_en": "Returned to the World Cup after 28 years; lost 0-3 to Spain in the Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2006,
+        "host_zh": "德国",
+        "host_en": "Germany",
+        "result_zh": "十六强",
+        "result_en": "Round of 16",
+        "note_zh": "小组赛三战全胜，十六强点球0-0不败出局（负于乌克兰），全程0球被攻",
+        "note_en": "Won all three group games; lost on penalties to Ukraine in the Round of 16 — kept a clean sheet throughout but scored none in the shootout",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2010,
+        "host_zh": "南非",
+        "host_en": "South Africa",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "1-0击败卫冕冠军西班牙，制造最大冷门，但仍小组出局",
+        "note_en": "Beat reigning champions Spain 1-0 in the group stage — one of the tournament's biggest upsets — yet still eliminated",
+        "row_class": "group"
+      },
+      {
+        "year": 2014,
+        "host_zh": "巴西",
+        "host_en": "Brazil",
+        "result_zh": "十六强",
+        "result_en": "Round of 16",
+        "note_zh": "加时0-1负于阿根廷，迪马里亚绝杀",
+        "note_en": "Lost 0-1 to Argentina in extra time; Di María scored the winner in injury time of extra time",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2018,
+        "host_zh": "俄罗斯",
+        "host_en": "Russia",
+        "result_zh": "十六强",
+        "result_en": "Round of 16",
+        "note_zh": "0-1负于瑞典，小组赛2-2平塞尔维亚（扎卡、沙卡进球引发鹰之庆祝风波）",
+        "note_en": "Lost 0-1 to Sweden in the Round of 16; the group-stage draw with Serbia featured Xhaka and Shaqiri's eagle-wing celebrations that made global headlines",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2022,
+        "host_zh": "卡塔尔",
+        "host_en": "Qatar",
+        "result_zh": "八强",
+        "result_en": "Quarter-final",
+        "note_zh": "3-0淘汰塞尔维亚，十六强以3-2击败葡萄牙，创造世界杯巨大冷门，八强1-6惨败法国",
+        "note_en": "Beat Serbia 3-0, then produced a stunning 3-2 upset over Portugal in the Round of 16 before losing 1-6 to France in the quarter-final",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 2026,
+        "host_zh": "美国/加拿大/墨西哥",
+        "host_en": "USA/Canada/Mexico",
+        "result_zh": "已晋级",
+        "result_en": "Qualified",
+        "note_zh": "以欧洲B组第一名晋级，分入B组迎战加拿大、卡塔尔和波黑",
+        "note_en": "Qualified top of UEFA Group B; drawn into Group B vs Canada, Qatar and Bosnia-Herzegovina",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name_zh": "穆拉特·亚金",
+      "name_en": "Murat Yakin",
+      "nationality_zh": "瑞士",
+      "nationality_en": "Swiss"
+    },
+    "players": [
+      {
+        "name_zh": "格雷戈尔·科贝尔",
+        "name_en": "Gregor Kobel",
+        "position": "GK",
+        "club": "Borussia Dortmund",
+        "caps": 19
+      },
+      {
+        "name_zh": "扬·索默",
+        "name_en": "Yann Sommer",
+        "position": "GK",
+        "club": "Inter Milan",
+        "caps": 94
+      },
+      {
+        "name_zh": "曼努埃尔·阿坎吉",
+        "name_en": "Manuel Akanji",
+        "position": "DEF",
+        "club": "Inter Milan",
+        "caps": 77
+      },
+      {
+        "name_zh": "法比安·谢尔",
+        "name_en": "Fabian Schär",
+        "position": "DEF",
+        "club": "Newcastle United",
+        "caps": 75
+      },
+      {
+        "name_zh": "西尔万·维德默",
+        "name_en": "Silvan Widmer",
+        "position": "DEF",
+        "club": "Mainz 05",
+        "caps": 42
+      },
+      {
+        "name_zh": "里卡多·罗德里格斯",
+        "name_en": "Ricardo Rodríguez",
+        "position": "DEF",
+        "club": "Torino",
+        "caps": 80
+      },
+      {
+        "name_zh": "格拉尼特·扎卡",
+        "name_en": "Granit Xhaka",
+        "position": "MID",
+        "club": "Sunderland",
+        "caps": 143
+      },
+      {
+        "name_zh": "雷莫·弗罗伊勒",
+        "name_en": "Remo Freuler",
+        "position": "MID",
+        "club": "Nottingham Forest",
+        "caps": 68
+      },
+      {
+        "name_zh": "法比安·里德尔",
+        "name_en": "Fabian Rieder",
+        "position": "MID",
+        "club": "Rennes",
+        "caps": 28
+      },
+      {
+        "name_zh": "鲁本·巴尔加斯",
+        "name_en": "Ruben Vargas",
+        "position": "MID",
+        "club": "Augsburg",
+        "caps": 48
+      },
+      {
+        "name_zh": "米歇尔·阿比舒尔",
+        "name_en": "Michel Aebischer",
+        "position": "MID",
+        "club": "Bologna",
+        "caps": 30
+      },
+      {
+        "name_zh": "丹·恩多耶",
+        "name_en": "Dan Ndoye",
+        "position": "FWD",
+        "club": "Nottingham Forest",
+        "caps": 32
+      },
+      {
+        "name_zh": "诺亚·奥卡福",
+        "name_en": "Noah Okafor",
+        "position": "FWD",
+        "club": "Leeds United",
+        "caps": 28
+      },
+      {
+        "name_zh": "布雷尔·恩博洛",
+        "name_en": "Breel Embolo",
+        "position": "FWD",
+        "club": "Monaco",
+        "caps": 62
+      },
+      {
+        "name_zh": "塞费罗维奇",
+        "name_en": "Haris Seferović",
+        "position": "FWD",
+        "club": "Al Fateh",
+        "caps": 72
+      },
+      {
+        "name_zh": "塞尔登·沙基里",
+        "name_en": "Xherdan Shaqiri",
+        "position": "FWD",
+        "club": "Chicago Fire",
+        "caps": 110
+      }
+    ]
+  },
+  "legends": [
+    {
+      "number": 1,
+      "name_zh": "格拉尼特·扎卡",
+      "name_en": "Granit Xhaka",
+      "years": "2011–至今",
+      "position_zh": "中场",
+      "position_en": "Midfielder",
+      "bio_zh": "扎卡是瑞士历史上出场次数最多的球员，以精准的传球、强悍的防守和出色的领导力著称。他在阿森纳效力近8年，以中场核心的身份帮助球队夺得英超联赛冠军（2024年），随后转战桑德兰继续书写传奇。他在2018年世界杯与塞尔维亚一战做出的\"鹰之庆祝\"（向科索沃族裔致敬）引发全球广泛讨论，是近年来大赛最具争议性的时刻之一。",
+      "bio_en": "Granit Xhaka is Switzerland's most-capped player, renowned for his precise passing, defensive reading, and commanding leadership. In nearly eight years at Arsenal he became a key figure, helping the club win the Premier League in 2024. His 'eagle wing' celebration against Serbia at the 2018 World Cup — a tribute to his Albanian-Kosovar heritage — sparked global debate and remains one of the tournament's most discussed moments.",
+      "stat_value": "143",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 2,
+      "name_zh": "塞尔登·沙基里",
+      "name_en": "Xherdan Shaqiri",
+      "years": "2010–至今",
+      "position_zh": "前锋/中场",
+      "position_en": "Forward/Midfielder",
+      "bio_zh": "沙基里是瑞士足球史上最具技术天赋的球员，绰号\"阿尔卑斯梅西\"，以令人叹为观止的技术动作、强劲的远射和大赛关键时刻的精彩表现著称。他在2014年世界杯对阵洪都拉斯的\"自行车式倒勾\"进球令全世界惊艳，在利物浦效力期间赢得了欧冠和英超冠军，是瑞士新移民足球文化的绝佳代言人。",
+      "bio_en": "Xherdan Shaqiri is the most technically gifted player in Swiss football history — nicknamed the 'Alpine Messi' for his explosive dribbling, fierce shooting, and big-game flair. His bicycle-kick goal against Honduras at the 2014 World Cup was one of the tournament's finest moments. A Champions League and Premier League winner with Liverpool, he exemplifies Switzerland's success in integrating players with immigrant backgrounds.",
+      "stat_value": "110",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 3,
+      "name_zh": "曼努埃尔·阿坎吉",
+      "name_en": "Manuel Akanji",
+      "years": "2018–至今",
+      "position_zh": "后卫",
+      "position_en": "Defender",
+      "bio_zh": "阿坎吉是当今世界最顶级的中后卫之一，在曼城效力期间展现了极高的水准，以速度、读判和精准的传球著称。他是2022年世界杯瑞士防线的绝对领袖，帮助球队以黑马身份打进八强。随后加盟国米，继续在欧洲最顶级的联赛赢得荣誉，是这届世界杯瑞士队防线最核心的人物。",
+      "bio_en": "Manuel Akanji is one of the world's elite centre-backs, reaching the highest level at Manchester City under Pep Guardiola with his pace, reading of the game, and ball-playing ability. He anchored Switzerland's defence at the 2022 World Cup as they shocked Portugal in the Round of 16. Now at Inter Milan, he is the cornerstone of Switzerland's backline and one of the team's most valuable assets heading into 2026.",
+      "stat_value": "77",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 4,
+      "name_zh": "亚历山大·弗雷",
+      "name_en": "Alexander Frei",
+      "years": "2001–2010",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "弗雷是瑞士历史上进球最多的球员（42球），以出色的禁区内嗅觉和稳定的进球能力著称。他在多特蒙德、雷恩和巴塞尔均有亮眼表现，是2006年世界杯瑞士队的绝对核心，也是那个时代欧洲中锋中颇具声誉的存在。",
+      "bio_en": "Alexander Frei is Switzerland's all-time leading scorer with 42 goals, celebrated for his intelligent movement in the box and clinical finishing. He excelled at Rennes, Borussia Dortmund, and Basel, and was the focal point of Switzerland's attack at the 2006 World Cup. His goal record remains the benchmark for Swiss strikers.",
+      "stat_value": "42",
+      "stat_zh": "国家队进球",
+      "stat_en": "international goals"
+    },
+    {
+      "number": 5,
+      "name_zh": "斯蒂芬·约翰森",
+      "name_en": "Stéphane Chapuisat",
+      "years": "1989–1999",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "沙普依萨是20世纪90年代瑞士最杰出的球员，在多特蒙德效力的多年间赢得欧洲冠军联赛冠军（1997年），并两次荣获德甲最佳球员。以速度、技术和进球能力著称，他代表瑞士出场103次，打入21球，是那个年代欧洲最受尊重的瑞士球员之一，也是将瑞士足球推向国际视野的重要功勋人物。",
+      "bio_en": "Stéphane Chapuisat was Switzerland's finest footballer of the 1990s, winning the Champions League with Borussia Dortmund in 1997 and twice being named the Bundesliga's best player. Blessed with pace, technique, and goal-scoring instinct, he earned 103 caps and scored 21 goals, becoming one of Switzerland's most globally recognised footballers and a key figure in raising the nation's football profile.",
+      "stat_value": "103",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "塞尔维亚",
+      "opponent_en": "Serbia",
+      "desc_zh": "瑞士与塞尔维亚的对阵因2018年世界杯小组赛上的\"鹰之庆祝\"事件而引爆全球关注。扎卡和沙基里进球后做出象征阿尔巴尼亚鹰的手势庆祝，被认为是向科索沃独立的政治表态，引发了来自塞尔维亚球迷的强烈反应。2022年世界杯瑞士3-0横扫塞尔维亚，更让这段宿怨充满了新的戏剧色彩。",
+      "desc_en": "The Switzerland-Serbia rivalry exploded at the 2018 World Cup when Xhaka and Shaqiri's eagle-wing celebrations after scoring — interpreted as a political statement supporting Kosovo's independence — drew fierce reactions from Serbian fans. Switzerland's 3-0 demolition of Serbia at the 2022 World Cup added fresh chapters to one of football's most politically charged modern rivalries."
+    },
+    {
+      "opponent_zh": "葡萄牙",
+      "opponent_en": "Portugal",
+      "desc_zh": "2022年世界杯十六强赛，瑞士以3-2击败葡萄牙，制造了那届赛事最大的冷门之一，终结了C·罗纳尔多的世界杯。这场胜利令全世界重新认识了这支被低估的瑞士队，也让两队之间的对阵充满了值得回味的历史。",
+      "desc_en": "Switzerland's 3-2 win over Portugal in the 2026 World Cup Round of 16 — knocking out Cristiano Ronaldo — was one of the 2022 tournament's greatest upsets and announced Switzerland as a genuine knockout-stage threat. The match forced a global reappraisal of Switzerland's quality and gave the rivalry a memorable historical backdrop."
+    },
+    {
+      "opponent_zh": "德国",
+      "opponent_en": "Germany",
+      "desc_zh": "在1954年世界杯，瑞士作为东道主曾与西德在预赛阶段交锋，那届赛事产生了\"伯尔尼奇迹\"。瑞士与德国作为相邻的日耳曼文化近邻，长期在欧洲区预选赛中相遇，这段竞争关系承载着深厚的地缘与历史色彩。",
+      "desc_en": "Switzerland faced West Germany at the 1954 World Cup on home soil during the tournament that produced the 'Miracle of Bern'. As culturally and geographically close German-speaking neighbours, Switzerland and Germany meet regularly in European qualifying, carrying a rivalry weighted with historical and cultural significance."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🕊️",
+      "text_zh": "瑞士是全球著名的中立国，数百年来始终保持中立立场，也是红十字国际委员会的总部所在地，而红十字的标志恰恰是倒转的瑞士国旗",
+      "text_en": "Switzerland is the world's most famous neutral country, maintaining neutrality for centuries; the International Red Cross is headquartered in Geneva, and the Red Cross emblem is literally the Swiss flag with its colours reversed"
+    },
+    {
+      "icon": "🏔️",
+      "text_zh": "阿尔卑斯山贯穿瑞士南部，马特洪峰、少女峰等名峰举世闻名，每年冬天吸引全球各地滑雪爱好者，使瑞士成为欧洲最重要的冬季运动圣地",
+      "text_en": "The Alps run across southern Switzerland — the Matterhorn and Jungfrau are among the world's most iconic peaks, drawing millions of ski enthusiasts each winter and making Switzerland Europe's most celebrated alpine sports destination"
+    },
+    {
+      "icon": "🌍",
+      "text_zh": "瑞士国家队是移民足球的典型案例：扎卡、沙基里等球星拥有阿尔巴尼亚裔背景，阿坎吉、恩博洛等则是非洲裔球员，这反映了21世纪瑞士社会高度包容的文化多元格局",
+      "text_en": "Switzerland's national team is a textbook case of immigration football: Xhaka and Shaqiri have Albanian-Kosovar roots, Akanji and Embolo have African heritage — reflecting the multicultural fabric of 21st-century Swiss society and producing one of Europe's most diverse national squads"
+    },
+    {
+      "icon": "😲",
+      "text_zh": "2010年世界杯，瑞士以1-0击败卫冕冠军西班牙，制造了那届赛事最大冷门，但随后在小组赛因得失球差被淘汰，是那届赛事最令人扼腕的结局之一",
+      "text_en": "In 2010 Switzerland beat reigning world champions Spain 1-0 in one of the tournament's biggest upsets, yet were still eliminated at the group stage on goal difference — one of the most cruelly ironic exits in World Cup history"
+    },
+    {
+      "icon": "⌚",
+      "text_zh": "瑞士手表享誉全球，劳力士、百达翡丽等顶级品牌均源自瑞士，\"Swiss Made\"在全球消费者心中代表着最高品质的工艺，恰如瑞士国家队在欧洲赛场上一丝不苟的精密表现",
+      "text_en": "Swiss watchmaking — Rolex, Patek Philippe, and more — is synonymous with world-class precision; 'Swiss Made' is a global quality hallmark, a fitting metaphor for a national team known for its disciplined, consistent, and precise style of play"
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "瑞士是近三届世界杯（2014、2018、2022）连续打进淘汰赛的欧洲球队，被视为最稳定的\"常青树\"级别参赛队，几乎从不在世界杯大赛中令球迷失望",
+      "text_en": "Switzerland has advanced beyond the group stage at three consecutive World Cups (2014, 2018, 2022), establishing themselves as Europe's most reliable knockout-stage qualifiers — a national team that almost never disappoints at major tournaments"
+    }
+  ]
+}

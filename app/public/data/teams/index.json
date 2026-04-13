@@ -1,10 +1,38 @@
 [
   {
+    "slug": "bosnia-herzegovina",
+    "name_zh": "波黑",
+    "name_en": "Bosnia and Herzegovina",
+    "flag_emoji": "🇧🇦",
+    "fifa_rank": 65
+  },
+  {
+    "slug": "brazil",
+    "name_zh": "巴西",
+    "name_en": "Brazil",
+    "flag_emoji": "🇧🇷",
+    "fifa_rank": 6
+  },
+  {
+    "slug": "canada",
+    "name_zh": "加拿大",
+    "name_en": "Canada",
+    "flag_emoji": "🇨🇦",
+    "fifa_rank": 27
+  },
+  {
     "slug": "croatia",
     "name_zh": "克罗地亚",
     "name_en": "Croatia",
     "flag_emoji": "🇭🇷",
     "fifa_rank": 11
+  },
+  {
+    "slug": "czechia",
+    "name_zh": "捷克",
+    "name_en": "Czech Republic",
+    "flag_emoji": "🇨🇿",
+    "fifa_rank": 44
   },
   {
     "slug": "england",
@@ -21,10 +49,66 @@
     "fifa_rank": 74
   },
   {
+    "slug": "haiti",
+    "name_zh": "海地",
+    "name_en": "Haiti",
+    "flag_emoji": "🇭🇹",
+    "fifa_rank": 83
+  },
+  {
+    "slug": "mexico",
+    "name_zh": "墨西哥",
+    "name_en": "Mexico",
+    "flag_emoji": "🇲🇽",
+    "fifa_rank": 15
+  },
+  {
+    "slug": "morocco",
+    "name_zh": "摩洛哥",
+    "name_en": "Morocco",
+    "flag_emoji": "🇲🇦",
+    "fifa_rank": 8
+  },
+  {
     "slug": "panama",
     "name_zh": "巴拿马",
     "name_en": "Panama",
     "flag_emoji": "🇵🇦",
     "fifa_rank": 33
+  },
+  {
+    "slug": "qatar",
+    "name_zh": "卡塔尔",
+    "name_en": "Qatar",
+    "flag_emoji": "🇶🇦",
+    "fifa_rank": 51
+  },
+  {
+    "slug": "scotland",
+    "name_zh": "苏格兰",
+    "name_en": "Scotland",
+    "flag_emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "fifa_rank": 38
+  },
+  {
+    "slug": "south-africa",
+    "name_zh": "南非",
+    "name_en": "South Africa",
+    "flag_emoji": "🇿🇦",
+    "fifa_rank": 61
+  },
+  {
+    "slug": "south-korea",
+    "name_zh": "韩国",
+    "name_en": "South Korea",
+    "flag_emoji": "🇰🇷",
+    "fifa_rank": 22
+  },
+  {
+    "slug": "switzerland",
+    "name_zh": "瑞士",
+    "name_en": "Switzerland",
+    "flag_emoji": "🇨🇭",
+    "fifa_rank": 18
   }
 ]
