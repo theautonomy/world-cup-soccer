@@ -1,0 +1,510 @@
+{
+  "meta": {
+    "slug": "brazil",
+    "generated": "2026-04-13",
+    "version": 1
+  },
+  "team": {
+    "name_zh": "巴西",
+    "name_en": "Brazil",
+    "flag_emoji": "🇧🇷",
+    "federation": "CONMEBOL",
+    "fifa_rank": 6,
+    "group": "C",
+    "colors": {
+      "primary": "#009C3B",
+      "secondary": "#FFDF00",
+      "accent": "#002776"
+    }
+  },
+  "country": {
+    "name_zh": "巴西",
+    "name_en": "Brazil",
+    "capital": "Brasília",
+    "population_zh": "2.15亿",
+    "population_en": "215 million",
+    "area": "8,515,767 km²",
+    "language_zh": "葡萄牙语",
+    "language_en": "Portuguese",
+    "continent_zh": "南美洲",
+    "continent_en": "South America",
+    "currency_zh": "巴西雷亚尔",
+    "currency_en": "Brazilian Real",
+    "anthem_zh": "巴西国歌",
+    "anthem_en": "Hino Nacional Brasileiro",
+    "desc_zh": "巴西是南美洲最大的国家，也是全球第五大国，拥有2.15亿人口和全球最大的热带雨林——亚马逊雨林。里约热内卢的狂欢节、伊瓜苏大瀑布和科帕卡巴纳海滩举世闻名。巴西是新兴经济体的重要代表，也是拉丁美洲最重要的文化输出国，森巴舞、波萨诺瓦音乐和足球是其对世界最深远的文化贡献。",
+    "desc_en": "Brazil is South America's largest country and the world's fifth largest, home to 215 million people and the planet's greatest tropical rainforest — the Amazon. Rio de Janeiro's carnival, Iguaçu Falls, and Copacabana Beach are globally iconic. Brazil is a major emerging economy and Latin America's foremost cultural exporter; samba, bossa nova, and football are its most lasting gifts to the world.",
+    "football_desc_zh": "没有哪个国家比巴西更与足球融为一体。五届世界杯冠军、22次参赛、世界上进球最多的国家队……巴西的\"美丽游戏\"哲学影响了整整几代球迷。贝利、济科、罗马里奥、罗纳尔多、罗纳尔迪尼奥——每一代都有令人窒息的天才。如今，维尼修斯、拉菲尼亚等新星正在传承这份荣耀，而\"Seleção\"重回世界之巅的渴望，始终是驱动巴西足球前行的最强动力。",
+    "football_desc_en": "No nation is more synonymous with football than Brazil. Five World Cup titles, 22 tournament appearances, the world's most decorated national team — Brazil's 'Jogo Bonito' philosophy has inspired generations of fans worldwide. From Pelé to Zico to Ronaldo to Ronaldinho, each era produces breathtaking talent. Today, Vinícius Jr., Raphinha and Estêvão carry that legacy, while the Seleção's hunger to end a 24-year title drought is the most compelling storyline in world football."
+  },
+  "world_cup": {
+    "titles": 5,
+    "appearances": 22,
+    "best_result_zh": "冠军",
+    "best_result_en": "Champions",
+    "title_years": [1958, 1962, 1970, 1994, 2002],
+    "history": [
+      {
+        "year": 1930,
+        "host_zh": "乌拉圭",
+        "host_en": "Uruguay",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "首届世界杯，小组赛出局",
+        "note_en": "Debut World Cup; eliminated at group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1938,
+        "host_zh": "法国",
+        "host_en": "France",
+        "result_zh": "第三名",
+        "result_en": "3rd place",
+        "note_zh": "勒东多打入8球，首次打入半决赛",
+        "note_en": "Leônidas scored eight goals; reached the semi-final for the first time",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 1950,
+        "host_zh": "巴西",
+        "host_en": "Brazil",
+        "result_zh": "亚军",
+        "result_en": "Runners-up",
+        "note_zh": "\"马拉卡纳惨案\"：最终轮1-2负于乌拉圭，20万球迷目睹心碎时刻",
+        "note_en": "The 'Maracanazo': lost 1-2 to Uruguay in the final round, witnessed by 200,000 heartbroken fans at the Maracanã",
+        "row_class": "final"
+      },
+      {
+        "year": 1954,
+        "host_zh": "瑞士",
+        "host_en": "Switzerland",
+        "result_zh": "八强",
+        "result_en": "Quarter-final",
+        "note_zh": "2-4负于匈牙利，\"伯尔尼之战\"以暴力冲突著称",
+        "note_en": "Lost 2-4 to Hungary in the infamous 'Battle of Bern', marred by violent clashes",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1958,
+        "host_zh": "瑞典",
+        "host_en": "Sweden",
+        "result_zh": "冠军",
+        "result_en": "Champions",
+        "note_zh": "17岁的贝利引领5-2大胜东道主瑞典，首夺世界杯冠军",
+        "note_en": "17-year-old Pelé inspired a 5-2 win over hosts Sweden in the final — Brazil's first World Cup title",
+        "row_class": "champion"
+      },
+      {
+        "year": 1962,
+        "host_zh": "智利",
+        "host_en": "Chile",
+        "result_zh": "冠军",
+        "result_en": "Champions",
+        "note_zh": "贝利受伤，加林查接棒，3-1击败捷克斯洛伐克，成功卫冕",
+        "note_en": "Pelé injured early; Garrincha took over and inspired a 3-1 final win over Czechoslovakia to defend the title",
+        "row_class": "champion"
+      },
+      {
+        "year": 1966,
+        "host_zh": "英格兰",
+        "host_en": "England",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "被葡萄牙和匈牙利淘汰，贝利遭到恶意铲球",
+        "note_en": "Eliminated by Portugal and Hungary; Pelé subjected to brutal fouls and vowed to never play in a World Cup again",
+        "row_class": "group"
+      },
+      {
+        "year": 1970,
+        "host_zh": "墨西哥",
+        "host_en": "Mexico",
+        "result_zh": "冠军",
+        "result_en": "Champions",
+        "note_zh": "被誉为史上最伟大的世界杯冠军队，4-1大胜意大利，贝利最后一届世界杯",
+        "note_en": "Considered the greatest World Cup team ever assembled; beat Italy 4-1 in the final in Pelé's last tournament",
+        "row_class": "champion"
+      },
+      {
+        "year": 1974,
+        "host_zh": "西德",
+        "host_en": "West Germany",
+        "result_zh": "第四名",
+        "result_en": "4th place",
+        "note_zh": "次轮小组赛0-0平荷兰，季军战0-1负波兰",
+        "note_en": "Drew 0-0 with Netherlands in the second group stage; finished 4th after losing the 3rd-place match to Poland",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 1978,
+        "host_zh": "阿根廷",
+        "host_en": "Argentina",
+        "result_zh": "第三名",
+        "result_en": "3rd place",
+        "note_zh": "次轮小组赛全胜，但冠军归阿根廷，季军战3-1胜意大利",
+        "note_en": "Won all second-round group games but Argentina took the title; won 3rd-place match against Italy",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 1982,
+        "host_zh": "西班牙",
+        "host_en": "Spain",
+        "result_zh": "第二轮小组赛出局",
+        "result_en": "Second group stage",
+        "note_zh": "2-3负于意大利，济科、苏格拉底的\"黄金一代\"令人扼腕止步，被誉为史上未夺冠最伟大球队之一",
+        "note_en": "Lost 2-3 to Italy — Zico and Sócrates's golden generation eliminated; widely considered the greatest team never to win the World Cup",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 1986,
+        "host_zh": "墨西哥",
+        "host_en": "Mexico",
+        "result_zh": "八强",
+        "result_en": "Quarter-final",
+        "note_zh": "点球负于法国（祖比扎雷塔的传奇），苏格拉底踢飞了关键点球",
+        "note_en": "Lost to France on penalties; Sócrates blazed his spot-kick wide in a heartbreaking shoot-out",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1990,
+        "host_zh": "意大利",
+        "host_en": "Italy",
+        "result_zh": "十六强",
+        "result_en": "Round of 16",
+        "note_zh": "0-1负于阿根廷，马拉多纳一粒进球终结巴西",
+        "note_en": "Lost 0-1 to Argentina; Maradona's solo assist for Caniggia decided the match",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 1994,
+        "host_zh": "美国",
+        "host_en": "USA",
+        "result_zh": "冠军",
+        "result_en": "Champions",
+        "note_zh": "决赛点球3-2击败意大利，罗马里奥荣获金球奖，时隔24年再度称霸",
+        "note_en": "Won the final on penalties (3-2 vs Italy); Romário claimed the Golden Ball — ending a 24-year title drought",
+        "row_class": "champion"
+      },
+      {
+        "year": 1998,
+        "host_zh": "法国",
+        "host_en": "France",
+        "result_zh": "亚军",
+        "result_en": "Runners-up",
+        "note_zh": "决赛前夕罗纳尔多神秘发病，0-3惨败东道主法国",
+        "note_en": "Ronaldo's mysterious pre-final illness preceded a 0-3 defeat to hosts France in the final",
+        "row_class": "final"
+      },
+      {
+        "year": 2002,
+        "host_zh": "韩国/日本",
+        "host_en": "South Korea/Japan",
+        "result_zh": "冠军",
+        "result_en": "Champions",
+        "note_zh": "罗纳尔多、罗纳尔迪尼奥领衔，2-0决赛击败德国，\"五星巴西\"最近一次夺冠",
+        "note_en": "Ronaldo and Ronaldinho led the Seleção to a 2-0 final win over Germany — Brazil's fifth and most recent World Cup title",
+        "row_class": "champion"
+      },
+      {
+        "year": 2006,
+        "host_zh": "德国",
+        "host_en": "Germany",
+        "result_zh": "八强",
+        "result_en": "Quarter-final",
+        "note_zh": "0-1负于法国，亨利一粒进球终结巴西",
+        "note_en": "Lost 0-1 to France; a lone Zidane-created Henry goal knocked Brazil out",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 2010,
+        "host_zh": "南非",
+        "host_en": "South Africa",
+        "result_zh": "八强",
+        "result_en": "Quarter-final",
+        "note_zh": "1-2负于荷兰，罗比尼奥先进球后队崩盘",
+        "note_en": "Lost 1-2 to Netherlands; Robinho's opener was followed by a second-half collapse",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 2014,
+        "host_zh": "巴西",
+        "host_en": "Brazil",
+        "result_zh": "第四名",
+        "result_en": "4th place",
+        "note_zh": "\"米内拉苏\"：半决赛1-7惨败德国，震惊全球，季军战0-3负荷兰",
+        "note_en": "The 'Mineirazo': humiliated 1-7 by Germany in the semi-final at home — one of football's most shocking results",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 2018,
+        "host_zh": "俄罗斯",
+        "host_en": "Russia",
+        "result_zh": "八强",
+        "result_en": "Quarter-final",
+        "note_zh": "加时1-2负于比利时，库尔图瓦神扑无数",
+        "note_en": "Lost 1-2 to Belgium in extra time; Courtois delivered an exceptional display to deny a star-studded attack",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 2022,
+        "host_zh": "卡塔尔",
+        "host_en": "Qatar",
+        "result_zh": "八强",
+        "result_en": "Quarter-final",
+        "note_zh": "点球1-4负于克罗地亚，内马尔先进球后再度折戟八强",
+        "note_en": "Lost on penalties (1-4) to Croatia after Neymar opened the scoring in extra time — another quarter-final disappointment",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 2026,
+        "host_zh": "美国/加拿大/墨西哥",
+        "host_en": "USA/Canada/Mexico",
+        "result_zh": "已晋级",
+        "result_en": "Qualified",
+        "note_zh": "分入C组，与摩洛哥、苏格兰、海地同组；首战6月13日在东鲁瑟福德大都会球场对阵摩洛哥",
+        "note_en": "Drawn into Group C alongside Morocco, Scotland and Haiti; opener vs Morocco on June 13 at MetLife Stadium, East Rutherford",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name_zh": "卡洛·安切洛蒂",
+      "name_en": "Carlo Ancelotti",
+      "nationality_zh": "意大利",
+      "nationality_en": "Italian"
+    },
+    "players": [
+      {
+        "name_zh": "阿利松·贝克尔",
+        "name_en": "Alisson Becker",
+        "position": "GK",
+        "club": "Liverpool",
+        "caps": 82
+      },
+      {
+        "name_zh": "埃德松",
+        "name_en": "Ederson",
+        "position": "GK",
+        "club": "Manchester City",
+        "caps": 38
+      },
+      {
+        "name_zh": "马奎尼奥斯",
+        "name_en": "Marquinhos",
+        "position": "DEF",
+        "club": "Paris Saint-Germain",
+        "caps": 95
+      },
+      {
+        "name_zh": "加布里埃尔·马加良斯",
+        "name_en": "Gabriel Magalhães",
+        "position": "DEF",
+        "club": "Arsenal",
+        "caps": 32
+      },
+      {
+        "name_zh": "丹尼洛",
+        "name_en": "Danilo",
+        "position": "DEF",
+        "club": "Juventus",
+        "caps": 65
+      },
+      {
+        "name_zh": "亚历山大·桑德罗",
+        "name_en": "Guilherme Arana",
+        "position": "DEF",
+        "club": "Atlético Mineiro",
+        "caps": 35
+      },
+      {
+        "name_zh": "文德尔",
+        "name_en": "Wendell",
+        "position": "DEF",
+        "club": "Porto",
+        "caps": 22
+      },
+      {
+        "name_zh": "卡塞米罗",
+        "name_en": "Casemiro",
+        "position": "MID",
+        "club": "Manchester United",
+        "caps": 82
+      },
+      {
+        "name_zh": "布鲁诺·基马良斯",
+        "name_en": "Bruno Guimarães",
+        "position": "MID",
+        "club": "Newcastle United",
+        "caps": 45
+      },
+      {
+        "name_zh": "卢卡斯·帕凯塔",
+        "name_en": "Lucas Paquetá",
+        "position": "MID",
+        "club": "West Ham United",
+        "caps": 55
+      },
+      {
+        "name_zh": "安德烈",
+        "name_en": "André",
+        "position": "MID",
+        "club": "Wolverhampton Wanderers",
+        "caps": 18
+      },
+      {
+        "name_zh": "维尼修斯·儒尼奥尔",
+        "name_en": "Vinícius Júnior",
+        "position": "FWD",
+        "club": "Real Madrid",
+        "caps": 50
+      },
+      {
+        "name_zh": "拉菲尼亚",
+        "name_en": "Raphinha",
+        "position": "FWD",
+        "club": "Barcelona",
+        "caps": 62
+      },
+      {
+        "name_zh": "罗德里戈",
+        "name_en": "Rodrygo",
+        "position": "FWD",
+        "club": "Real Madrid",
+        "caps": 45
+      },
+      {
+        "name_zh": "埃斯特旺",
+        "name_en": "Estêvão",
+        "position": "FWD",
+        "club": "Chelsea",
+        "caps": 15
+      },
+      {
+        "name_zh": "加布里埃尔·马丁内利",
+        "name_en": "Gabriel Martinelli",
+        "position": "FWD",
+        "club": "Arsenal",
+        "caps": 30
+      }
+    ]
+  },
+  "legends": [
+    {
+      "number": 1,
+      "name_zh": "贝利",
+      "name_en": "Pelé",
+      "years": "1957–1971",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "贝利是公认的\"足球之王\"，三届世界杯冠军（1958、1962、1970年），国家队进球多达77粒。他在1958年世界杯以17岁之龄横空出世，以令人窒息的个人技术和得分能力重新定义了足球运动。他征战三届世界杯的精彩历程，以及在桑托斯代表圣保罗效力的辉煌岁月，使他成为永恒的传奇。",
+      "bio_en": "Pelé is universally acclaimed as the 'King of Football' — a three-time World Cup winner (1958, 1962, 1970) who burst onto the global stage as a 17-year-old and redefined what football could look like. His breathtaking technical ability, goalscoring instinct, and joy of the game made him the sport's greatest ambassador. His 77 international goals and club career at Santos remain the gold standard against which all others are measured.",
+      "stat_value": "77",
+      "stat_zh": "国家队进球",
+      "stat_en": "international goals"
+    },
+    {
+      "number": 2,
+      "name_zh": "罗纳尔多·纳扎里奥",
+      "name_en": "Ronaldo (R9)",
+      "years": "1994–2011",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "\"现象\"罗纳尔多是职业足球史上最致命的中锋之一，15粒世界杯进球至今仍是赛事历史纪录，曾两次荣获国际足联世界年度最佳球员。他在2002年世界杯决赛打进2球，用最戏剧化的方式为自己与1998年决赛前夕发病的惨痛画上了完美的句号。尽管遭受了多次重大伤病，但他以顽强意志一次次回归，令全球球迷动容。",
+      "bio_en": "The 'Phenomenon' is one of the most lethal strikers in football history, holding the World Cup record of 15 goals and winning two FIFA World Player of the Year awards. His two goals in the 2002 World Cup final delivered the most dramatic possible redemption for his mysterious pre-1998 final illness. Despite suffering devastating injuries throughout his career, his returns from the brink inspired millions.",
+      "stat_value": "15",
+      "stat_zh": "世界杯进球",
+      "stat_en": "World Cup goals"
+    },
+    {
+      "number": 3,
+      "name_zh": "罗纳尔迪尼奥",
+      "name_en": "Ronaldinho",
+      "years": "1999–2013",
+      "position_zh": "前锋/中场",
+      "position_en": "Forward/Midfielder",
+      "bio_zh": "罗纳尔迪尼奥是足球史上最具观赏性的球员之一，以无与伦比的创造力、难以置信的技术和永远带着微笑的态度赢得了全球球迷的心。2005年荣获金球奖，在巴塞罗那创造了足球历史上最精彩的表演之一，帮助球队赢得欧冠。他的2002年世界杯表现（包括一粒惊世骇俗的任意球弧线球击败英格兰）至今被球迷津津乐道。",
+      "bio_en": "Ronaldinho is one of football's most joyful and creative players, winning the 2005 Ballon d'Or and producing some of the sport's most breathtaking moments at Barcelona. His free-kick over David Seaman to beat England at the 2002 World Cup remains one of the tournament's most astonishing goals. His permanent grin and love of the game made him the purest embodiment of the 'Jogo Bonito' philosophy.",
+      "stat_value": "97",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 4,
+      "name_zh": "内马尔",
+      "name_en": "Neymar Jr.",
+      "years": "2010–至今",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "内马尔是巴西历史上进球最多的球员，79粒国际进球超越贝利的纪录。他以惊艳的过人技术、精准的任意球和在大赛中的关键进球著称，但伤病一次次剥夺了他在世界杯上大放异彩的机会。2022年世界杯八强止步再次令人扼腕，而2026年是否能入选仍悬而未决，但他在巴西足球史上的地位已无可撼动。",
+      "bio_en": "Neymar Jr. is Brazil's all-time leading scorer with 79 international goals, surpassing Pelé's record. Celebrated for his dazzling dribbling, precise free-kicks, and big-game contributions, injuries have repeatedly denied him the World Cup glory he deserves. His quarter-final exits in 2018 and 2022 are among Brazilian football's greatest frustrations. Whether he makes 2026 remains uncertain, but his place in Brazil's history is already secured.",
+      "stat_value": "79",
+      "stat_zh": "国家队进球",
+      "stat_en": "international goals"
+    },
+    {
+      "number": 5,
+      "name_zh": "维尼修斯·儒尼奥尔",
+      "name_en": "Vinícius Júnior",
+      "years": "2019–至今",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "维尼修斯是当今世界最令人兴奋的球员之一，在皇家马德里两度赢得欧冠冠军，以令人炫目的速度、出色的突破和近年来大幅提升的进球能力著称。他是巴西2026年世界杯最重要的武器，也是安切洛蒂战术体系中最核心的球员。24岁的他正处于职业生涯上升期，2026年世界杯将是他向全世界证明自己的最大舞台。",
+      "bio_en": "Vinícius Júnior is one of the most electrifying players in world football, a two-time Champions League winner with Real Madrid famed for his dazzling pace, dribbling, and increasingly clinical finishing. He is Brazil's most dangerous weapon heading into the 2026 World Cup and the centrepiece of Ancelotti's attack. At 24 and approaching his peak, the 2026 tournament represents his defining moment on the global stage.",
+      "stat_value": "50",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "阿根廷",
+      "opponent_en": "Argentina",
+      "desc_zh": "\"超级德比\"是世界足球最伟大的宿怨，两支南美洲最强大的球队之间积累了无数传奇故事。马拉多纳、梅西对阵贝利、内马尔，这段对抗跨越了多个世代。两国合计夺得9次世界杯冠军，每次对阵都是令全球球迷屏息的时刻。近年来阿根廷势头渐强（2021年美洲杯、2022年世界杯夺冠），更加深了巴西夺冠的迫切愿望。",
+      "desc_en": "The Superclásico is the greatest rivalry in world football — two South American giants with accumulated legends across generations: Maradona and Pelé, Messi and Neymar. Their combined nine World Cup titles make every contest a clash of football's two most decorated nations. Argentina's recent dominance (2021 Copa América, 2022 World Cup) has sharpened Brazil's hunger to reclaim supremacy."
+    },
+    {
+      "opponent_zh": "德国",
+      "opponent_en": "Germany",
+      "desc_zh": "2014年世界杯半决赛，巴西在主场以1-7惨败德国，成为巴西足球史上最黑暗的一页，被称为\"米内拉苏\"。这场灾难性的失败至今仍是全球球迷记忆中最不可思议的世界杯比赛之一，也深刻影响了巴西此后的重建历程。对阵德国的每一场比赛，对巴西球迷来说都无法不联想到那个噩梦般的夜晚。",
+      "desc_en": "The 2014 World Cup semi-final humiliation — Brazil's 1-7 home defeat to Germany, the 'Mineirazo' — remains the most painful result in Brazilian football history and one of the World Cup's most astonishing matches. The devastation of losing 7-1 at home fundamentally shaped Brazil's subsequent rebuilding. Every Brazil-Germany meeting since carries the shadow of that catastrophic night in Belo Horizonte."
+    },
+    {
+      "opponent_zh": "乌拉圭",
+      "opponent_en": "Uruguay",
+      "desc_zh": "\"马拉卡纳惨案\"（1950年世界杯决定性比赛，巴西1-2负于乌拉圭）是巴西足球史上最难以忘却的历史伤痛。至今，马拉卡纳球场仍因这场失利蒙上了一层历史阴影。这段跨越近80年的宿怨，是南美足球情感最深厚的对抗关系之一。",
+      "desc_en": "The 'Maracanazo' — Uruguay's stunning 2-1 victory over Brazil in the 1950 World Cup final match before 200,000 spectators at the Maracanã — is Brazil's deepest historical football wound, a trauma that shaped the nation's relationship with football for decades. Nearly 80 years on, the shadow of that day still falls over every Brazil-Uruguay encounter."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🏆",
+      "text_zh": "巴西是世界上唯一五夺世界杯冠军的球队，也是唯一参加了所有22届世界杯的国家，是足球史上最成功的国家队",
+      "text_en": "Brazil is the only nation to have won the World Cup five times, and the only team to have participated in every single World Cup edition (all 22 tournaments) — the most successful national team in football history"
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "巴西拥有足球史上最长的世界杯进球记录——罗纳尔多·纳扎里奥的15粒进球是世界杯历史上单人进球最多的纪录，直到2022年仍无人超越",
+      "text_en": "Ronaldo Nazário holds the World Cup all-time scoring record with 15 goals across three tournaments — a mark that stood alone as the greatest individual goal haul in World Cup history until Messi equalled it in 2022"
+    },
+    {
+      "icon": "🎭",
+      "text_zh": "巴西国家队球衣原本是白色的，1950年世界杯惨败后，巴西足协面向全国征集新设计，最终选定了如今标志性的金黄色球衣——这成为世界上辨识度最高的运动球衣之一",
+      "text_en": "Brazil's original kit was white; after the 1950 Maracanazo humiliation, a national competition was held to design a new jersey — the iconic canary-yellow kit that resulted is now the most recognisable football shirt in the world"
+    },
+    {
+      "icon": "👨‍🏫",
+      "text_zh": "安切洛蒂是第一位执教巴西国家队的欧洲籍主帅，这一任命打破了巴西足球长达百年的传统，体现了巴西足协在2026年世界杯前寻求彻底变革的强烈意志",
+      "text_en": "Carlo Ancelotti is the first European coach to manage the Brazil national team — breaking a century-old tradition and reflecting the CBF's radical willingness to break with convention in pursuit of a sixth World Cup title"
+    },
+    {
+      "icon": "🌟",
+      "text_zh": "\"内马尔年代\"是巴西历史上距冠军最近却又最遗憾的时代：四届世界杯（2014-2026年）连续在八强被淘汰，\"五星巴西\"的第六颗星已等待了整整24年",
+      "text_en": "Brazil has been eliminated at the quarter-final stage at four consecutive World Cups (2006, 2010, 2018, 2022), with the 2014 semi-final 'Mineirazo' sandwiched in between — making the 24-year wait for a sixth title the defining frustration of modern Brazilian football"
+    },
+    {
+      "icon": "👟",
+      "text_zh": "巴西是全球最大的足球人才输出国之一，其球员遍布欧洲各大联赛，仅英超就有超过20名巴西球员在册，足球文化渗透到巴西社会的每一个角落",
+      "text_en": "Brazil is one of the world's greatest football talent exporters — Brazilian players populate every major European league, with over 20 active in the Premier League alone; football is woven into the very fabric of Brazilian society from the favelas to the stadium terraces"
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "slug": "haiti",
+    "generated": "2026-04-12",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "海地",
+    "name_en": "Haiti",
+    "flag_emoji": "🇭🇹",
+    "federation": "CONCACAF",
+    "fifa_rank": 83,
+    "group": "C",
+    "colors": {
+      "primary": "#00209F",
+      "secondary": "#D21034",
+      "accent": "#FFFFFF"
+    }
+  },
+  "country": {
+    "capital_zh": "太子港",
+    "capital_en": "Port-au-Prince",
+    "population": 11400000,
+    "area": 27750,
+    "language_zh": "海地克里奥尔语、法语",
+    "language_en": "Haitian Creole, French",
+    "continent_zh": "北美洲（加勒比海）",
+    "continent_en": "North America (Caribbean)",
+    "currency_zh": "海地古德",
+    "currency_en": "Haitian Gourde (HTG)",
+    "anthem_zh": "拉·德萨利宁",
+    "anthem_en": "La Dessalinienne",
+    "desc_zh": "海地位于加勒比海伊斯帕尼奥拉岛西部，是西半球第一个黑人共和国，1804年独立。海地人民有着顽强的韧性，尽管历经无数困难，仍以丰富的文化、音乐和艺术传统自豪。伏都教文化和克里奥尔语言是海地独特文化认同的重要组成部分。",
+    "desc_en": "Haiti occupies the western third of Hispaniola island in the Caribbean and was the first Black republic in the world, gaining independence in 1804. Despite enduring immense hardships, Haitians are known for their remarkable resilience and rich cultural traditions encompassing music, art, and Vodou heritage.",
+    "football_desc_zh": "足球是海地最受欢迎的运动，被称为「美丽游戏」的圣所。海地于1974年首次打入世界杯，此后时隔52年再次晋级2026年世界杯，令全国上下欢欣鼓舞。旅居海外的海地球员是球队力量的重要来源，让-里克内尔·贝勒加德等人在欧洲顶级联赛证明了海地足球的实力。",
+    "football_desc_en": "Football is Haiti's most popular sport and a source of immense national pride. Haiti reached their first World Cup in 1974, and their 2026 qualification — 52 years later — sparked nationwide celebration. The Haitian diaspora provides crucial talent, with players like Jean-Ricner Bellegarde proving Haitian football's quality at the highest European level."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 2,
+    "best_result_zh": "小组赛出局",
+    "best_result_en": "Group Stage",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1974,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Sébastien Migné",
+      "nationality_zh": "法国",
+      "nationality_en": "French"
+    },
+    "players": [
+      {
+        "name": "Josué Duverger",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Montreal Impact",
+        "club_country_zh": "加拿大",
+        "club_country_en": "Canada",
+        "caps": 18
+      },
+      {
+        "name": "Herve Koffi",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Charleroi",
+        "club_country_zh": "比利时",
+        "club_country_en": "Belgium",
+        "caps": 12
+      },
+      {
+        "name": "Hannes Delcroix",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Burnley",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 31
+      },
+      {
+        "name": "Zachary Brault-Guillard",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "Montreal Impact",
+        "club_country_zh": "加拿大",
+        "club_country_en": "Canada",
+        "caps": 26
+      },
+      {
+        "name": "Derrick Etienne Jr.",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "CF Montréal",
+        "club_country_zh": "加拿大",
+        "club_country_en": "Canada",
+        "caps": 34
+      },
+      {
+        "name": "Frantzdy Pierrot",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Nashville SC",
+        "club_country_zh": "美国",
+        "club_country_en": "USA",
+        "caps": 22
+      },
+      {
+        "name": "Jean-Ricner Bellegarde",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Wolverhampton Wanderers",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 45
+      },
+      {
+        "name": "Wilde-Donald Guerrier",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Olympiakos",
+        "club_country_zh": "希腊",
+        "club_country_en": "Greece",
+        "caps": 29
+      },
+      {
+        "name": "Steeven Saba",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Clermont Foot",
+        "club_country_zh": "法国",
+        "club_country_en": "France",
+        "caps": 20
+      },
+      {
+        "name": "Ronaldo Damus",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Impact Montreal",
+        "club_country_zh": "加拿大",
+        "club_country_en": "Canada",
+        "caps": 28
+      },
+      {
+        "name": "Duckens Nazon",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "CD Santa Clara",
+        "club_country_zh": "葡萄牙",
+        "club_country_en": "Portugal",
+        "caps": 52
+      },
+      {
+        "name": "Kevin Lafrance",
+        "position_zh": "前锋",
+        "position_en": "FWD",
+        "club": "Leuven",
+        "club_country_zh": "比利时",
+        "club_country_en": "Belgium",
+        "caps": 18
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Ernst Jean-Joseph",
+      "years": "1970–1978",
+      "position_zh": "前锋",
+      "position_en": "FWD",
+      "bio_zh": "海地足球史上的开创性人物，1974年世界杯小组赛阶段海地首粒进球的主人，该球对阵意大利。他是海地在世界杯历史上第一位留下姓名的英雄。",
+      "bio_en": "A pioneering figure in Haitian football, Ernst Jean-Joseph scored Haiti's historic first World Cup goal against Italy in 1974. He was the nation's first World Cup hero and a symbol of the golden generation.",
+      "stat_zh": "1974年世界杯进球英雄",
+      "stat_en": "1974 World Cup goalscorer"
+    },
+    {
+      "name": "Duckens Nazon",
+      "years": "2013–至今",
+      "position_zh": "前锋",
+      "position_en": "FWD",
+      "bio_zh": "海地男足历史射手王，在整个职业生涯中效力于法国、英格兰、葡萄牙等多个联赛。他的进球为海地打入历届赛事作出重要贡献，是2026年世界杯的重要成员。",
+      "bio_en": "Haiti's all-time leading scorer across a career spanning French, English, and Portuguese football. His goals have been instrumental in Haiti's tournament qualifications, and he remains a key figure for the 2026 World Cup.",
+      "stat_zh": "52帽，海地历史进球纪录保持者",
+      "stat_en": "52 caps, Haiti's all-time top scorer"
+    },
+    {
+      "name": "Jean-Ricner Bellegarde",
+      "years": "2020–至今",
+      "position_zh": "中场",
+      "position_en": "MID",
+      "bio_zh": "海地首位效力英超联赛的球员，加盟伍尔弗汉普顿流浪者队。贝勒加德以出色的奔跑能力、拼抢意识和创造力著称，是海地在世界舞台上最具代表性的球员之一。",
+      "bio_en": "The first Haitian player to feature in the English Premier League, joining Wolverhampton Wanderers. Bellegarde is renowned for his energy, tenacity, and creativity, and stands as the most high-profile Haitian footballer of the current era.",
+      "stat_zh": "45帽，首位海地籍英超球员",
+      "stat_en": "45 caps, first Haitian in the Premier League"
+    },
+    {
+      "name": "Frantz Désir",
+      "years": "1965–1975",
+      "position_zh": "中场",
+      "position_en": "MID",
+      "bio_zh": "海地1974年世界杯阵容的重要成员，以出色的组织能力著称。作为当时加勒比地区最具技术性的球员之一，他帮助海地在那个年代跻身国际足坛。",
+      "bio_en": "A key member of Haiti's 1974 World Cup squad, known for his exceptional organizational skills and technique. He was one of the most technically gifted Caribbean players of his era and helped put Haiti on the international football map.",
+      "stat_zh": "1974年世界杯核心成员",
+      "stat_en": "Key player at 1974 World Cup"
+    },
+    {
+      "name": "Wildrick Antoinette",
+      "years": "1995–2008",
+      "position_zh": "前锋",
+      "position_en": "FWD",
+      "bio_zh": "2000年代海地最具代表性的射手，职业生涯早期的进球帮助海地在中北美及加勒比地区赛事中取得佳绩，为海地足球后续发展奠定基础。",
+      "bio_en": "The most prolific Haitian striker of the 2000s, his goals helped Haiti compete effectively across CONCACAF competitions and laid the foundation for the next generation of Haitian football talent.",
+      "stat_zh": "前海地代表队进球最多的球员之一",
+      "stat_en": "One of Haiti's most prolific historical strikers"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "牙买加",
+      "opponent_en": "Jamaica",
+      "desc_zh": "加勒比海双雄之争，两国都有深厚的文化渊源和相似的足球发展历程。每次对阵都是加勒比海足球地区霸主之争，双方球迷热情高涨。",
+      "desc_en": "A Caribbean showdown between two nations with deep cultural ties and similar footballing journeys. Matches between these two sides are contested as battles for Caribbean supremacy, with passionate fan bases on both sides."
+    },
+    {
+      "opponent_zh": "古巴",
+      "opponent_en": "Cuba",
+      "desc_zh": "历史悠久的CONCACAF区域对手，在加勒比地区预选赛中多次交锋，竞争激烈。两支球队都是加勒比地区足球发展的代表力量。",
+      "desc_en": "A long-standing CONCACAF regional rival, with multiple heated encounters through Caribbean qualifying campaigns. Both nations represent the development of football across the Caribbean region."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🏆",
+      "text_zh": "海地1974年首次打入世界杯，时隔整整52年才再度晋级2026年世界杯，这是世界杯历史上间隔时间最长的重返之一。",
+      "text_en": "Haiti reached their first World Cup in 1974 and their second in 2026 — a 52-year gap that is one of the longest gaps between appearances in World Cup history."
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "1974年世界杯，海地完成了令人震惊的壮举：他们以1-3不敌意大利，其中首粒进球创造了历史，是加勒比海球队在世界杯上的珍贵里程碑。",
+      "text_en": "At the 1974 World Cup, Haiti scored against Italy in a 1-3 loss — a historic moment that remains one of the Caribbean's proudest World Cup milestones."
+    },
+    {
+      "icon": "🌍",
+      "text_zh": "海地球员来自遍布世界各地的侨民社区——美国、法国、比利时、加拿大。贝勒加德在英格兰踢球，德尔克鲁瓦出生于比利时，体现了海地侨民足球的多元性。",
+      "text_en": "Haiti's squad is drawn from diaspora communities across the USA, France, Belgium, and Canada. Bellegarde plays in England, Delcroix was born in Belgium — a testament to the global reach of the Haitian footballing diaspora."
+    },
+    {
+      "icon": "💪",
+      "text_zh": "海地的世界杯资格赛征程展现了强大的意志力：在CONCACAF第三轮小组赛中，他们三胜两平保持不败出线，令加勒比地区的球迷们激动万分。",
+      "text_en": "Haiti's qualifying campaign showcased extraordinary resilience: they went unbeaten in their CONCACAF third-round group with three wins and two draws, sending the Caribbean nation into raptures."
+    },
+    {
+      "icon": "🎵",
+      "text_zh": "海地国歌《拉·德萨利宁》是为纪念独立英雄让-雅克·德萨利纳而作，唱响时充满了自由与尊严的力量，是海地民族精神的象征。",
+      "text_en": "Haiti's anthem, La Dessalinienne, honors independence hero Jean-Jacques Dessalines. When it rings out before matches, it carries the full weight of Haiti's extraordinary history as the world's first Black republic."
+    }
+  ]
+}

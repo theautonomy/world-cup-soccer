@@ -1,0 +1,360 @@
+{
+  "meta": {
+    "slug": "morocco",
+    "generated": "2026-04-13",
+    "version": 1
+  },
+  "team": {
+    "name_zh": "摩洛哥",
+    "name_en": "Morocco",
+    "flag_emoji": "🇲🇦",
+    "federation": "CAF",
+    "fifa_rank": 8,
+    "group": "C",
+    "colors": {
+      "primary": "#C1272D",
+      "secondary": "#006233",
+      "accent": "#FFFFFF"
+    }
+  },
+  "country": {
+    "name_zh": "摩洛哥",
+    "name_en": "Morocco",
+    "capital": "Rabat",
+    "population_zh": "3840万",
+    "population_en": "38.4 million",
+    "area": "710,850 km²",
+    "language_zh": "阿拉伯语、柏柏尔语、法语",
+    "language_en": "Arabic, Berber, and French",
+    "continent_zh": "非洲",
+    "continent_en": "Africa",
+    "currency_zh": "摩洛哥迪拉姆",
+    "currency_en": "Moroccan Dirham",
+    "anthem_zh": "努沙德",
+    "anthem_en": "Hymne Chérifien",
+    "desc_zh": "摩洛哥位于非洲西北端，横跨地中海与大西洋，首都拉巴特，最大城市卡萨布兰卡。这是一个集撒哈拉沙漠、阿特拉斯山脉和蔚蓝海岸于一身的多元国度，马拉喀什的红城、菲斯的古老麦地那和北非最著名的香料市场令全球旅行者趋之若鹜。摩洛哥是阿拉伯世界和非洲大陆的重要交汇点。",
+    "desc_en": "Morocco sits at Africa's northwestern tip, bridging the Mediterranean and Atlantic, with its capital Rabat and commercial hub Casablanca. A country of remarkable contrasts — the Sahara Desert, Atlas Mountains, and Atlantic coastline — Marrakech's Red City, Fez's ancient medina, and North Africa's greatest spice markets draw visitors worldwide. Morocco is a vital cultural crossroads between the Arab world and the African continent.",
+    "football_desc_zh": "\"阿特拉斯雄狮\"是非洲足球最崛起的力量。2022年世界杯，摩洛哥完成了一项历史壮举：以非洲首支球队身份打入世界杯四强，连克西班牙和葡萄牙，震惊了整个足球世界。拥有哈基米、阿姆拉巴特等效力欧洲顶级联赛的球星，摩洛哥已成为全球足球版图上不可忽视的重量级力量，2026年世界杯被视为他们再创历史的最佳时机。",
+    "football_desc_en": "The Atlas Lions are African football's most ascendant force. At the 2022 World Cup Morocco achieved a historic feat — becoming the first African nation to reach the semi-finals, eliminating Spain and Portugal along the way and astonishing the football world. With stars like Hakimi and Amrabat playing at Europe's elite clubs, Morocco has emerged as a genuine World Cup contender, and 2026 is seen as their greatest opportunity to write history again."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 7,
+    "best_result_zh": "第四名",
+    "best_result_en": "4th place",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1970,
+        "host_zh": "墨西哥",
+        "host_en": "Mexico",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "非洲首支参加世界杯的球队之一，打入1-2负于西德",
+        "note_en": "One of Africa's first World Cup participants; lost 1-2 to West Germany in the group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1986,
+        "host_zh": "墨西哥",
+        "host_en": "Mexico",
+        "result_zh": "十六强",
+        "result_en": "Round of 16",
+        "note_zh": "非洲首支小组赛出线的球队，以小组第一晋级，十六强0-1负于西德",
+        "note_en": "First African team to advance from the World Cup group stage as group winners; lost 0-1 to West Germany in the Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 1994,
+        "host_zh": "美国",
+        "host_en": "USA",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "1胜1平1负，小组出局",
+        "note_en": "One win, one draw, one defeat — eliminated at group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1998,
+        "host_zh": "法国",
+        "host_en": "France",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "3-0击败苏格兰，但2-3负巴西和0-1负挪威",
+        "note_en": "Beat Scotland 3-0 but lost to Brazil and Norway; eliminated at group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2018,
+        "host_zh": "俄罗斯",
+        "host_en": "Russia",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "与葡萄牙、伊朗、西班牙同组，仅1分出局",
+        "note_en": "Drawn in a tough group with Portugal, Iran, and Spain; accumulated just one point and were eliminated",
+        "row_class": "group"
+      },
+      {
+        "year": 2022,
+        "host_zh": "卡塔尔",
+        "host_en": "Qatar",
+        "result_zh": "第四名",
+        "result_en": "4th place",
+        "note_zh": "非洲首支世界杯四强！淘汰西班牙、葡萄牙，半决赛0-2负法国，季军战1-2负克罗地亚",
+        "note_en": "First African nation in a World Cup semi-final! Beat Spain and Portugal; lost 0-2 to France in the semi-final and 1-2 to Croatia in the third-place match",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 2026,
+        "host_zh": "美国/加拿大/墨西哥",
+        "host_en": "USA/Canada/Mexico",
+        "result_zh": "已晋级",
+        "result_en": "Qualified",
+        "note_zh": "以非洲区E组第一名晋级，分入C组迎战巴西、苏格兰、海地；首战6月13日在大都会球场对阵巴西",
+        "note_en": "Qualified top of CAF Group E; drawn into Group C vs Brazil, Scotland and Haiti; opener vs Brazil on June 13 at MetLife Stadium",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name_zh": "穆罕默德·乌阿比",
+      "name_en": "Mohamed Ouahbi",
+      "nationality_zh": "摩洛哥",
+      "nationality_en": "Moroccan"
+    },
+    "players": [
+      {
+        "name_zh": "亚辛·布努",
+        "name_en": "Yassine Bounou",
+        "position": "GK",
+        "club": "Al-Hilal",
+        "caps": 65
+      },
+      {
+        "name_zh": "穆尼尔·卡雷姆",
+        "name_en": "Munir El Mohamedi",
+        "position": "GK",
+        "club": "Almería",
+        "caps": 35
+      },
+      {
+        "name_zh": "阿什拉夫·哈基米",
+        "name_en": "Achraf Hakimi",
+        "position": "DEF",
+        "club": "Paris Saint-Germain",
+        "caps": 88
+      },
+      {
+        "name_zh": "努萨尔·马兹劳伊",
+        "name_en": "Noussair Mazraoui",
+        "position": "DEF",
+        "club": "Manchester United",
+        "caps": 35
+      },
+      {
+        "name_zh": "纳耶夫·阿格尔德",
+        "name_en": "Nayef Aguerd",
+        "position": "DEF",
+        "club": "West Ham United",
+        "caps": 48
+      },
+      {
+        "name_zh": "贾瓦德·埃尔亚米克",
+        "name_en": "Jawad El Yamiq",
+        "position": "DEF",
+        "club": "Real Valladolid",
+        "caps": 40
+      },
+      {
+        "name_zh": "阿什拉夫·达里",
+        "name_en": "Achraf Dari",
+        "position": "DEF",
+        "club": "Sporting CP",
+        "caps": 28
+      },
+      {
+        "name_zh": "亚当·马西纳",
+        "name_en": "Adam Masina",
+        "position": "DEF",
+        "club": "Watford",
+        "caps": 38
+      },
+      {
+        "name_zh": "苏菲安·阿姆拉巴特",
+        "name_en": "Sofyan Amrabat",
+        "position": "MID",
+        "club": "Galatasaray",
+        "caps": 55
+      },
+      {
+        "name_zh": "阿兹丁·乌纳希",
+        "name_en": "Azzedine Ounahi",
+        "position": "MID",
+        "club": "Olympique Marseille",
+        "caps": 38
+      },
+      {
+        "name_zh": "比拉勒·埃尔哈努斯",
+        "name_en": "Bilal El Khannouss",
+        "position": "MID",
+        "club": "Genk",
+        "caps": 28
+      },
+      {
+        "name_zh": "伊斯梅尔·萨伊巴里",
+        "name_en": "Ismail Saibari",
+        "position": "MID",
+        "club": "PSV Eindhoven",
+        "caps": 22
+      },
+      {
+        "name_zh": "伊利亚斯·本·塞吉尔",
+        "name_en": "Ilias Ben Seghir",
+        "position": "MID",
+        "club": "Monaco",
+        "caps": 18
+      },
+      {
+        "name_zh": "布拉欣·迪亚斯",
+        "name_en": "Brahim Díaz",
+        "position": "FWD",
+        "club": "Real Madrid",
+        "caps": 22
+      },
+      {
+        "name_zh": "优素福·恩内西里",
+        "name_en": "Youssef En-Nesyri",
+        "position": "FWD",
+        "club": "Fenerbahçe",
+        "caps": 85
+      },
+      {
+        "name_zh": "阿尤布·埃尔卡比",
+        "name_en": "Ayoub El Kaabi",
+        "position": "FWD",
+        "club": "Olympiacos",
+        "caps": 32
+      }
+    ]
+  },
+  "legends": [
+    {
+      "number": 1,
+      "name_zh": "阿什拉夫·哈基米",
+      "name_en": "Achraf Hakimi",
+      "years": "2016–至今",
+      "position_zh": "后卫",
+      "position_en": "Defender",
+      "bio_zh": "哈基米是世界上最好的右后卫之一，在巴黎圣日耳曼以强悍的进攻插上、闪电般的速度和精准的传中著称。他是摩洛哥2022年世界杯奇迹之旅的关键人物，全程每场必打，并在对阵西班牙的点球大战中将最后一球踢入网内。88次代表国家队出场，是阿特拉斯雄狮的精神领袖和最具国际知名度的球星。",
+      "bio_en": "Achraf Hakimi is one of the world's best right-backs, celebrated at Paris Saint-Germain for his marauding runs, lightning pace, and precise crossing. He was central to Morocco's 2022 World Cup miracle — playing every match and scoring the decisive penalty against Spain. In 88 international appearances he has established himself as the Atlas Lions' most globally recognised star and their inspirational on-field leader.",
+      "stat_value": "88",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 2,
+      "name_zh": "苏菲安·阿姆拉巴特",
+      "name_en": "Sofyan Amrabat",
+      "years": "2018–至今",
+      "position_zh": "中场",
+      "position_en": "Midfielder",
+      "bio_zh": "阿姆拉巴特是摩洛哥2022年世界杯防守中场的灵魂，以永不停歇的跑动量、精准的断球和强悍的身体对抗成为那届赛事最受关注的中场球员之一，赢得全球球迷和媒体的高度评价。他在曼联的表现虽起伏不定，但在国家队却始终是不可撼动的核心。",
+      "bio_en": "Sofyan Amrabat was the defensive midfield revelation of the 2022 World Cup, becoming a global sensation for his relentless running, ball-winning, and physical dominance in Morocco's historic run. His performances attracted massive transfer interest worldwide. Regardless of club form, he remains the immovable engine of Morocco's midfield and the heartbeat of their defensive structure.",
+      "stat_value": "55",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 3,
+      "name_zh": "优素福·恩内西里",
+      "name_en": "Youssef En-Nesyri",
+      "years": "2016–至今",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "恩内西里是摩洛哥的头号射手，在塞维利亚效力期间成长为欧洲一流的中锋，以出色的空中优势和禁区内的把握机会能力著称。他在2022年世界杯四分之一决赛中攻入了对阵葡萄牙的制胜进球，是那届赛事最令人难忘的进球之一。85次代表国家队出场，他是摩洛哥历史上出场次数最多的球员之一。",
+      "bio_en": "Youssef En-Nesyri is Morocco's premier striker, developing into one of Europe's top centre-forwards at Sevilla with his aerial dominance and clinical finishing inside the box. His header against Portugal in the 2022 World Cup quarter-final was one of that tournament's most celebrated goals. With 85 caps he is among Morocco's most experienced players and their primary source of goals at international level.",
+      "stat_value": "85",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 4,
+      "name_zh": "努尔丁·纳亚贝特",
+      "name_en": "Noureddine Naybet",
+      "years": "1990–2006",
+      "position_zh": "后卫",
+      "position_en": "Defender",
+      "bio_zh": "纳亚贝特是摩洛哥历史上出场次数最多的球员（115次），以冷静果断的防守和出色的领袖气质著称。他在西班牙（德波尔蒂沃和热刺）的长期旅欧经历令他在欧洲赢得了良好的声誉，是摩洛哥历史上最重要的防守人物，也是1986年世界杯历史性征程之后支撑球队前行的关键人物。",
+      "bio_en": "Noureddine Naybet holds Morocco's all-time caps record with 115 appearances, celebrated for his composed defending and authoritative leadership. His long European career at Deportivo de La Coruña and Tottenham Hotspur earned him global recognition. He was the cornerstone of Morocco's defence across four World Cup qualifying cycles and a crucial figure in sustaining the team's progress after the historic 1986 tournament.",
+      "stat_value": "115",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 5,
+      "name_zh": "亚辛·布努",
+      "name_en": "Yassine Bounou",
+      "years": "2015–至今",
+      "position_zh": "门将",
+      "position_en": "Goalkeeper",
+      "bio_zh": "布努是摩洛哥在2022年世界杯奇迹之旅的最大英雄之一，在对阵西班牙的点球大战中扑出两粒点球，帮助摩洛哥创造历史。他在西甲效力多年（塞维利亚）并赢得欧联杯冠军，是世界顶级门将之列中为数不多的非洲球员。在国家队，他是摩洛哥防线最坚实的保障。",
+      "bio_en": "Yassine Bounou was one of the heroes of Morocco's 2022 World Cup miracle — saving two penalties in the shoot-out against Spain to send the Atlas Lions to the quarter-finals. A Europa League winner at Sevilla and one of the world's few truly elite African goalkeepers, he is the last line of Morocco's formidable defensive structure and a player capable of winning matches on his own on the biggest occasions.",
+      "stat_value": "65",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "葡萄牙",
+      "opponent_en": "Portugal",
+      "desc_zh": "2022年世界杯八强战，摩洛哥以1-0击败葡萄牙，恩内西里的头球进球成为那届赛事最令人难忘的时刻之一，C·罗纳尔多泪洒赛场。这场胜利不仅将摩洛哥送入四强，也成为非洲足球有史以来最辉煌的胜利之一，令葡萄牙-摩洛哥的宿怨充满了历史重量。",
+      "desc_en": "Morocco's 1-0 defeat of Portugal in the 2022 World Cup quarter-final — En-Nesyri's stunning header sending Ronaldo home — was one of that tournament's most electric moments and the greatest victory in African football history. The match changed the rivalry from a relatively muted encounter to one of football's most memorable clashes."
+    },
+    {
+      "opponent_zh": "西班牙",
+      "opponent_en": "Spain",
+      "desc_zh": "2022年世界杯十六强赛，摩洛哥在点球大战中击败西班牙（0-0正常时间，3-0点球），哈基米冷静罚入决定性一球。这场胜利展示了摩洛哥防守体系的完美运转，也令整个足球世界为之震惊。历史上摩洛哥与西班牙之间还有地缘政治的复杂因素，使这场对决充满了更深层的历史意涵。",
+      "desc_en": "Morocco's shoot-out victory over Spain in the 2022 World Cup Round of 16 — holding Spain to 0-0 and winning 3-0 on penalties, with Hakimi's iconic Panenka as the final kick — shocked the world and showcased Morocco's tactical perfection. The result carries particular significance given the historical and geopolitical relationship between the two neighbouring nations."
+    },
+    {
+      "opponent_zh": "巴西",
+      "opponent_en": "Brazil",
+      "desc_zh": "摩洛哥与巴西在1998年世界杯同组（C组），但两队一胜一负各走各路。2026年世界杯，两队再度相遇于C组，首战便将相互碰面，这是整个小组赛阶段最令球迷期待的对决之一，也是检验摩洛哥能否与世界顶级球队正面较量的最好机会。",
+      "desc_en": "Morocco and Brazil were in the same 1998 World Cup group but went their separate ways after that tournament. At the 2026 World Cup they meet in Group C's opening match — the most eagerly anticipated fixture in the group and Morocco's first chance to test themselves against Brazil in the main draw of a World Cup since 1998."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🏆",
+      "text_zh": "摩洛哥是2022年世界杯历史上第一支打入四强的非洲球队，也是第一支打进半决赛的阿拉伯国家，其世界杯旅程被称为21世纪最伟大的体育传奇之一",
+      "text_en": "Morocco became the first African nation — and first Arab nation — to reach the World Cup semi-finals at Qatar 2022, producing what many consider the greatest sporting story of the 21st century up to that point"
+    },
+    {
+      "icon": "🌍",
+      "text_zh": "摩洛哥国家队是一支真正意义上的全球化球队，球员来自法国、比利时、西班牙、荷兰等多个欧洲国家的摩洛哥裔移民社区，这种多元化成为他们最大的竞争力之一",
+      "text_en": "Morocco's squad is genuinely globalised — drawing from Moroccan diaspora communities in France, Belgium, Spain, and the Netherlands, integrating top European club talent into one of football's most cohesive national teams"
+    },
+    {
+      "icon": "💎",
+      "text_zh": "摩洛哥在2022年世界杯整个小组赛及淘汰赛阶段，仅正常时间内失1粒进球（阿根廷的点球反弹），防守之稳固令全世界叹为观止",
+      "text_en": "Morocco conceded just one goal in open play throughout the entire 2022 World Cup — a deflected own goal — making their defensive record in normal time arguably the most impressive of any team in the tournament's history"
+    },
+    {
+      "icon": "🦁",
+      "text_zh": "摩洛哥是1986年世界杯历史上第一支以小组第一出线的非洲球队，这一历史壮举比他们2022年的奇迹早了整整36年，证明摩洛哥足球一直拥有非凡的潜力",
+      "text_en": "Morocco were the first African nation to top a World Cup group (in 1986), advancing from the group stage 36 years before their 2022 semi-final miracle — a reminder that Moroccan football's quality has long been underestimated on the global stage"
+    },
+    {
+      "icon": "🎭",
+      "text_zh": "2022年世界杯期间，摩洛哥的主场球迷从全球各地涌向卡塔尔，营造出近年来世界杯上最震撼人心的球迷氛围之一，他们的庆祝方式和对球队的支持成为那届赛事的标志性记忆",
+      "text_en": "Moroccan supporters at Qatar 2022 — a diaspora global fan base converging from dozens of countries — produced some of the tournament's most electrifying atmospheres; their celebrations after eliminating Spain and Portugal became some of the World Cup's most iconic fan images"
+    },
+    {
+      "icon": "🔄",
+      "text_zh": "2026年前夕，主帅雷格拉吉因个人原因辞职，由此前执教摩洛哥U20队的乌阿比接任，此举考验了摩洛哥足协在关键时刻坚持培育本土教练体系的定力",
+      "text_en": "Walid Regragui's surprise resignation ahead of 2026 was replaced by youth team coach Mohamed Ouahbi — a bold appointment that reflects Morocco's commitment to continuity and homegrown coaching development even under World Cup-stage pressure"
+    }
+  ]
+}
