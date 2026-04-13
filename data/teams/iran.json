@@ -1,0 +1,266 @@
+{
+  "meta": {
+    "slug": "iran",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "伊朗",
+    "name_en": "Iran",
+    "flag_emoji": "🇮🇷",
+    "federation": "AFC",
+    "fifa_rank": 20,
+    "group": "G",
+    "colors": {
+      "primary": "#239F40",
+      "secondary": "#FFFFFF",
+      "accent": "#C8102E"
+    }
+  },
+  "country": {
+    "capital_zh": "德黑兰",
+    "capital_en": "Tehran",
+    "population": 88000000,
+    "area": 1648195,
+    "language_zh": "波斯语（法尔西语）",
+    "language_en": "Persian (Farsi)",
+    "continent_zh": "亚洲",
+    "continent_en": "Asia",
+    "currency_zh": "伊朗里亚尔",
+    "currency_en": "Iranian Rial (IRR)",
+    "anthem_zh": "伊斯兰共和国国歌",
+    "anthem_en": "Soroud-e Melliye Jomhouri-ye Eslami-ye Iran",
+    "desc_zh": "伊朗是中东最大的国家之一，也是世界上最古老的文明之一。波斯帝国曾是古代世界最强大的帝国之一，留下了波斯波利斯等壮观的历史遗址。伊朗以诗歌、地毯、建筑和美食著称，德黑兰是中东地区人口最多的大都市之一。8800万人口使伊朗成为中东及亚洲举足轻重的地区大国。",
+    "desc_en": "Iran is one of the Middle East's largest nations and home to one of the world's oldest civilisations. The Persian Empire was among the most powerful in the ancient world, leaving behind spectacular heritage sites such as Persepolis. Iran is renowned for poetry, carpets, architecture, and cuisine. Tehran is one of the most populous metropolises in the Middle East, and with 88 million people, Iran is a major regional power in both the Middle East and Asia.",
+    "football_desc_zh": "伊朗是亚洲足球的传统强队，亚洲杯三冠王（1968、1972、1976年），也是亚洲出线次数最多的国家之一。以强悍的防守和顽强的集体精神闻名，塔雷米等球员旅欧后显著提升了球队的进攻水准。虽然六次世界杯出线均未能突破小组赛，但2022年卡塔尔世界杯力克威尔士，依然令世界印象深刻。",
+    "football_desc_en": "Iran is Asia's traditional powerhouse — three-time Asian Cup winners (1968, 1972, 1976) and one of the continent's most consistent World Cup qualifiers. Known for resilient defending and collective grit, their technical standard has risen sharply as more players ply their trade in Europe. Six World Cup appearances without passing the group stage have not dimmed Iranian football's ambition — a 2022 win over Wales signalled that Team Melli is improving."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 7,
+    "best_result_zh": "小组赛",
+    "best_result_en": "Group Stage",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1978,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1998,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2006,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2014,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2018,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2022,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Amir Ghalenoei",
+      "nationality_zh": "伊朗",
+      "nationality_en": "Iranian"
+    },
+    "players": [
+      {
+        "name": "Alireza Beiranvand",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Persepolis",
+        "club_country_zh": "伊朗",
+        "club_country_en": "Iran",
+        "caps": 78
+      },
+      {
+        "name": "Majid Hosseini",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Kayserispor",
+        "club_country_zh": "土耳其",
+        "club_country_en": "Turkey",
+        "caps": 48
+      },
+      {
+        "name": "Ehsan Hajsafi",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "Olympiacos",
+        "club_country_zh": "希腊",
+        "club_country_en": "Greece",
+        "caps": 126
+      },
+      {
+        "name": "Shoja Khalilzadeh",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Al-Qadsiah",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 52
+      },
+      {
+        "name": "Ahmad Noorollahi",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Persepolis",
+        "club_country_zh": "伊朗",
+        "club_country_en": "Iran",
+        "caps": 44
+      },
+      {
+        "name": "Saeid Ezatolahi",
+        "position_zh": "中场",
+        "position_en": "DM",
+        "club": "Aalborg BK",
+        "club_country_zh": "丹麦",
+        "club_country_en": "Denmark",
+        "caps": 68
+      },
+      {
+        "name": "Ali Gholizadeh",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Charleroi",
+        "club_country_zh": "比利时",
+        "club_country_en": "Belgium",
+        "caps": 52
+      },
+      {
+        "name": "Alireza Jahanbakhsh",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Dender",
+        "club_country_zh": "比利时",
+        "club_country_en": "Belgium",
+        "caps": 98
+      },
+      {
+        "name": "Sardar Azmoun",
+        "position_zh": "前锋",
+        "position_en": "ST",
+        "club": "Shabab Al Ahli",
+        "club_country_zh": "阿联酋",
+        "club_country_en": "UAE",
+        "caps": 82
+      },
+      {
+        "name": "Mehdi Taremi",
+        "position_zh": "中锋（队长）",
+        "position_en": "ST (Captain)",
+        "club": "Olympiacos",
+        "club_country_zh": "希腊",
+        "club_country_en": "Greece",
+        "caps": 115
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Ali Daei",
+      "years": "1993–2006",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "伊朗足球史上最伟大的球员，职业生涯攻入109粒国际进球，曾是国际足坛进球最多的球员（直至C罗打破纪录）。效力拜仁慕尼黑、汉堡、赫塔等德甲豪门，是亚洲球员闯荡欧洲顶级联赛的先驱之一。其为国征战的热忱激励了整整一代伊朗球员。",
+      "bio_en": "Iran's greatest ever player, and the first man in history to score 100 international goals. His record of 109 goals stood as the world record until Cristiano Ronaldo surpassed it. He plied his trade in the Bundesliga (Bayern Munich, Hertha, Hamburg), blazing a trail for Asian players in Europe. His commitment to the national team inspired generations of Iranian footballers.",
+      "stat_zh": "149帽109球，曾为国际足坛进球最多纪录保持者",
+      "stat_en": "149 caps, 109 goals; former world record holder for international goals"
+    },
+    {
+      "name": "Ali Karimi",
+      "years": "1998–2011",
+      "position_zh": "攻击中场",
+      "position_en": "AM",
+      "bio_zh": "被誉为「亚洲马拉多纳」，以闪电般的盘带和出色的创造力征服了亚洲球迷。效力拜仁慕尼黑期间成为首位在拜仁赢得德甲冠军的伊朗球员，2004年亚洲杯荣膺最佳球员，是伊朗足球黄金一代的精神领袖。",
+      "bio_en": "Nicknamed the 「Asian Maradona」, Karimi dazzled fans with his electric dribbling and creativity. At Bayern Munich he became the first Iranian to win the Bundesliga with the Bavarian giants, and was named Best Player at the 2004 AFC Asian Cup. He is the spiritual leader of Iran's golden generation.",
+      "stat_zh": "127帽38球，2004年亚洲杯最佳球员",
+      "stat_en": "127 caps, 38 goals; Best Player at the 2004 AFC Asian Cup"
+    },
+    {
+      "name": "Mehdi Taremi",
+      "years": "2015–至今",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "现任队长，伊朗现役第一人。效力波尔图多年后加盟国际米兰，在欧洲证明了自己的顶级实力。是伊朗历史第三射手，以强烈的求胜欲望和绝佳的接球技术著称。正是他在2025年世预赛对乌兹别克斯坦的两粒进球，确保了伊朗出线权。",
+      "bio_en": "Current captain and Iran's best active player. After years at Porto he moved to Inter Milan, proving himself at the highest European level. Iran's third all-time top scorer, Taremi is renowned for his desire, hold-up play, and big-game composure. His two goals against Uzbekistan in March 2025 clinched Iran's 2026 World Cup qualification.",
+      "stat_zh": "115帽56球（现役），2025年世预赛决定性双响",
+      "stat_en": "115 caps, 56 goals (active); crucial qualifying brace vs Uzbekistan in 2025"
+    },
+    {
+      "name": "Javad Nekounam",
+      "years": "2000–2014",
+      "position_zh": "中场",
+      "position_en": "MID",
+      "bio_zh": "伊朗历史上最具统治力的中场之一，曾长期担任国家队队长。以过人的领导力、精准的传球和无懈可击的职业精神闻名，效力西班牙奥萨苏纳多年，是亚洲球员登陆欧洲联赛的成功典范。",
+      "bio_en": "One of the most dominant midfielders in Iranian history and a long-serving national team captain. Known for his leadership, precise distribution, and exemplary professionalism. His successful stint at Spanish club Osasuna made him a role model for Asian players pursuing European football.",
+      "stat_zh": "151帽42球，伊朗出场次数历史前列",
+      "stat_en": "151 caps, 42 goals; among Iran's all-time leaders in appearances"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "美国",
+      "opponent_en": "United States",
+      "desc_zh": "1980年伊斯兰革命后，伊美两国关系长期处于对立。1998年法国世界杯，伊朗2-1击败美国，被称为「二十世纪最具政治色彩的足球比赛」。赛前两队球员互赠鲜花，赛后拥抱，但场外的地缘政治张力始终挥之不去。",
+      "desc_en": "Rooted in the 1979 Islamic Revolution and decades of geopolitical tension, the Iran–USA rivalry produced one of football's most charged encounters at the 1998 World Cup. Iran's 2-1 victory was celebrated as a political triumph; the players exchanged flowers before kick-off in a gesture of goodwill that contrasted sharply with the hostility between the two governments."
+    },
+    {
+      "opponent_zh": "韩国",
+      "opponent_en": "South Korea",
+      "desc_zh": "亚洲足球最持久的宿敌关系，两队在亚洲杯和世预赛中相遇无数次，每场比赛都充满火药味。双方均视对方为「亚洲第一」的最大竞争者，这场德比被球迷称为「亚洲最大的足球宿敌」。",
+      "desc_en": "The oldest and most intense rivalry in Asian football. Iran and South Korea have met countless times in Asian Cup and World Cup qualifying campaigns, with each side viewing the other as the primary challenger for Asian supremacy. Known among fans as the 「Asian El Clásico」."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🌹",
+      "text_zh": "1998年法国世界杯伊朗对阵美国前，两队球员打破外交僵局，互赠白玫瑰以示友好。这一画面成为世界杯历史上最令人难忘的赛前时刻之一，被誉为「体育外交」的经典案例，全球数百万观众动容。",
+      "text_en": "Before their politically charged 1998 World Cup match, Iranian and American players exchanged white roses on the pitch in a remarkable gesture of goodwill — one of football's most memorable pre-match moments. The image of rival nations sharing flowers became a symbol of sport's power to transcend geopolitical hostility."
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "伊朗是唯一三夺亚洲杯的球队（1968、1972、1976年），且三次均在主场或近主场举办的赛事中夺冠。这三连冠证明了那个时代伊朗足球的巨大统治力，也是亚洲足球史上迄今难以复制的壮举。",
+      "text_en": "Iran are the only nation to win three consecutive AFC Asian Cups (1968, 1972, 1976) — a dynasty of dominance over Asian football that has never been replicated. All three titles came on home soil or in neighbouring countries, underlining Iran's unrivalled regional strength of that era."
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "阿里·代伊于2004年成为首位在国际比赛中攻入100球的球员，其109球的记录直到2021年才被C罗打破。代伊的成就早于梅西和C罗的时代，在互联网和社交媒体普及前完成，堪称足球史上最被低估的伟大纪录之一。",
+      "text_en": "Ali Daei became the first player in history to score 100 international goals in 2004, his record of 109 standing until Cristiano Ronaldo surpassed it in 2021. Achieved before the era of social media or global streaming, Daei's feat remains one of football's most underappreciated records."
+    },
+    {
+      "icon": "🎯",
+      "text_zh": "伊朗队长塔雷米是2022年世界杯八强最精彩的进球之一的创造者——在四分之一决赛中打入一粒倒钩世界波。尽管伊朗未能出线，但这粒进球让全世界看到了伊朗足球的质量，随后吸引了国际米兰向他抛出橄榄枝。",
+      "text_en": "Iran captain Taremi scored one of the 2022 World Cup's most spectacular goals — a perfectly-timed bicycle kick in the final group game against the USA. Though Iran were eliminated, the goal announced his arrival on the world stage and soon attracted the attention of Inter Milan."
+    }
+  ]
+}

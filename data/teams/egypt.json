@@ -1,0 +1,257 @@
+{
+  "meta": {
+    "slug": "egypt",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "埃及",
+    "name_en": "Egypt",
+    "flag_emoji": "🇪🇬",
+    "federation": "CAF",
+    "fifa_rank": 29,
+    "group": "G",
+    "colors": {
+      "primary": "#CC0000",
+      "secondary": "#FFFFFF",
+      "accent": "#000000"
+    }
+  },
+  "country": {
+    "capital_zh": "开罗",
+    "capital_en": "Cairo",
+    "population": 105000000,
+    "area": 1002450,
+    "language_zh": "阿拉伯语",
+    "language_en": "Arabic",
+    "continent_zh": "非洲",
+    "continent_en": "Africa",
+    "currency_zh": "埃及镑",
+    "currency_en": "Egyptian Pound (EGP)",
+    "anthem_zh": "我的祖国",
+    "anthem_en": "Bilady, Bilady, Bilady",
+    "desc_zh": "埃及是世界上历史最悠久的文明之一，金字塔、狮身人面像和尼罗河是其永恒的文化符号。开罗是非洲人口最多的城市，也是阿拉伯世界的政治、文化中心。拥有1亿多人口，埃及是中东和非洲最重要的国家之一，在文学、电影、音乐方面的影响力遍及整个阿拉伯世界。",
+    "desc_en": "Egypt is home to one of history's greatest civilisations — the Pyramids, the Sphinx, and the Nile are eternal icons. Cairo is Africa's most populous city and a cultural and political hub of the Arab world. With over 105 million people, Egypt is one of the Middle East and Africa's most influential nations, with a profound impact on Arabic literature, cinema, and music.",
+    "football_desc_zh": "埃及是非洲足球的霸主，创纪录的七次非洲杯冠军（包括2006、2008、2010年三连冠）使「法老军团」成为非洲大陆上最成功的球队。萨拉赫是本届非洲杯历史最高射手和CAF世预赛历史最高射手，是现役最杰出的非洲球员之一。此次埃及2026年出线，创历史最佳预选赛成绩，以全胜积分位列小组第一，让世界看到了法老军团的雄心壮志。",
+    "football_desc_en": "Egypt are Africa's most decorated national team — a record seven Africa Cup of Nations titles, including three in a row (2006, 2008, 2010), make them the continent's dominant force. Mohamed Salah is AFCON's all-time top scorer and CAF World Cup qualifying's all-time leading scorer, and one of the world's best active players. Egypt's 2026 qualifying campaign was their finest ever — unbeaten through 10 games with a +18 goal difference, confirming the Pharaohs as Africa's standard-bearers."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 4,
+    "best_result_zh": "小组赛（最佳：1934年第二轮）",
+    "best_result_en": "Group Stage (best: Second Round 1934)",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1934,
+        "stage_zh": "第二轮",
+        "stage_en": "Second Round",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 1990,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2018,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Hossam Hassan",
+      "nationality_zh": "埃及",
+      "nationality_en": "Egyptian"
+    },
+    "players": [
+      {
+        "name": "Mohamed El-Shenawy",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Al Ahly",
+        "club_country_zh": "埃及",
+        "club_country_en": "Egypt",
+        "caps": 44
+      },
+      {
+        "name": "Ahmed Hegazy",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Al Ittihad",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 72
+      },
+      {
+        "name": "Omar Kamal",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Al Ahly",
+        "club_country_zh": "埃及",
+        "club_country_en": "Egypt",
+        "caps": 36
+      },
+      {
+        "name": "Mohamed Hamdy",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "Al Ahly",
+        "club_country_zh": "埃及",
+        "club_country_en": "Egypt",
+        "caps": 28
+      },
+      {
+        "name": "Ahmed Fatouh",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "Zamalek",
+        "club_country_zh": "埃及",
+        "club_country_en": "Egypt",
+        "caps": 24
+      },
+      {
+        "name": "Emam Ashour",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Zamalek",
+        "club_country_zh": "埃及",
+        "club_country_en": "Egypt",
+        "caps": 42
+      },
+      {
+        "name": "Amr El-Sulaya",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Al Ahly",
+        "club_country_zh": "埃及",
+        "club_country_en": "Egypt",
+        "caps": 38
+      },
+      {
+        "name": "Trezeguet",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Al Wehda",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 80
+      },
+      {
+        "name": "Omar Marmoush",
+        "position_zh": "前锋",
+        "position_en": "ST",
+        "club": "Manchester City",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 42
+      },
+      {
+        "name": "Mostafa Mohamed",
+        "position_zh": "中锋",
+        "position_en": "ST",
+        "club": "Galatasaray",
+        "club_country_zh": "土耳其",
+        "club_country_en": "Turkey",
+        "caps": 38
+      },
+      {
+        "name": "Mohamed Salah",
+        "position_zh": "右边锋（队长）",
+        "position_en": "FWD (Captain)",
+        "club": "Liverpool",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 98
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Mohamed Salah",
+      "years": "2011–至今",
+      "position_zh": "右边锋",
+      "position_en": "FWD",
+      "bio_zh": "埃及足球史上最伟大的球员，现役全球最佳前锋之一。利物浦旗帜性人物，三夺英超金靴，多次入选英超赛季最佳球员。非洲杯历史最高射手，CAF世预赛历史最高射手（20球）。以毁灭性的速度、精准的射门和无私的团队精神著称，被誉为「埃及之王」。",
+      "bio_en": "Egypt's greatest ever player and one of the world's best active forwards. An iconic figure at Liverpool, three-time Premier League Golden Boot winner and multiple-time PFA Players' Player of the Year. AFCON's all-time top scorer and CAF World Cup qualifying's all-time leading scorer with 20 goals. Devastating pace, clinical finishing, and selfless team play define the 「Egyptian King.」",
+      "stat_zh": "98帽（现役），AFCON历史最高射手，世预赛历史最高射手20球",
+      "stat_en": "98 caps (active); AFCON all-time top scorer; 20 goals — CAF qualifying all-time record"
+    },
+    {
+      "name": "Hossam Hassan",
+      "years": "1985–2006",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "埃及国家队历史最高射手（69球），现任国家队主教练——成为历史上第一位以球员和教练双重身份率埃及打入世界杯的人。职业生涯效力国内外多家俱乐部，是非洲足球史上最高效的射手之一，多次荣膺非洲最佳球员。",
+      "bio_en": "Egypt's all-time record scorer with 69 international goals, and now the national team's head coach — making him the only man to take Egypt to the World Cup as both player (1990) and manager (2026). One of African football's most prolific strikers, he was a multiple Africa Cup of Nations winner and a nominee for African Player of the Year.",
+      "stat_zh": "169帽69球，埃及历史最高射手（现兼任主教练）",
+      "stat_en": "169 caps, 69 goals; Egypt's all-time top scorer — now also national team head coach"
+    },
+    {
+      "name": "Mohamed Aboutrika",
+      "years": "2004–2013",
+      "position_zh": "攻击中场",
+      "position_en": "AM",
+      "bio_zh": "「魔术师」——以其优雅的技术、无私的精神和对阿赫利俱乐部的无限忠诚而被铭记。三届非洲杯冠军核心成员（2006、2008、2010年三连冠），2008年荣膺非洲最佳球员。他的庆祝动作和场上风度使他成为整个阿拉伯世界的偶像人物。",
+      "bio_en": "「The Magician」 — remembered for his elegant technique, selfless spirit, and lifelong loyalty to Al Ahly. A key figure in Egypt's unprecedented AFCON three-peat (2006, 2008, 2010) and the 2008 African Footballer of the Year. His celebrations and on-pitch grace made him an idol across the entire Arab world.",
+      "stat_zh": "101帽33球，三届非洲杯冠军，2008年非洲最佳球员",
+      "stat_en": "101 caps, 33 goals; three AFCON titles; 2008 African Footballer of the Year"
+    },
+    {
+      "name": "Ahmed Hassan",
+      "years": "1995–2012",
+      "position_zh": "中场",
+      "position_en": "MID",
+      "bio_zh": "曾被吉尼斯世界纪录认证为国际足球出场次数最多的球员（184场），同时是四届非洲杯冠军队员。以超强的体力、出色的领导力和贡献精神著称，是上世纪末至本世纪初埃及足球黄金一代的中流砥柱。",
+      "bio_en": "Once certified by Guinness World Records as the most-capped international footballer (184 appearances), Hassan was a four-time Africa Cup of Nations winner. Known for his extraordinary stamina, leadership, and team-first mentality, he was the engine of Egypt's golden era spanning the late 1990s and 2000s.",
+      "stat_zh": "184帽（吉尼斯纪录，当时全球第一），四届非洲杯冠军",
+      "stat_en": "184 caps (former Guinness World Record holder); four-time AFCON champion"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "尼日利亚",
+      "opponent_en": "Nigeria",
+      "desc_zh": "非洲最具观赏性的强强对话。两大非洲足球强国在非洲杯、世预赛中多次正面交锋，被称为「北非大象vs非洲超鹰」。埃及和尼日利亚合计拥有11座非洲杯冠军奖杯，每次相遇都是非洲足球最瞩目的对决。",
+      "desc_en": "Africa's most glamorous football clash. Egypt's Pharaohs and Nigeria's Super Eagles have met repeatedly in African Cups and World Cup qualifiers. Between them they hold 11 AFCON titles, and every encounter is one of African football's most watched and debated matches."
+    },
+    {
+      "opponent_zh": "阿尔及利亚",
+      "opponent_en": "Algeria",
+      "desc_zh": "北非宿敌之战，兼具足球和政治的双重背景。2009年世预赛决定性附加赛，两队在苏丹喀土穆进行加赛，成为近年来非洲足球史上最具争议的比赛之一，赛后风波持续数年。",
+      "desc_en": "A North African derby layered with football and political history. Their 2009 World Cup qualifying play-off required a decisive third match in Sudan, producing one of the most controversial and passionately contested encounters in African football history — the fallout reverberated for years."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🏆",
+      "text_zh": "埃及是非洲杯历史上最成功的球队，7次夺冠中包括2006、2008、2010年三连冠——这是非洲杯历史上唯一的三连冠，这一壮举至今无人能够复制，使「法老军团」成为非洲足球真正的霸主。",
+      "text_en": "Egypt hold the record for most AFCON titles (7), including an unprecedented hat-trick of consecutive championships in 2006, 2008, and 2010. No other nation in Africa Cup of Nations history has ever won three in a row — a feat that cements the Pharaohs as Africa's greatest footballing dynasty."
+    },
+    {
+      "icon": "⭐",
+      "text_zh": "萨拉赫已在利物浦打入250粒进球，是英超历史上最伟大的射手之一。作为2026年世界杯最年长的球员之一，他将带着人生中可能的最后一届世界杯使命出战，法老军团的亿万球迷为他的最后征程祈祷。",
+      "text_en": "Mohamed Salah has scored 250+ goals for Liverpool, making him one of the Premier League's greatest ever scorers. Heading into what may be his last World Cup, the weight of Egypt's passionate fanbase rests on his shoulders — and he thrives under that kind of pressure."
+    },
+    {
+      "icon": "📜",
+      "text_zh": "埃及是1934年世界杯唯一参赛的非洲球队，也因此成为第一支参加世界杯的非洲球队。此后时隔56年（1934-1990）才重返世界杯舞台，创下世界杯历史上两次参赛间最长的间隔纪录之一。",
+      "text_en": "Egypt were the only African team at the 1934 World Cup, making them the first African nation to compete in the tournament. They then waited 56 years (1934–1990) for their next World Cup appearance — one of the longest gaps between appearances in World Cup history."
+    },
+    {
+      "icon": "💪",
+      "text_zh": "2026年世预赛中，埃及10场全胜（8胜2平），仅失两球，净胜球差高达+18，创非洲区历史最佳预选赛成绩之一。马尔穆什、萨拉赫和特雷泽盖的攻击三叉戟被誉为本届非洲杯最危险的进攻组合。",
+      "text_en": "Egypt's 2026 World Cup qualifying campaign was historic — unbeaten across all 10 matches (8W, 2D), conceding just twice with a +18 goal difference. The attacking trio of Salah, Marmoush, and Trezeguet is considered the most dangerous forward line Africa has sent to a World Cup in decades."
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "slug": "belgium",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "比利时",
+    "name_en": "Belgium",
+    "flag_emoji": "🇧🇪",
+    "federation": "UEFA",
+    "fifa_rank": 9,
+    "group": "G",
+    "colors": {
+      "primary": "#EF0000",
+      "secondary": "#000000",
+      "accent": "#F6C000"
+    }
+  },
+  "country": {
+    "capital_zh": "布鲁塞尔",
+    "capital_en": "Brussels",
+    "population": 11700000,
+    "area": 30528,
+    "language_zh": "荷兰语、法语、德语",
+    "language_en": "Dutch, French, German",
+    "continent_zh": "欧洲",
+    "continent_en": "Europe",
+    "currency_zh": "欧元",
+    "currency_en": "Euro (EUR)",
+    "anthem_zh": "布拉邦颂",
+    "anthem_en": "La Brabançonne",
+    "desc_zh": "比利时是西欧的一个小国，却在政治、文化和外交方面拥有举足轻重的地位——欧盟和北约总部均设于布鲁塞尔。比利时以其巧克力、华夫饼、精酿啤酒和漫画（《丁丁》诞生于此）闻名于世。尽管国土面积不大，但荷语区弗拉芒和法语区瓦隆之间的语言文化差异，使比利时成为欧洲最复杂的联邦国家之一。",
+    "desc_en": "Belgium is a small but geopolitically pivotal nation in Western Europe — headquarters of both the EU and NATO. It is famous for its chocolate, waffles, craft beer, and comics (Tintin was born here). Despite its compact size, the linguistic and cultural divide between Dutch-speaking Flanders and French-speaking Wallonia makes Belgium one of Europe's most complex federal states.",
+    "football_desc_zh": "比利时拥有历史上最强大的「黄金一代」——德布劳内、卢卡库、阿扎尔、库尔图瓦、孔帕尼等球星联袂，曾长期高居FIFA排名第一。2018年世界杯夺得季军，是国家队史上最佳成绩。然而黄金一代始终未能赢得一项重大锦标，留下遗憾。如今以德布劳内和卢卡库为核心的新老交替阵容再度出征，誓要在2026年完成夙愿。",
+    "football_desc_en": "Belgium assembled one of history's greatest 「Golden Generations」 — De Bruyne, Lukaku, Hazard, Courtois, Kompany — and topped the FIFA rankings for years. A third-place finish at the 2018 World Cup remains their greatest achievement, but the golden generation never won a major trophy. Now anchored by De Bruyne and Lukaku in their twilight years alongside exciting newcomers, Belgium arrive at 2026 determined to finally deliver on their enormous potential."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 15,
+    "best_result_zh": "季军（2018年）",
+    "best_result_en": "Third Place (2018)",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1930,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1934,
+        "stage_zh": "八强",
+        "stage_en": "Quarterfinal",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1938,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1954,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1970,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1982,
+        "stage_zh": "第二轮",
+        "stage_en": "Second Round",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1986,
+        "stage_zh": "第四名",
+        "stage_en": "Fourth Place",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 1990,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 1994,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 1998,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2002,
+        "stage_zh": "十六强",
+        "stage_en": "Round of 16",
+        "row_class": "round-of-16"
+      },
+      {
+        "year": 2014,
+        "stage_zh": "八强",
+        "stage_en": "Quarterfinal",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 2018,
+        "stage_zh": "季军",
+        "stage_en": "Third Place",
+        "row_class": "semifinal"
+      },
+      {
+        "year": 2022,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Rudi Garcia",
+      "nationality_zh": "法国",
+      "nationality_en": "French"
+    },
+    "players": [
+      {
+        "name": "Thibaut Courtois",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "Real Madrid",
+        "club_country_zh": "西班牙",
+        "club_country_en": "Spain",
+        "caps": 105
+      },
+      {
+        "name": "Maarten Vandevoordt",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "RB Leipzig",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 8
+      },
+      {
+        "name": "Timothy Castagne",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "Fulham",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 68
+      },
+      {
+        "name": "Zeno Debast",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Sporting CP",
+        "club_country_zh": "葡萄牙",
+        "club_country_en": "Portugal",
+        "caps": 24
+      },
+      {
+        "name": "Arthur Theate",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Stade Rennais",
+        "club_country_zh": "法国",
+        "club_country_en": "France",
+        "caps": 32
+      },
+      {
+        "name": "Maxim De Cuyper",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "Club Brugge",
+        "club_country_zh": "比利时",
+        "club_country_en": "Belgium",
+        "caps": 20
+      },
+      {
+        "name": "Koni De Winter",
+        "position_zh": "后卫",
+        "position_en": "CB",
+        "club": "Genk",
+        "club_country_zh": "比利时",
+        "club_country_en": "Belgium",
+        "caps": 12
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "position_zh": "中场（队长）",
+        "position_en": "MID (Captain)",
+        "club": "Napoli",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 115
+      },
+      {
+        "name": "Amadou Onana",
+        "position_zh": "后腰",
+        "position_en": "DM",
+        "club": "Aston Villa",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 36
+      },
+      {
+        "name": "Nicolas Raskin",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Rangers",
+        "club_country_zh": "苏格兰",
+        "club_country_en": "Scotland",
+        "caps": 22
+      },
+      {
+        "name": "Hans Vanaken",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Club Brugge",
+        "club_country_zh": "比利时",
+        "club_country_en": "Belgium",
+        "caps": 46
+      },
+      {
+        "name": "Jérémy Doku",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Manchester City",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 38
+      },
+      {
+        "name": "Charles De Ketelaere",
+        "position_zh": "攻击中场",
+        "position_en": "AM",
+        "club": "Atalanta",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 30
+      },
+      {
+        "name": "Leandro Trossard",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Arsenal",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 52
+      },
+      {
+        "name": "Lois Openda",
+        "position_zh": "前锋",
+        "position_en": "ST",
+        "club": "RB Leipzig",
+        "club_country_zh": "德国",
+        "club_country_en": "Germany",
+        "caps": 28
+      },
+      {
+        "name": "Romelu Lukaku",
+        "position_zh": "中锋",
+        "position_en": "ST",
+        "club": "Napoli",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 124
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Eden Hazard",
+      "years": "2008–2023",
+      "position_zh": "攻击中场／边锋",
+      "position_en": "AM / FWD",
+      "bio_zh": "比利时「黄金一代」的旗帜人物，职业生涯最佳时期效力切尔西，两次夺得英超冠军，两获PFA年度最佳球员。以无与伦比的盘带技术和创造力著称，是同时代最难对付的突破型球员。2018年世界杯他率比利时打进季军，留下无数经典瞬间。",
+      "bio_en": "The figurehead of Belgium's Golden Generation. At his peak with Chelsea — two Premier League titles, two PFA Players' Player of the Year awards — Hazard was the most unplayable dribbler of his era. He led Belgium to third place at the 2018 World Cup, producing a series of iconic moments that remain the high-water mark of his nation's modern era.",
+      "stat_zh": "126帽33球，切尔西时代两夺英超冠军",
+      "stat_en": "126 caps, 33 goals; two Premier League titles with Chelsea"
+    },
+    {
+      "name": "Kevin De Bruyne",
+      "years": "2010–至今",
+      "position_zh": "中场",
+      "position_en": "MID",
+      "bio_zh": "现代足球中最全面、最有创造力的中场之一。在曼城11年间赢得6次英超冠军和1次欧冠，以传球视野、射门精度和比赛智商著称。2026年以现役身份领衔比利时出征，作为国家队赛事最高效的传球手，仍是全队核心。",
+      "bio_en": "One of the most complete and creative midfielders in modern football. In 11 years at Manchester City he won six Premier League titles and a Champions League, celebrated for his passing range, precision shooting, and football intelligence. Still Belgium's captain and playmaker at 2026, he remains the most gifted player his country has produced.",
+      "stat_zh": "115帽（持续增加），6次英超冠军，1次欧冠",
+      "stat_en": "115 caps (active); 6 Premier League titles, 1 Champions League with Man City"
+    },
+    {
+      "name": "Romelu Lukaku",
+      "years": "2010–至今",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "比利时史上最高射手，89球的纪录领先第二名逾60球，足见其统治地位。以强壮的身体、出色的跑位和高超的禁区终结能力著称。效力切尔西、曼联、国际米兰、那不勒斯等豪门，在意甲赢得两次联赛冠军。",
+      "bio_en": "Belgium's all-time record scorer with 89 international goals — more than 60 clear of the next Belgian on the list. A physically imposing striker with relentless movement and clinical finishing. He has plied his trade at Chelsea, Manchester United, Inter Milan, and Napoli, winning two Serie A titles.",
+      "stat_zh": "124帽89球，比利时历史第一射手（领先逾60球）",
+      "stat_en": "124 caps, 89 goals; Belgium's all-time record scorer by over 60 goals"
+    },
+    {
+      "name": "Jan Ceulemans",
+      "years": "1977–1990",
+      "position_zh": "前锋／中场",
+      "position_en": "FWD / MID",
+      "bio_zh": "前黄金时代比利时最伟大的球员，职业生涯全部效力国内球队布鲁日，是那个时代欧洲足球的顶级球员之一。1986年世界杯率比利时闯入四强，攻入多粒关键进球，被球迷誉为比利时足球现代史上最具象征意义的人物。",
+      "bio_en": "Belgium's greatest pre-golden-generation player. A one-club man who spent his entire career at Club Brugge, Ceulemans was one of Europe's finest players of the 1980s. He led Belgium to fourth place at the 1986 World Cup, scoring vital goals, and remains the symbolic figure of Belgian football's first golden era.",
+      "stat_zh": "96帽23球，1986年世界杯四强功臣",
+      "stat_en": "96 caps, 23 goals; pillar of Belgium's 1986 World Cup fourth-place run"
+    },
+    {
+      "name": "Paul Van Himst",
+      "years": "1960–1974",
+      "position_zh": "前锋",
+      "position_en": "FWD",
+      "bio_zh": "比利时足球史上公认的「最伟大球员」，先后8次荣膺比利时年度最佳球员，效力安德莱赫特期间赢得8次联赛冠军。以技术精湛、智慧超群著称，后来也曾执教比利时国家队，是奠定比利时足球文化基础的传奇人物。",
+      "bio_en": "Widely regarded as Belgium's greatest ever player. Won the Belgian Footballer of the Year award eight times and eight league titles with Anderlecht. Technically brilliant and football-smart, Van Himst later managed the national team and remains the foundational figure of Belgian football culture.",
+      "stat_zh": "81帽30球，8次比利时年度最佳球员",
+      "stat_en": "81 caps, 30 goals; Belgian Footballer of the Year eight times"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "荷兰",
+      "opponent_en": "Netherlands",
+      "desc_zh": "「低地国家德比」——同文同种的近邻，百年恩怨。两国于1830年因革命而分裂，此后在体育赛场上的争斗折射出深层的文化认同之争。比利时足球的崛起更赋予这场宿敌关系新的意涵，每次交锋均牵动两国球迷神经。",
+      "desc_en": "The 「Low Countries Derby」 — neighboring nations sharing linguistic and cultural roots but separated by an 1830 revolution. Their sporting rivalry reflects deeper questions of identity. As Belgian football has risen to match and often surpass the Dutch, every meeting carries enormous national pride on both sides."
+    },
+    {
+      "opponent_zh": "法国",
+      "opponent_en": "France",
+      "desc_zh": "2018年世界杯半决赛，比利时被法国0-1淘汰，至今仍是「黄金一代」最深的遗憾。法语区的文化纽带与球场上你死我活的激烈竞争并存，使两国对阵充满戏剧张力，被球迷称为「法语区德比」。",
+      "desc_en": "The 2018 World Cup semi-final — France eliminating Belgium 1-0 — remains the Golden Generation's deepest wound. The cultural ties of the French-speaking world meet fierce competitive pride on the pitch, making every France-Belgium clash a high-stakes affair that transcends football."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "👑",
+      "text_zh": "比利时「黄金一代」曾创下FIFA世界排名第一的纪录，并在该位置持续长达3年以上（2015—2018年）。然而这批被称为「史上最强未夺冠一代」的球员，始终未能赢得任何重大锦标，成为足球史上最大的遗憾之一。",
+      "text_en": "Belgium's Golden Generation sat atop the FIFA World Rankings for over three consecutive years (2015–2018), yet never won a single major trophy — earning them the bittersweet title of 「the greatest team never to win anything.」 It remains one of football's most tantalizing what-ifs."
+    },
+    {
+      "icon": "⚡",
+      "text_zh": "2018年世界杯十六强，比利时0-2落后日本，却上演惊天逆转——最后关头用一记反击三分钟造就两球完成3-2绝杀。这场比赛被评为那届世界杯最精彩的比赛之一，向世界证明了「黄金一代」的实力。",
+      "text_en": "At the 2018 World Cup round of 16, Belgium were 0-2 down to Japan with 24 minutes to go. They roared back to win 3-2 with a lightning counter-attack goal in added time — widely voted the greatest match of the tournament and a perfect showcase of their attacking brilliance."
+    },
+    {
+      "icon": "🇧🇪",
+      "text_zh": "比利时是世界上鲜有的三语国家，荷兰语、法语和德语均为官方语言。球员来自不同语区，更衣室内往往以英语或法语沟通，但上了球场则用同一种语言说话：进球。",
+      "text_en": "Belgium has three official languages — Dutch, French, and German — and players come from different linguistic communities. English or French often serve as the dressing-room lingua franca, but on the pitch they speak only one language: goals."
+    },
+    {
+      "icon": "🏆",
+      "text_zh": "卢卡库的89粒国际进球比比利时历史第二射手多出逾60球，是国际足球史上「最主导射手」之一。若他在2026年世界杯状态神勇，突破百球大关指日可待。",
+      "text_en": "Lukaku's 89 international goals are over 60 more than Belgium's second-highest scorer — one of the most dominant individual scoring ratios in international football history. A strong 2026 World Cup campaign could push him to the century mark."
+    }
+  ]
+}

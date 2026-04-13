@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "slug": "new-zealand",
+    "generated": "2026-04-13",
+    "version": "1.0"
+  },
+  "team": {
+    "name_zh": "新西兰",
+    "name_en": "New Zealand",
+    "flag_emoji": "🇳🇿",
+    "federation": "OFC",
+    "fifa_rank": 87,
+    "group": "G",
+    "colors": {
+      "primary": "#FFFFFF",
+      "secondary": "#000000",
+      "accent": "#CC0000"
+    }
+  },
+  "country": {
+    "capital_zh": "惠灵顿",
+    "capital_en": "Wellington",
+    "population": 5100000,
+    "area": 270467,
+    "language_zh": "英语、毛利语",
+    "language_en": "English, Māori",
+    "continent_zh": "大洋洲",
+    "continent_en": "Oceania",
+    "currency_zh": "新西兰元",
+    "currency_en": "New Zealand Dollar (NZD)",
+    "anthem_zh": "上帝保佑新西兰",
+    "anthem_en": "God Defend New Zealand",
+    "desc_zh": "新西兰是太平洋上的岛国，以壮观的自然风光、毛利文化和《指环王》拍摄地而闻名于世。510万人口虽少，却在橄榄球（全黑队）、航海、登山等运动上享誉全球。惠灵顿是全球最南端的首都之一，奥克兰则是最大城市。新西兰在联合国发展指数和生活质量方面常居世界前列。",
+    "desc_en": "New Zealand is a Pacific island nation celebrated for spectacular natural landscapes, Māori culture, and as the filming location of The Lord of the Rings. With just 5.1 million people, it punches well above its weight in rugby (the All Blacks), sailing, and mountaineering. Wellington is one of the world's southernmost capitals, and New Zealand consistently ranks among the top nations for quality of life and human development.",
+    "football_desc_zh": "足球在新西兰长期处于橄榄球的阴影之下，但「全白队」（All Whites）近年来取得了令人瞩目的进步。2010年世界杯他们以三平成绩不败而归——包括平局于意大利和巴拉圭——震惊世界。克里斯·伍德在诺丁汉森林的顶级表现证明了新西兰球员完全具备顶级欧洲联赛的实力。2026年出线是其足球史上的又一重大时刻，大洋洲冠军带着梦想与斗志踏上征程。",
+    "football_desc_en": "Football in New Zealand has long lived in the shadow of rugby, but the All Whites have made remarkable strides. Their unbeaten 2010 World Cup campaign — drawing with Italy and Paraguay — stunned the world. Chris Wood's prolific scoring in the Premier League for Nottingham Forest proved New Zealand can produce top-level European talent. Qualification for 2026 is another landmark moment, as the Oceania champions arrive with ambition and a point to prove."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 3,
+    "best_result_zh": "小组赛（2010年全场不败）",
+    "best_result_en": "Group Stage (unbeaten in 2010)",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1982,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2010,
+        "stage_zh": "小组赛（全程不败）",
+        "stage_en": "Group Stage (Unbeaten)",
+        "row_class": "group"
+      },
+      {
+        "year": 2026,
+        "stage_zh": "小组赛",
+        "stage_en": "Group Stage",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name": "Darren Bazeley",
+      "nationality_zh": "英格兰",
+      "nationality_en": "English"
+    },
+    "players": [
+      {
+        "name": "Michael Woud",
+        "position_zh": "门将",
+        "position_en": "GK",
+        "club": "NEC Nijmegen",
+        "club_country_zh": "荷兰",
+        "club_country_en": "Netherlands",
+        "caps": 18
+      },
+      {
+        "name": "Michael Boxall",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Minnesota United",
+        "club_country_zh": "美国",
+        "club_country_en": "USA",
+        "caps": 58
+      },
+      {
+        "name": "Finn Surman",
+        "position_zh": "中后卫",
+        "position_en": "CB",
+        "club": "Western United",
+        "club_country_zh": "澳大利亚",
+        "club_country_en": "Australia",
+        "caps": 22
+      },
+      {
+        "name": "Tyler Bindon",
+        "position_zh": "右后卫",
+        "position_en": "RB",
+        "club": "Al-Fateh",
+        "club_country_zh": "沙特阿拉伯",
+        "club_country_en": "Saudi Arabia",
+        "caps": 28
+      },
+      {
+        "name": "Liberato Cacace",
+        "position_zh": "左后卫",
+        "position_en": "LB",
+        "club": "Empoli",
+        "club_country_zh": "意大利",
+        "club_country_en": "Italy",
+        "caps": 36
+      },
+      {
+        "name": "Joe Bell",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "San Jose Earthquakes",
+        "club_country_zh": "美国",
+        "club_country_en": "USA",
+        "caps": 32
+      },
+      {
+        "name": "Marko Stamenic",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "FC Cincinnati",
+        "club_country_zh": "美国",
+        "club_country_en": "USA",
+        "caps": 28
+      },
+      {
+        "name": "Sarpreet Singh",
+        "position_zh": "中场",
+        "position_en": "MID",
+        "club": "Sturm Graz",
+        "club_country_zh": "奥地利",
+        "club_country_en": "Austria",
+        "caps": 34
+      },
+      {
+        "name": "Ben Waine",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Vitesse",
+        "club_country_zh": "荷兰",
+        "club_country_en": "Netherlands",
+        "caps": 24
+      },
+      {
+        "name": "Elijah Just",
+        "position_zh": "边锋",
+        "position_en": "FWD",
+        "club": "Grasshopper Club",
+        "club_country_zh": "瑞士",
+        "club_country_en": "Switzerland",
+        "caps": 18
+      },
+      {
+        "name": "Chris Wood",
+        "position_zh": "中锋（队长）",
+        "position_en": "ST (Captain)",
+        "club": "Nottingham Forest",
+        "club_country_zh": "英格兰",
+        "club_country_en": "England",
+        "caps": 118
+      }
+    ]
+  },
+  "legends": [
+    {
+      "name": "Chris Wood",
+      "years": "2009–至今",
+      "position_zh": "中锋",
+      "position_en": "ST",
+      "bio_zh": "新西兰历史第一射手和第一出场，现任队长，也是全白队历史上最伟大的球员。在诺丁汉森林一季打入20粒英超进球，帮助球队重返欧洲赛场，是同届英超最高效的射手之一。世预赛独得9球，以一己之力将新西兰送进2026世界杯，33岁仍处于职业生涯最佳状态。",
+      "bio_en": "New Zealand's all-time record scorer and most-capped player, and the current national team captain. His 20 Premier League goals for Nottingham Forest in 2024/25 — helping them back into European competition — made him one of the division's most clinical strikers. Nine goals in World Cup qualifying, more than double the next-highest scorer, personally drove New Zealand's qualification. At 33, he is at the peak of his powers.",
+      "stat_zh": "118帽（现役，持续增加），新西兰历史最高射手",
+      "stat_en": "118 caps (active); New Zealand's all-time record scorer and top appearance maker"
+    },
+    {
+      "name": "Ryan Nelsen",
+      "years": "2002–2012",
+      "position_zh": "中后卫",
+      "position_en": "CB",
+      "bio_zh": "新西兰足球史上最著名的后卫，效力布莱克本流浪者和托特纳姆热刺多年，是英超有史以来最好的新西兰球员之一。2010年世界杯担任队长，率全白队以不败战绩完成小组赛（含1-1平意大利），将新西兰足球推向国际舞台的聚光灯下。",
+      "bio_en": "New Zealand's most celebrated defender, a stalwart at Blackburn Rovers and Tottenham Hotspur and one of the finest New Zealanders to play in the Premier League. He captained the All Whites through their famous unbeaten 2010 World Cup campaign — including a 1-1 draw with defending champions Italy — putting New Zealand football on the global map.",
+      "stat_zh": "99帽2球，2010年世界杯全白队队长",
+      "stat_en": "99 caps, 2 goals; captain of the unbeaten 2010 World Cup All Whites"
+    },
+    {
+      "name": "Shane Smeltz",
+      "years": "2003–2015",
+      "position_zh": "前锋",
+      "position_en": "ST",
+      "bio_zh": "2010年世界杯第一场进球的射手，对斯洛伐克的破门是全白队历史上最重要的进球之一。以速度快、跑位准和关键时刻的大心脏著称，是那届世界杯新西兰不败神话的重要缔造者，帮助球队在大洋洲独霸一方长达数年。",
+      "bio_en": "The man who scored New Zealand's first goal at the 2010 World Cup — his strike against Slovakia is one of the most celebrated goals in All Whites history. Known for his pace, movement, and big-game composure, Smeltz was a key figure in New Zealand's famous unbeaten World Cup campaign and a dominant force in OFC football for over a decade.",
+      "stat_zh": "59帽28球，2010年世界杯首粒入球",
+      "stat_en": "59 caps, 28 goals; scorer of New Zealand's first 2010 World Cup goal"
+    },
+    {
+      "name": "Winston Reid",
+      "years": "2010–2023",
+      "position_zh": "中后卫",
+      "position_en": "CB",
+      "bio_zh": "效力西汉姆联多年，是新西兰足球史上在顶级欧洲联赛表现最为出色的后卫之一。2010年世界杛出场，以强悍的防守和出色的解围能力奠定了他在新西兰足球史上的传奇地位。",
+      "bio_en": "A long-serving stalwart at West Ham United, Reid is one of New Zealand's finest ever exports to top-level European football. A key member of the 2010 World Cup squad, his physicality and commanding defensive presence in the Premier League elevated New Zealand's global footballing profile for over a decade.",
+      "stat_zh": "58帽2球，西汉姆联长期主力中后卫",
+      "stat_en": "58 caps, 2 goals; long-serving first-choice centre-back at West Ham United"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "澳大利亚",
+      "opponent_en": "Australia",
+      "desc_zh": "大洋洲足球的永恒宿敌，被称为「跨塔斯曼德比」。两国在橄榄球、板球和足球领域争斗了数十年，足球场上的对抗更充满了强烈的民族自豪感。两队曾多次在OFC资格赛中展开直接对决，争夺大洋洲唯一的直接出线名额，每次碰面都牵动两国球迷的心。",
+      "desc_en": "The eternal Oceanian rivalry — the 「Trans-Tasman Derby.」 Australia and New Zealand have competed across rugby, cricket, and football for decades, with fierce national pride fuelling every encounter. Their World Cup qualifying play-offs have been among OFC football's most dramatic moments, often with a single direct berth at stake."
+    },
+    {
+      "opponent_zh": "意大利",
+      "opponent_en": "Italy",
+      "desc_zh": "2010年世界杯小组赛1-1平局，新西兰与卫冕冠军意大利的战平成为全白队历史上最伟大的时刻之一，至今被新西兰球迷视为「足球奇迹」。这场比赛让世界第一次真正认识到新西兰足球的实力，也激励了此后一整代新西兰球员走向职业足球之路。",
+      "desc_en": "The 1-1 draw with defending champions Italy at the 2010 World Cup remains the greatest result in All Whites history. Dubbed a 「football miracle」 by New Zealand fans, it introduced their nation to a global audience and inspired an entire generation to pursue professional football. Shane Smeltz's equaliser against Fabio Cannavaro's Italy is the stuff of New Zealand sporting legend."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🤝",
+      "text_zh": "2010年世界杯，新西兰成为大洋洲历史上第一支在世界杯小组赛保持不败的球队，三场平局（斯洛伐克1-1、意大利1-1、巴拉圭0-0）却未能晋级。以积分计算相当于晋级，但同组其他三队积分相同时，依靠净胜球名列小组末位，留下无尽遗憾。",
+      "text_en": "At the 2010 World Cup, New Zealand became the only Oceanian team to go unbeaten at a World Cup — drawing all three group matches (Slovakia 1-1, Italy 1-1, Paraguay 0-0). Incredibly, three points were not enough to advance. They finished last in the group on goal difference, a bittersweet result that proved their competitiveness against far more established nations."
+    },
+    {
+      "icon": "🏉",
+      "text_zh": "在新西兰，足球长期是橄榄球（全黑队）的陪衬。但「全白队」这个绰号本身就是对全黑队传统的致敬——穿着全白球衣出战，寓意用足球的方式为国家争光。随着越来越多球员在欧洲联赛成名，这一格局正在悄然改变。",
+      "text_en": "In New Zealand, football has always lived in the shadow of rugby's All Blacks. The 「All Whites」 nickname is itself a tribute to that tradition — wearing all-white to honour the nation's colours in a different sport. But with more players than ever earning contracts in European leagues, football's profile is quietly but steadily rising."
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "克里斯·伍德2024-25赛季为诺丁汉森林打入20粒英超进球，帮助球队重返欧洲赛场，同时在世预赛包揽9球，是大洋洲足球史上同期表现最出色的球员。以510万人口规模论，他的成就堪称大洋洲的「梅西时刻」。",
+      "text_en": "Chris Wood scored 20 Premier League goals for Nottingham Forest in 2024/25, helping them back into European competition, while simultaneously scoring nine World Cup qualifying goals. For a nation of just 5.1 million people, this level of individual impact on the world stage represents New Zealand football's own 「Messi moment.」"
+    },
+    {
+      "icon": "🌊",
+      "text_zh": "新西兰是大洋洲足球联合会（OFC）历史上出线世界杯次数最多的球队，尽管只有三次参赛经历。该联合会仅有一个半直接名额，这意味着每届大洋洲冠军还必须与其他大陆球队进行附加赛——全白队每次出线都来之不易，更显珍贵。",
+      "text_en": "New Zealand are the most successful OFC nation in World Cup qualification history, despite their modest three appearances. The OFC confederation has historically received just one direct berth, meaning even the Oceanian champions must survive an intercontinental play-off — making every All Whites World Cup qualification an achievement of genuine note."
+    }
+  ]
+}
