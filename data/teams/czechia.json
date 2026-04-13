@@ -1,0 +1,380 @@
+{
+  "meta": {
+    "slug": "czechia",
+    "generated": "2026-04-12",
+    "version": 1
+  },
+  "team": {
+    "name_zh": "捷克",
+    "name_en": "Czech Republic",
+    "flag_emoji": "🇨🇿",
+    "federation": "UEFA",
+    "fifa_rank": 44,
+    "group": "A",
+    "colors": {
+      "primary": "#D7141A",
+      "secondary": "#FFFFFF",
+      "accent": "#11457E"
+    }
+  },
+  "country": {
+    "name_zh": "捷克",
+    "name_en": "Czech Republic (Czechia)",
+    "capital": "Prague",
+    "population_zh": "1070万",
+    "population_en": "10.7 million",
+    "area": "78,866 km²",
+    "language_zh": "捷克语",
+    "language_en": "Czech",
+    "continent_zh": "欧洲",
+    "continent_en": "Europe",
+    "currency_zh": "捷克克朗",
+    "currency_en": "Czech Koruna",
+    "anthem_zh": "我家在哪里",
+    "anthem_en": "Kde domov můj",
+    "desc_zh": "捷克共和国位于中欧心脏地带，首都布拉格是欧洲保存最完好的中世纪城市之一，以哥特式建筑、查理大桥和布拉格城堡而举世闻名。捷克人均啤酒消费量长期位居全球第一，是欧洲最富人文气息的国家之一。1993年由捷克斯洛伐克解体独立后，捷克迅速发展为欧洲最稳定的经济体之一。",
+    "desc_en": "The Czech Republic occupies the heart of Central Europe, with its capital Prague one of the best-preserved medieval cities on the continent — famed for its Gothic architecture, Charles Bridge, and Prague Castle. Czechia consistently ranks first globally in per-capita beer consumption and is one of Europe's most culturally rich nations. Since peacefully separating from Slovakia in 1993, it has grown into one of the EU's most stable economies.",
+    "football_desc_zh": "捷克足球有着辉煌的历史，以捷克斯洛伐克身份参赛时曾两次打入世界杯决赛（1934年、1962年），并赢得1976年欧洲杯。独立为捷克后，球队于1996年欧洲杯打入决赛，拥有斯科达、内德维德、科拉尔等一代黄金球员。2026年是捷克共和国以独立身份参赛的第二届世界杯，上一次是2006年德国世界杯，时隔20年的回归令无数捷克球迷翘首期盼。",
+    "football_desc_en": "Czech football has a proud history — as Czechoslovakia, the nation reached two World Cup finals (1934, 1962) and won Euro 1976. As the Czech Republic, they reached the Euro 1996 final and produced a golden generation including Nedvěd, Kollár, and Čech. The 2026 World Cup is only Czech Republic's second appearance as an independent nation, returning for the first time in 20 years after 2006."
+  },
+  "world_cup": {
+    "titles": 0,
+    "appearances": 2,
+    "best_result_zh": "小组赛出局",
+    "best_result_en": "Group stage",
+    "title_years": [],
+    "history": [
+      {
+        "year": 1934,
+        "host_zh": "意大利",
+        "host_en": "Italy",
+        "result_zh": "亚军（捷克斯洛伐克）",
+        "result_en": "Runners-up (as Czechoslovakia)",
+        "note_zh": "以捷克斯洛伐克身份出战，决赛加时1-2惜败意大利",
+        "note_en": "Competing as Czechoslovakia; lost the final 1-2 to Italy after extra time",
+        "row_class": "final"
+      },
+      {
+        "year": 1938,
+        "host_zh": "法国",
+        "host_en": "France",
+        "result_zh": "八强（捷克斯洛伐克）",
+        "result_en": "Quarter-final (as Czechoslovakia)",
+        "note_zh": "以捷克斯洛伐克身份出战，八强0-2负瑞典",
+        "note_en": "As Czechoslovakia; lost the quarter-final 0-2 to Brazil",
+        "row_class": "quarterfinal"
+      },
+      {
+        "year": 1954,
+        "host_zh": "瑞士",
+        "host_en": "Switzerland",
+        "result_zh": "小组赛出局（捷克斯洛伐克）",
+        "result_en": "Group stage (as Czechoslovakia)",
+        "note_zh": "以捷克斯洛伐克身份出战",
+        "note_en": "Competed as Czechoslovakia; eliminated at group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1958,
+        "host_zh": "瑞典",
+        "host_en": "Sweden",
+        "result_zh": "小组赛出局（捷克斯洛伐克）",
+        "result_en": "Group stage (as Czechoslovakia)",
+        "note_zh": "以捷克斯洛伐克身份出战",
+        "note_en": "Competed as Czechoslovakia; eliminated at group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1962,
+        "host_zh": "智利",
+        "host_en": "Chile",
+        "result_zh": "亚军（捷克斯洛伐克）",
+        "result_en": "Runners-up (as Czechoslovakia)",
+        "note_zh": "以捷克斯洛伐克身份出战，决赛1-3负巴西",
+        "note_en": "As Czechoslovakia; lost the final 1-3 to Pelé's Brazil",
+        "row_class": "final"
+      },
+      {
+        "year": 1970,
+        "host_zh": "墨西哥",
+        "host_en": "Mexico",
+        "result_zh": "小组赛出局（捷克斯洛伐克）",
+        "result_en": "Group stage (as Czechoslovakia)",
+        "note_zh": "以捷克斯洛伐克身份出战",
+        "note_en": "Competed as Czechoslovakia; eliminated at group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 1982,
+        "host_zh": "西班牙",
+        "host_en": "Spain",
+        "result_zh": "小组赛出局（捷克斯洛伐克）",
+        "result_en": "Group stage (as Czechoslovakia)",
+        "note_zh": "以捷克斯洛伐克身份出战",
+        "note_en": "Competed as Czechoslovakia; eliminated at group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2006,
+        "host_zh": "德国",
+        "host_en": "Germany",
+        "result_zh": "小组赛出局",
+        "result_en": "Group stage",
+        "note_zh": "捷克共和国独立后首次参加世界杯，小组赛出局",
+        "note_en": "Czech Republic's first World Cup as an independent nation; eliminated at the group stage",
+        "row_class": "group"
+      },
+      {
+        "year": 2026,
+        "host_zh": "美国/加拿大/墨西哥",
+        "host_en": "USA/Canada/Mexico",
+        "result_zh": "已晋级",
+        "result_en": "Qualified",
+        "note_zh": "经欧洲区附加赛点球大战击败爱尔兰和丹麦晋级，时隔20年再度参加世界杯，分入A组",
+        "note_en": "Qualified through UEFA play-offs, beating Republic of Ireland and Denmark on penalties; returning to the World Cup for the first time since 2006",
+        "row_class": "group"
+      }
+    ]
+  },
+  "squad_2026": {
+    "coach": {
+      "name_zh": "米罗斯拉夫·科贝克",
+      "name_en": "Miroslav Koubek",
+      "nationality_zh": "捷克",
+      "nationality_en": "Czech"
+    },
+    "players": [
+      {
+        "name_zh": "马泰·科瓦日",
+        "name_en": "Matej Kovář",
+        "position": "GK",
+        "club": "Bayer Leverkusen",
+        "caps": 22
+      },
+      {
+        "name_zh": "约日夫·希内克",
+        "name_en": "Jiří Staněk",
+        "position": "GK",
+        "club": "Slavia Prague",
+        "caps": 18
+      },
+      {
+        "name_zh": "拉迪斯拉夫·克雷伊奇",
+        "name_en": "Ladislav Krejčí",
+        "position": "DEF",
+        "club": "Wolverhampton Wanderers",
+        "caps": 40
+      },
+      {
+        "name_zh": "托马斯·波塞卡尔",
+        "name_en": "Tomáš Holeš",
+        "position": "DEF",
+        "club": "Slavia Prague",
+        "caps": 35
+      },
+      {
+        "name_zh": "大卫·扎里纳",
+        "name_en": "David Zima",
+        "position": "DEF",
+        "club": "FC Turin",
+        "caps": 20
+      },
+      {
+        "name_zh": "托马斯·苏切克",
+        "name_en": "Tomáš Souček",
+        "position": "MID",
+        "club": "West Ham United",
+        "caps": 72
+      },
+      {
+        "name_zh": "帕维尔·苏尔茨",
+        "name_en": "Pavel Šulc",
+        "position": "MID",
+        "club": "Lyon",
+        "caps": 25
+      },
+      {
+        "name_zh": "亚当·卡拉贝茨",
+        "name_en": "Adam Karabec",
+        "position": "MID",
+        "club": "Lyon",
+        "caps": 18
+      },
+      {
+        "name_zh": "卢卡斯·普罗沃德",
+        "name_en": "Lukáš Provod",
+        "position": "MID",
+        "club": "Slavia Prague",
+        "caps": 28
+      },
+      {
+        "name_zh": "帕维尔·布哈",
+        "name_en": "Pavel Bucha",
+        "position": "MID",
+        "club": "FC Cincinnati",
+        "caps": 22
+      },
+      {
+        "name_zh": "米哈尔·萨迪莱克",
+        "name_en": "Michal Sadílek",
+        "position": "MID",
+        "club": "Slavia Prague",
+        "caps": 20
+      },
+      {
+        "name_zh": "弗拉基米尔·达里达",
+        "name_en": "Vladimír Darida",
+        "position": "MID",
+        "club": "Hradec Králové",
+        "caps": 55
+      },
+      {
+        "name_zh": "帕特里克·希克",
+        "name_en": "Patrik Schick",
+        "position": "FWD",
+        "club": "Bayer Leverkusen",
+        "caps": 50
+      },
+      {
+        "name_zh": "托马斯·乔里",
+        "name_en": "Tomáš Chorý",
+        "position": "FWD",
+        "club": "Slavia Prague",
+        "caps": 22
+      },
+      {
+        "name_zh": "莫伊米尔·希蒂尔",
+        "name_en": "Mojmír Chytil",
+        "position": "FWD",
+        "club": "Slavia Prague",
+        "caps": 18
+      },
+      {
+        "name_zh": "扬·克利门特",
+        "name_en": "Jan Kliment",
+        "position": "FWD",
+        "club": "Sigma Olomouc",
+        "caps": 16
+      }
+    ]
+  },
+  "legends": [
+    {
+      "number": 1,
+      "name_zh": "帕维尔·内德维德",
+      "name_en": "Pavel Nedvěd",
+      "years": "1994–2006",
+      "position_zh": "中场",
+      "position_en": "Midfielder",
+      "bio_zh": "内德维德是捷克共和国独立后最伟大的球员，2003年赢得金球奖，成为迄今为止唯一获此殊荣的捷克球员。他在拉齐奥和尤文图斯的精彩表现令全欧洲为之倾倒，以在场上无休止的跑动、精准的传球和强劲的长途奔袭著称，以完美的职业道德树立了榜样。91次代表国家队出场，是捷克黄金一代中最耀眼的一颗星。",
+      "bio_en": "Pavel Nedvěd is the greatest player to represent the Czech Republic as an independent nation, winning the 2003 Ballon d'Or — the only Czech to ever receive the award. Sensational at Lazio and Juventus, he was known for his relentless running, precise passing, and thunderous shooting from distance. Earning 91 caps, he embodied the Czech golden generation of the late 1990s and early 2000s.",
+      "stat_value": "91",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 2,
+      "name_zh": "彼得·切赫",
+      "name_en": "Petr Čech",
+      "years": "2002–2016",
+      "position_zh": "门将",
+      "position_en": "Goalkeeper",
+      "bio_zh": "彼得·切赫是捷克历史上最优秀的门将，也是英超历史上最伟大的守门员之一。他在切尔西效力期间赢得多次英超冠军和欧冠冠军（2012年），124次代表国家队出场是捷克历史上的出场纪录。切赫以沉稳、巨大的扑救范围和出色的领袖气质著称，戴着标志性橄榄球头盔的他是世界足球史上最具辨识度的守门员之一。",
+      "bio_en": "Petr Čech is the greatest goalkeeper in Czech history and one of the Premier League's all-time greats. At Chelsea he won multiple Premier League titles and the 2012 UEFA Champions League. He earned 124 caps — the Czech Republic's all-time record — and was known for his composure, enormous reach, and commanding presence. His trademark rugby helmet after a 2006 head injury made him one of football's most recognisable figures.",
+      "stat_value": "124",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 3,
+      "name_zh": "帕特里克·希克",
+      "name_en": "Patrik Schick",
+      "years": "2016–至今",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "希克是捷克当代最具威胁的射手，在勒沃库森赢得过德甲联赛冠军。50次代表国家队出场贡献24球，进球转化率极高。2021年欧洲杯他在对阵苏格兰的比赛中在中圈附近打进世界杯级别的超级远射，一夜之间享誉全球。作为这支捷克队在2026年世界杯上最主要的进球威胁，他将是对手最需要防范的人。",
+      "bio_en": "Patrik Schick is Czech Republic's most lethal modern striker, having won the Bundesliga with Bayer Leverkusen. His 24 goals in 50 international appearances represent a remarkable conversion rate. At Euro 2020/21 he scored a stunning long-range goal from the halfway line against Scotland that became the tournament's most celebrated moment. He is Czech Republic's primary goal threat at the 2026 World Cup.",
+      "stat_value": "24",
+      "stat_zh": "国家队进球",
+      "stat_en": "international goals"
+    },
+    {
+      "number": 4,
+      "name_zh": "托马斯·苏切克",
+      "name_en": "Tomáš Souček",
+      "years": "2016–至今",
+      "position_zh": "中场",
+      "position_en": "Midfielder",
+      "bio_zh": "苏切克是捷克队中场的发动机，以强悍的身体对抗、出色的空中优势和积极的前插进攻著称。他在西汉姆联效力多年，以中场球员的身份创造了惊人的进球产量，多赛季连续入选英超年度最佳阵容。72次代表国家队出场，是现役捷克球员中最具国际认可度的名字之一。",
+      "bio_en": "Tomáš Souček is the engine of the Czech midfield — known for his physical strength, aerial dominance, and surging runs into the box. A consistent scorer for West Ham United despite playing as a defensive midfielder, he has featured in multiple Premier League Team of the Year selections. With 72 caps he is one of Czech Republic's most internationally recognised active players.",
+      "stat_value": "72",
+      "stat_zh": "国家队出场",
+      "stat_en": "international caps"
+    },
+    {
+      "number": 5,
+      "name_zh": "米兰·巴罗什",
+      "name_en": "Milan Baroš",
+      "years": "2001–2016",
+      "position_zh": "前锋",
+      "position_en": "Forward",
+      "bio_zh": "巴罗什是2004年欧洲杯的金靴奖得主，以5粒进球成为那届赛事最高产的射手，帮助捷克打入半决赛。他在利物浦、阿斯顿维拉等英超俱乐部留下了印记，93次代表国家队出场打入41球，是捷克历史上进球最多的球员之一，以速度和冲劲见长。",
+      "bio_en": "Milan Baroš was the Golden Boot winner at Euro 2004, scoring five goals as Czech Republic reached the semi-finals. He starred at Liverpool and Aston Villa in the Premier League and earned 93 caps with 41 international goals — one of Czech Republic's highest scorers — famed for his direct running and sharp finishing.",
+      "stat_value": "41",
+      "stat_zh": "国家队进球",
+      "stat_en": "international goals"
+    }
+  ],
+  "rivalries": [
+    {
+      "opponent_zh": "德国",
+      "opponent_en": "Germany",
+      "desc_zh": "捷克与德国之间的对抗可以追溯到几十年的历史纠葛。1996年欧洲杯决赛，捷克在加时赛以\"黄金进球\"（0-2）落后德国的情况下险些追平，最终以0-2告负。这场史诗级的决赛让捷克足球名扬四海，也确立了两队之间的现代宿怨。",
+      "desc_en": "The Czech–Germany rivalry carries decades of historical tension. At Euro 1996, Czechia reached the final against Germany and pushed them to extra time before losing 0-2 to a golden goal. That epic final brought Czech football global recognition and set the foundation for one of European football's most respectful modern rivalries."
+    },
+    {
+      "opponent_zh": "斯洛伐克",
+      "opponent_en": "Slovakia",
+      "desc_zh": "捷克与斯洛伐克在1993年以\"天鹅绒分离\"的和平方式分开，但两国足球队之间的较量仍充满了浓厚的情感与认同感。两队球员很多曾在同一俱乐部踢球，有着共同的历史与文化根源，每次对阵都是别有风味的\"兄弟德比\"。",
+      "desc_en": "After the 'Velvet Divorce' of 1993 split Czechoslovakia into Czech Republic and Slovakia, the two national teams developed a unique sibling rivalry. With shared history and many players who once competed together, every Czech–Slovak match carries strong emotions, nostalgia, and a sense of fraternal competition."
+    },
+    {
+      "opponent_zh": "爱尔兰",
+      "opponent_en": "Republic of Ireland",
+      "desc_zh": "2026年世界杯资格赛欧洲区附加赛，捷克在与爱尔兰的点球大战中夺胜，成功晋级世界杯。这场关键胜利令两队之间的对抗充满了新的戏剧性色彩，也让捷克球迷视爱尔兰为最近一次最重要的附加赛宿敌。",
+      "desc_en": "Czech Republic defeated the Republic of Ireland on penalties in the 2026 World Cup UEFA play-off — a decisive victory that secured their return to the World Cup. The high-stakes shootout win has freshened this rivalry with a sharp competitive edge, adding a new chapter to their sporadic but increasingly meaningful encounters."
+    }
+  ],
+  "fun_facts": [
+    {
+      "icon": "🏆",
+      "text_zh": "以捷克斯洛伐克身份参赛时，捷克曾两度打入世界杯决赛（1934年、1962年）和欧洲杯决赛（1976年夺冠、1980年亚军），是欧洲足球历史上成绩最辉煌的国家之一",
+      "text_en": "As Czechoslovakia, the nation reached two World Cup finals (1934, 1962), won Euro 1976, and finished runners-up at Euro 1980 — making Czech football one of Europe's historically most successful traditions"
+    },
+    {
+      "icon": "⚽",
+      "text_zh": "帕特里克·希克在2021年欧洲杯对阵苏格兰的比赛中从中圈位置直接破门，被评为那届欧洲杯最佳进球，也是近年来欧洲大赛最令人叹为观止的进球之一",
+      "text_en": "Patrik Schick's long-range goal from the halfway line against Scotland at Euro 2020/21 was voted the tournament's best goal and instantly became one of the greatest strikes in recent major tournament history"
+    },
+    {
+      "icon": "🍺",
+      "text_zh": "捷克是全球人均啤酒消费量最高的国家，布拉格的皮尔森啤酒（Pilsner）是全世界最著名的啤酒类型，\"喝捷克啤酒\"和\"看足球\"是捷克人最重要的两项消遣",
+      "text_en": "Czech Republic has the highest beer consumption per capita in the world; Pilsner, invented in the Czech city of Plzeň, is the world's most popular beer style — watching football over a cold beer is Czechia's defining leisure culture"
+    },
+    {
+      "icon": "🎽",
+      "text_zh": "彼得·切赫在2006年头部手术后开始戴橄榄球头盔上场，此后这顶头盔成为他的标志，使他成为职业足球史上最具辨识度的球员之一",
+      "text_en": "Petr Čech began wearing a rugby-style headguard after a serious head injury in 2006 and never stopped — making the helmet his trademark and one of the most iconic accessories in football history"
+    },
+    {
+      "icon": "🏙️",
+      "text_zh": "布拉格是欧洲保存最完整的中世纪城市，其老城区已被列为联合国教科文组织世界文化遗产，每年吸引数千万游客，是全球最受欢迎的旅游目的地之一",
+      "text_en": "Prague is one of the best-preserved medieval cities in Europe; its Old Town is a UNESCO World Heritage Site attracting tens of millions of tourists annually, making it one of the world's most-visited destinations"
+    },
+    {
+      "icon": "🎯",
+      "text_zh": "2026年世界杯是捷克共和国独立后的第二次世界杯（上一次为2006年），此前以捷克斯洛伐克身份参赛时曾多次在重要赛事有所建树，让捷克拥有极为深厚的足球底蕴",
+      "text_en": "The 2026 World Cup is only Czech Republic's second as an independent nation (after 2006), yet the country's football heritage — under Czechoslovakia's banner — includes two World Cup finals and a European Championship title"
+    }
+  ]
+}
