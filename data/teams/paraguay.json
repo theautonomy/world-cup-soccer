@@ -232,7 +232,7 @@
       "position_en": "GK",
       "bio_zh": "世界足球史上最具个性的门将之一，以擅长主罚点球和任意球著称，职业生涯为巴拉圭国家队攻入8球，为俱乐部攻入60余球。1998年世界杯率队打入十六强，是那个时代南美最具魅力的球员之一。",
       "bio_en": "One of football's most unique goalkeepers, famed for his ability to take penalties and free kicks. He scored 8 goals for Paraguay and over 60 for his clubs. Led Paraguay to the 1998 World Cup Round of 16, and was named South American Footballer of the Year three times.",
-      "stat_zh": "74帽8球（门将进球奇才）",
+      "stat_zh": "74出场次数8球（门将进球奇才）",
       "stat_en": "74 caps, 8 goals (extraordinary for a goalkeeper)"
     },
     {
@@ -242,7 +242,7 @@
       "position_en": "ST",
       "bio_zh": "巴拉圭历史上最著名的前锋，长期效力拜仁慕尼黑和曼城。以高超的技术和强壮的体魄著称，是2010年世界杯八强阵容的核心前锋。",
       "bio_en": "Paraguay's most famous striker of the modern era, who played his best football at Bayern Munich and Manchester City. A technically gifted, physically imposing forward who was the attacking spearhead of Paraguay's remarkable 2010 World Cup quarter-final run.",
-      "stat_zh": "75帽32球",
+      "stat_zh": "75出场次数32球",
       "stat_en": "75 caps, 32 goals"
     },
     {
@@ -252,7 +252,7 @@
       "position_en": "FWD",
       "bio_zh": "巴拉圭历史上最出色的前锋之一，在墨西哥联赛拥有超高人气。2010年1月遭枪击头部，虽奇迹存活但职业生涯戛然而止，是足球界最令人惋惜的悲剧之一。",
       "bio_en": "One of Paraguay's finest forwards and a huge star in Mexican football. His career was tragically cut short in January 2010 after he was shot in the head in a Mexico City nightclub. His survival was considered miraculous, but he never played competitively again.",
-      "stat_zh": "65帽28球（职业生涯因意外中断）",
+      "stat_zh": "65出场次数28球（职业生涯因意外中断）",
       "stat_en": "65 caps, 28 goals (career cut short by tragedy)"
     },
     {
@@ -262,7 +262,7 @@
       "position_en": "AM",
       "bio_zh": "巴拉圭现役最具代表性的球员，曾效力阿特兰大联、纽卡斯尔联，以惊人的速度、技术和进攻能力享誉MLS和英超。是巴拉圭2026年世界杯征程中最关键的创造力来源。",
       "bio_en": "The most recognizable Paraguayan player of the current era, having thrilled fans at Atlanta United and Newcastle United with his electrifying pace, skill, and work rate. Almirón is the creative heartbeat of Paraguay's 2026 World Cup campaign.",
-      "stat_zh": "73帽（现役）",
+      "stat_zh": "73出场次数（现役）",
       "stat_en": "73 caps (active)"
     },
     {
@@ -272,7 +272,7 @@
       "position_en": "MID",
       "bio_zh": "被誉为巴拉圭足球史上最具天赋的中场球员，外号「Romerito」。1986年世界杯随队出征，是那个年代南美洲最优雅的中场之一，曾效力巴西弗拉门戈并荣获多项荣誉。",
       "bio_en": "Widely regarded as the most gifted Paraguayan midfielder ever, nicknamed 「Romerito.」 A graceful, creative playmaker who starred at the 1986 World Cup and spent his peak years at Flamengo in Brazil, winning multiple honors.",
-      "stat_zh": "71帽，1986年世界杯明星球员",
+      "stat_zh": "71出场次数，1986年世界杯明星球员",
       "stat_en": "71 caps, star of the 1986 World Cup squad"
     }
   ],
