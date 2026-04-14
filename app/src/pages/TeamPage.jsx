@@ -76,7 +76,7 @@ export default function TeamPage() {
         ← <T zh="所有球队" en="All Teams" />
       </Link>
 
-      <Hero team={data.team} />
+      <Hero team={data.team} worldCup={data.world_cup} />
       <StatsBar worldCup={data.world_cup} team={data.team} />
       <CountryInfo country={data.country} />
       <WCHistory worldCup={data.world_cup} />

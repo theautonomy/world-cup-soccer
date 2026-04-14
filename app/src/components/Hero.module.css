@@ -1,11 +1,33 @@
 .hero {
-  text-align: center;
   padding: 100px 24px 60px;
   background: radial-gradient(
     ellipse 80% 60% at 50% 0%,
     color-mix(in srgb, var(--color-primary) 30%, transparent),
     transparent 70%
   );
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.inner.hasPoem {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  text-align: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .flag {
@@ -69,4 +91,34 @@
   border-radius: 100px;
   font-size: 14px;
   font-weight: 700;
+}
+
+.poem {
+  border-left: 2px solid color-mix(in srgb, var(--color-primary) 40%, transparent);
+  padding-left: 40px;
+  text-align: left;
+}
+
+.poemLine {
+  font-size: clamp(15px, 2vw, 19px);
+  line-height: 2;
+  color: var(--color-text-secondary);
+  font-family: 'Noto Serif SC', 'STSong', 'SimSun', serif;
+  letter-spacing: 0.2em;
+  white-space: nowrap;
+}
+
+@media (max-width: 700px) {
+  .inner.hasPoem {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .poem {
+    border-left: none;
+    border-top: 2px solid color-mix(in srgb, var(--color-primary) 40%, transparent);
+    padding-left: 0;
+    padding-top: 24px;
+    text-align: center;
+  }
 }

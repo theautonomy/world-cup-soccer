@@ -42,7 +42,14 @@
     "appearances": 22,
     "best_result_zh": "冠军",
     "best_result_en": "Champions",
-    "title_years": [1958, 1962, 1970, 1994, 2002],
+    "title_years": [
+      1958,
+      1962,
+      1970,
+      1994,
+      2002
+    ],
+    "poem_zh": "五捧大力震寰宇，\n桑巴热浪席全球。\n贝利十七惊世界，\n罗纳二度铸金瓯。\n马拉卡纳留旧恨，\n米内罗场七球愁。\n美丽足球今未老，\n二六征途再扬舟。",
     "history": [
       {
         "year": 1930,

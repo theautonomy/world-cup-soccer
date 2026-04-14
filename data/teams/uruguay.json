@@ -40,7 +40,11 @@
     "appearances": 15,
     "best_result_zh": "冠军（1930、1950年）",
     "best_result_en": "Champions (1930, 1950)",
-    "title_years": [1930, 1950],
+    "title_years": [
+      1930,
+      1950
+    ],
+    "poem_zh": "",
     "history": [
       {
         "year": 1930,

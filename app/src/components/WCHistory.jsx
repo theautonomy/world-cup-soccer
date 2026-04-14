@@ -93,6 +93,7 @@ export default function WCHistory({ worldCup }) {
           </tbody>
         </table>
       </div>
+
     </section>
   )
 }

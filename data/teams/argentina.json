@@ -40,7 +40,12 @@
     "appearances": 19,
     "best_result_zh": "冠军（1978、1986、2022年）",
     "best_result_en": "Champions (1978, 1986, 2022)",
-    "title_years": [1978, 1986, 2022],
+    "title_years": [
+      1978,
+      1986,
+      2022
+    ],
+    "poem_zh": "",
     "history": [
       {
         "year": 1930,
