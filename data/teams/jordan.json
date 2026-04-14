@@ -64,7 +64,7 @@
       {
         "name": "Baha Faisal",
         "number": 1,
-        "position_en": "Goalkeeper",
+        "position_en": "GK",
         "position_zh": "门将",
         "club": "Al-Faisaly",
         "caps": 55,
@@ -73,7 +73,7 @@
       {
         "name": "Musa Al-Taamari",
         "number": 10,
-        "position_en": "Winger / Attacking Midfielder",
+        "position_en": "W/AM",
         "position_zh": "边锋/攻击型中场",
         "club": "Montpellier",
         "caps": 52,
@@ -83,7 +83,7 @@
       {
         "name": "Ahmad Naser Dababseh",
         "number": 9,
-        "position_en": "Centre Forward",
+        "position_en": "CF",
         "position_zh": "中锋",
         "club": "Al-Faisaly",
         "caps": 40,
@@ -93,7 +93,7 @@
       {
         "name": "Yazan Al-Naimat",
         "number": 7,
-        "position_en": "Right Winger",
+        "position_en": "RW",
         "position_zh": "右边锋",
         "club": "Al-Wehdat",
         "caps": 35,
@@ -102,7 +102,7 @@
       {
         "name": "Oday Dabbagh",
         "number": 11,
-        "position_en": "Centre Forward",
+        "position_en": "CF",
         "position_zh": "中锋",
         "club": "Oud-Heverlee Leuven",
         "caps": 38,
@@ -112,7 +112,7 @@
       {
         "name": "Ebrahim Hashem",
         "number": 6,
-        "position_en": "Defensive Midfielder",
+        "position_en": "DM",
         "position_zh": "防守型中场",
         "club": "Al-Faisaly",
         "caps": 60,
@@ -121,7 +121,7 @@
       {
         "name": "Nour Al-Rawabdeh",
         "number": 8,
-        "position_en": "Central Midfielder",
+        "position_en": "CM",
         "position_zh": "中场",
         "club": "Al-Wehdat",
         "caps": 44,
@@ -130,7 +130,7 @@
       {
         "name": "Baha' Abdelrahman",
         "number": 4,
-        "position_en": "Centre Back",
+        "position_en": "CB",
         "position_zh": "中后卫",
         "club": "Al-Faisaly",
         "caps": 48,
@@ -139,7 +139,7 @@
       {
         "name": "Anas Bani Yaseen",
         "number": 5,
-        "position_en": "Centre Back",
+        "position_en": "CB",
         "position_zh": "中后卫",
         "club": "Al-Wehdat",
         "caps": 42,
@@ -148,7 +148,7 @@
       {
         "name": "Ali Olwan",
         "number": 3,
-        "position_en": "Left Back",
+        "position_en": "LB",
         "position_zh": "左后卫",
         "club": "Al-Qadsiah",
         "caps": 36,
@@ -157,7 +157,7 @@
       {
         "name": "Khaled Al-Rashidi",
         "number": 2,
-        "position_en": "Right Back",
+        "position_en": "RB",
         "position_zh": "右后卫",
         "club": "Al-Faisaly",
         "caps": 32,
@@ -166,7 +166,7 @@
       {
         "name": "Saad Al-Ghadir",
         "number": 14,
-        "position_en": "Attacking Midfielder",
+        "position_en": "AM",
         "position_zh": "攻击型中场",
         "club": "Al-Wahda (UAE)",
         "caps": 28,
@@ -180,7 +180,7 @@
       "name_zh": "艾哈迈德·哈耶尔",
       "years": "1990–2006",
       "position_zh": "前锋",
-      "position_en": "Forward",
+      "position_en": "FWD",
       "bio_zh": "约旦足球史上最具代表性的球员之一，长期担任国家队箭头人物。职业生涯大部分时间效力于国内豪门阿尔韦达特，多次率队参加亚洲杯，是约旦足球发展历史中承上启下的核心人物。",
       "bio_en": "One of the most iconic players in Jordanian football history, serving as the national team's main striker for many years. Spent most of his career at domestic powerhouse Al-Wehdat and featured prominently in multiple Asian Cups."
     },
@@ -189,7 +189,7 @@
       "name_zh": "穆萨·塔阿马里",
       "years": "2018–",
       "position_zh": "边锋/攻击型中场",
-      "position_en": "Winger / Attacking Midfielder",
+      "position_en": "W/AM",
       "bio_zh": "约旦当代最出色的球员，效力法甲蒙彼利埃。在2023年亚洲杯半决赛对阵韩国时打入精彩进球，率领约旦首次闯入亚洲杯决赛。技术细腻、速度快、创造力强，是约旦冲击历史最佳成绩的核心人物。",
       "bio_en": "Jordan's standout modern player, currently playing in Ligue 1 with Montpellier. Scored a stunning goal against South Korea in the 2023 Asian Cup semi-final, helping Jordan reach their first-ever Asian Cup final. Technical, quick, and creative, he is the key figure behind Jordan's historic 2026 World Cup qualification.",
       "stat_zh": "2023年亚洲杯最佳阵容",
@@ -200,7 +200,7 @@
       "name_zh": "萨阿德·加迪尔",
       "years": "2019–",
       "position_zh": "攻击型中场",
-      "position_en": "Attacking Midfielder",
+      "position_en": "AM",
       "bio_zh": "约旦新一代中场核心，效力于阿联酋顶级联赛。以出色的传球和组织能力著称，是约旦中场运转的重要齿轮，也是球队冲击2026年世界杯资格过程中的重要贡献者。",
       "bio_en": "Jordan's next-generation midfield core, playing in the UAE top flight. Known for his passing and organizational ability, he is a vital cog in Jordan's midfield and played an important role in the World Cup qualifying campaign."
     },
@@ -209,7 +209,7 @@
       "name_zh": "乌代·达巴格",
       "years": "2020–",
       "position_zh": "中锋",
-      "position_en": "Centre Forward",
+      "position_en": "CF",
       "bio_zh": "在欧洲赛场奋斗的约旦前锋，效力于比利时联赛。在约旦世预赛冲刺阶段贡献关键进球，快速进步令人印象深刻，代表着约旦足球职业化输出的新方向。",
       "bio_en": "A Jordanian striker carving out a career in European football with a Belgian club. Contributed crucial goals in the final stages of Jordan's World Cup qualifying, his rapid development represents the new direction of Jordanian football's professional output.",
       "stat_zh": "预选赛关键进球贡献者",

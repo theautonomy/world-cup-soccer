@@ -146,7 +146,7 @@
       {
         "name": "Diogo Costa",
         "number": 1,
-        "position_en": "Goalkeeper",
+        "position_en": "GK",
         "position_zh": "门将",
         "club": "FC Porto",
         "caps": 38,
@@ -155,7 +155,7 @@
       {
         "name": "Cristiano Ronaldo",
         "number": 7,
-        "position_en": "Centre Forward",
+        "position_en": "CF",
         "position_zh": "中锋",
         "club": "Al-Nassr",
         "caps": 219,
@@ -165,7 +165,7 @@
       {
         "name": "Bruno Fernandes",
         "number": 8,
-        "position_en": "Attacking Midfielder",
+        "position_en": "AM",
         "position_zh": "攻击型中场",
         "club": "Manchester United",
         "caps": 82,
@@ -175,7 +175,7 @@
       {
         "name": "João Neves",
         "number": 16,
-        "position_en": "Central Midfielder",
+        "position_en": "CM",
         "position_zh": "中场",
         "club": "Paris Saint-Germain",
         "caps": 24,
@@ -184,7 +184,7 @@
       {
         "name": "Vitinha",
         "number": 14,
-        "position_en": "Central Midfielder",
+        "position_en": "CM",
         "position_zh": "中场",
         "club": "Paris Saint-Germain",
         "caps": 42,
@@ -193,7 +193,7 @@
       {
         "name": "Rafael Leão",
         "number": 11,
-        "position_en": "Left Winger",
+        "position_en": "LW",
         "position_zh": "左边锋",
         "club": "AC Milan",
         "caps": 44,
@@ -202,7 +202,7 @@
       {
         "name": "Francisco Conceição",
         "number": 17,
-        "position_en": "Right Winger",
+        "position_en": "RW",
         "position_zh": "右边锋",
         "club": "Juventus",
         "caps": 18,
@@ -211,7 +211,7 @@
       {
         "name": "Nuno Mendes",
         "number": 3,
-        "position_en": "Left Back",
+        "position_en": "LB",
         "position_zh": "左后卫",
         "club": "Paris Saint-Germain",
         "caps": 38,
@@ -220,7 +220,7 @@
       {
         "name": "João Cancelo",
         "number": 2,
-        "position_en": "Right Back",
+        "position_en": "RB",
         "position_zh": "右后卫",
         "club": "FC Barcelona",
         "caps": 68,
@@ -229,7 +229,7 @@
       {
         "name": "Rúben Dias",
         "number": 4,
-        "position_en": "Centre Back",
+        "position_en": "CB",
         "position_zh": "中后卫",
         "club": "Manchester City",
         "caps": 75,
@@ -238,7 +238,7 @@
       {
         "name": "Pepe",
         "number": 3,
-        "position_en": "Centre Back",
+        "position_en": "CB",
         "position_zh": "中后卫",
         "club": "FC Porto",
         "caps": 141,
@@ -247,7 +247,7 @@
       {
         "name": "Matheus Fernandes",
         "number": 15,
-        "position_en": "Central Midfielder",
+        "position_en": "CM",
         "position_zh": "中场",
         "club": "SC Braga",
         "caps": 12,
@@ -261,7 +261,7 @@
       "name_zh": "尤西比奥",
       "years": "1961–1973",
       "position_zh": "前锋",
-      "position_en": "Forward",
+      "position_en": "FWD",
       "bio_zh": "「黑豹」，葡萄牙足球史上第一位超级巨星。1966年世界杯以9球夺得金靴奖，领衔葡萄牙冲击季军。效力本菲卡期间获1962年欧洲冠军杯，职业生涯共打入733球，被FIFA列为二十世纪最伟大球员之一。",
       "bio_en": "「The Black Panther」 — Portugal's first football superstar. Won the Golden Boot at the 1966 World Cup with 9 goals, leading Portugal to third place. Won the 1962 European Cup with Benfica and scored 733 career goals; named by FIFA as one of the greatest players of the 20th century.",
       "stat_zh": "41国家队出场，41球",
@@ -272,7 +272,7 @@
       "name_zh": "路易斯·菲戈",
       "years": "1991–2006",
       "position_zh": "右边锋",
-      "position_en": "Right Winger",
+      "position_en": "RW",
       "bio_zh": "2001年世界足球先生，葡萄牙黄金一代领军人物。以出色的盘带技术和传球质量闻名，效力于巴塞罗那、皇家马德里、国际米兰等顶级俱乐部。两度征战世界杯，率队在2006年获得第四名。",
       "bio_en": "FIFA World Player of the Year 2001 and the leader of Portugal's golden generation. Renowned for his dribbling and delivery, he graced Barcelona, Real Madrid, and Inter Milan. Appeared at two World Cups and helped Portugal finish fourth in 2006.",
       "stat_zh": "127国家队出场，32球",
@@ -283,7 +283,7 @@
       "name_zh": "克里斯蒂亚诺·罗纳尔多",
       "years": "2003–",
       "position_zh": "中锋/前锋",
-      "position_en": "Centre Forward",
+      "position_en": "CF",
       "bio_zh": "人类足球史上进球最多的球员，五夺金球奖，五夺欧冠，曾效力曼联、皇家马德里、尤文图斯。2016年带领葡萄牙夺得欧洲杯冠军，是葡萄牙历史出场次数（219次）和进球数（137球）的双料纪录保持者。2026年世界杯是其第六届也可能是最后一届。",
       "bio_en": "The all-time leading scorer in football history, five-time Ballon d'Or, five-time UCL champion across Manchester United, Real Madrid, and Juventus. Led Portugal to their 2016 Euro title and holds the national record for caps (219) and goals (137). The 2026 World Cup is his sixth — and likely final.",
       "stat_zh": "219国家队出场，137球（均为葡萄牙队史纪录）",
@@ -294,7 +294,7 @@
       "name_zh": "鲁伊·科斯塔",
       "years": "1993–2004",
       "position_zh": "攻击型中场",
-      "position_en": "Attacking Midfielder",
+      "position_en": "AM",
       "bio_zh": "1990年代至2000年代初期葡萄牙最具创造力的中场球员，以精准传球和华丽技术著称。效力于佛罗伦萨和AC米兰期间被视为世界顶级中场之一，是葡萄牙黄金一代的核心人物。现任本菲卡主席。",
       "bio_en": "Portugal's most creative midfielder of the 1990s–2000s, celebrated for his vision and technical brilliance at Fiorentina and AC Milan — widely regarded as one of the world's best playmakers of his era. Now president of SL Benfica.",
       "stat_zh": "94国家队出场，26球",

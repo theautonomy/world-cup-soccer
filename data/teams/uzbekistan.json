@@ -66,7 +66,7 @@
       {
         "name": "Eldor Shomurodov",
         "number": 9,
-        "position_en": "Centre Forward",
+        "position_en": "CF",
         "position_zh": "中锋（队长）",
         "club": "Istanbul Basaksehir",
         "caps": 62,
@@ -76,7 +76,7 @@
       {
         "name": "Abdukodir Khusanov",
         "number": 4,
-        "position_en": "Centre Back",
+        "position_en": "CB",
         "position_zh": "中后卫",
         "club": "Manchester City",
         "caps": 26,
@@ -85,7 +85,7 @@
       {
         "name": "Akmal Mozgovoy",
         "number": 1,
-        "position_en": "Goalkeeper",
+        "position_en": "GK",
         "position_zh": "门将",
         "club": "Pakhtakor",
         "caps": 52,
@@ -94,7 +94,7 @@
       {
         "name": "Igor Sergeev",
         "number": 7,
-        "position_en": "Winger",
+        "position_en": "W",
         "position_zh": "边锋",
         "club": "Pakhtakor",
         "caps": 44,
@@ -103,7 +103,7 @@
       {
         "name": "Khojiakbar Alijonov",
         "number": 10,
-        "position_en": "Attacking Midfielder",
+        "position_en": "AM",
         "position_zh": "攻击型中场",
         "club": "Pakhtakor",
         "caps": 38,
@@ -112,7 +112,7 @@
       {
         "name": "Otabek Shukurov",
         "number": 6,
-        "position_en": "Defensive Midfielder",
+        "position_en": "DM",
         "position_zh": "防守型中场",
         "club": "Pakhtakor",
         "caps": 45,
@@ -121,7 +121,7 @@
       {
         "name": "Jasurbek Yakhshiboev",
         "number": 11,
-        "position_en": "Left Winger",
+        "position_en": "LW",
         "position_zh": "左边锋",
         "club": "AGMK",
         "caps": 32,
@@ -130,7 +130,7 @@
       {
         "name": "Farrukh Tashkentov",
         "number": 2,
-        "position_en": "Right Back",
+        "position_en": "RB",
         "position_zh": "右后卫",
         "club": "Pakhtakor",
         "caps": 36,
@@ -139,7 +139,7 @@
       {
         "name": "Sherzod Nishonov",
         "number": 5,
-        "position_en": "Centre Back",
+        "position_en": "CB",
         "position_zh": "中后卫",
         "club": "Pakhtakor",
         "caps": 40,
@@ -148,7 +148,7 @@
       {
         "name": "Islom Tukhtahujaev",
         "number": 3,
-        "position_en": "Left Back",
+        "position_en": "LB",
         "position_zh": "左后卫",
         "club": "Pakhtakor",
         "caps": 28,
@@ -157,7 +157,7 @@
       {
         "name": "Murodjon Yaxshiliqov",
         "number": 8,
-        "position_en": "Central Midfielder",
+        "position_en": "CM",
         "position_zh": "中场",
         "club": "Pakhtakor",
         "caps": 34,
@@ -166,7 +166,7 @@
       {
         "name": "Umid Boltaboev",
         "number": 14,
-        "position_en": "Defensive Midfielder",
+        "position_en": "DM",
         "position_zh": "防守型中场",
         "club": "AGMK",
         "caps": 20,
@@ -180,7 +180,7 @@
       "name_zh": "埃尔多尔·舒穆罗多夫",
       "years": "2016–",
       "position_zh": "中锋",
-      "position_en": "Centre Forward",
+      "position_en": "CF",
       "bio_zh": "乌兹别克斯坦现代足球的旗帜性人物，也是球队历史射手王。曾效力意甲热那亚、罗马和卡利亚里，是乌兹别克斯坦历史上在欧洲顶级联赛打出成绩的最出色球员，率队实现世界杯历史首次突破。",
       "bio_en": "The figurehead of modern Uzbekistani football and the national team's all-time top scorer. His stints at Serie A clubs Genoa, Roma, and Cagliari make him the most accomplished Uzbekistani player to succeed in a major European league — and the man who led the country to its historic World Cup debut.",
       "stat_zh": "62国家队出场，28球（历史纪录）",
@@ -191,7 +191,7 @@
       "name_zh": "阿布杜科迪尔·胡萨诺夫",
       "years": "2022–",
       "position_zh": "中后卫",
-      "position_en": "Centre Back",
+      "position_en": "CB",
       "bio_zh": "2025年1月以1200万欧元从朗斯转会曼城，成为乌兹别克斯坦首位征战英超的球员。在瓜迪奥拉麾下的曼城锤炼防守技术和战术意识，是乌兹别克斯坦新一代球员走向国际顶级俱乐部的代表。",
       "bio_en": "Moved to Manchester City from Lens for €12 million in January 2025, becoming the first Uzbekistani player in the Premier League. Developing under Pep Guardiola, he represents a new generation of Uzbekistani footballers breaking into top European clubs.",
       "stat_zh": "首位效力曼城的乌兹别克斯坦球员",
@@ -202,7 +202,7 @@
       "name_zh": "塞尔弗·杰帕罗夫",
       "years": "2002–2017",
       "position_zh": "中场",
-      "position_en": "Midfielder",
+      "position_en": "MID",
       "bio_zh": "「乌兹别克斯坦足球传奇」，四夺亚洲足球先生（2008、2011、2012、2014年），是中亚足球史上获得此殊荣最多的球员。长期效力帕赫塔科尔，技术细腻、组织能力出众，是乌兹别克斯坦足球历史地位的奠基者。",
       "bio_en": "The legend of Uzbekistani football, winning the AFC Player of the Year award a record four times (2008, 2011, 2012, 2014) — the most by any Central Asian player. A technically gifted, creative midfielder who spent most of his career at Pakhtakor, he is the foundation of Uzbekistani football's historical identity.",
       "stat_zh": "四届亚洲足球先生（2008、2011、2012、2014）",

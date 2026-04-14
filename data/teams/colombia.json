@@ -126,7 +126,7 @@
       {
         "name": "David Ospina",
         "number": 1,
-        "position_en": "Goalkeeper",
+        "position_en": "GK",
         "position_zh": "门将",
         "club": "Atlético Nacional",
         "caps": 115,
@@ -135,7 +135,7 @@
       {
         "name": "James Rodríguez",
         "number": 10,
-        "position_en": "Attacking Midfielder",
+        "position_en": "AM",
         "position_zh": "攻击型中场",
         "club": "Rayo Vallecano",
         "caps": 102,
@@ -145,7 +145,7 @@
       {
         "name": "Luis Díaz",
         "number": 7,
-        "position_en": "Left Winger",
+        "position_en": "LW",
         "position_zh": "左边锋",
         "club": "Bayern Munich",
         "caps": 58,
@@ -155,7 +155,7 @@
       {
         "name": "Duván Zapata",
         "number": 9,
-        "position_en": "Centre Forward",
+        "position_en": "CF",
         "position_zh": "中锋",
         "club": "Torino",
         "caps": 66,
@@ -165,7 +165,7 @@
       {
         "name": "Jhon Córdoba",
         "number": 11,
-        "position_en": "Centre Forward",
+        "position_en": "CF",
         "position_zh": "中锋",
         "club": "Krasnodar",
         "caps": 35,
@@ -175,7 +175,7 @@
       {
         "name": "Richard Ríos",
         "number": 6,
-        "position_en": "Central Midfielder",
+        "position_en": "CM",
         "position_zh": "中场",
         "club": "Palmeiras",
         "caps": 26,
@@ -184,7 +184,7 @@
       {
         "name": "Mateus Uribe",
         "number": 8,
-        "position_en": "Central Midfielder",
+        "position_en": "CM",
         "position_zh": "中场",
         "club": "Porto",
         "caps": 55,
@@ -193,7 +193,7 @@
       {
         "name": "Davinson Sánchez",
         "number": 4,
-        "position_en": "Centre Back",
+        "position_en": "CB",
         "position_zh": "中后卫",
         "club": "Galatasaray",
         "caps": 72,
@@ -202,7 +202,7 @@
       {
         "name": "Yerry Mina",
         "number": 13,
-        "position_en": "Centre Back",
+        "position_en": "CB",
         "position_zh": "中后卫",
         "club": "Real Valladolid",
         "caps": 59,
@@ -211,7 +211,7 @@
       {
         "name": "Daniel Muñoz",
         "number": 2,
-        "position_en": "Right Back",
+        "position_en": "RB",
         "position_zh": "右后卫",
         "club": "Crystal Palace",
         "caps": 32,
@@ -220,7 +220,7 @@
       {
         "name": "Johan Mojica",
         "number": 3,
-        "position_en": "Left Back",
+        "position_en": "LB",
         "position_zh": "左后卫",
         "club": "Girona",
         "caps": 44,
@@ -229,7 +229,7 @@
       {
         "name": "Jhon Jáder Durán",
         "number": 14,
-        "position_en": "Centre Forward",
+        "position_en": "CF",
         "position_zh": "中锋",
         "club": "Aston Villa",
         "caps": 18,
@@ -244,7 +244,7 @@
       "name_zh": "卡洛斯·华尔德拉马",
       "years": "1985–1998",
       "position_zh": "中场/自由人",
-      "position_en": "Midfielder / Libero",
+      "position_en": "MID",
       "bio_zh": "「银发老头」，哥伦比亚史上最著名的球员，以标志性的爆炸头发型和如诗如画的传球技术闻名全球。1987年、1993年两届南美最佳球员，是1990年代哥伦比亚浪漫足球时代的精神象征，被誉为南美足球史上最伟大的中场之一。",
       "bio_en": "「El Pibe」 — Colombia's most iconic footballer, world-famous for his enormous blond afro and poetic passing. Two-time South American Footballer of the Year (1987, 1993), he embodied the romantic Colombian football of the 1990s and is considered one of the greatest midfielders in South American history.",
       "stat_zh": "111国家队出场，11球",
@@ -255,7 +255,7 @@
       "name_zh": "拉达梅尔·法尔考",
       "years": "2007–2022",
       "position_zh": "中锋",
-      "position_en": "Centre Forward",
+      "position_en": "CF",
       "bio_zh": "「El Tigre」（猛虎），哥伦比亚历史射手王，曾效力波尔图、马德里竞技、摩纳哥等顶级俱乐部。在欧联杯和欧冠赛场创造无数进球纪录，因2014年世界杯前夕膝盖手术遗憾缺席，成为职业生涯最大遗憾之一。",
       "bio_en": "「El Tigre」 — Colombia's all-time top scorer and a predatory striker who terrorized defenses at Porto, Atlético Madrid, and Monaco. A prolific Europa League/UCL performer who tragically missed the 2014 World Cup through a knee injury — the biggest what-if of his career.",
       "stat_zh": "109国家队出场，36球（历史纪录）",
@@ -266,7 +266,7 @@
       "name_zh": "哈梅斯·罗德里格斯",
       "years": "2011–",
       "position_zh": "攻击型中场",
-      "position_en": "Attacking Midfielder",
+      "position_en": "AM",
       "bio_zh": "2014年世界杯金靴奖得主，6球表现惊艳全球，加盟皇家马德里后成为国际明星。以出色的创造力、精准的任意球和左脚技术闻名，是哥伦比亚新黄金一代的精神领袖。2026年世界杯极可能是其最后一届。",
       "bio_en": "2014 World Cup Golden Boot winner (6 goals) who dazzled the planet and earned a move to Real Madrid. Celebrated for his creativity, free kicks, and devastating left foot, he remains the spiritual leader of Colombia's golden generation. 2026 is likely his final World Cup.",
       "stat_zh": "2014年世界杯金靴奖",
@@ -277,7 +277,7 @@
       "name_zh": "勒内·伊基塔",
       "years": "1987–1999",
       "position_zh": "门将",
-      "position_en": "Goalkeeper",
+      "position_en": "GK",
       "bio_zh": "「疯子门将」，哥伦比亚足球史上最具个性的传奇人物。以其大胆的出击风格和标志性的「蝎子式」扑球动作（1995年对英格兰）名扬天下，将门将位置重新定义为参与进攻的角色。其生涯充满戏剧性，却是哥伦比亚足球的重要符号。",
       "bio_en": "「El Loco」 — one of football's most iconic personalities, Higuita revolutionized the goalkeeper position with his daring sweeper style. His famous 「Scorpion Kick」 save against England in 1995 is one of football's most replayed moments. A dramatic career that perfectly embodied Colombian football's flamboyant identity.",
       "stat_zh": "68国家队出场，0失球41场",

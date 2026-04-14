@@ -76,7 +76,7 @@
       {
         "name": "Lionel Mpasi",
         "number": 1,
-        "position_en": "Goalkeeper",
+        "position_en": "GK",
         "position_zh": "门将",
         "club": "TP Mazembe",
         "caps": 38,
@@ -85,7 +85,7 @@
       {
         "name": "Cédric Bakambu",
         "number": 9,
-        "position_en": "Centre Forward",
+        "position_en": "CF",
         "position_zh": "中锋",
         "club": "Real Betis",
         "caps": 55,
@@ -95,7 +95,7 @@
       {
         "name": "Silas Katompa",
         "number": 11,
-        "position_en": "Left Winger",
+        "position_en": "LW",
         "position_zh": "左边锋",
         "club": "VfB Stuttgart",
         "caps": 30,
@@ -104,7 +104,7 @@
       {
         "name": "Axel Tuanzebe",
         "number": 4,
-        "position_en": "Centre Back",
+        "position_en": "CB",
         "position_zh": "中后卫",
         "club": "Stade Brestois",
         "caps": 18,
@@ -113,7 +113,7 @@
       {
         "name": "Noah Sadiki",
         "number": 5,
-        "position_en": "Centre Back",
+        "position_en": "CB",
         "position_zh": "中后卫",
         "club": "RSC Anderlecht",
         "caps": 14,
@@ -122,7 +122,7 @@
       {
         "name": "Samuel Essende",
         "number": 10,
-        "position_en": "Centre Forward",
+        "position_en": "CF",
         "position_zh": "中锋",
         "club": "Stade Brestois",
         "caps": 16,
@@ -131,7 +131,7 @@
       {
         "name": "Dodi Lukebakio",
         "number": 7,
-        "position_en": "Right Winger",
+        "position_en": "RW",
         "position_zh": "右边锋",
         "club": "Sevilla",
         "caps": 22,
@@ -140,7 +140,7 @@
       {
         "name": "Gaël Kakuta",
         "number": 8,
-        "position_en": "Attacking Midfielder",
+        "position_en": "AM",
         "position_zh": "攻击型中场",
         "club": "RC Lens",
         "caps": 35,
@@ -149,7 +149,7 @@
       {
         "name": "Marcel Tisserand",
         "number": 6,
-        "position_en": "Centre Back",
+        "position_en": "CB",
         "position_zh": "中后卫",
         "club": "Fenerbahçe",
         "caps": 42,
@@ -158,7 +158,7 @@
       {
         "name": "Chancel Mbemba",
         "number": 3,
-        "position_en": "Centre Back / Left Back",
+        "position_en": "CB/LB",
         "position_zh": "中后卫/左后卫",
         "club": "Marseille",
         "caps": 48,
@@ -167,7 +167,7 @@
       {
         "name": "Arthur Masuaku",
         "number": 15,
-        "position_en": "Left Back",
+        "position_en": "LB",
         "position_zh": "左后卫",
         "club": "Besiktas",
         "caps": 26,
@@ -176,7 +176,7 @@
       {
         "name": "Timothy Fayulu",
         "number": 16,
-        "position_en": "Goalkeeper",
+        "position_en": "GK",
         "position_zh": "门将",
         "club": "TP Mazembe",
         "caps": 8,
@@ -190,7 +190,7 @@
       "name_zh": "迪耶梅尔西·姆博卡尼",
       "years": "2007–2019",
       "position_zh": "中锋",
-      "position_en": "Centre Forward",
+      "position_en": "CF",
       "bio_zh": "刚果民主共和国历史射手王，曾效力安德莱赫特、摩纳哥、动力基辅等欧洲豪门。强壮的身体素质和精准的射门是其标志，在比利时甲级联赛享有极高声誉，是非洲足球史上最具代表性的前锋之一。",
       "bio_en": "DR Congo's all-time leading scorer, having played for Anderlecht, Monaco, and Dynamo Kyiv among others. Physically dominant with clinical finishing, he was hugely respected in Belgian football and is one of the most celebrated strikers in Central African football history.",
       "stat_zh": "60国家队出场，24球（历史纪录）",
@@ -201,7 +201,7 @@
       "name_zh": "塞德里克·巴卡姆布",
       "years": "2014–",
       "position_zh": "中锋",
-      "position_en": "Centre Forward",
+      "position_en": "CF",
       "bio_zh": "现役国家队得分第二高的球员，曾效力比利亚雷亚尔、北京中赫国安、奥林比亚科斯和皇家贝蒂斯。在西甲赛场展现了出色的进球能力，是刚果民主共和国近年在欧洲赛场最具知名度的球员之一。",
       "bio_en": "DR Congo's second-all-time international scorer, having played for Villarreal, Beijing Guoan, Olympiacos, and Real Betis. His prolific record in La Liga demonstrated top-level finishing ability, making him one of DR Congo's most prominent players in European football.",
       "stat_zh": "55国家队出场，21球",
@@ -212,7 +212,7 @@
       "name_zh": "特雷索尔·卢阿卢阿",
       "years": "2002–2014",
       "position_zh": "前锋/边锋",
-      "position_en": "Forward / Winger",
+      "position_en": "FWD/W",
       "bio_zh": "生于金沙萨、成长于英格兰，曾效力纽卡斯尔联、朴次茅斯等英超球队。以闪电般的速度和标志性的后空翻庆祝动作深受球迷喜爱，是刚果民主共和国足球走向国际舞台的重要代表人物之一。",
       "bio_en": "Born in Kinshasa and raised in England, Lualua played for Newcastle United and Portsmouth in the Premier League. His electric pace and iconic backflip goal celebrations made him a fans' favourite — one of the most recognizable Congolese footballers internationally.",
       "stat_zh": "45国家队出场",
@@ -223,7 +223,7 @@
       "name_zh": "卡鲁沙·布瓦利亚",
       "years": "（赞比亚球员，对刚果有影响意义）",
       "position_zh": "前锋",
-      "position_en": "Forward",
+      "position_en": "FWD",
       "bio_zh": "严格来说，1994年非洲足球先生布瓦利亚来自赞比亚，与刚果民主共和国不同。刚果民主共和国自己最具代表性的历史前辈是1974年世界杯阵容中的马纳斯（Mana）等球员，他们以扎伊尔之名开创非洲足球史。",
       "bio_en": "Note: this entry is corrected — the 1974 Zaire squad featured pioneers like Mwepu Ilunga and Adelard Mayanga, who made history as the first sub-Saharan African team at a World Cup. Their legacy lives on in every DR Congo squad that follows."
     }
